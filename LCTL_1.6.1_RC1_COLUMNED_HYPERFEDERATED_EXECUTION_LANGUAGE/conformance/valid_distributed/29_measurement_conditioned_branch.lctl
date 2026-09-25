@@ -1,0 +1,19 @@
+LCTL/1.2
+BUNDLE¦ID¦VERSION¦PROFILE¦ENTRY¦FRAMES¦TARGET¦BACKEND¦NETWORK¦REPLAY¦PRECISION¦ERROR_BUDGET¦RESOURCE_CEILING¦ADMISSION¦STATE¦PROOF
+(bundle ¦ lctl.example.measurement_conditioned_branch ¦ 1.2.0-rc1 ¦ lctl.quantum.parallel.distributed ¦ F0000:C9999 ¦ 1 ¦ local-reference ¦ none ¦ deny ¦ deterministic-seeded ¦ f64 ¦ 0.05 ¦ q<=12;distributed=logical;physical=false ¦ q1-q6 ¦ sealed ¦ lctl-dist:1.2)
+QFRAME/1.0 BEGIN F0000
+ID¦PARENT¦MODULE¦QSPACE¦TICK¦PREV¦REGISTERS¦BASIS¦STATE_REGIME¦NOISE_REGIME¦APPROX_REGIME¦HARDWARE¦CONF¦ERROR¦ADMIT¦PROOF
+(F0000 ¦ ROOT ¦ lctl.example.measurement_conditioned_branch ¦ H ¦ 0 ¦ _ ¦ declared ¦ computational ¦ pure_or_mixed ¦ explicit ¦ typed ¦ local-reference ¦ 1.0 ¦ tracked ¦ observe ¦ lctl-dist:1.2)
+QTUPLE/1.0
+ROW¦FACE¦LANE¦QSPACE¦OP¦OUT¦CTRL¦A¦B¦PARAM¦TYPE¦BASIS¦REGIME¦ASSUME¦ERROR¦RESOURCE¦CONF¦PROOF
+(D0001 ¦ DECL ¦ alloc ¦ H2^2 ¦ QREG ¦ q ¦ _ ¦ _ ¦ _ ¦ 2 ¦ qreg[2] ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ logical_qubits=2 ¦ 1.0 ¦ lctl:1.2)
+(D0002 ¦ DECL ¦ alloc ¦ C ¦ CREG ¦ c ¦ _ ¦ _ ¦ _ ¦ 2 ¦ creg[2] ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ classical_bits=2 ¦ 1.0 ¦ lctl:1.2)
+(D0003 ¦ DECL ¦ alloc ¦ C ¦ CREG ¦ m ¦ _ ¦ _ ¦ _ ¦ 1 ¦ creg[1] ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ classical_bits=1 ¦ 1.0 ¦ lctl:1.2)
+(C0010 ¦ CODE ¦ lane0 ¦ H ¦ MEASURE_Z ¦ m[0] ¦ _ ¦ q[0] ¦ _ ¦ _ ¦ measurement ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ _ ¦ 1.0 ¦ born)
+(X0001 ¦ DISTRIBUTED ¦ meta ¦ H ¦ MEASUREMENT_DEPENDENCY ¦ _ ¦ _ ¦ _ ¦ _ ¦ declared=true;from=C0010;to=branch ¦ distributed ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ _ ¦ 1.0 ¦ lctl-dist:1.2)
+(C9999 ¦ CODE ¦ lane0 ¦ H ¦ NOP ¦ _ ¦ _ ¦ _ ¦ _ ¦ _ ¦ operator ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ _ ¦ 1.0 ¦ lctl:nop)
+END QTUPLE
+END QFRAME
+@frame sha256:86dd93b23028b80351620c03082976257fe70db0114d268d7928e30a9aa7ed73
+END LCTL
+@bundle sha256:652d2f6a88c40145c54449964f5ee0e0f1050ff6d3e67260af161d450b49588a

@@ -1,0 +1,50 @@
+{
+  "schema": "LCTL-TEMPORAL-SCHEDULE/2.0",
+  "mode": "CRITICAL_PATH_COMMUNICATION_AWARE",
+  "items": [
+    {
+      "task": "C0010",
+      "node": "N0",
+      "start": 0.0,
+      "end": 1.0,
+      "critical_priority": 2,
+      "communication_cost": 0.0
+    },
+    {
+      "task": "C0011",
+      "node": "N1",
+      "start": 0.0,
+      "end": 1.0,
+      "critical_priority": 2,
+      "communication_cost": 0.0
+    },
+    {
+      "task": "C0020",
+      "node": "N0",
+      "start": 1.0,
+      "end": 2.0,
+      "critical_priority": 1,
+      "communication_cost": 0.0
+    },
+    {
+      "task": "C0021",
+      "node": "N1",
+      "start": 1.0,
+      "end": 2.0,
+      "critical_priority": 1,
+      "communication_cost": 0.0
+    },
+    {
+      "task": "C9999",
+      "node": "N0",
+      "start": 2.0,
+      "end": 3.0,
+      "critical_priority": 1,
+      "communication_cost": 0.0
+    }
+  ],
+  "makespan": 3.0,
+  "crosstalk": "REFERENCE_TOPOLOGY_ONLY_UNLESS_CALIBRATED",
+  "coherence": "ENFORCED_ONLY_WHEN_DECLARED",
+  "physical_parallelism_claimed": false
+}

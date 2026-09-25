@@ -1,0 +1,16 @@
+LCTL/1.0
+BUNDLE¦ID¦VERSION¦PROFILE¦ENTRY¦FRAMES¦TARGET¦BACKEND¦NETWORK¦REPLAY¦PRECISION¦ERROR_BUDGET¦RESOURCE_CEILING¦ADMISSION¦STATE¦PROOF
+(bundle ¦ lctl.negative.04_density_negative_eigenvalue ¦ 1.0.0 ¦ lctl.quantum.core ¦ F0000:D0001 ¦ 1 ¦ local-reference ¦ none ¦ deny ¦ deterministic-seeded ¦ f64 ¦ 0.01 ¦ q<=12;density<=8 ¦ q1-q6 ¦ sealed ¦ release-proof)
+QFRAME/1.0 BEGIN F0000
+ID¦PARENT¦MODULE¦QSPACE¦TICK¦PREV¦REGISTERS¦BASIS¦STATE_REGIME¦NOISE_REGIME¦APPROX_REGIME¦HARDWARE¦CONF¦ERROR¦ADMIT¦PROOF
+(F0000 ¦ ROOT ¦ lctl.negative.04_density_negative_eigenvalue ¦ H ¦ 0 ¦ _ ¦ declared ¦ computational ¦ pure_or_mixed ¦ explicit ¦ typed ¦ local-reference ¦ 1.0 ¦ tracked ¦ observe ¦ lctl-core)
+QTUPLE/1.0
+ROW¦FACE¦LANE¦QSPACE¦OP¦OUT¦CTRL¦A¦B¦PARAM¦TYPE¦BASIS¦REGIME¦ASSUME¦ERROR¦RESOURCE¦CONF¦PROOF
+(D0001 ¦ DECL ¦ alloc ¦ H2^1 ¦ QREG ¦ q ¦ _ ¦ _ ¦ _ ¦ 1 ¦ qreg[1] ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ logical_qubits=1 ¦ 1.0 ¦ type:qreg)
+(D0002 ¦ DECL ¦ alloc ¦ H2^1 ¦ CREG ¦ c ¦ _ ¦ _ ¦ _ ¦ 1 ¦ bit[1] ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ classical_bits=1 ¦ 1.0 ¦ type:creg)
+(A0010 ¦ ASSERT ¦ proof ¦ H ¦ DENSITY ¦ rho ¦ _ ¦ _ ¦ _ ¦ 1.1,0;0,-0.1 ¦ density[2] ¦ custom ¦ exact ¦ trace_one ¦ exact ¦ _ ¦ 1.0 ¦ neg)
+END QTUPLE
+END QFRAME
+@frame sha256:4893adac3883863cd403a23b6dfd6fc76bc52ebd80ac6a735da50646af9ab8ec
+END LCTL
+@bundle sha256:315e728a551bfef93b500f7c49c9207b5fc11c99792eefbbc0b62085e6b5f162

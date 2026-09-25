@@ -1,0 +1,14 @@
+{
+  "claim": "Quantum Fourier transform pattern",
+  "method": "reference simulation + invariant verification",
+  "source": "LCTL normative core",
+  "transform_role": "none",
+  "admission": "ADMIT_EXACT unless row regime says otherwise",
+  "execution_evidence": {
+    "verifier": "VERIFIER_RESULT.json",
+    "simulator": "SIMULATOR_RESULT.json",
+    "resource": "RESOURCE_REPORT.json",
+    "qcir": "QCIR.json"
+  },
+  "source_sha256": "4a783b90b6cb9e6aea214c5b6e13cbf22eb1eaf4ab82c81fb05d156da19b067d"
+}

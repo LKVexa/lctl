@@ -1,0 +1,32 @@
+{
+  "status": "PASS_WITH_SCOPE",
+  "schema": "LCTL-RECOVERY/3.0",
+  "begin_commit_abort": true,
+  "base": {
+    "status": "PASS_WITH_SCOPE",
+    "schema": "LCTL-RECOVERY/2.0",
+    "transactional_reference": true,
+    "supervision_tree": [
+      "TASK",
+      "WORKER",
+      "DOMAIN",
+      "FEDERATION"
+    ],
+    "base": {
+      "status": "PASS",
+      "schema": "LCTL-LIVE-RECOVERY/2.0",
+      "classification": {
+        "schema": "LCTL-FAILURE/1.0",
+        "scenario": "worker_crash",
+        "seed": 424242,
+        "detected": true,
+        "recovery": "RESTART_FROM_CLASSICAL_BOUNDARY",
+        "unknown_qstate_checkpoint_copy": false,
+        "event_hash": "a856ca1a3aa08716a8e110e5810ecf8d08985efcfcc76f9d9466d09ac0b8f01d"
+      },
+      "recovery_executed": true,
+      "action": "RESTART_OR_REPLAY_CLASSICAL_TASKS:d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929",
+      "unknown_physical_qstate_restored_from_disk": false
+    }
+  }
+}

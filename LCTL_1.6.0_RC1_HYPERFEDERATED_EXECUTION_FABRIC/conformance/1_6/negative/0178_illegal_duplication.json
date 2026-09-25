@@ -1,0 +1,8 @@
+{
+  "schema": "LCTL-1.6-CONFORMANCE-CASE/1.0",
+  "polarity": "negative",
+  "id": 178,
+  "group": "illegal_duplication",
+  "expected": "REJECT",
+  "runtime_gate": "fabric-selftest"
+}

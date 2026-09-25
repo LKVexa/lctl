@@ -1,0 +1,100 @@
+{
+  "causal_dag": {
+    "dag": "LCTL-CAUSAL-DAG/1.0",
+    "edge_count": 0,
+    "edges": [],
+    "node_count": 0,
+    "nodes": [],
+    "source_hash": "c208b2c61af25bbf1750a4e5e9105362b8d1933ea5dee9d20bb195634c85a240"
+  },
+  "execution_class": "QUANTUM_COMPILATION",
+  "physical_distributed": false,
+  "physical_qpu": false,
+  "profile": "lctl.quantum.parallel.distributed",
+  "qcir": "QCIR-P/1.0",
+  "quantum_boundary": "NOT_CROSSED",
+  "records": [
+    {
+      "a": "_",
+      "b": "_",
+      "ctrl": "_",
+      "face": "DECL",
+      "id": "D0001",
+      "lane": "alloc",
+      "op": "QREG",
+      "out": "q",
+      "param": "2",
+      "proof": "lctl:1.2",
+      "regime": "exact"
+    },
+    {
+      "a": "_",
+      "b": "_",
+      "ctrl": "_",
+      "face": "DECL",
+      "id": "D0002",
+      "lane": "alloc",
+      "op": "CREG",
+      "out": "c",
+      "param": "2",
+      "proof": "lctl:1.2",
+      "regime": "exact"
+    },
+    {
+      "a": "_",
+      "b": "_",
+      "ctrl": "_",
+      "face": "FIELD",
+      "id": "F0001",
+      "lane": "meta",
+      "op": "DOMAIN",
+      "out": "_",
+      "param": "Omega;dimension=3",
+      "proof": "lctl-dist:1.2",
+      "regime": "exact"
+    },
+    {
+      "a": "_",
+      "b": "_",
+      "ctrl": "_",
+      "face": "PARALLEL",
+      "id": "P0002",
+      "lane": "meta",
+      "op": "DOMAIN_DECOMP",
+      "out": "_",
+      "param": "subdomains=2;interface=explicit;halo=1",
+      "proof": "lctl-dist:1.2",
+      "regime": "exact"
+    },
+    {
+      "a": "_",
+      "b": "_",
+      "ctrl": "_",
+      "face": "DISTRIBUTED",
+      "id": "X0003",
+      "lane": "meta",
+      "op": "MESSAGE",
+      "out": "_",
+      "param": "src=S0;dst=S1;bytes=512;budget=1024",
+      "proof": "lctl-dist:1.2",
+      "regime": "exact"
+    },
+    {
+      "a": "_",
+      "b": "_",
+      "ctrl": "_",
+      "face": "CODE",
+      "id": "C9999",
+      "lane": "lane0",
+      "op": "NOP",
+      "out": "_",
+      "param": "_",
+      "proof": "lctl:nop",
+      "regime": "exact"
+    }
+  ],
+  "schedule_hash": "9360cfb265d0d413386f0428741999fc4912d41e95089e7b26e75592ba7740dd",
+  "source_language": "LCTL/1.2",
+  "source_sha256": "c208b2c61af25bbf1750a4e5e9105362b8d1933ea5dee9d20bb195634c85a240",
+  "topology_hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+}

@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "schema": "LCTL-PARTITION-TREE/1.6",
+  "levels": [
+    {
+      "level": "SITE",
+      "parts": 1
+    },
+    {
+      "level": "DOMAIN",
+      "parts": 2
+    },
+    {
+      "level": "WORKER_GROUP",
+      "parts": 4
+    },
+    {
+      "level": "TASK",
+      "parts": 5
+    }
+  ],
+  "flat_partition_reused_everywhere": false,
+  "physical_remote_sites_claimed": false
+}

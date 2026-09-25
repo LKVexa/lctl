@@ -1,0 +1,7 @@
+{
+  "id": "P094",
+  "family": "collective",
+  "type": "all-reduce",
+  "workers": 3,
+  "expect": "PASS"
+}

@@ -1,0 +1,1 @@
+{"status":"PASS","schema":"LCTL-ACTOR/2.0","actors":4,"workers":4,"messages_processed":128,"state_hash":"396b8e65a84afe48d62b470e74299638c2d9144bafba47b6027bf1b388010dbd","quantum_state_replication":false,"supervision_policy":"FAIL_CLOSED_REFERENCE"}

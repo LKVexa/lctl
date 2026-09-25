@@ -1,0 +1,13 @@
+{
+  "source": "program.lctl",
+  "source_sha256": "aa6ee0f72931943ffbea46bd6a6041eddf23270a138c4b14a2f14243862dca9a",
+  "runtime_inspect": {
+    "status": "PASS",
+    "bundle": "lctl.example.hamiltonian_simulation",
+    "qubits": 1,
+    "cbits": 0,
+    "exec_rows": 1,
+    "approx_error": 0.0
+  },
+  "canonical_format": "LCTL/1.0"
+}

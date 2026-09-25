@@ -1,0 +1,43 @@
+{
+  "schema": "LCTL-PERFORMANCE/1.5",
+  "benchmark": "parallel_bell_task_dag",
+  "host_characterization_only": true,
+  "results": [
+    {
+      "workers": 1,
+      "wall_external_seconds": 0.13793978499995774,
+      "runtime_wall_seconds": 0.024705718,
+      "max_observed_concurrency": 1,
+      "result_hash": "d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929",
+      "external_speedup": 1.0,
+      "external_efficiency": 1.0
+    },
+    {
+      "workers": 2,
+      "wall_external_seconds": 0.15132459800008746,
+      "runtime_wall_seconds": 0.02077943,
+      "max_observed_concurrency": 2,
+      "result_hash": "d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929",
+      "external_speedup": 0.9115489935078368,
+      "external_efficiency": 0.4557744967539184
+    },
+    {
+      "workers": 4,
+      "wall_external_seconds": 0.13813889100003962,
+      "runtime_wall_seconds": 0.024472378,
+      "max_observed_concurrency": 3,
+      "result_hash": "d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929",
+      "external_speedup": 0.998558653550492,
+      "external_efficiency": 0.249639663387623
+    },
+    {
+      "workers": 8,
+      "wall_external_seconds": 0.14820821400007844,
+      "runtime_wall_seconds": 0.024534377,
+      "max_observed_concurrency": 3,
+      "result_hash": "d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929",
+      "external_speedup": 0.9307161949869036,
+      "external_efficiency": 0.11633952437336295
+    }
+  ]
+}

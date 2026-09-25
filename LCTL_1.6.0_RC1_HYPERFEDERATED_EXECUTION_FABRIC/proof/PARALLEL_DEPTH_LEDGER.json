@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "schema": "LCTL-PARALLEL-DEPTH/1.6",
+  "semantic_width": 3,
+  "dependency_width": 3,
+  "task_width": 3,
+  "pipeline_width": 4,
+  "circuit_width": 4,
+  "shot_width": 1,
+  "parameter_width": 1,
+  "observable_width": 1,
+  "trajectory_width": 1,
+  "tensor_width": 2,
+  "state_shard_width": 4,
+  "process_width": 4,
+  "domain_width": 1,
+  "site_width": 1,
+  "federation_width": 1,
+  "recommended_local_workers": 4,
+  "remote_width_not_fabricated": true
+}

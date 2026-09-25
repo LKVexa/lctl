@@ -1,0 +1,20 @@
+{
+  "schema": "LCTL-CONSISTENCY/1.5",
+  "status": "VERIFIED",
+  "profiles": [
+    "EVENTUAL",
+    "CAUSAL",
+    "SEQUENTIAL",
+    "LINEARIZABLE",
+    "IMMUTABLE_REPLICA"
+  ],
+  "reference_receipt": {
+    "status": "PASS_WITH_SCOPE",
+    "profile": "CAUSAL",
+    "classical_replication_allowed": true,
+    "quantum_replication_allowed": false,
+    "qstate_policy": "GLOBAL_SINGLE_OWNER"
+  },
+  "classical_quorum_semantics": "SPECIFIED",
+  "quantum_quorum_equivalence": false
+}

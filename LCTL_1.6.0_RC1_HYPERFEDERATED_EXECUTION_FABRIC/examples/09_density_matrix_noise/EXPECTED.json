@@ -1,0 +1,5 @@
+{
+  "title": "Density-matrix noise",
+  "expected": "Simulation transitions to density representation and remains trace one.",
+  "notes": ""
+}

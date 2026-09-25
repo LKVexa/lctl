@@ -1,0 +1,5 @@
+{
+  "exit": 0,
+  "pass": true,
+  "output": "PASS LCTL verify bundle=lctl.example.density_matrix_noise frames=1 rows=5 sha256=b1d444a1187001bf73a7559d8fa6e405d566cb552e94536006b4fd1c0a9d29a5"
+}

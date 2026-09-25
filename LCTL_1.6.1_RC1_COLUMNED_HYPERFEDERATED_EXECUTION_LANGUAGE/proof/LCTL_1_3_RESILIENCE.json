@@ -1,0 +1,70 @@
+{
+  "schema": "LCTL-RESILIENCE/1.0",
+  "cases": [
+    {
+      "schema": "LCTL-FAILURE/1.0",
+      "scenario": "worker_crash",
+      "seed": 17,
+      "detected": true,
+      "recovery": "RESTART_FROM_CLASSICAL_BOUNDARY",
+      "unknown_qstate_checkpoint_copy": false,
+      "event_hash": "b4e4c9ae72b1443149938949cb9a4df9037be5e14f8d84bee8d8c9c17e83545e"
+    },
+    {
+      "schema": "LCTL-FAILURE/1.0",
+      "scenario": "node_unavailable",
+      "seed": 17,
+      "detected": true,
+      "recovery": "RESTART_FROM_CLASSICAL_BOUNDARY",
+      "unknown_qstate_checkpoint_copy": false,
+      "event_hash": "bc43d8c3fb4d47a08cd7d6f41ad20b69f3d67b1917ac7ae5b38ba1337603f2a7"
+    },
+    {
+      "schema": "LCTL-FAILURE/1.0",
+      "scenario": "classical_link_timeout",
+      "seed": 17,
+      "detected": true,
+      "recovery": "REROUTE_SAFE",
+      "unknown_qstate_checkpoint_copy": false,
+      "event_hash": "271cf19ec9ab0b68927e965d38b7daf432c9c0fa6b8e11e56a966afdc53e9f67"
+    },
+    {
+      "schema": "LCTL-FAILURE/1.0",
+      "scenario": "quantum_link_failure",
+      "seed": 17,
+      "detected": true,
+      "recovery": "REGENERATE_ENTANGLEMENT",
+      "unknown_qstate_checkpoint_copy": false,
+      "event_hash": "368ff733935efb6df6219a143874d06e8801a6c2bd63446840742f7ce566bd82"
+    },
+    {
+      "schema": "LCTL-FAILURE/1.0",
+      "scenario": "ebit_expiration",
+      "seed": 17,
+      "detected": true,
+      "recovery": "REGENERATE_ENTANGLEMENT",
+      "unknown_qstate_checkpoint_copy": false,
+      "event_hash": "0fb52aabed62a0dc70a6d33f7506fad9b67a62054ab3bf38c0cbad20661334a7"
+    },
+    {
+      "schema": "LCTL-FAILURE/1.0",
+      "scenario": "stale_calibration",
+      "seed": 17,
+      "detected": true,
+      "recovery": "RECOVERY_TARGET_SPECIFIC",
+      "unknown_qstate_checkpoint_copy": false,
+      "event_hash": "2d0057796b40c9f03da8e9d665992c42b8e4df286c1b98cd456f3695f070345c"
+    },
+    {
+      "schema": "LCTL-FAILURE/1.0",
+      "scenario": "coherence_deadline_exceeded",
+      "seed": 17,
+      "detected": true,
+      "recovery": "RECOVERY_IMPOSSIBLE",
+      "unknown_qstate_checkpoint_copy": false,
+      "event_hash": "a0f5bd73abb58f0a158b88ecc3702c97b31dbbd3e74aa1ba90a61242d517323b"
+    }
+  ],
+  "dynamic_recovery_execution": "IMPLEMENTED_PARTIAL",
+  "unknown_qstate_clone_recovery": false
+}

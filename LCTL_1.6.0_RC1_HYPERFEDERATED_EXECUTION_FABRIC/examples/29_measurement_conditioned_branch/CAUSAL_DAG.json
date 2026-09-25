@@ -1,0 +1,21 @@
+{
+  "dag": "LCTL-CAUSAL-DAG/1.0",
+  "edge_count": 1,
+  "edges": [
+    {
+      "from": "C0010",
+      "reason": "MEASUREMENT_DEPENDENCY",
+      "to": "branch"
+    }
+  ],
+  "node_count": 1,
+  "nodes": [
+    {
+      "id": "C0010",
+      "lane": "lane0",
+      "op": "MEASURE_Z",
+      "resources": "q:q[0]"
+    }
+  ],
+  "source_hash": "652d2f6a88c40145c54449964f5ee0e0f1050ff6d3e67260af161d450b49588a"
+}

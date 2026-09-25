@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "schema": "LCTL-COLLECTIVE/1.0",
+  "type": "all-reduce",
+  "workers": 4,
+  "messages": 3,
+  "result": "sum=10",
+  "execution_class": "LOCAL_CLASSICAL_COLLECTIVE"
+}

@@ -1,0 +1,268 @@
+{
+  "schema": "LCTL-FAILURE-CHURN/1.5",
+  "cases": 9,
+  "pass": 9,
+  "results": [
+    {
+      "status": "PASS_WITH_SCOPE",
+      "schema": "LCTL-RECOVERY/2.0",
+      "transactional_reference": true,
+      "supervision_tree": [
+        "TASK",
+        "WORKER",
+        "DOMAIN",
+        "FEDERATION"
+      ],
+      "base": {
+        "status": "PASS",
+        "schema": "LCTL-LIVE-RECOVERY/2.0",
+        "classification": {
+          "schema": "LCTL-FAILURE/1.0",
+          "scenario": "worker_crash",
+          "seed": 9000,
+          "detected": true,
+          "recovery": "RESTART_FROM_CLASSICAL_BOUNDARY",
+          "unknown_qstate_checkpoint_copy": false,
+          "event_hash": "53ebfa7b3cfd7dbbc30842d8ac2e4376709e6eaf422050054a280ce7471090b6"
+        },
+        "recovery_executed": true,
+        "action": "RESTART_OR_REPLAY_CLASSICAL_TASKS:d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929",
+        "unknown_physical_qstate_restored_from_disk": false
+      },
+      "scenario": "worker_crash",
+      "exit": 0
+    },
+    {
+      "status": "PASS_WITH_SCOPE",
+      "schema": "LCTL-RECOVERY/2.0",
+      "transactional_reference": true,
+      "supervision_tree": [
+        "TASK",
+        "WORKER",
+        "DOMAIN",
+        "FEDERATION"
+      ],
+      "base": {
+        "status": "PASS",
+        "schema": "LCTL-LIVE-RECOVERY/2.0",
+        "classification": {
+          "schema": "LCTL-FAILURE/1.0",
+          "scenario": "node_unavailable",
+          "seed": 9001,
+          "detected": true,
+          "recovery": "RESTART_FROM_CLASSICAL_BOUNDARY",
+          "unknown_qstate_checkpoint_copy": false,
+          "event_hash": "5721a9af1faa888c5ee2c2e5d2e64bc5a79f8d6717f0ad8a736892d9a6ada344"
+        },
+        "recovery_executed": true,
+        "action": "RESTART_OR_REPLAY_CLASSICAL_TASKS:d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929",
+        "unknown_physical_qstate_restored_from_disk": false
+      },
+      "scenario": "node_unavailable",
+      "exit": 0
+    },
+    {
+      "status": "PASS_WITH_SCOPE",
+      "schema": "LCTL-RECOVERY/2.0",
+      "transactional_reference": true,
+      "supervision_tree": [
+        "TASK",
+        "WORKER",
+        "DOMAIN",
+        "FEDERATION"
+      ],
+      "base": {
+        "status": "PASS",
+        "schema": "LCTL-LIVE-RECOVERY/2.0",
+        "classification": {
+          "schema": "LCTL-FAILURE/1.0",
+          "scenario": "memory_exhaustion",
+          "seed": 9002,
+          "detected": true,
+          "recovery": "ROLLBACK_CLASSICAL_ONLY",
+          "unknown_qstate_checkpoint_copy": false,
+          "event_hash": "13aa5ce7386787260054ebe48a678f2e64274b451ad6e7a3e89f6542cb17fbd5"
+        },
+        "recovery_executed": true,
+        "action": "RESTART_OR_REPLAY_CLASSICAL_TASKS:d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929",
+        "unknown_physical_qstate_restored_from_disk": false
+      },
+      "scenario": "memory_exhaustion",
+      "exit": 0
+    },
+    {
+      "status": "PASS_WITH_SCOPE",
+      "schema": "LCTL-RECOVERY/2.0",
+      "transactional_reference": true,
+      "supervision_tree": [
+        "TASK",
+        "WORKER",
+        "DOMAIN",
+        "FEDERATION"
+      ],
+      "base": {
+        "status": "PASS",
+        "schema": "LCTL-LIVE-RECOVERY/2.0",
+        "classification": {
+          "schema": "LCTL-FAILURE/1.0",
+          "scenario": "classical_link_timeout",
+          "seed": 9003,
+          "detected": true,
+          "recovery": "REROUTE_SAFE",
+          "unknown_qstate_checkpoint_copy": false,
+          "event_hash": "79ff70ec52d10bdb1ee8cd1a712e2ad459c1b612de92103e6439ae107c35e263"
+        },
+        "recovery_executed": true,
+        "action": "REFERENCE_REROUTE_REPLAN",
+        "unknown_physical_qstate_restored_from_disk": false
+      },
+      "scenario": "classical_link_timeout",
+      "exit": 0
+    },
+    {
+      "status": "PASS_WITH_SCOPE",
+      "schema": "LCTL-RECOVERY/2.0",
+      "transactional_reference": true,
+      "supervision_tree": [
+        "TASK",
+        "WORKER",
+        "DOMAIN",
+        "FEDERATION"
+      ],
+      "base": {
+        "status": "PASS",
+        "schema": "LCTL-LIVE-RECOVERY/2.0",
+        "classification": {
+          "schema": "LCTL-FAILURE/1.0",
+          "scenario": "classical_packet_loss",
+          "seed": 9004,
+          "detected": true,
+          "recovery": "REROUTE_SAFE",
+          "unknown_qstate_checkpoint_copy": false,
+          "event_hash": "3a68fb6f2301b6e1704734cf7bf3b12059a659d0993201c98bf0e793e37709f8"
+        },
+        "recovery_executed": true,
+        "action": "REFERENCE_REROUTE_REPLAN",
+        "unknown_physical_qstate_restored_from_disk": false
+      },
+      "scenario": "classical_packet_loss",
+      "exit": 0
+    },
+    {
+      "status": "PASS_WITH_SCOPE",
+      "schema": "LCTL-RECOVERY/2.0",
+      "transactional_reference": true,
+      "supervision_tree": [
+        "TASK",
+        "WORKER",
+        "DOMAIN",
+        "FEDERATION"
+      ],
+      "base": {
+        "status": "PASS",
+        "schema": "LCTL-LIVE-RECOVERY/2.0",
+        "classification": {
+          "schema": "LCTL-FAILURE/1.0",
+          "scenario": "route_invalidation",
+          "seed": 9005,
+          "detected": true,
+          "recovery": "REROUTE_SAFE",
+          "unknown_qstate_checkpoint_copy": false,
+          "event_hash": "04cae662a0ff4dd9e24d696315136024f2bc0a2a12b1654d6275a57be1e0650e"
+        },
+        "recovery_executed": true,
+        "action": "REFERENCE_REROUTE_REPLAN",
+        "unknown_physical_qstate_restored_from_disk": false
+      },
+      "scenario": "route_invalidation",
+      "exit": 0
+    },
+    {
+      "status": "PASS_WITH_SCOPE",
+      "schema": "LCTL-RECOVERY/2.0",
+      "transactional_reference": true,
+      "supervision_tree": [
+        "TASK",
+        "WORKER",
+        "DOMAIN",
+        "FEDERATION"
+      ],
+      "base": {
+        "status": "PASS",
+        "schema": "LCTL-LIVE-RECOVERY/2.0",
+        "classification": {
+          "schema": "LCTL-FAILURE/1.0",
+          "scenario": "quantum_link_failure",
+          "seed": 9006,
+          "detected": true,
+          "recovery": "REGENERATE_ENTANGLEMENT",
+          "unknown_qstate_checkpoint_copy": false,
+          "event_hash": "f649e692ef647c06c533c8e1bd927f3abe3213d39c871fbccb9eebd6efb794fb"
+        },
+        "recovery_executed": true,
+        "action": "REGENERATE_LOGICAL_EBIT_REQUEST",
+        "unknown_physical_qstate_restored_from_disk": false
+      },
+      "scenario": "quantum_link_failure",
+      "exit": 0
+    },
+    {
+      "status": "PASS_WITH_SCOPE",
+      "schema": "LCTL-RECOVERY/2.0",
+      "transactional_reference": true,
+      "supervision_tree": [
+        "TASK",
+        "WORKER",
+        "DOMAIN",
+        "FEDERATION"
+      ],
+      "base": {
+        "status": "PASS",
+        "schema": "LCTL-LIVE-RECOVERY/2.0",
+        "classification": {
+          "schema": "LCTL-FAILURE/1.0",
+          "scenario": "ebit_generation_failure",
+          "seed": 9007,
+          "detected": true,
+          "recovery": "REGENERATE_ENTANGLEMENT",
+          "unknown_qstate_checkpoint_copy": false,
+          "event_hash": "8cd0ab5ace2d9a007917d3fa3a8cddf75b64c10f4e74b4e63e112b05e3c57b7b"
+        },
+        "recovery_executed": true,
+        "action": "REGENERATE_LOGICAL_EBIT_REQUEST",
+        "unknown_physical_qstate_restored_from_disk": false
+      },
+      "scenario": "ebit_generation_failure",
+      "exit": 0
+    },
+    {
+      "status": "PASS_WITH_SCOPE",
+      "schema": "LCTL-RECOVERY/2.0",
+      "transactional_reference": true,
+      "supervision_tree": [
+        "TASK",
+        "WORKER",
+        "DOMAIN",
+        "FEDERATION"
+      ],
+      "base": {
+        "status": "PASS",
+        "schema": "LCTL-LIVE-RECOVERY/2.0",
+        "classification": {
+          "schema": "LCTL-FAILURE/1.0",
+          "scenario": "ebit_expiration",
+          "seed": 9008,
+          "detected": true,
+          "recovery": "REGENERATE_ENTANGLEMENT",
+          "unknown_qstate_checkpoint_copy": false,
+          "event_hash": "1daef3e0649df2ebb58e36bc10caf02c10d00b9104d548f166378b0ceda675b3"
+        },
+        "recovery_executed": true,
+        "action": "REGENERATE_LOGICAL_EBIT_REQUEST",
+        "unknown_physical_qstate_restored_from_disk": false
+      },
+      "scenario": "ebit_expiration",
+      "exit": 0
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"status":"PASS","schema":"LCTL-FEDERATED-FARM/2.0","oversubscription_protection":true,"base":{"status":"PASS","schema":"LCTL-ENSEMBLE-FARM/1.0","workers":4,"members":4,"unique_result_hashes":1,"semantic_equivalence":true,"wall_seconds":0.488805993,"parallelism_layer":"CIRCUIT_FARM"}}

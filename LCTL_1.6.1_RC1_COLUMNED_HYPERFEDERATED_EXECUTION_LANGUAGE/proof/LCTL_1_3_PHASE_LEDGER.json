@@ -1,0 +1,240 @@
+{
+  "schema": "LCTL-PHASE-LEDGER/1.3",
+  "version": "1.3.0-rc1",
+  "phases": [
+    {
+      "phase": 0,
+      "name": "Forensic baseline",
+      "status": "PASS",
+      "evidence": "proof/LCTL_1_2_BASELINE_REGRESSION.txt"
+    },
+    {
+      "phase": 1,
+      "name": "Gap-to-requirement matrix",
+      "status": "PASS",
+      "evidence": "proof/LCTL_1_3_GAP_LEDGER.md"
+    },
+    {
+      "phase": 2,
+      "name": "SES supergraph",
+      "status": "PASS_REFERENCE",
+      "evidence": "runtime/bin/lctl-fabric.jar: ses"
+    },
+    {
+      "phase": 3,
+      "name": "Commutation authority",
+      "status": "PARTIAL",
+      "evidence": "spec/COMMUTATION_AUTHORITY.md"
+    },
+    {
+      "phase": 4,
+      "name": "Hierarchical partitioner",
+      "status": "PARTIAL",
+      "evidence": "proof/LCTL_1_3_PARTITIONER_QUALITY.json"
+    },
+    {
+      "phase": 5,
+      "name": "Placement engine",
+      "status": "PARTIAL",
+      "evidence": "runtime/bin/lctl-fabric.jar: place"
+    },
+    {
+      "phase": 6,
+      "name": "Classical router",
+      "status": "PASS_REFERENCE",
+      "evidence": "runtime/bin/lctl-fabric.jar: route"
+    },
+    {
+      "phase": 7,
+      "name": "Quantum router",
+      "status": "PARTIAL",
+      "evidence": "proof/LCTL_1_3_ROUTING_QUALITY.json"
+    },
+    {
+      "phase": 8,
+      "name": "Temporal scheduler",
+      "status": "PARTIAL",
+      "evidence": "proof/LCTL_1_3_SCHEDULER_QUALITY.json"
+    },
+    {
+      "phase": 9,
+      "name": "QCIR-P2",
+      "status": "PASS_REFERENCE",
+      "evidence": "runtime/bin/lctl-fabric.jar: qcir-p2"
+    },
+    {
+      "phase": 10,
+      "name": "Native local worker fabric",
+      "status": "PASS_REFERENCE",
+      "evidence": "multi-process statevector worker subprocesses"
+    },
+    {
+      "phase": 11,
+      "name": "Distributed statevector",
+      "status": "PASS_REFERENCE",
+      "evidence": "proof/LCTL_1_3_NUMERICAL_EQUIVALENCE.json"
+    },
+    {
+      "phase": 12,
+      "name": "Distributed density matrix",
+      "status": "PARTIAL",
+      "evidence": "pure-unitary row-sharded density construction only"
+    },
+    {
+      "phase": 13,
+      "name": "Stabilizer engine",
+      "status": "PASS_REFERENCE_SUBSET",
+      "evidence": "binary symplectic tableau subset"
+    },
+    {
+      "phase": 14,
+      "name": "Numerical planner",
+      "status": "SCAFFOLDED",
+      "evidence": "spec/DISTRIBUTED_NUMERICAL_ENGINE_SPEC.md"
+    },
+    {
+      "phase": 15,
+      "name": "EPR resource engine",
+      "status": "PASS_REFERENCE",
+      "evidence": "runtime/bin/lctl-fabric.jar: protocol-execute"
+    },
+    {
+      "phase": 16,
+      "name": "Teleportation executor",
+      "status": "PARTIAL",
+      "evidence": "protocol state machine; arbitrary-state numerical integration incomplete"
+    },
+    {
+      "phase": 17,
+      "name": "Remote gate executor",
+      "status": "PARTIAL",
+      "evidence": "reference protocol accounting only"
+    },
+    {
+      "phase": 18,
+      "name": "Swapping / purification",
+      "status": "PARTIAL",
+      "evidence": "reference lifecycle state transitions"
+    },
+    {
+      "phase": 19,
+      "name": "Distributed classical feedback",
+      "status": "PASS_REFERENCE",
+      "evidence": "happens-before protocol event"
+    },
+    {
+      "phase": 20,
+      "name": "Failure injection",
+      "status": "PASS_REFERENCE",
+      "evidence": "proof/LCTL_1_3_RESILIENCE.json"
+    },
+    {
+      "phase": 21,
+      "name": "Recovery engine",
+      "status": "PARTIAL",
+      "evidence": "classification operational; live recovery orchestration incomplete"
+    },
+    {
+      "phase": 22,
+      "name": "Event replay",
+      "status": "PARTIAL",
+      "evidence": "trace integrity/replay inspection; full event-sourced state reconstruction incomplete"
+    },
+    {
+      "phase": 23,
+      "name": "Error algebra",
+      "status": "PARTIAL",
+      "evidence": "spec/ERROR_ALGEBRA_SPEC.md"
+    },
+    {
+      "phase": 24,
+      "name": "Memory / NUMA / out-of-core",
+      "status": "SCAFFOLDED",
+      "evidence": "existing memory model preserved; mmap statevector is out-of-core-capable primitive"
+    },
+    {
+      "phase": 25,
+      "name": "Task / BSP / async runtime",
+      "status": "SCAFFOLDED",
+      "evidence": "legacy metadata preserved; dedicated executor incomplete"
+    },
+    {
+      "phase": 26,
+      "name": "Collectives",
+      "status": "SCAFFOLDED",
+      "evidence": "semantic catalog preserved; executable collectives incomplete"
+    },
+    {
+      "phase": 27,
+      "name": "Shot / variational fabric",
+      "status": "IMPLEMENTED_PARTIAL",
+      "evidence": "legacy simulator supports shots; dedicated distributed batch executor incomplete"
+    },
+    {
+      "phase": 28,
+      "name": "Load balance / stragglers",
+      "status": "SCAFFOLDED",
+      "evidence": "automatic partitioning exists; dynamic rebalancing incomplete"
+    },
+    {
+      "phase": 29,
+      "name": "Adapter ABI + mocks",
+      "status": "PASS_REFERENCE",
+      "evidence": "adapters/mocks/two_qpu_mock.json"
+    },
+    {
+      "phase": 30,
+      "name": "Security / trust / network policy",
+      "status": "PASS",
+      "evidence": "BACKEND=none, NETWORK=deny by default"
+    },
+    {
+      "phase": 31,
+      "name": "Full conformance",
+      "status": "PASS",
+      "evidence": "proof/LCTL_1_3_CONFORMANCE.json"
+    },
+    {
+      "phase": 32,
+      "name": "Numerical equivalence",
+      "status": "PASS_REFERENCE",
+      "evidence": "proof/LCTL_1_3_NUMERICAL_EQUIVALENCE.json"
+    },
+    {
+      "phase": 33,
+      "name": "Scalability characterization",
+      "status": "PASS",
+      "evidence": "proof/LCTL_1_3_SCALABILITY.json"
+    },
+    {
+      "phase": 34,
+      "name": "Optimizer quality",
+      "status": "PARTIAL",
+      "evidence": "partition exact comparison present; exact schedule optimizer incomplete"
+    },
+    {
+      "phase": 35,
+      "name": "Soak / stress",
+      "status": "PARTIAL",
+      "evidence": "25-iteration short stress PASS; 8-hour soak not executed"
+    },
+    {
+      "phase": 36,
+      "name": "Release gap audit",
+      "status": "PASS",
+      "evidence": "proof/LCTL_1_3_GAP_LEDGER.md"
+    },
+    {
+      "phase": 37,
+      "name": "Logical/native distributed qualification",
+      "status": "BLOCKED",
+      "evidence": "partial mandatory subsystems and soak gate"
+    },
+    {
+      "phase": 38,
+      "name": "Physical multi-QPU qualification",
+      "status": "BLOCKED_EXTERNAL_AUTHORITY",
+      "evidence": "proof/LCTL_1_3_PHYSICAL_QUALIFICATION_BLOCKER.md"
+    }
+  ]
+}

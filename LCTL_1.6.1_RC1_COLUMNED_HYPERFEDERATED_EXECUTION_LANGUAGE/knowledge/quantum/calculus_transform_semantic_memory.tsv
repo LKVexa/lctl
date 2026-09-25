@@ -1,0 +1,10 @@
+id	claim	class	regime	assumptions	error	proof
+CT-D1	Fredholm continuum coupling	operator	asymptotic	R1;R2	abs<=O(sigma^2)+O(l^2)	D1;Theta-G;Theta-J
+CT-D2	Spectral continuum image and Rayleigh quotient	spectral	asymptotic	compact_domain;R1;R2	abs<=O(sigma^2)+O(l^2)	D2;Theta-G;Theta-J
+CT-D3	Quadratic form to Dirichlet energy	variational	exact_linear	boundary_condition;positive_metric	exact-form;retraction O(l^2)	D3;Theta-C;Theta-J
+CT-D8	Kernel to heat semigroup	operator	asymptotic	constant_or_declared_density	abs<=O(sigma^2)	D8;Theta-D;Theta-G
+CT-D10	Reversible chain to Fokker-Planck	stochastic	structural_analogue	classical_density;reversibility	model-dependent	D10
+CT-D11	Optimization to Euler-Lagrange/KKT	variational	exact_linear	constraint_qualification;convexity_when_uniqueness_claimed	exact first-order condition	D11;Theta-H
+CT-D13	Nonlinear model to Frechet derivative	operator	linearized	twice_Frechet_differentiable;local_validity	abs<=0.5*sup||D2N||*||xi||^2	D13
+CT-D14	Obstruction preserved	obstruction	no_faithful_form	zero_first_variation	exact rejection certificate	D14
+CT-J	Tower retraction	retraction	asymptotic	C2_integrand;interior_or_boundary_rule	abs<=O(l^2)+O(sigma^2)	Theta-J

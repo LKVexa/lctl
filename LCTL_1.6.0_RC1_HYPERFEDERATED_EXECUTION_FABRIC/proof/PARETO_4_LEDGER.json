@@ -1,0 +1,21 @@
+{
+  "status": "IMPLEMENTED",
+  "schema": "LCTL-PARETO/4.0",
+  "measured_cost_profile": "proof/COST_MODEL_LEDGER.json",
+  "objectives": [
+    "makespan",
+    "p95_makespan",
+    "communication_time",
+    "bytes",
+    "messages",
+    "memory",
+    "NUMA_movement",
+    "device_transfer",
+    "energy",
+    "cost",
+    "failure_exposure",
+    "recovery_cost",
+    "checkpoint_cost"
+  ],
+  "physical_energy_measured": false
+}

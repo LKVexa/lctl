@@ -1,0 +1,83 @@
+{
+  "schema": "LCTL-TOPOLOGY/1.3",
+  "physical": false,
+  "nodes": [
+    {
+      "id": "N0",
+      "class": "emulated_cpu",
+      "memory_gb": 8
+    },
+    {
+      "id": "N1",
+      "class": "emulated_cpu",
+      "memory_gb": 8
+    },
+    {
+      "id": "N2",
+      "class": "emulated_cpu",
+      "memory_gb": 8
+    },
+    {
+      "id": "Q0",
+      "class": "abstract_qpu_partition",
+      "qubits": 8
+    },
+    {
+      "id": "Q1",
+      "class": "abstract_qpu_partition",
+      "qubits": 8
+    },
+    {
+      "id": "Q2",
+      "class": "abstract_qpu_partition",
+      "qubits": 8
+    }
+  ],
+  "links": [
+    {
+      "src": "N0",
+      "dst": "N1",
+      "type": "classical",
+      "latency": 1.0,
+      "bandwidth": 1000
+    },
+    {
+      "src": "N1",
+      "dst": "N2",
+      "type": "classical",
+      "latency": 1.0,
+      "bandwidth": 1000
+    },
+    {
+      "src": "N0",
+      "dst": "N2",
+      "type": "classical",
+      "latency": 4.0,
+      "bandwidth": 500
+    },
+    {
+      "src": "Q0",
+      "dst": "Q1",
+      "type": "quantum",
+      "latency": 2.0,
+      "fidelity": 0.97,
+      "success": 0.9
+    },
+    {
+      "src": "Q1",
+      "dst": "Q2",
+      "type": "quantum",
+      "latency": 2.0,
+      "fidelity": 0.97,
+      "success": 0.9
+    },
+    {
+      "src": "Q0",
+      "dst": "Q2",
+      "type": "quantum",
+      "latency": 8.0,
+      "fidelity": 0.995,
+      "success": 0.99
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": "N015",
+  "family": "INVALID_CRDT_TYPE",
+  "type": "INVALID_14",
+  "replicas": 3,
+  "expect": "REJECT"
+}

@@ -1,0 +1,9 @@
+{
+  "schema": "LCTL-WORK-STEAL/2.0",
+  "status": "IMPLEMENTED_PARTIAL",
+  "movable_classical_tasks": "SUPPORTED_BY_REFERENCE_TASK_RUNTIME",
+  "unknown_qstate_clone": false,
+  "quantum_task_migration": "OWNERSHIP_MOVE_OR_ADMITTED_PROTOCOL_ONLY",
+  "deterministic_victim_order": "SPECIFIED",
+  "live_deque_steal_engine": "NOT_FULLY_QUALIFIED"
+}

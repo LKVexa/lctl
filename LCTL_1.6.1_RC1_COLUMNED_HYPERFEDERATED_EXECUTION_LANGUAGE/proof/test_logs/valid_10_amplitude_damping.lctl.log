@@ -1,0 +1,1 @@
+PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.amplitude_damping frames=1 rows=5 sha256=204576ec473c6f7c7fd72b271503dd124b8f60d14e2f244cfb785623c4a59384

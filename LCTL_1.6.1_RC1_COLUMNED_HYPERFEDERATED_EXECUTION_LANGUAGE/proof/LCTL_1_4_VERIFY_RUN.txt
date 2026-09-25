@@ -1,0 +1,14 @@
+[1/6] internal 320-case invariant selftest
+{"schema":"LCTL-1.4-SELFTEST/1.0","positive":{"total":160,"pass":160},"negative":{"total":160,"pass":160},"overall_pass":true}
+[2/6] partial-order / parallel discovery smoke
+{"schema":"LCTL-PARTIAL-ORDER/2.0","nodes":5,"exact_width":3,"levels":2,"layers":[{"level":0,"tasks":["C0010","C0011","C9999"]},{"level":1,"tasks":["C0020","C0021"]}],"width_method":"DILWORTH_MAXIMUM_MATCHING_EXACT","physical_parallelism_claimed":false}
+[3/6] process-sharded density smoke
+{"status":"PASS","schema":"LCTL-DENSITY-DISTRIBUTED/2.0","execution_class":"CLASSICAL_DISTRIBUTED_DENSITY_SIMULATION","workers":2,"qubits":1,"dimension":2,"ops":2,"trace":0.9999999999999996,"trace_error":4.440892098500626E-16,"hermiticity_error":0.0,"minimum_diagonal":0.4999999999999998,"single_worker_hash_match":true,"channels":["DEPHASE","DEPOLARIZE","AMPLITUDE_DAMP","BIT_FLIP","PHASE_DAMP"],"positivity_certificate":"BOUNDED_INVARIANT_CHECK_NOT_FULL_EIGENSPECTRUM","physical_qpu":false}
+[4/6] teleportation numerical equivalence smoke
+{"status":"PASS","schema":"LCTL-PROTOCOL-EXECUTION/2.0","reference_state_machine":{"status":"PASS","execution_class":"DISTRIBUTED_PROTOCOL_EMULATION","physical_qpu":false,"physical_distributed":false,"quantum_boundary":"NOT_CROSSED","seed":314159,"ebits_generated":1,"ebits_consumed":1,"ebits_remaining":0,"teleports":1,"remote_gates":0,"swaps":0,"feedback_ops":0,"ownership_model":"TRANSFER_NOT_CLONE","events":"EPR_RESERVED:1|TELEPORT_BELL_MEASURE_CLASSICAL_CORRECTION_OWNERSHIP_TRANSFER"},"arbitrary_qubit_teleportation_min_fidelity":1.0,"teleportation_equivalence_pass":true,"remote_cnot_numerical_equivalence":"IMPLEMENTED_PARTIAL","physical_qpu":false,"physical_distributed":false}
+[5/6] event replay smoke
+{"status":"PASS","schema":"LCTL-EVENT-RECONSTRUCTION/2.0","events":5,"event_chain_head":"bd8db2a0c672725cb6a9b1741a95bcd153cbda548f97eaebdc7be0ee0f02c1ab","result_hash":"d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929","source_sha256":"e2a01db86bc837371bbef99f49f01c296fe33f50e441b480afbcab962007fe0a","reconstruction":"TASK_AND_CAUSAL_STATE_VERIFIED"}
+[6/6] physical boundary fail-closed
+PASS: LCTL 1.4 smoke verification complete.
+For full suites run: python3 tools/run_lctl13_conformance.py and python3 tools/run_lctl14_conformance.py
+The required 8-hour soak remains a separate long-duration qualification gate.

@@ -1,0 +1,96 @@
+{
+  "schema": "LCTL-COMMUTATION/2.0",
+  "records": [
+    {
+      "a": "C0010",
+      "b": "C0011",
+      "decision": "PARALLEL_EXACT",
+      "rule_id": "DISJOINT_TENSOR_FACTORS",
+      "reason": "disjoint quantum ownership",
+      "q1_q6": "ADMIT_EXACT_OR_CONSERVATIVE_SERIALIZATION",
+      "proof_hash": "1c30760dd72021052b66ea11e458829db027b839a044baa5de0fb53b60c34f99"
+    },
+    {
+      "a": "C0010",
+      "b": "C0020",
+      "decision": "SERIALIZE_OWNERSHIP",
+      "rule_id": "CONSERVATIVE_SHARED_OPERAND",
+      "reason": "shared quantum support without admitted exact rule",
+      "q1_q6": "ADMIT_EXACT_OR_CONSERVATIVE_SERIALIZATION",
+      "proof_hash": "fbff0c0eaab8ec80ffdc5458b9ee8186426c595eadbff5e26ab8862284e6730c"
+    },
+    {
+      "a": "C0010",
+      "b": "C0021",
+      "decision": "PARALLEL_EXACT",
+      "rule_id": "DISJOINT_TENSOR_FACTORS",
+      "reason": "disjoint quantum ownership",
+      "q1_q6": "ADMIT_EXACT_OR_CONSERVATIVE_SERIALIZATION",
+      "proof_hash": "a8a2f0cf97bfc8f7e99ae583430c02ff25e7e45cc7926ecb1c228642dfdc4b21"
+    },
+    {
+      "a": "C0010",
+      "b": "C9999",
+      "decision": "PARALLEL_EXACT",
+      "rule_id": "DISJOINT_TENSOR_FACTORS",
+      "reason": "disjoint quantum ownership",
+      "q1_q6": "ADMIT_EXACT_OR_CONSERVATIVE_SERIALIZATION",
+      "proof_hash": "17e50e30c8687378f82067b3a87b7fd5b6717beb26fb440bc7035a3a6fd6f187"
+    },
+    {
+      "a": "C0011",
+      "b": "C0020",
+      "decision": "PARALLEL_EXACT",
+      "rule_id": "DISJOINT_TENSOR_FACTORS",
+      "reason": "disjoint quantum ownership",
+      "q1_q6": "ADMIT_EXACT_OR_CONSERVATIVE_SERIALIZATION",
+      "proof_hash": "6341f9f4d2cc83ffd1d5f28f8c7dc78399c26c51f9d170983e6272ea16f8aaf0"
+    },
+    {
+      "a": "C0011",
+      "b": "C0021",
+      "decision": "SERIALIZE_OWNERSHIP",
+      "rule_id": "CONSERVATIVE_SHARED_OPERAND",
+      "reason": "shared quantum support without admitted exact rule",
+      "q1_q6": "ADMIT_EXACT_OR_CONSERVATIVE_SERIALIZATION",
+      "proof_hash": "8dc88c8df41a376f451e476add1e2a26e3b436e233eff4a02aeda900621d2203"
+    },
+    {
+      "a": "C0011",
+      "b": "C9999",
+      "decision": "PARALLEL_EXACT",
+      "rule_id": "DISJOINT_TENSOR_FACTORS",
+      "reason": "disjoint quantum ownership",
+      "q1_q6": "ADMIT_EXACT_OR_CONSERVATIVE_SERIALIZATION",
+      "proof_hash": "e6fb538da7c73b8068dc82294726dcd2127617d5585bbe99a5555f9e17c82598"
+    },
+    {
+      "a": "C0020",
+      "b": "C0021",
+      "decision": "PARALLEL_EXACT",
+      "rule_id": "DISJOINT_TENSOR_FACTORS",
+      "reason": "disjoint quantum ownership",
+      "q1_q6": "ADMIT_EXACT_OR_CONSERVATIVE_SERIALIZATION",
+      "proof_hash": "89c47a9bb85198fdfb6da30c63ea4e52214ec08ccf9f1cbfca8df3f3e7239ae4"
+    },
+    {
+      "a": "C0020",
+      "b": "C9999",
+      "decision": "PARALLEL_EXACT",
+      "rule_id": "DISJOINT_TENSOR_FACTORS",
+      "reason": "disjoint quantum ownership",
+      "q1_q6": "ADMIT_EXACT_OR_CONSERVATIVE_SERIALIZATION",
+      "proof_hash": "84d2d119bb69924bddc5c38335bcecc95e9d9f4d7b9cee7ebb058941557200d1"
+    },
+    {
+      "a": "C0021",
+      "b": "C9999",
+      "decision": "PARALLEL_EXACT",
+      "rule_id": "DISJOINT_TENSOR_FACTORS",
+      "reason": "disjoint quantum ownership",
+      "q1_q6": "ADMIT_EXACT_OR_CONSERVATIVE_SERIALIZATION",
+      "proof_hash": "3f519a3bc9b47b9d87a4688ef646b0468bf3b4ea719202a80b7be9b7c34605c5"
+    }
+  ],
+  "learned_unadmitted_rules_used": false
+}

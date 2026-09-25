@@ -1,0 +1,5 @@
+{
+  "exit": 0,
+  "pass": true,
+  "output": "PASS LCTL verify bundle=lctl.example.repetition_error_correction frames=1 rows=11 sha256=6a55345e02cc0822ab0abd55ef9b6a4635ae4dc35be33ffc5f5a0d144ed48082"
+}

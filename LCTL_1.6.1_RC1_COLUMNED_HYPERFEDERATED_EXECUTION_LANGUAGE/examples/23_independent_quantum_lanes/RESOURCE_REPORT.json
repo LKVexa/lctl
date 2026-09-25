@@ -1,0 +1,30 @@
+{
+  "approx_error_bound": 0.0,
+  "barriers": 0,
+  "bytes_moved": 0.0,
+  "classical_bits": 2,
+  "counts": {
+    "H": 2,
+    "NOP": 1
+  },
+  "depth": 1,
+  "ebits_reserved": 0,
+  "entanglement_swaps": 0,
+  "execution_class": "HARDWARE_ESTIMATE",
+  "failure_model_rows": 0,
+  "gates": 3,
+  "host_authority": "CLASSICAL_REFERENCE_HOST",
+  "language": "LCTL/1.2",
+  "logical_qubits": 2,
+  "measurements": 0,
+  "messages": 0,
+  "non_clifford": 0,
+  "physical_qpu": false,
+  "profile": "lctl.quantum.parallel.distributed",
+  "quantum_boundary": "NOT_CROSSED",
+  "quantum_links": 0,
+  "remote_gate_count": 0,
+  "state_realization": "SYMBOLIC_QUANTUM_OBJECT",
+  "storage_authority": "CLASSICAL_STORAGE_AGNOSTIC",
+  "two_qubit_or_more": 0
+}

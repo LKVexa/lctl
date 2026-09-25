@@ -1,0 +1,8 @@
+{
+  "schema": "LCTL-1.6-CONFORMANCE-CASE/1.0",
+  "polarity": "negative",
+  "id": 4,
+  "group": "invalid_ownership",
+  "expected": "REJECT",
+  "runtime_gate": "fabric-selftest"
+}

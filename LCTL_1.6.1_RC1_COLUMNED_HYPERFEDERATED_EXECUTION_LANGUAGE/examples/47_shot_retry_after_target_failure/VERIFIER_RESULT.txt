@@ -1,0 +1,1 @@
+PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.shot_retry_after_target_failure frames=1 rows=5 sha256=6ac4bab82369b68a867b2e05bff7dc6c4dcc352c26967e402f42bc226c2b0238

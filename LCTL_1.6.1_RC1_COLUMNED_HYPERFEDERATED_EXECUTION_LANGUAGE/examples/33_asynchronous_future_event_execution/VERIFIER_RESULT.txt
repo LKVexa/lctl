@@ -1,0 +1,1 @@
+PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.asynchronous_future_event_execution frames=1 rows=6 sha256=92f5021e3f2655995e19235a84522cb42c61b34ca8f5e51b5440dc896ff3b911

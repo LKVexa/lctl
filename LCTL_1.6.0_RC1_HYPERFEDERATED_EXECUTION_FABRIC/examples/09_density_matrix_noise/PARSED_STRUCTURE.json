@@ -1,0 +1,13 @@
+{
+  "source": "program.lctl",
+  "source_sha256": "db0a43d61c6149cc9ca6d61586c51d9828341f0faaea166043f366aa7b6b5fad",
+  "runtime_inspect": {
+    "status": "PASS",
+    "bundle": "lctl.example.density_matrix_noise",
+    "qubits": 1,
+    "cbits": 1,
+    "exec_rows": 3,
+    "approx_error": 0.0
+  },
+  "canonical_format": "LCTL/1.0"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "schema": "LCTL-LIVE-RECOVERY/2.0",
+  "classification": {
+    "schema": "LCTL-FAILURE/1.0",
+    "scenario": "worker_crash",
+    "seed": 7,
+    "detected": true,
+    "recovery": "RESTART_FROM_CLASSICAL_BOUNDARY",
+    "unknown_qstate_checkpoint_copy": false,
+    "event_hash": "76e8a11f686bdaaf2b13b2e75f14f321e1126328fd3af499cd81ea447894d3c0"
+  },
+  "recovery_executed": true,
+  "action": "RESTART_OR_REPLAY_CLASSICAL_TASKS:d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929",
+  "unknown_physical_qstate_restored_from_disk": false
+}

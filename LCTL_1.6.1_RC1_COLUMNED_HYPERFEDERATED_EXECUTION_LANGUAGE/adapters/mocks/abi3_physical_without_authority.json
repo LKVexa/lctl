@@ -1,0 +1,6 @@
+{
+  "schema": "LCTL-ADAPTER-ABI/3.0",
+  "adapter": "physical_claim_negative_test",
+  "physical": true,
+  "dynamic_capabilities": true
+}

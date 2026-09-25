@@ -1,0 +1,26 @@
+{
+  "schema": "LCTL-SCHEDULER-QUALITY/1.0",
+  "cases": [
+    {
+      "case": "24_parallel_bell_pair_generation",
+      "makespan": 3.0,
+      "communication_wait_total": 0.0,
+      "mode": "communication_aware_list"
+    },
+    {
+      "case": "25_parallel_ghz_preparation",
+      "makespan": 3.0,
+      "communication_wait_total": 0.0,
+      "mode": "communication_aware_list"
+    },
+    {
+      "case": "53_native_distributed_bell_fabric",
+      "makespan": 3.0,
+      "communication_wait_total": 0.0,
+      "mode": "communication_aware_list"
+    }
+  ],
+  "exact_bounded_solver": "NOT_IMPLEMENTED_IN_RC1",
+  "status": "IMPLEMENTED_PARTIAL",
+  "reason": "deterministic communication-aware list scheduling is executable; exact bounded schedule optimizer and calibrated crosstalk model remain open"
+}

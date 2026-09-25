@@ -1,0 +1,14 @@
+{
+  "claim": "Amplitude damping",
+  "method": "reference simulation + invariant verification",
+  "source": "LCTL normative core",
+  "transform_role": "none",
+  "admission": "ADMIT_EXACT unless row regime says otherwise",
+  "execution_evidence": {
+    "verifier": "VERIFIER_RESULT.json",
+    "simulator": "SIMULATOR_RESULT.json",
+    "resource": "RESOURCE_REPORT.json",
+    "qcir": "QCIR.json"
+  },
+  "source_sha256": "87076198ceec74aa27fbc65d8f0346627e3bdc6c9027c104f62e163bb213701d"
+}

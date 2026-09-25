@@ -1,0 +1,14 @@
+{
+  "claim": "Depolarizing channel",
+  "method": "reference simulation + invariant verification",
+  "source": "LCTL normative core",
+  "transform_role": "none",
+  "admission": "ADMIT_EXACT unless row regime says otherwise",
+  "execution_evidence": {
+    "verifier": "VERIFIER_RESULT.json",
+    "simulator": "SIMULATOR_RESULT.json",
+    "resource": "RESOURCE_REPORT.json",
+    "qcir": "QCIR.json"
+  },
+  "source_sha256": "fb8f4705216a4abff40736d882e7385140a700d1c5a10a92ffd09a33608522b3"
+}

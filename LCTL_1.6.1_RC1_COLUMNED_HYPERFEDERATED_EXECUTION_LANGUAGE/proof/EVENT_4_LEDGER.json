@@ -1,0 +1,31 @@
+{
+  "status": "IMPLEMENTED",
+  "schema": "LCTL-EVENT-SOURCE/4.0",
+  "material_event_classes": [
+    "task",
+    "queue",
+    "schedule",
+    "placement",
+    "route",
+    "migration",
+    "work_steal",
+    "straggler",
+    "membership",
+    "topology",
+    "resource",
+    "channel",
+    "actor",
+    "replica",
+    "shard",
+    "ebit",
+    "protocol",
+    "failure",
+    "recovery",
+    "checkpoint",
+    "calibration",
+    "adapter",
+    "result"
+  ],
+  "complete_runtime_instrumentation": "IMPLEMENTED_PARTIAL",
+  "inherited_replay": "VERIFIED"
+}

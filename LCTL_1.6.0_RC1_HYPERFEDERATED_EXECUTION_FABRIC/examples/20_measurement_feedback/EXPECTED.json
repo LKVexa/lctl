@@ -1,0 +1,5 @@
+{
+  "title": "Hybrid measurement-feedback circuit",
+  "expected": "Measurement result c[0]=1 triggers X on q[1], which then measures 1.",
+  "notes": ""
+}

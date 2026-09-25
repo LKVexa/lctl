@@ -1,0 +1,100 @@
+[
+  {
+    "id": "CM22-01",
+    "authority": "22_Continuum_Mechanics",
+    "lesson": "tensor_structure",
+    "admission": "ADMIT_EXACT",
+    "use": "field/tensor typing and decompositions"
+  },
+  {
+    "id": "CM22-02",
+    "authority": "22_Continuum_Mechanics",
+    "lesson": "linearization_honesty",
+    "admission": "ADMIT_EXACT",
+    "use": "finite vs tangent/linearized semantic regime"
+  },
+  {
+    "id": "CM22-03",
+    "authority": "22_Continuum_Mechanics",
+    "lesson": "balance_and_interface",
+    "admission": "ADMIT_EXACT",
+    "use": "domain decomposition preservation constraints"
+  },
+  {
+    "id": "CP23-01",
+    "authority": "23_Coupled_Mechanics",
+    "lesson": "off_diagonal_coupling",
+    "admission": "ADMIT_EXACT",
+    "use": "explicit coupling graph"
+  },
+  {
+    "id": "CP23-02",
+    "authority": "23_Coupled_Mechanics",
+    "lesson": "reciprocity",
+    "admission": "ADMIT_EXACT",
+    "use": "coupling reciprocity assertion"
+  },
+  {
+    "id": "CP23-03",
+    "authority": "23_Coupled_Mechanics",
+    "lesson": "coupling_strength",
+    "admission": "ADMIT_EXACT",
+    "use": "staggered vs monolithic scheduler guidance"
+  },
+  {
+    "id": "QM32-01",
+    "authority": "32_Quantum_Mechanics",
+    "lesson": "linear_operator_core",
+    "admission": "ADMIT_EXACT",
+    "use": "preserve exact quantum semantic kernel"
+  },
+  {
+    "id": "QM32-02",
+    "authority": "32_Quantum_Mechanics",
+    "lesson": "measurement_tensor_open_system",
+    "admission": "ADMIT_EXACT",
+    "use": "parallel dependency and channel boundaries"
+  },
+  {
+    "id": "QM32-03",
+    "authority": "32_Quantum_Mechanics",
+    "lesson": "perturbation_gap_condition",
+    "admission": "ADMIT_EXACT",
+    "use": "approximation validity around near-degeneracy"
+  },
+  {
+    "id": "PDC80-01",
+    "authority": "80_Parallel_and_Distributed_Computing",
+    "lesson": "work_span",
+    "admission": "ADMIT_EXACT",
+    "use": "parallel plan metrics"
+  },
+  {
+    "id": "PDC80-02",
+    "authority": "80_Parallel_and_Distributed_Computing",
+    "lesson": "communication_locality",
+    "admission": "ADMIT_EXACT",
+    "use": "communication/memory accounting"
+  },
+  {
+    "id": "PDC80-03",
+    "authority": "80_Parallel_and_Distributed_Computing",
+    "lesson": "partial_order",
+    "admission": "ADMIT_EXACT",
+    "use": "distributed causal replay"
+  },
+  {
+    "id": "PDC80-04",
+    "authority": "80_Parallel_and_Distributed_Computing",
+    "lesson": "impossibility",
+    "admission": "ADMIT_EXACT",
+    "use": "preserve CAP/FLP-like blockers"
+  },
+  {
+    "id": "PDC80-05",
+    "authority": "80_Parallel_and_Distributed_Computing",
+    "lesson": "reliability_energy",
+    "admission": "ADMIT_EXACT",
+    "use": "checkpoint/failure/energy ledgers"
+  }
+]

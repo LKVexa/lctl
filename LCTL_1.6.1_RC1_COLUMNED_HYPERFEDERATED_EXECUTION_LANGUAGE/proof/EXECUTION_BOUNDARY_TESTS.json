@@ -1,0 +1,51 @@
+{
+  "verify": {
+    "rc": 0,
+    "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.bell_state frames=1 rows=6 sha256=6bc841763dcc75ce93245f919ee8bec21845a8f3de0039bfd2e5982bab141b48",
+    "stderr": "",
+    "expected_rc": 0,
+    "pass": true
+  },
+  "inspect": {
+    "rc": 0,
+    "stdout": "{\"language\":\"LCTL/1.0\",\"execution_class\":\"SYMBOLIC\",\"state_realization\":\"SYMBOLIC_QUANTUM_OBJECT\",\"host_authority\":\"CLASSICAL_REFERENCE_HOST\",\"storage_authority\":\"CLASSICAL_STORAGE_AGNOSTIC\",\"physical_qpu\":false,\"quantum_boundary\":\"NOT_CROSSED\",\"status\":\"PASS\",\"bundle\":\"lctl.example.bell_state\",\"qubits\":2,\"cbits\":2,\"exec_rows\":4,\"approx_error\":0.0}",
+    "stderr": "",
+    "expected_rc": 0,
+    "pass": true
+  },
+  "simulate": {
+    "rc": 0,
+    "stdout": "{\"language\":\"LCTL/1.0\",\"execution_class\":\"CLASSICAL_SIMULATION\",\"state_realization\":\"CLASSICAL_NUMERIC_STATEVECTOR\",\"host_authority\":\"CLASSICAL_REFERENCE_HOST\",\"storage_authority\":\"CLASSICAL_STORAGE_AGNOSTIC\",\"physical_qpu\":false,\"quantum_boundary\":\"NOT_CROSSED\",\"representation\":\"statevector\",\"steps\":4,\"cbits\":\"00\",\"expectations\":{},\"probabilities\":[1.00000000000,0.00000000000,0.00000000000,0.00000000000]}",
+    "stderr": "",
+    "expected_rc": 0,
+    "pass": true
+  },
+  "resources": {
+    "rc": 0,
+    "stdout": "{\"language\":\"LCTL/1.0\",\"execution_class\":\"HARDWARE_ESTIMATE\",\"state_realization\":\"SYMBOLIC_QUANTUM_OBJECT\",\"host_authority\":\"CLASSICAL_REFERENCE_HOST\",\"storage_authority\":\"CLASSICAL_STORAGE_AGNOSTIC\",\"physical_qpu\":false,\"quantum_boundary\":\"NOT_CROSSED\",\"logical_qubits\":2,\"classical_bits\":2,\"gates\":4,\"two_qubit_or_more\":1,\"non_clifford\":0,\"measurements\":2,\"depth\":3,\"approx_error_bound\":0.0,\"counts\":{\"CX\":1,\"H\":1,\"MEASURE_Z\":2}}",
+    "stderr": "",
+    "expected_rc": 0,
+    "pass": true
+  },
+  "qcir": {
+    "rc": 0,
+    "stdout": "{\"qcir\":\"QCIR/1.0\",\"source_language\":\"LCTL/1.0\",\"execution_class\":\"QUANTUM_COMPILATION\",\"physical_qpu\":false,\"quantum_boundary\":\"NOT_CROSSED\",\"source_sha256\":\"6bc841763dcc75ce93245f919ee8bec21845a8f3de0039bfd2e5982bab141b48\",\"qubits\":2,\"cbits\":2,\"ops\":[{\"id\":\"C0010\",\"op\":\"H\",\"out\":\"q[0]\",\"ctrl\":\"_\",\"a\":\"q[0]\",\"b\":\"_\",\"param\":\"_\",\"regime\":\"exact\",\"proof\":\"op:h\"},{\"id\":\"C0011\",\"op\":\"CX\",\"out\":\"q[1]\",\"ctrl\":\"q[0]\",\"a\":\"q[1]\",\"b\":\"_\",\"param\":\"_\",\"regime\":\"exact\",\"proof\":\"op:cx\"},{\"id\":\"C0012\",\"op\":\"MEASURE_Z\",\"out\":\"c[0]\",\"ctrl\":\"_\",\"a\":\"q[0]\",\"b\":\"_\",\"param\":\"_\",\"regime\":\"stochastic\",\"proof\":\"measure:z\"},{\"id\":\"C0013\",\"op\":\"MEASURE_Z\",\"out\":\"c[1]\",\"ctrl\":\"_\",\"a\":\"q[1]\",\"b\":\"_\",\"param\":\"_\",\"regime\":\"stochastic\",\"proof\":\"measure:z\"}]}",
+    "stderr": "",
+    "expected_rc": 0,
+    "pass": true
+  },
+  "provenance": {
+    "rc": 0,
+    "stdout": "{\"language\":\"LCTL/1.0\",\"execution_class\":\"SYMBOLIC\",\"state_realization\":\"SYMBOLIC_QUANTUM_OBJECT\",\"host_authority\":\"CLASSICAL_REFERENCE_HOST\",\"storage_authority\":\"CLASSICAL_STORAGE_AGNOSTIC\",\"physical_qpu\":false,\"quantum_boundary\":\"NOT_CROSSED\",\"source_sha256\":\"6bc841763dcc75ce93245f919ee8bec21845a8f3de0039bfd2e5982bab141b48\",\"target\":\"local-reference\",\"adapter\":\"none-qualified-physical\",\"evidence_status\":\"REFERENCE_ONLY\"}",
+    "stderr": "",
+    "expected_rc": 0,
+    "pass": true
+  },
+  "physical_run_blocked": {
+    "rc": 1,
+    "stdout": "",
+    "stderr": "FAIL: PHYSICAL_QPU_EXECUTION_BLOCKED: no qualified physical-QPU adapter; ordinary SSD/CPU execution cannot be labeled physical quantum execution",
+    "expected_rc": 1,
+    "pass": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "schema": "LCTL-STRAGGLER/1.5",
+  "status": "IMPLEMENTED_PARTIAL",
+  "signals": [
+    "moving_average_throughput",
+    "queue_delay",
+    "task_duration_deviation",
+    "heartbeat_latency"
+  ],
+  "classical_mitigation": [
+    "move_queued_work",
+    "safe_speculative_duplicate"
+  ],
+  "quantum_mitigation": [
+    "redistribute_future_tasks_only"
+  ],
+  "speculative_qstate_duplication": false
+}

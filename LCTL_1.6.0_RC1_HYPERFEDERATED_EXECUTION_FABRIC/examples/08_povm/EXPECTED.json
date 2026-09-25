@@ -1,0 +1,5 @@
+{
+  "title": "POVM example",
+  "expected": "Verifier proves two positive effects sum to identity; executable state remains normalized.",
+  "notes": ""
+}

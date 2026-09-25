@@ -1,0 +1,1 @@
+{"status":"PASS","schema":"LCTL-WEAK-SCALING/1.6","work_per_worker":1500000,"results":[{"workers":1,"work_units":1500000,"time_ms":18.067855},{"workers":2,"work_units":3000000,"time_ms":7.139547},{"workers":4,"work_units":6000000,"time_ms":9.638098}],"remote_domains_claimed":false}

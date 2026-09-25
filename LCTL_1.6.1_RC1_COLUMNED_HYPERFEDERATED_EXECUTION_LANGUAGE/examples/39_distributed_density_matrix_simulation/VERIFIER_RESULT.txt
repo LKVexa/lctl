@@ -1,0 +1,1 @@
+PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.distributed_density_matrix_simulation frames=1 rows=6 sha256=35a3aced262ad93eaa476617d5b6cdf73d029046b2969a14bc219338fab39a5a

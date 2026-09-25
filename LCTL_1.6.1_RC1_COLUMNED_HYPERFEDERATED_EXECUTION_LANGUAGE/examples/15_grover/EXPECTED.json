@@ -1,0 +1,5 @@
+{
+  "title": "Grover search pattern",
+  "expected": "Two-qubit oracle/diffusion circuit executes and samples a valid distribution.",
+  "notes": ""
+}

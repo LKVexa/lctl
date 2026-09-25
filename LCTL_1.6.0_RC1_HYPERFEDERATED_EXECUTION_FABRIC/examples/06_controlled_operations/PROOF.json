@@ -1,0 +1,14 @@
+{
+  "claim": "Controlled operations",
+  "method": "reference simulation + invariant verification",
+  "source": "LCTL normative core",
+  "transform_role": "none",
+  "admission": "ADMIT_EXACT unless row regime says otherwise",
+  "execution_evidence": {
+    "verifier": "VERIFIER_RESULT.json",
+    "simulator": "SIMULATOR_RESULT.json",
+    "resource": "RESOURCE_REPORT.json",
+    "qcir": "QCIR.json"
+  },
+  "source_sha256": "261b2c0b6f5d7b1df4ddd92601a59e2405304dff9931e7ce2c3650d559df21c2"
+}

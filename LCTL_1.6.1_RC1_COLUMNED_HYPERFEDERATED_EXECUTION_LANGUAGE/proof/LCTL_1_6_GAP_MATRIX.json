@@ -1,0 +1,221 @@
+{
+  "schema": "LCTL-1.6-GAP-MATRIX/1.0",
+  "requirements": [
+    {
+      "requirement": "hyperfederation_type_system",
+      "status": "OPERATIONAL",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "HYPERFEDERATION_LEDGER.json"
+    },
+    {
+      "requirement": "topology_discovery",
+      "status": "VERIFIED",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "TOPOLOGY_LEDGER.json"
+    },
+    {
+      "requirement": "measured_cost_model",
+      "status": "VERIFIED",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "COST_MODEL_LEDGER.json"
+    },
+    {
+      "requirement": "parallel_depth_search",
+      "status": "VERIFIED",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "PARALLEL_DEPTH_LEDGER.json"
+    },
+    {
+      "requirement": "adaptive_grain_size",
+      "status": "VERIFIED",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "GRAIN_SIZE_LEDGER.json"
+    },
+    {
+      "requirement": "commutation_4",
+      "status": "IMPLEMENTED_PARTIAL",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "COMMUTATION_4_LEDGER.json"
+    },
+    {
+      "requirement": "canonical_multilevel_kl_fm",
+      "status": "IMPLEMENTED_PARTIAL",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "HYPERGRAPH_4_LEDGER.json"
+    },
+    {
+      "requirement": "recursive_partition_tree",
+      "status": "OPERATIONAL",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "PARTITION_TREE_LEDGER.json"
+    },
+    {
+      "requirement": "topology_placement_4",
+      "status": "IMPLEMENTED_PARTIAL",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "PLACEMENT_4_LEDGER.json"
+    },
+    {
+      "requirement": "time_expanded_resource_router",
+      "status": "IMPLEMENTED_PARTIAL",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "RESOURCE_ROUTE_LEDGER.json"
+    },
+    {
+      "requirement": "live_scheduler_4",
+      "status": "IMPLEMENTED_PARTIAL",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "LIVE_SCHEDULE_LEDGER.json"
+    },
+    {
+      "requirement": "distributed_work_stealing_3",
+      "status": "VERIFIED",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "WORK_STEAL_3_LEDGER.json"
+    },
+    {
+      "requirement": "straggler_engine_3",
+      "status": "VERIFIED",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "STRAGGLER_3_LEDGER.json"
+    },
+    {
+      "requirement": "elastic_worker_groups",
+      "status": "VERIFIED",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "ELASTIC_WORKER_LEDGER.json"
+    },
+    {
+      "requirement": "live_repartition_2",
+      "status": "IMPLEMENTED_PARTIAL",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "REPARTITION_2_LEDGER.json"
+    },
+    {
+      "requirement": "actor_channel_pipeline_3",
+      "status": "VERIFIED",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "ACTOR_3_LEDGER.json"
+    },
+    {
+      "requirement": "hierarchical_collectives_3",
+      "status": "IMPLEMENTED_PARTIAL",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "COLLECTIVE_3_LEDGER.json"
+    },
+    {
+      "requirement": "distributed_checkpoint_4",
+      "status": "VERIFIED",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "CHECKPOINT_4_LEDGER.json"
+    },
+    {
+      "requirement": "complete_event_reconstruction",
+      "status": "IMPLEMENTED_PARTIAL",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "RECONSTRUCTION_2_LEDGER.json"
+    },
+    {
+      "requirement": "transactional_recovery_3",
+      "status": "IMPLEMENTED_PARTIAL",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "RECOVERY_3_LEDGER.json"
+    },
+    {
+      "requirement": "distributed_statevector_4",
+      "status": "VERIFIED",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "NUMERICAL_4_LEDGER.json"
+    },
+    {
+      "requirement": "tensor_network_3",
+      "status": "IMPLEMENTED_PARTIAL",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "TENSOR_3_LEDGER.json"
+    },
+    {
+      "requirement": "protocol_compiler_3",
+      "status": "VERIFIED_REFERENCE",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "PROTOCOL_3_LEDGER.json"
+    },
+    {
+      "requirement": "error_algebra_4",
+      "status": "IMPLEMENTED_PARTIAL",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "ERROR_4_LEDGER.json"
+    },
+    {
+      "requirement": "pareto_4",
+      "status": "IMPLEMENTED_PARTIAL",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "PARETO_4_LEDGER.json"
+    },
+    {
+      "requirement": "adapter_abi_4",
+      "status": "IMPLEMENTED_PARTIAL",
+      "implementation_path": "runtime/src/LctlHyperFederatedMain.java",
+      "evidence": "ADAPTER_4_LEDGER.json"
+    },
+    {
+      "requirement": "1024_conformance",
+      "status": "VERIFIED",
+      "implementation_path": "conformance/1_6",
+      "evidence": "CONFORMANCE_1_6_LEDGER.json"
+    },
+    {
+      "requirement": "property_5000",
+      "status": "VERIFIED",
+      "implementation_path": "proof/LCTL_1_6_PROPERTY_CAMPAIGN_5000.json",
+      "evidence": "LCTL_1_6_PROPERTY_CAMPAIGN_5000.json"
+    },
+    {
+      "requirement": "metamorphic_5000",
+      "status": "VERIFIED",
+      "implementation_path": "proof/LCTL_1_6_METAMORPHIC_CAMPAIGN_5000.json",
+      "evidence": "LCTL_1_6_METAMORPHIC_CAMPAIGN_5000.json"
+    },
+    {
+      "requirement": "chaos_campaign",
+      "status": "IMPLEMENTED_PARTIAL",
+      "implementation_path": "proof/CHAOS_LEDGER.json",
+      "evidence": "CHAOS_LEDGER.json"
+    },
+    {
+      "requirement": "strong_scaling",
+      "status": "CHARACTERIZED",
+      "implementation_path": "proof/STRONG_SCALING_LEDGER.json",
+      "evidence": "STRONG_SCALING_LEDGER.json"
+    },
+    {
+      "requirement": "weak_scaling",
+      "status": "CHARACTERIZED",
+      "implementation_path": "proof/WEAK_SCALING_LEDGER.json",
+      "evidence": "WEAK_SCALING_LEDGER.json"
+    },
+    {
+      "requirement": "one_hour_soak",
+      "status": "NOT_RUN",
+      "implementation_path": "",
+      "evidence": "SOAK_LEDGER.json"
+    },
+    {
+      "requirement": "eight_hour_soak",
+      "status": "NOT_RUN",
+      "implementation_path": "",
+      "evidence": "SOAK_LEDGER.json"
+    },
+    {
+      "requirement": "twenty_four_hour_soak",
+      "status": "NOT_RUN",
+      "implementation_path": "",
+      "evidence": "SOAK_LEDGER.json"
+    },
+    {
+      "requirement": "physical_multi_qpu",
+      "status": "BLOCKED_EXTERNAL_AUTHORITY",
+      "implementation_path": "",
+      "evidence": "LCTL_1_6_PHYSICAL_TARGET_BLOCKER.md"
+    }
+  ]
+}

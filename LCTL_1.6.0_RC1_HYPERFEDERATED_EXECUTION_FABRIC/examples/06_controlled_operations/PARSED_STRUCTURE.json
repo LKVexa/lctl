@@ -1,0 +1,13 @@
+{
+  "source": "program.lctl",
+  "source_sha256": "261b2c0b6f5d7b1df4ddd92601a59e2405304dff9931e7ce2c3650d559df21c2",
+  "runtime_inspect": {
+    "status": "PASS",
+    "bundle": "lctl.example.controlled_operations",
+    "qubits": 3,
+    "cbits": 0,
+    "exec_rows": 4,
+    "approx_error": 0.0
+  },
+  "canonical_format": "LCTL/1.0"
+}

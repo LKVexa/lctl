@@ -1,0 +1,5 @@
+{
+  "title": "VQE pattern",
+  "expected": "Parameterized ansatz plus explicit expectation objective; classical optimizer remains visible as MODEL semantics.",
+  "notes": ""
+}

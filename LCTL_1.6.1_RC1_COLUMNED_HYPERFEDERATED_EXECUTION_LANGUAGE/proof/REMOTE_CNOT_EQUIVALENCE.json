@@ -1,0 +1,1 @@
+{"status":"PASS","schema":"LCTL-REMOTE-CNOT-EQUIVALENCE/1.5","seed":314159,"minimum_branch_fidelity":1.0,"ownership_verified":true,"gate":"REMOTE_CNOT_REFERENCE_EQUIVALENCE_PASS","physical_qpu":false}

@@ -1,0 +1,12 @@
+{
+  "schema": "LCTL-PACKAGE-INVENTORY/1.6.1",
+  "version": "1.6.1-rc1-column",
+  "payload_files": 3277,
+  "payload_bytes": 8562888,
+  "column_examples": 53,
+  "canonical_examples": 53,
+  "language_docs": 5,
+  "runtime_jar_sha256": "20ce9e1c68d062b6c3cc14b39bb311e135abb6f5358ea07a24c9579ba995bb6a",
+  "compiled_class_directory_packaged": false,
+  "note": "runtime/classes16 intentionally omitted; build scripts reproduce classes from Java 21 source"
+}

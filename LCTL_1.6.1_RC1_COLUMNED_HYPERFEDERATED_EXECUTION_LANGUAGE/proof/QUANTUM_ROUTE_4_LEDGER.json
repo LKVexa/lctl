@@ -1,0 +1,78 @@
+{
+  "status": "PASS_WITH_SCOPE",
+  "schema": "LCTL-ROUTING/4.0",
+  "validity_epoch": 1,
+  "reservation": true,
+  "hysteresis": true,
+  "multipath_reference": true,
+  "base": {
+    "status": "PASS_WITH_SCOPE",
+    "schema": "LCTL-ROUTING/3.0",
+    "route_type": "quantum",
+    "ebit_inventory": "REFERENCE_LOGICAL",
+    "time_expanded_paths": "REFERENCE_PARTIAL",
+    "purification_aware": true,
+    "base": {
+      "schema": "LCTL-ROUTING/2.0",
+      "type": "quantum",
+      "pairs": [
+        {
+          "src": "Q0",
+          "dst": "Q1",
+          "candidates": [
+            {
+              "path": "Q0->Q1",
+              "cost": 2.8000000000000003,
+              "fidelity": 0.97,
+              "success": 0.9
+            },
+            {
+              "path": "Q0->Q2->Q1",
+              "cost": 10.9,
+              "fidelity": 0.96515,
+              "success": 0.891
+            }
+          ]
+        },
+        {
+          "src": "Q0",
+          "dst": "Q2",
+          "candidates": [
+            {
+              "path": "Q0->Q1->Q2",
+              "cost": 5.6000000000000005,
+              "fidelity": 0.9409,
+              "success": 0.81
+            },
+            {
+              "path": "Q0->Q2",
+              "cost": 8.1,
+              "fidelity": 0.995,
+              "success": 0.99
+            }
+          ]
+        },
+        {
+          "src": "Q1",
+          "dst": "Q2",
+          "candidates": [
+            {
+              "path": "Q1->Q2",
+              "cost": 2.8000000000000003,
+              "fidelity": 0.97,
+              "success": 0.9
+            },
+            {
+              "path": "Q1->Q0->Q2",
+              "cost": 10.9,
+              "fidelity": 0.96515,
+              "success": 0.891
+            }
+          ]
+        }
+      ],
+      "physical_network_claimed": false
+    },
+    "physical_network_claimed": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "exit": 0,
+  "pass": true,
+  "result": {
+    "logical_qubits": 3,
+    "classical_bits": 3,
+    "gates": 6,
+    "two_qubit_or_more": 2,
+    "non_clifford": 0,
+    "measurements": 3,
+    "depth": 4,
+    "approx_error_bound": 0.0,
+    "counts": {
+      "CX": 2,
+      "H": 1,
+      "MEASURE_Z": 3
+    }
+  }
+}

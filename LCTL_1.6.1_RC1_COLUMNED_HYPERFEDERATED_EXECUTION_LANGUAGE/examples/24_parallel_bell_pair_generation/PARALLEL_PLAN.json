@@ -1,0 +1,54 @@
+{
+  "barriers": 0,
+  "communication_metadata_rows": 0,
+  "coupling_rows": 0,
+  "execution_class": "QUANTUM_COMPILATION",
+  "field_rows": 0,
+  "lanes": 2,
+  "language": "LCTL/1.2",
+  "layers": [
+    {
+      "frame": "F0000",
+      "layer": 1,
+      "ops": [
+        {
+          "id": "C0010",
+          "lane": "lane0",
+          "op": "H"
+        },
+        {
+          "id": "C0011",
+          "lane": "lane1",
+          "op": "H"
+        }
+      ]
+    },
+    {
+      "frame": "F0000",
+      "layer": 2,
+      "ops": [
+        {
+          "id": "C0020",
+          "lane": "lane0",
+          "op": "CX"
+        },
+        {
+          "id": "C0021",
+          "lane": "lane1",
+          "op": "CX"
+        }
+      ]
+    }
+  ],
+  "logical_parallel": true,
+  "max_exploitable_parallelism": 2.0,
+  "parallel_metadata_rows": 1,
+  "physical_parallel": false,
+  "physical_qpu": false,
+  "profile": "lctl.quantum.parallel.distributed",
+  "quantum_boundary": "NOT_CROSSED",
+  "scheduled_parallel": true,
+  "span": 2,
+  "synchronization_markers": 0,
+  "work": 4
+}

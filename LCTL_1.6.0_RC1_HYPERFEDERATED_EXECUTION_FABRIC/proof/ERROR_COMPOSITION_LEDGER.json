@@ -1,0 +1,12 @@
+{
+  "schema": "LCTL-ERROR-ALGEBRA/2.0",
+  "domains": {
+    "PROBABILITY": 0,
+    "VARIANCE": 0,
+    "OTHER": 0
+  },
+  "covariance_support": "SCHEMA_AND_CONSERVATIVE_UNRESOLVED_PATH",
+  "independence_required_for_variance_sum": true,
+  "unresolved_terms": "",
+  "hidden_scalarization": false
+}

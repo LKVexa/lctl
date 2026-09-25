@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "schema": "LCTL-EVENT-RECONSTRUCTION/2.0",
+  "events": 5,
+  "event_chain_head": "9f07e326a5c2d63302ca38686248c49730ef10c273ff78323e189b1a88e208ed",
+  "result_hash": "d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929",
+  "source_sha256": "e2a01db86bc837371bbef99f49f01c296fe33f50e441b480afbcab962007fe0a",
+  "reconstruction": "TASK_AND_CAUSAL_STATE_VERIFIED"
+}

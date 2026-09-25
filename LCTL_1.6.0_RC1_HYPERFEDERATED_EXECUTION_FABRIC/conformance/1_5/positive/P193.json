@@ -1,0 +1,7 @@
+{
+  "id": "P193",
+  "family": "REMOTE_CNOT_AND_GCOUNTER",
+  "seed": 1192,
+  "replicas": 5,
+  "expect": "PASS"
+}

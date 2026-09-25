@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "schema": "LCTL-PROTOCOL-EXECUTION/2.0",
+  "reference_state_machine": {
+    "status": "PASS",
+    "execution_class": "DISTRIBUTED_PROTOCOL_EMULATION",
+    "physical_qpu": false,
+    "physical_distributed": false,
+    "quantum_boundary": "NOT_CROSSED",
+    "seed": 314159,
+    "ebits_generated": 1,
+    "ebits_consumed": 1,
+    "ebits_remaining": 0,
+    "teleports": 1,
+    "remote_gates": 0,
+    "swaps": 0,
+    "feedback_ops": 0,
+    "ownership_model": "TRANSFER_NOT_CLONE",
+    "events": "EPR_RESERVED:1|TELEPORT_BELL_MEASURE_CLASSICAL_CORRECTION_OWNERSHIP_TRANSFER"
+  },
+  "arbitrary_qubit_teleportation_min_fidelity": 1.0,
+  "teleportation_equivalence_pass": true,
+  "remote_cnot_numerical_equivalence": "IMPLEMENTED_PARTIAL",
+  "physical_qpu": false,
+  "physical_distributed": false
+}

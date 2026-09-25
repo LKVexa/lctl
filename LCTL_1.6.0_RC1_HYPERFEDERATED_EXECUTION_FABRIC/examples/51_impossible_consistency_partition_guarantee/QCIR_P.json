@@ -1,0 +1,87 @@
+{
+  "causal_dag": {
+    "dag": "LCTL-CAUSAL-DAG/1.0",
+    "edge_count": 0,
+    "edges": [],
+    "node_count": 0,
+    "nodes": [],
+    "source_hash": "27353f1c57a9031ba2a0335dd0cde64cc72690d7ca8d78287071972a94c99719"
+  },
+  "execution_class": "QUANTUM_COMPILATION",
+  "physical_distributed": false,
+  "physical_qpu": false,
+  "profile": "lctl.quantum.parallel.distributed",
+  "qcir": "QCIR-P/1.0",
+  "quantum_boundary": "NOT_CROSSED",
+  "records": [
+    {
+      "a": "_",
+      "b": "_",
+      "ctrl": "_",
+      "face": "DECL",
+      "id": "D0001",
+      "lane": "alloc",
+      "op": "QREG",
+      "out": "q",
+      "param": "2",
+      "proof": "lctl:1.2",
+      "regime": "exact"
+    },
+    {
+      "a": "_",
+      "b": "_",
+      "ctrl": "_",
+      "face": "DECL",
+      "id": "D0002",
+      "lane": "alloc",
+      "op": "CREG",
+      "out": "c",
+      "param": "2",
+      "proof": "lctl:1.2",
+      "regime": "exact"
+    },
+    {
+      "a": "_",
+      "b": "_",
+      "ctrl": "_",
+      "face": "PARALLEL",
+      "id": "P0001",
+      "lane": "meta",
+      "op": "CONSENSUS_BOUNDARY",
+      "out": "_",
+      "param": "result=IMPOSSIBLE;reason=partition_tradeoff",
+      "proof": "lctl-dist:1.2",
+      "regime": "no_faithful_form"
+    },
+    {
+      "a": "_",
+      "b": "_",
+      "ctrl": "_",
+      "face": "DISTRIBUTED",
+      "id": "X0002",
+      "lane": "meta",
+      "op": "CONSISTENCY_SCOPE",
+      "out": "_",
+      "param": "partitioned=true;exact_all=false;cap_forbidden=true",
+      "proof": "lctl-dist:1.2",
+      "regime": "exact"
+    },
+    {
+      "a": "_",
+      "b": "_",
+      "ctrl": "_",
+      "face": "CODE",
+      "id": "C9999",
+      "lane": "lane0",
+      "op": "NOP",
+      "out": "_",
+      "param": "_",
+      "proof": "lctl:nop",
+      "regime": "exact"
+    }
+  ],
+  "schedule_hash": "d1e79946a67f1082cff11fba8335e3b2bf2fdcb6c948673fbf1e6a57541c09e1",
+  "source_language": "LCTL/1.2",
+  "source_sha256": "27353f1c57a9031ba2a0335dd0cde64cc72690d7ca8d78287071972a94c99719",
+  "topology_hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+}

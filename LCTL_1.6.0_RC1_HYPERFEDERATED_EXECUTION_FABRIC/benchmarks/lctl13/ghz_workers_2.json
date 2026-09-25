@@ -1,0 +1,1 @@
+{"status":"PASS","execution_class":"CLASSICAL_DISTRIBUTED_STATEVECTOR_SIMULATION","physical_qpu":false,"physical_distributed":false,"quantum_boundary":"NOT_CROSSED","workers":2,"qubits":3,"amplitudes":8,"gates":3,"bytes_touched_estimate":384,"state_sha256":"d855e3af3506d80b617e0fce362eb6a9fd8d7d6c44f4790eb19315a8d3802985","max_equivalence_error":0.0,"equivalence_pass":true}

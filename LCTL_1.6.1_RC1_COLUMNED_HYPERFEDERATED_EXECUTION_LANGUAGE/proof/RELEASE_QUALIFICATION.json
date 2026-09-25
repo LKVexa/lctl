@@ -1,0 +1,31 @@
+{
+  "schema": "LCTL-RELEASE-QUALIFICATION/1.6",
+  "version": "1.6.0-rc1",
+  "classification": "DEVELOPMENT_CANDIDATE_NOT_FULLY_QUALIFIED",
+  "baseline_1_3": "189/189 PASS",
+  "baseline_1_4": "320/320 PASS",
+  "baseline_1_5": "512/512 PASS",
+  "conformance_1_6": "1024/1024 PASS",
+  "property_campaign": "5000/5000 PASS",
+  "metamorphic_campaign": "5000/5000 PASS",
+  "smoke_verification": "PASS",
+  "actual_work_stealing": "VERIFIED",
+  "live_elastic_worker_growth": "VERIFIED",
+  "straggler_mitigation": "VERIFIED",
+  "strong_scaling": "CHARACTERIZED_LOCAL_HOST",
+  "weak_scaling": "CHARACTERIZED_LOCAL_HOST",
+  "one_hour_soak": "NOT_RUN",
+  "eight_hour_soak": "NOT_RUN",
+  "twenty_four_hour_soak": "NOT_RUN",
+  "physical_parallel_qpu": "BLOCKED_EXTERNAL_AUTHORITY",
+  "physical_distributed_qpu": "BLOCKED_EXTERNAL_AUTHORITY",
+  "physical_multi_qpu_federation": "BLOCKED_EXTERNAL_AUTHORITY",
+  "full_release_qualified": false,
+  "qualification_blockers": [
+    "1h/8h/24h soak not run",
+    "canonical full multilevel KL/FM remains partial",
+    "full event reconstruction remains partial",
+    "live remote multi-host authority absent",
+    "physical QPU authority absent"
+  ]
+}

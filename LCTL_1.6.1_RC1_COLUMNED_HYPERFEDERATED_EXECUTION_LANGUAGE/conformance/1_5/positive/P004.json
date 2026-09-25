@@ -1,0 +1,7 @@
+{
+  "id": "P004",
+  "family": "REMOTE_CNOT_AND_ORSET",
+  "seed": 1003,
+  "replicas": 5,
+  "expect": "PASS"
+}

@@ -1,0 +1,5 @@
+{
+  "title": "Quantum Fourier transform pattern",
+  "expected": "Three-qubit QFT pattern executes as a normalized exact unitary circuit.",
+  "notes": ""
+}

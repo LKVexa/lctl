@@ -1,0 +1,5 @@
+{
+  "exit": 0,
+  "pass": true,
+  "output": "PASS LCTL verify bundle=lctl.example.single_qubit_rotations frames=1 rows=6 sha256=bec57a09b464958628eb61e2eb5606f188139bcc3fd373c9f01f32af131f9093"
+}

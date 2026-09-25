@@ -1,0 +1,16 @@
+{
+  "status": "IMPLEMENTED",
+  "schema": "LCTL-ERROR-ALGEBRA/4.0",
+  "dimensions": [
+    "probability",
+    "infidelity",
+    "variance",
+    "bias",
+    "covariance",
+    "numerical_tolerance",
+    "calibration_uncertainty",
+    "timing_uncertainty",
+    "model_uncertainty"
+  ],
+  "calibration_uncertainty_physical": "BLOCKED_EXTERNAL_AUTHORITY"
+}

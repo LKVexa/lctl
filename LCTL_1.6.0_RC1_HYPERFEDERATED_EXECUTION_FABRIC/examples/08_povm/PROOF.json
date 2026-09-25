@@ -1,0 +1,14 @@
+{
+  "claim": "POVM example",
+  "method": "reference simulation + invariant verification",
+  "source": "LCTL normative core",
+  "transform_role": "none",
+  "admission": "ADMIT_EXACT unless row regime says otherwise",
+  "execution_evidence": {
+    "verifier": "VERIFIER_RESULT.json",
+    "simulator": "SIMULATOR_RESULT.json",
+    "resource": "RESOURCE_REPORT.json",
+    "qcir": "QCIR.json"
+  },
+  "source_sha256": "dd159739a0fd0d24679aff09448d841b1b8bf5be60d2ccf6ef99c57610c0d971"
+}

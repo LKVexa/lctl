@@ -1,0 +1,18 @@
+LCTL 1.2.0-rc1 DISTRIBUTED CONFORMANCE RESULTS
+
+Prior/core valid regression: 23/23 PASS
+Prior/core invalid regression: 22/22 correctly rejected
+Distributed valid suite: 30/30 PASS
+Distributed invalid suite: 30/30 correctly rejected
+Aggregate distributed gates: 11/11 PASS
+
+QCIR-P determinism: PASS
+Distributed-plan determinism: PASS
+Causal DAG generation: PASS
+Topology hashing: PASS
+Teleport protocol validation: PASS
+Distributed emulator provenance: PASS
+Physical distributed fail-closed gate: PASS
+
+PHYSICAL_DISTRIBUTED_EXECUTION: BLOCKED
+Reason: no qualified multi-QPU target/interconnect/execution evidence is included.

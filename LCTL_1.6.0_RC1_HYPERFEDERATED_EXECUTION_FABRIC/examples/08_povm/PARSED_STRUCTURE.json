@@ -1,0 +1,13 @@
+{
+  "source": "program.lctl",
+  "source_sha256": "dd159739a0fd0d24679aff09448d841b1b8bf5be60d2ccf6ef99c57610c0d971",
+  "runtime_inspect": {
+    "status": "PASS",
+    "bundle": "lctl.example.povm",
+    "qubits": 1,
+    "cbits": 0,
+    "exec_rows": 1,
+    "approx_error": 0.0
+  },
+  "canonical_format": "LCTL/1.0"
+}

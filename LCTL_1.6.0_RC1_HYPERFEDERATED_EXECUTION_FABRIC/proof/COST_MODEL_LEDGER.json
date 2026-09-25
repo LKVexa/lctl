@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "schema": "LCTL-COST-MODEL/1.6",
+  "sample_count": 20000,
+  "cpu_sample_ns": 2228611,
+  "queue_roundtrip_ns": 8475162,
+  "sha256_1mib_ns": 40726151,
+  "available_processors": 4,
+  "calibration_hash": "7677c0fa789cbb34f6f3260bf18e45e321b51122914aaf45b93ae2994e317c6a",
+  "physical_energy_measured": false
+}

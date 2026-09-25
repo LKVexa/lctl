@@ -1,0 +1,13 @@
+{
+  "source": "program.lctl",
+  "source_sha256": "0c3609a1b87c19807936828282bfe32b7dac29278cc481d56027669d3b2b80af",
+  "runtime_inspect": {
+    "status": "PASS",
+    "bundle": "lctl.example.ghz_state",
+    "qubits": 3,
+    "cbits": 3,
+    "exec_rows": 6,
+    "approx_error": 0.0
+  },
+  "canonical_format": "LCTL/1.0"
+}

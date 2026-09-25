@@ -1,0 +1,1206 @@
+lctl_record_id	field	entry	title	origin_regime	lctl_role	lctl_admission	transform_candidates	source_file
+LC-0001	1	1	Cantor’s Theorem	exact_linear	exact_structure_reference	OBSERVE	D11	01_Pure_Mathematics.pdf
+LC-0002	1	2	Cantor–Schröder–Bernstein Theorem	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0003	1	3	Cardinality of the Continuum	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0004	1	4	Continuum Hypothesis	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0005	1	5	Generalised Continuum Hypothesis	exact_linear	exact_structure_reference	OBSERVE	D11	01_Pure_Mathematics.pdf
+LC-0006	1	6	Cardinal Arithmetic (Infinite Absorption)	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0007	1	7	König’s Theorem (Cardinal Form)	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0008	1	8	Beth Numbers	exact_linear	exact_structure_reference	OBSERVE	D11	01_Pure_Mathematics.pdf
+LC-0009	1	9	Ordinal Successor and Limit	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0010	1	10	Cofinality	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0011	1	11	Russell’s Paradox	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14;D11	01_Pure_Mathematics.pdf
+LC-0012	1	12	Axiom Schema of Separation	structural_analogue	structural_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0013	1	13	Axiom Schema of Replacement	structural_analogue	structural_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0014	1	14	Axiom of Foundation	structural_analogue	structural_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0015	1	15	Cumulative Hierarchy	structural_analogue	structural_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0016	1	16	Axiom of Choice	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0017	1	17	Zorn’s Lemma	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0018	1	18	Well-Ordering Theorem	exact_linear	exact_structure_reference	OBSERVE	D4	01_Pure_Mathematics.pdf
+LC-0019	1	19	Transfinite Induction	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0020	1	20	De Morgan’s Laws	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0021	1	21	Gödel’s First Incompleteness Theorem	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	01_Pure_Mathematics.pdf
+LC-0022	1	22	Gödel’s Second Incompleteness Theorem	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	01_Pure_Mathematics.pdf
+LC-0023	1	23	Diagonal (Fixed-Point) Lemma	structural_analogue	structural_reference	OBSERVE	D2	01_Pure_Mathematics.pdf
+LC-0024	1	24	Tarski’s Undefinability Theorem	structural_analogue	structural_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0025	1	25	Compactness Theorem	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0026	1	26	Löwenheim–Skolem Theorem	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0027	1	27	Gödel Completeness Theorem	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0028	1	28	Peano Induction Axiom	exact_linear	exact_structure_reference	OBSERVE	D2	01_Pure_Mathematics.pdf
+LC-0029	1	29	Modus Ponens	structural_analogue	structural_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0030	1	30	Cut Rule (Sequent Calculus)	structural_analogue	structural_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0031	1	31	Curry–Howard Correspondence	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0032	1	32	Beta Reduction (Lambda Calculus)	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0033	1	33	Y Combinator (Fixed-Point Combinator)	exact_linear	exact_structure_reference	OBSERVE	D2	01_Pure_Mathematics.pdf
+LC-0034	1	34	Church Numerals	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0035	1	35	Kripke Forcing Relation	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0036	1	36	Heyting Algebra Implication	structural_analogue	structural_reference	OBSERVE	D11	01_Pure_Mathematics.pdf
+LC-0037	1	37	Boolean Algebra Axioms	exact_linear	exact_structure_reference	OBSERVE	D4	01_Pure_Mathematics.pdf
+LC-0038	1	38	Stone Representation	exact_linear	exact_structure_reference	OBSERVE	D11;D2	01_Pure_Mathematics.pdf
+LC-0039	1	39	Craig Interpolation	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0040	1	40	Skolem Normal Form	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0041	1	41	Composition and Identity Laws	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0042	1	42	Functor Laws	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0043	1	43	Natural Transformation Square	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0044	1	44	Yoneda Lemma	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0045	1	45	Adjunction (Hom-Set Bijection)	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0046	1	46	Triangle Identities	exact_linear	exact_structure_reference	OBSERVE	D11	01_Pure_Mathematics.pdf
+LC-0047	1	47	Universal Property of the Product	exact_linear	exact_structure_reference	OBSERVE	D4	01_Pure_Mathematics.pdf
+LC-0048	1	48	Universal Property of the Coproduct	exact_linear	exact_structure_reference	OBSERVE	D11	01_Pure_Mathematics.pdf
+LC-0049	1	49	Limit as a Universal Cone	exact_linear	exact_structure_reference	OBSERVE	D8	01_Pure_Mathematics.pdf
+LC-0050	1	50	Colimit as a Universal Cocone	exact_linear	exact_structure_reference	OBSERVE	D11;D8	01_Pure_Mathematics.pdf
+LC-0051	1	51	Pullback Square	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0052	1	52	Equaliser	exact_linear	exact_structure_reference	OBSERVE	D8	01_Pure_Mathematics.pdf
+LC-0053	1	53	Monad Laws	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0054	1	54	Kan Extension	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0055	1	55	Subobject Classifier	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	01_Pure_Mathematics.pdf
+LC-0056	1	56	Sheaf Gluing Axiom	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0057	1	57	Exactness Condition	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0058	1	58	Five Lemma	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0059	1	59	Snake Lemma	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0060	1	60	Euler’s Identity	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0061	1	61	Fundamental Theorem of Algebra	exact_linear	exact_structure_reference	OBSERVE	D2	01_Pure_Mathematics.pdf
+LC-0062	1	62	Fundamental Theorem of Arithmetic	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0063	1	63	Binomial Theorem	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0064	1	64	Pigeonhole Principle	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0065	1	65	Galois Correspondence	exact_linear	exact_structure_reference	OBSERVE		01_Pure_Mathematics.pdf
+LC-0066	13	1	Kolmogorov Axioms	exact_linear	exact_structure_reference	OBSERVE	D11	13_Probability_Theory.pdf
+LC-0067	13	2	Conditional Probability	exact_linear	exact_structure_reference	OBSERVE	D4	13_Probability_Theory.pdf
+LC-0068	13	3	Chain Rule (Multiplication Rule)	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0069	13	4	Law of Total Probability	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0070	13	5	Bayes’ Theorem	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0071	13	6	Independence	exact_linear	exact_structure_reference	OBSERVE	D2	13_Probability_Theory.pdf
+LC-0072	13	7	Conditional Independence	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0073	13	8	Inclusion–Exclusion for Probabilities	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0074	13	9	Borel–Cantelli Lemmas	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0075	13	10	Kolmogorov Zero-One Law	structural_analogue	structural_reference	OBSERVE	D2;D4	13_Probability_Theory.pdf
+LC-0076	13	11	Cumulative Distribution Function	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0077	13	12	Probability Density Function	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0078	13	13	Expectation	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0079	13	14	Variance and Standard Deviation	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0080	13	15	Covariance and Correlation	exact_linear	exact_structure_reference	OBSERVE	D2	13_Probability_Theory.pdf
+LC-0081	13	16	Variance of a Sum	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0082	13	17	Law of Total Expectation	exact_linear	exact_structure_reference	OBSERVE	D4	13_Probability_Theory.pdf
+LC-0083	13	18	Law of Total Variance	exact_linear	exact_structure_reference	OBSERVE	D11;D4	13_Probability_Theory.pdf
+LC-0084	13	19	Moment Generating Function	exact_linear	exact_structure_reference	OBSERVE	D11	13_Probability_Theory.pdf
+LC-0085	13	20	Characteristic Function	exact_linear	exact_structure_reference	OBSERVE	D12	13_Probability_Theory.pdf
+LC-0086	13	21	Bernoulli and Binomial Distributions	exact_linear	exact_structure_reference	OBSERVE	D12	13_Probability_Theory.pdf
+LC-0087	13	22	Poisson Distribution	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0088	13	23	Geometric and Negative Binomial	exact_linear	exact_structure_reference	OBSERVE	D12;D10	13_Probability_Theory.pdf
+LC-0089	13	24	Uniform Distribution	exact_linear	exact_structure_reference	OBSERVE	D4	13_Probability_Theory.pdf
+LC-0090	13	25	Exponential Distribution	exact_linear	exact_structure_reference	OBSERVE	D10	13_Probability_Theory.pdf
+LC-0091	13	26	Normal (Gaussian) Distribution	exact_linear	exact_structure_reference	OBSERVE	D12	13_Probability_Theory.pdf
+LC-0092	13	27	Multivariate Normal Density	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0093	13	28	Gamma Distribution	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0094	13	29	Beta Distribution	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0095	13	30	Chi-Squared Distribution	exact_linear	exact_structure_reference	OBSERVE	D4	13_Probability_Theory.pdf
+LC-0096	13	31	Student’s 𝑡Distribution	exact_linear	exact_structure_reference	OBSERVE	D4	13_Probability_Theory.pdf
+LC-0097	13	32	𝐹Distribution	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0098	13	33	Lognormal Distribution	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0099	13	34	Pareto (Power Law) Distribution	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	13_Probability_Theory.pdf
+LC-0100	13	35	Transformation of Densities	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0101	13	36	Convolution of Independent Variables	exact_linear	exact_structure_reference	OBSERVE	D12	13_Probability_Theory.pdf
+LC-0102	13	37	Order Statistics Density	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0103	13	38	Markov’s Inequality	exact_linear	exact_structure_reference	OBSERVE	D10	13_Probability_Theory.pdf
+LC-0104	13	39	Chebyshev’s Inequality	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0105	13	40	Weak Law of Large Numbers	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0106	13	41	Strong Law of Large Numbers	structural_analogue	structural_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0107	13	42	Central Limit Theorem	exact_linear	exact_structure_reference	OBSERVE	D12	13_Probability_Theory.pdf
+LC-0108	13	43	Lindeberg Condition	exact_linear	exact_structure_reference	OBSERVE	D2	13_Probability_Theory.pdf
+LC-0109	13	44	Berry–Esseen Theorem	structural_analogue	structural_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0110	13	45	Delta Method	linearized	approximate_transform_candidate	OBSERVE	D13	13_Probability_Theory.pdf
+LC-0111	13	46	Hoeffding’s Inequality	exact_linear	exact_structure_reference	OBSERVE	D2	13_Probability_Theory.pdf
+LC-0112	13	47	Bernstein Inequality	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0113	13	48	McDiarmid’s Bounded Differences Inequality	exact_linear	exact_structure_reference	OBSERVE	D4	13_Probability_Theory.pdf
+LC-0114	13	49	Jensen’s Inequality for Expectations	exact_linear	exact_structure_reference	OBSERVE	D11;D2	13_Probability_Theory.pdf
+LC-0115	13	50	Slutsky’s Theorem	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0116	13	51	Markov Property	exact_linear	exact_structure_reference	OBSERVE	D2;D10	13_Probability_Theory.pdf
+LC-0117	13	52	Chapman–Kolmogorov Equation	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0118	13	53	Stationary Distribution	exact_linear	exact_structure_reference	OBSERVE	D2	13_Probability_Theory.pdf
+LC-0119	13	54	Detailed Balance	exact_linear	exact_structure_reference	OBSERVE	D2	13_Probability_Theory.pdf
+LC-0120	13	55	Poisson Process	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0121	13	56	Brownian Motion (Wiener Process)	exact_linear	exact_structure_reference	OBSERVE		13_Probability_Theory.pdf
+LC-0122	13	57	Itô’s Lemma	exact_linear	exact_structure_reference	OBSERVE	D11	13_Probability_Theory.pdf
+LC-0123	13	58	Fokker–Planck Equation	exact_linear	exact_structure_reference	OBSERVE	D2;D10	13_Probability_Theory.pdf
+LC-0124	13	59	Martingale Property	exact_linear	exact_structure_reference	OBSERVE	D2;D4	13_Probability_Theory.pdf
+LC-0125	13	60	Optional Stopping Theorem	exact_linear	exact_structure_reference	OBSERVE	D10;D4	13_Probability_Theory.pdf
+LC-0126	15	1	Floating-Point Representation	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0127	15	2	Machine Epsilon	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0128	15	3	Rounding Error Model	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0129	15	4	Catastrophic Cancellation	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0130	15	5	Backward Error	exact_linear	exact_structure_reference	OBSERVE	D2	15_Computational_Mathematics.pdf
+LC-0131	15	6	Forward Error Bound	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0132	15	7	Kahan Compensated Summation	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0133	15	8	Interval Arithmetic	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0134	15	9	Horner’s Rule	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0135	15	10	Karatsuba Multiplication	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0136	15	11	Schönhage–Strassen Complexity	exact_linear	exact_structure_reference	OBSERVE	D12	15_Computational_Mathematics.pdf
+LC-0137	15	12	Strassen Matrix Multiplication	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0138	15	13	Extended Euclidean Algorithm	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0139	15	14	Resultant	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0140	15	15	Discriminant	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0141	15	16	Gröbner Basis (Buchberger Criterion)	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0142	15	17	S-Polynomial	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0143	15	18	Risch Decision Procedure Condition	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14;D2	15_Computational_Mathematics.pdf
+LC-0144	15	19	Zeilberger’s Creative Telescoping	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0145	15	20	Cylindrical Algebraic Decomposition Complexity	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14;D11	15_Computational_Mathematics.pdf
+LC-0146	15	21	Monte Carlo Integration	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0147	15	22	Monte Carlo Standard Error	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0148	15	23	Importance Sampling	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0149	15	24	Control Variates	exact_linear	exact_structure_reference	OBSERVE	D11	15_Computational_Mathematics.pdf
+LC-0150	15	25	Antithetic Variates	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0151	15	26	Metropolis–Hastings Acceptance Ratio	exact_linear	exact_structure_reference	OBSERVE	D2	15_Computational_Mathematics.pdf
+LC-0152	15	27	Gibbs Sampler Update	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0153	15	28	Hamiltonian Monte Carlo Leapfrog Step	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0154	15	29	Effective Sample Size	exact_linear	exact_structure_reference	OBSERVE	D2	15_Computational_Mathematics.pdf
+LC-0155	15	30	Gelman–Rubin Statistic	exact_linear	exact_structure_reference	OBSERVE	D4	15_Computational_Mathematics.pdf
+LC-0156	15	31	Quasi-Monte Carlo Error (Koksma–Hlawka)	structural_analogue	structural_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0157	15	32	Inverse Transform Sampling	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0158	15	33	Box–Muller Transform	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0159	15	34	Rejection Sampling	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0160	15	35	Linear Congruential Generator	exact_linear	exact_structure_reference	OBSERVE	D2	15_Computational_Mathematics.pdf
+LC-0161	15	36	Mersenne Twister Period	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0162	15	37	Fast Fourier Transform Recursion	exact_linear	exact_structure_reference	OBSERVE	D12	15_Computational_Mathematics.pdf
+LC-0163	15	38	Number Theoretic Transform	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0164	15	39	Fast Multipole Method Complexity	exact_linear	exact_structure_reference	OBSERVE	D8	15_Computational_Mathematics.pdf
+LC-0165	15	40	Barnes–Hut Opening Criterion	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0166	15	41	Automatic Differentiation (Forward Mode)	exact_linear	exact_structure_reference	OBSERVE	D11	15_Computational_Mathematics.pdf
+LC-0167	15	42	Automatic Differentiation (Reverse Mode)	exact_linear	exact_structure_reference	OBSERVE	D11	15_Computational_Mathematics.pdf
+LC-0168	15	43	Checkpointing Trade-Off	structural_analogue	structural_reference	OBSERVE	D11	15_Computational_Mathematics.pdf
+LC-0169	15	44	Randomised SVD	exact_linear	exact_structure_reference	OBSERVE	D11;D4	15_Computational_Mathematics.pdf
+LC-0170	15	45	Johnson–Lindenstrauss Lemma	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0171	15	46	Count-Min Sketch Error	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0172	15	47	HyperLogLog Cardinality Estimate	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	15_Computational_Mathematics.pdf
+LC-0173	15	48	Bloom Filter False Positive Rate	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0174	15	49	Newton–Kantorovich Theorem	exact_linear	exact_structure_reference	OBSERVE	D11	15_Computational_Mathematics.pdf
+LC-0175	15	50	Krawczyk Operator	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0176	15	51	Sturm Sequence Root Count	exact_linear	exact_structure_reference	OBSERVE	D2	15_Computational_Mathematics.pdf
+LC-0177	15	52	Descartes’ Rule of Signs	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14;D2	15_Computational_Mathematics.pdf
+LC-0178	15	53	Chebyshev Approximation Error	exact_linear	exact_structure_reference	OBSERVE	D11;D2	15_Computational_Mathematics.pdf
+LC-0179	15	54	Remez Exchange Equioscillation	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0180	15	55	Lattice Reduction for Integer Relations (PSLQ)	exact_linear	exact_structure_reference	OBSERVE	D4	15_Computational_Mathematics.pdf
+LC-0181	15	56	BBP Formula for 𝜋	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	15_Computational_Mathematics.pdf
+LC-0182	15	57	Modular Arithmetic Reconstruction (CRT Lifting)	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0183	15	58	Hensel Lifting for Factorisation	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0184	15	59	Condition Number of Polynomial Roots	exact_linear	exact_structure_reference	OBSERVE	D2	15_Computational_Mathematics.pdf
+LC-0185	15	60	Complexity of Exact Linear Algebra	exact_linear	exact_structure_reference	OBSERVE		15_Computational_Mathematics.pdf
+LC-0186	17	1	Convex Set	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0187	17	2	Convex Function	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0188	17	3	First-Order Convexity Condition	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0189	17	4	Second-Order Convexity Condition	exact_linear	exact_structure_reference	OBSERVE	D11;D2	17_Optimization.pdf
+LC-0190	17	5	Strong Convexity	exact_linear	exact_structure_reference	OBSERVE	D11;D2	17_Optimization.pdf
+LC-0191	17	6	Lipschitz Smoothness	exact_linear	exact_structure_reference	OBSERVE	D11;D2	17_Optimization.pdf
+LC-0192	17	7	First-Order Necessary Condition	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0193	17	8	Second-Order Suﬀicient Condition	exact_linear	exact_structure_reference	OBSERVE	D11;D2	17_Optimization.pdf
+LC-0194	17	9	Subgradient	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0195	17	10	Fermat’s Rule (Nonsmooth)	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0196	17	11	Proximal Operator	exact_linear	exact_structure_reference	OBSERVE	D11;D4	17_Optimization.pdf
+LC-0197	17	12	Soft Thresholding	structural_analogue	structural_reference	OBSERVE		17_Optimization.pdf
+LC-0198	17	13	Standard Constrained Problem	exact_linear	exact_structure_reference	OBSERVE		17_Optimization.pdf
+LC-0199	17	14	Lagrangian	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0200	17	15	Karush–Kuhn–Tucker Conditions	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0201	17	16	Complementary Slackness	exact_linear	exact_structure_reference	OBSERVE		17_Optimization.pdf
+LC-0202	17	17	Lagrange Dual Function	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0203	17	18	Weak Duality	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0204	17	19	Strong Duality (Slater’s Condition)	exact_linear	exact_structure_reference	OBSERVE	D11;D4	17_Optimization.pdf
+LC-0205	17	20	Fenchel Conjugate	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0206	17	21	Linear Programme (Standard Form)	exact_linear	exact_structure_reference	OBSERVE	D11;D4	17_Optimization.pdf
+LC-0207	17	22	LP Duality	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0208	17	23	Quadratic Programme	exact_linear	exact_structure_reference	OBSERVE	D11;D4	17_Optimization.pdf
+LC-0209	17	24	Second-Order Cone Constraint	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0210	17	25	Semidefinite Programme	exact_linear	exact_structure_reference	OBSERVE	D2;D4	17_Optimization.pdf
+LC-0211	17	26	Simplex Method Reduced Cost	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0212	17	27	Interior Point Barrier	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0213	17	28	Central Path Condition	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0214	17	29	Gradient Descent	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0215	17	30	Gradient Descent Convergence Rate	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0216	17	31	Nesterov Accelerated Gradient	exact_linear	exact_structure_reference	OBSERVE	D11;D2	17_Optimization.pdf
+LC-0217	17	32	Heavy Ball Momentum	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0218	17	33	Newton’s Method for Optimisation	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0219	17	34	Newton Decrement	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0220	17	35	BFGS Update	exact_linear	exact_structure_reference	OBSERVE		17_Optimization.pdf
+LC-0221	17	36	Wolfe Conditions	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0222	17	37	Trust Region Subproblem	exact_linear	exact_structure_reference	OBSERVE	D2	17_Optimization.pdf
+LC-0223	17	38	Gauss–Newton Approximation	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0224	17	39	Levenberg–Marquardt	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0225	17	40	Conjugate Gradient Direction	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0226	17	41	Stochastic Gradient Descent	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0227	17	42	Robbins–Monro Step Size Conditions	exact_linear	exact_structure_reference	OBSERVE		17_Optimization.pdf
+LC-0228	17	43	SGD Convergence Rate	exact_linear	exact_structure_reference	OBSERVE	D11;D2	17_Optimization.pdf
+LC-0229	17	44	Adam Update	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0230	17	45	AdaGrad Update	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0231	17	46	Mirror Descent	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0232	17	47	Bregman Divergence	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0233	17	48	ADMM Iteration	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0234	17	49	Frank–Wolfe Step	exact_linear	exact_structure_reference	OBSERVE	D4	17_Optimization.pdf
+LC-0235	17	50	Projected Gradient Descent	exact_linear	exact_structure_reference	OBSERVE	D11;D4	17_Optimization.pdf
+LC-0236	17	51	Coordinate Descent Update	exact_linear	exact_structure_reference	OBSERVE	D2	17_Optimization.pdf
+LC-0237	17	52	Dual Ascent	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0238	17	53	Simulated Annealing Acceptance	exact_linear	exact_structure_reference	OBSERVE	D11;D2	17_Optimization.pdf
+LC-0239	17	54	Branch and Bound Pruning	exact_linear	exact_structure_reference	OBSERVE		17_Optimization.pdf
+LC-0240	17	55	Cutting Plane (Gomory Cut)	exact_linear	exact_structure_reference	OBSERVE		17_Optimization.pdf
+LC-0241	17	56	Integrality Gap	exact_linear	exact_structure_reference	OBSERVE		17_Optimization.pdf
+LC-0242	17	57	Submodularity	structural_analogue	structural_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0243	17	58	Greedy Approximation Guarantee	structural_analogue	structural_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0244	17	59	No Free Lunch Theorem	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14;D11	17_Optimization.pdf
+LC-0245	17	60	Minimax and Robust Optimisation	exact_linear	exact_structure_reference	OBSERVE	D11	17_Optimization.pdf
+LC-0246	19	1	Expected Utility	exact_linear	exact_structure_reference	OBSERVE	D11	19_Decision_Theory.pdf
+LC-0247	19	2	Von Neumann–Morgenstern Axioms	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0248	19	3	Savage Subjective Expected Utility	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0249	19	4	Arrow–Pratt Absolute Risk Aversion	exact_linear	exact_structure_reference	OBSERVE	D11;D2	19_Decision_Theory.pdf
+LC-0250	19	5	Relative Risk Aversion	exact_linear	exact_structure_reference	OBSERVE	D11	19_Decision_Theory.pdf
+LC-0251	19	6	CRRA Utility	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0252	19	7	CARA (Exponential) Utility	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0253	19	8	Certainty Equivalent	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0254	19	9	Risk Premium (Pratt Approximation)	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0255	19	10	Mean–Variance Preference	exact_linear	exact_structure_reference	OBSERVE	D11	19_Decision_Theory.pdf
+LC-0256	19	11	Stochastic Dominance (First Order)	exact_linear	exact_structure_reference	OBSERVE	D11	19_Decision_Theory.pdf
+LC-0257	19	12	Stochastic Dominance (Second Order)	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0258	19	13	Bayes Risk	exact_linear	exact_structure_reference	OBSERVE	D4	19_Decision_Theory.pdf
+LC-0259	19	14	Bayes Decision Rule	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0260	19	15	Zero-One Loss and MAP	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0261	19	16	Minimax Decision Rule	exact_linear	exact_structure_reference	OBSERVE	D11;D4	19_Decision_Theory.pdf
+LC-0262	19	17	Minimax Regret (Savage)	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0263	19	18	Hurwicz Criterion	exact_linear	exact_structure_reference	OBSERVE	D11	19_Decision_Theory.pdf
+LC-0264	19	19	Laplace Criterion (Insuﬀicient Reason)	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0265	19	20	Admissibility	exact_linear	exact_structure_reference	OBSERVE	D11	19_Decision_Theory.pdf
+LC-0266	19	21	Complete Class Theorem	exact_linear	exact_structure_reference	OBSERVE	D11	19_Decision_Theory.pdf
+LC-0267	19	22	Expected Value of Sample Information	exact_linear	exact_structure_reference	OBSERVE	D11	19_Decision_Theory.pdf
+LC-0268	19	23	Value of Information Bound	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0269	19	24	Dynamic Programming Value Recursion	exact_linear	exact_structure_reference	OBSERVE	D4	19_Decision_Theory.pdf
+LC-0270	19	25	Optimal Stopping Condition	exact_linear	exact_structure_reference	OBSERVE	D11	19_Decision_Theory.pdf
+LC-0271	19	26	Secretary Problem Threshold	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	19_Decision_Theory.pdf
+LC-0272	19	27	Gittins Index	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0273	19	28	Upper Confidence Bound	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0274	19	29	Regret	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0275	19	30	Lai–Robbins Lower Bound	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0276	19	31	Thompson Sampling Rule	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0277	19	32	Exploration–Exploitation Trade-Off	structural_analogue	structural_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0278	19	33	Sequential Probability Ratio Test	exact_linear	exact_structure_reference	OBSERVE	D11	19_Decision_Theory.pdf
+LC-0279	19	34	Wald’s Identity	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0280	19	35	Arrow’s Impossibility Theorem	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	19_Decision_Theory.pdf
+LC-0281	19	36	Gibbard–Satterthwaite Theorem	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	19_Decision_Theory.pdf
+LC-0282	19	37	Condorcet Winner	exact_linear	exact_structure_reference	OBSERVE	D2	19_Decision_Theory.pdf
+LC-0283	19	38	Condorcet Jury Theorem	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0284	19	39	Borda Count	exact_linear	exact_structure_reference	OBSERVE	D11;D4	19_Decision_Theory.pdf
+LC-0285	19	40	Shapley Value	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0286	19	41	Nash Bargaining Solution	exact_linear	exact_structure_reference	OBSERVE	D11;D4	19_Decision_Theory.pdf
+LC-0287	19	42	Prospect Theory Value Function	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14;D11	19_Decision_Theory.pdf
+LC-0288	19	43	Probability Weighting Function	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14;D11	19_Decision_Theory.pdf
+LC-0289	19	44	Cumulative Prospect Theory Valuation	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	19_Decision_Theory.pdf
+LC-0290	19	45	Allais Paradox Inequality	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	19_Decision_Theory.pdf
+LC-0291	19	46	Ellsberg Paradox (Ambiguity Aversion)	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14;D11	19_Decision_Theory.pdf
+LC-0292	19	47	Maxmin Expected Utility (Gilboa–Schmeidler)	exact_linear	exact_structure_reference	OBSERVE	D11	19_Decision_Theory.pdf
+LC-0293	19	48	Choquet Expected Utility	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14;D11	19_Decision_Theory.pdf
+LC-0294	19	49	Hyperbolic Discounting	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	19_Decision_Theory.pdf
+LC-0295	19	50	Quasi-Hyperbolic (Beta-Delta) Discounting	structural_analogue	structural_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0296	19	51	Exponential Discounting	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0297	19	52	Drift Diffusion Model	exact_linear	exact_structure_reference	OBSERVE	D10	19_Decision_Theory.pdf
+LC-0298	19	53	Luce Choice Axiom	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0299	19	54	Softmax (Logit) Choice	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0300	19	55	Random Utility Model	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0301	19	56	Multi-Attribute Utility (Additive)	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0302	19	57	Entropy of a Decision Problem	structural_analogue	structural_reference	OBSERVE	D11	19_Decision_Theory.pdf
+LC-0303	19	58	Rational Inattention Objective	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0304	19	59	Satisficing Threshold	structural_analogue	structural_reference	OBSERVE	D11	19_Decision_Theory.pdf
+LC-0305	19	60	Regret Matching	exact_linear	exact_structure_reference	OBSERVE		19_Decision_Theory.pdf
+LC-0306	20	1	Normal Form Game	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0307	20	2	Best Response Correspondence	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0308	20	3	Nash Equilibrium	exact_linear	exact_structure_reference	OBSERVE	D4	20_Game_Theory.pdf
+LC-0309	20	4	Nash Existence Theorem	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14;D2	20_Game_Theory.pdf
+LC-0310	20	5	Mixed Strategy Payoff	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0311	20	6	Indifference Condition	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0312	20	7	Strict Dominance	exact_linear	exact_structure_reference	OBSERVE	D4	20_Game_Theory.pdf
+LC-0313	20	8	Rationalisability	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0314	20	9	Minimax Theorem	exact_linear	exact_structure_reference	OBSERVE	D11;D4	20_Game_Theory.pdf
+LC-0315	20	10	Zero-Sum Game LP	exact_linear	exact_structure_reference	OBSERVE	D11	20_Game_Theory.pdf
+LC-0316	20	11	Correlated Equilibrium	exact_linear	exact_structure_reference	OBSERVE	D4	20_Game_Theory.pdf
+LC-0317	20	12	Price of Anarchy	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0318	20	13	Braess’s Paradox	exact_linear	exact_structure_reference	OBSERVE	D11	20_Game_Theory.pdf
+LC-0319	20	14	Potential Game	exact_linear	exact_structure_reference	OBSERVE	D11	20_Game_Theory.pdf
+LC-0320	20	15	Congestion Game Cost	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0321	20	16	Extensive Form Game	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0322	20	17	Backward Induction	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0323	20	18	Subgame Perfect Equilibrium	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0324	20	19	Stackelberg Equilibrium	exact_linear	exact_structure_reference	OBSERVE	D11	20_Game_Theory.pdf
+LC-0325	20	20	Cournot Equilibrium	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0326	20	21	Bertrand Paradox	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	20_Game_Theory.pdf
+LC-0327	20	22	Hotelling Location Equilibrium	structural_analogue	structural_reference	OBSERVE		20_Game_Theory.pdf
+LC-0328	20	23	Rubinstein Alternating Offers	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0329	20	24	War of Attrition Equilibrium	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0330	20	25	Discounted Repeated Payoff	exact_linear	exact_structure_reference	OBSERVE	D11	20_Game_Theory.pdf
+LC-0331	20	26	Folk Theorem	exact_linear	exact_structure_reference	OBSERVE	D11	20_Game_Theory.pdf
+LC-0332	20	27	Minmax Payoff	exact_linear	exact_structure_reference	OBSERVE	D11	20_Game_Theory.pdf
+LC-0333	20	28	Grim Trigger Sustainability	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0334	20	29	One-Shot Deviation Principle	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0335	20	30	Prisoner’s Dilemma Payoff Ordering	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0336	20	31	Bayesian Game	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0337	20	32	Bayesian Nash Equilibrium	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0338	20	33	Perfect Bayesian Equilibrium	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0339	20	34	Revelation Principle	exact_linear	exact_structure_reference	OBSERVE	D4	20_Game_Theory.pdf
+LC-0340	20	35	Incentive Compatibility	exact_linear	exact_structure_reference	OBSERVE	D11	20_Game_Theory.pdf
+LC-0341	20	36	Individual Rationality	exact_linear	exact_structure_reference	OBSERVE	D11	20_Game_Theory.pdf
+LC-0342	20	37	VCG Payment Rule	exact_linear	exact_structure_reference	OBSERVE	D11	20_Game_Theory.pdf
+LC-0343	20	38	Revenue Equivalence Theorem	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0344	20	39	Second-Price Auction Truthfulness	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0345	20	40	First-Price Auction Equilibrium Bid	structural_analogue	structural_reference	OBSERVE		20_Game_Theory.pdf
+LC-0346	20	41	Myerson Virtual Valuation	exact_linear	exact_structure_reference	OBSERVE	D11	20_Game_Theory.pdf
+LC-0347	20	42	Myerson–Satterthwaite Impossibility	exact_linear	exact_structure_reference	OBSERVE	D11	20_Game_Theory.pdf
+LC-0348	20	43	Signalling Single-Crossing Condition	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0349	20	44	Spence Education Signalling	structural_analogue	structural_reference	OBSERVE	D11	20_Game_Theory.pdf
+LC-0350	20	45	Characteristic Function	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0351	20	46	Superadditivity	exact_linear	exact_structure_reference	OBSERVE	D11	20_Game_Theory.pdf
+LC-0352	20	47	The Core	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0353	20	48	Bondareva–Shapley Theorem	exact_linear	exact_structure_reference	OBSERVE	D11	20_Game_Theory.pdf
+LC-0354	20	49	Nucleolus	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0355	20	50	Shapley–Shubik Power Index	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0356	20	51	Banzhaf Power Index	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0357	20	52	Gale–Shapley Stability	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0358	20	53	Evolutionarily Stable Strategy	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0359	20	54	Replicator Dynamics	linearized	approximate_transform_candidate	OBSERVE	D13;D2	20_Game_Theory.pdf
+LC-0360	20	55	Hawk–Dove Equilibrium	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0361	20	56	Hamilton’s Rule	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0362	20	57	Price Equation	exact_linear	exact_structure_reference	OBSERVE		20_Game_Theory.pdf
+LC-0363	20	58	Fictitious Play Belief Update	exact_linear	exact_structure_reference	OBSERVE	D11	20_Game_Theory.pdf
+LC-0364	20	59	Multiplicative Weights Update	exact_linear	exact_structure_reference	OBSERVE	D11	20_Game_Theory.pdf
+LC-0365	20	60	Nash Equilibrium Computation Complexity	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	20_Game_Theory.pdf
+LC-0366	21	1	Newton’s First Law	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0367	21	2	Newton’s Second Law	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0368	21	3	Newton’s Third Law	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0369	21	4	Linear Momentum Conservation	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0370	21	5	Impulse–Momentum Theorem	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0371	21	6	Coeﬀicient of Restitution	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0372	21	7	Rocket Equation (Tsiolkovsky)	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0373	21	8	Centre of Mass	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0374	21	9	Variable Mass (Meshchersky) Equation	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0375	21	10	Friction Laws	exact_linear	exact_structure_reference	OBSERVE	D4	21_Classical_Mechanics.pdf
+LC-0376	21	11	Drag Force	linearized	approximate_transform_candidate	OBSERVE	D13	21_Classical_Mechanics.pdf
+LC-0377	21	12	Terminal Velocity	linearized	approximate_transform_candidate	OBSERVE	D13	21_Classical_Mechanics.pdf
+LC-0378	21	13	Work–Energy Theorem	exact_linear	exact_structure_reference	OBSERVE	D11	21_Classical_Mechanics.pdf
+LC-0379	21	14	Kinetic Energy	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0380	21	15	Gravitational Potential Energy (Uniform Field)	exact_linear	exact_structure_reference	OBSERVE	D11	21_Classical_Mechanics.pdf
+LC-0381	21	16	Conservative Force and Potential	exact_linear	exact_structure_reference	OBSERVE	D11	21_Classical_Mechanics.pdf
+LC-0382	21	17	Conservation of Mechanical Energy	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0383	21	18	Power	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0384	21	19	Effective Potential	exact_linear	exact_structure_reference	OBSERVE	D11	21_Classical_Mechanics.pdf
+LC-0385	21	20	Virial Theorem	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0386	21	21	Angular Momentum	exact_linear	exact_structure_reference	OBSERVE	D2	21_Classical_Mechanics.pdf
+LC-0387	21	22	Torque	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0388	21	23	Rotational Kinetic Energy	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0389	21	24	Parallel Axis Theorem	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0390	21	25	Inertia Tensor	exact_linear	exact_structure_reference	OBSERVE	D2	21_Classical_Mechanics.pdf
+LC-0391	21	26	Euler’s Rigid Body Equations	linearized	approximate_transform_candidate	OBSERVE	D13;D2	21_Classical_Mechanics.pdf
+LC-0392	21	27	Rolling Without Slipping	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0393	21	28	Gyroscopic Precession Rate	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0394	21	29	Centripetal Acceleration	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0395	21	30	Coriolis Acceleration	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0396	21	31	Centrifugal Acceleration	exact_linear	exact_structure_reference	OBSERVE	D11	21_Classical_Mechanics.pdf
+LC-0397	21	32	Simple Harmonic Motion	exact_linear	exact_structure_reference	OBSERVE	D2	21_Classical_Mechanics.pdf
+LC-0398	21	33	Simple Pendulum Period	linearized	approximate_transform_candidate	OBSERVE	D13	21_Classical_Mechanics.pdf
+LC-0399	21	34	Physical Pendulum Period	linearized	approximate_transform_candidate	OBSERVE	D13;D11	21_Classical_Mechanics.pdf
+LC-0400	21	35	Quality Factor	exact_linear	exact_structure_reference	OBSERVE	D2	21_Classical_Mechanics.pdf
+LC-0401	21	36	Coupled Oscillator Normal Modes	exact_linear	exact_structure_reference	OBSERVE	D2	21_Classical_Mechanics.pdf
+LC-0402	21	37	Newton’s Law of Gravitation	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0403	21	38	Gravitational Potential Energy (Two Bodies)	exact_linear	exact_structure_reference	OBSERVE	D11;D2	21_Classical_Mechanics.pdf
+LC-0404	21	39	Escape Velocity	structural_analogue	structural_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0405	21	40	Kepler’s Third Law	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0406	21	41	Vis-Viva Equation	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0407	21	42	Reduced Mass	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0408	21	43	Rutherford Scattering Cross Section	exact_linear	exact_structure_reference	OBSERVE	D12	21_Classical_Mechanics.pdf
+LC-0409	21	44	Tidal Force	exact_linear	exact_structure_reference	OBSERVE	D11;D2	21_Classical_Mechanics.pdf
+LC-0410	21	45	Lagrangian	exact_linear	exact_structure_reference	OBSERVE	D11	21_Classical_Mechanics.pdf
+LC-0411	21	46	Principle of Stationary Action	exact_linear	exact_structure_reference	OBSERVE	D11	21_Classical_Mechanics.pdf
+LC-0412	21	47	Euler–Lagrange Equations of Motion	exact_linear	exact_structure_reference	OBSERVE	D11	21_Classical_Mechanics.pdf
+LC-0413	21	48	Generalised Momentum	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0414	21	49	Noether’s Theorem	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0415	21	50	Lagrange Multipliers for Constraints	exact_linear	exact_structure_reference	OBSERVE	D11	21_Classical_Mechanics.pdf
+LC-0416	21	51	D’Alembert’s Principle	exact_linear	exact_structure_reference	OBSERVE	D11	21_Classical_Mechanics.pdf
+LC-0417	21	52	Hamiltonian	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0418	21	53	Hamilton’s Canonical Equations	exact_linear	exact_structure_reference	OBSERVE	D2	21_Classical_Mechanics.pdf
+LC-0419	21	54	Canonical Transformation Condition	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0420	21	55	Generating Function Relations	exact_linear	exact_structure_reference	OBSERVE	D11	21_Classical_Mechanics.pdf
+LC-0421	21	56	Adiabatic Invariant	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0422	21	57	Small Oscillations About Equilibrium	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0423	21	58	Routhian Reduction	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0424	21	59	Larmor Formula	exact_linear	exact_structure_reference	OBSERVE		21_Classical_Mechanics.pdf
+LC-0425	21	60	Chaos Onset Criterion (Lyapunov Time)	exact_linear	exact_structure_reference	OBSERVE	D2	21_Classical_Mechanics.pdf
+LC-0426	22	1	Deformation Gradient	exact_linear	exact_structure_reference	OBSERVE	D11	22_Continuum_Mechanics.pdf
+LC-0427	22	2	Jacobian of Deformation	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0428	22	3	Polar Decomposition	exact_linear	exact_structure_reference	OBSERVE	D2	22_Continuum_Mechanics.pdf
+LC-0429	22	4	Right Cauchy–Green Tensor	exact_linear	exact_structure_reference	OBSERVE	D2	22_Continuum_Mechanics.pdf
+LC-0430	22	5	Green–Lagrange Strain	linearized	approximate_transform_candidate	OBSERVE	D13;D11	22_Continuum_Mechanics.pdf
+LC-0431	22	6	Infinitesimal Strain Tensor	exact_linear	exact_structure_reference	OBSERVE	D11	22_Continuum_Mechanics.pdf
+LC-0432	22	7	Volumetric and Deviatoric Split	exact_linear	exact_structure_reference	OBSERVE	D4	22_Continuum_Mechanics.pdf
+LC-0433	22	8	Compatibility Condition	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0434	22	9	Velocity Gradient	exact_linear	exact_structure_reference	OBSERVE	D11	22_Continuum_Mechanics.pdf
+LC-0435	22	10	Rate of Deformation and Spin	exact_linear	exact_structure_reference	OBSERVE	D11	22_Continuum_Mechanics.pdf
+LC-0436	22	11	Material (Total) Derivative	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0437	22	12	Reynolds Transport Theorem	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0438	22	13	Cauchy Stress Tensor	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0439	22	14	Symmetry of Cauchy Stress	exact_linear	exact_structure_reference	OBSERVE	D2	22_Continuum_Mechanics.pdf
+LC-0440	22	15	First Piola–Kirchhoff Stress	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0441	22	16	Second Piola–Kirchhoff Stress	exact_linear	exact_structure_reference	OBSERVE	D11	22_Continuum_Mechanics.pdf
+LC-0442	22	17	Conservation of Mass (Continuity)	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0443	22	18	Cauchy’s Equation of Motion	exact_linear	exact_structure_reference	OBSERVE	D11	22_Continuum_Mechanics.pdf
+LC-0444	22	19	Static Equilibrium	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0445	22	20	Energy Balance	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0446	22	21	Clausius–Duhem Inequality	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0447	22	22	Principal Stresses	exact_linear	exact_structure_reference	OBSERVE	D2	22_Continuum_Mechanics.pdf
+LC-0448	22	23	Stress Invariants	exact_linear	exact_structure_reference	OBSERVE	D2	22_Continuum_Mechanics.pdf
+LC-0449	22	24	Von Mises Equivalent Stress	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0450	22	25	Mohr’s Circle Relations	exact_linear	exact_structure_reference	OBSERVE	D2	22_Continuum_Mechanics.pdf
+LC-0451	22	26	Maximum Shear Stress	exact_linear	exact_structure_reference	OBSERVE	D2	22_Continuum_Mechanics.pdf
+LC-0452	22	27	Generalised Hooke’s Law	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0453	22	28	Isotropic Hooke’s Law	exact_linear	exact_structure_reference	OBSERVE	D2;D4	22_Continuum_Mechanics.pdf
+LC-0454	22	29	Elastic Modulus Relations	exact_linear	exact_structure_reference	OBSERVE	D2	22_Continuum_Mechanics.pdf
+LC-0455	22	30	Uniaxial Hooke’s Law	exact_linear	exact_structure_reference	OBSERVE	D2	22_Continuum_Mechanics.pdf
+LC-0456	22	31	Poisson’s Ratio	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0457	22	32	Navier–Cauchy Equations	exact_linear	exact_structure_reference	OBSERVE	D2	22_Continuum_Mechanics.pdf
+LC-0458	22	33	P-Wave and S-Wave Speeds	exact_linear	exact_structure_reference	OBSERVE	D2	22_Continuum_Mechanics.pdf
+LC-0459	22	34	Strain Energy Density	exact_linear	exact_structure_reference	OBSERVE	D11	22_Continuum_Mechanics.pdf
+LC-0460	22	35	Airy Stress Function	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0461	22	36	Stress Concentration Factor	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0462	22	37	Stress Intensity Factor	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0463	22	38	Griﬀith Fracture Criterion	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0464	22	39	Energy Release Rate	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0465	22	40	Paris Law	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0466	22	41	Hyperelastic Constitutive Relation	linearized	approximate_transform_candidate	OBSERVE	D13;D11	22_Continuum_Mechanics.pdf
+LC-0467	22	42	Neo-Hookean Model	linearized	approximate_transform_candidate	OBSERVE	D13	22_Continuum_Mechanics.pdf
+LC-0468	22	43	Mooney–Rivlin Model	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0469	22	44	Ogden Model	exact_linear	exact_structure_reference	OBSERVE	D2;D4	22_Continuum_Mechanics.pdf
+LC-0470	22	45	Von Mises Yield Criterion	exact_linear	exact_structure_reference	OBSERVE	D11	22_Continuum_Mechanics.pdf
+LC-0471	22	46	Tresca Yield Criterion	exact_linear	exact_structure_reference	OBSERVE	D2	22_Continuum_Mechanics.pdf
+LC-0472	22	47	Mohr–Coulomb Criterion	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0473	22	48	Drucker–Prager Criterion	exact_linear	exact_structure_reference	OBSERVE	D11;D4	22_Continuum_Mechanics.pdf
+LC-0474	22	49	Associated Flow Rule	exact_linear	exact_structure_reference	OBSERVE	D11	22_Continuum_Mechanics.pdf
+LC-0475	22	50	Isotropic Hardening	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0476	22	51	Kinematic Hardening	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0477	22	52	Ramberg–Osgood Relation	linearized	approximate_transform_candidate	OBSERVE	D13	22_Continuum_Mechanics.pdf
+LC-0478	22	53	Maxwell Viscoelastic Model	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0479	22	54	Kelvin–Voigt Model	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0480	22	55	Standard Linear Solid	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0481	22	56	Boltzmann Superposition Integral	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0482	22	57	Complex Modulus	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0483	22	58	Time–Temperature Superposition (WLF)	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0484	22	59	Norton Creep Law	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0485	22	60	Larson–Miller Parameter	exact_linear	exact_structure_reference	OBSERVE		22_Continuum_Mechanics.pdf
+LC-0486	23	1	Thermal Strain	exact_linear	exact_structure_reference	OBSERVE	D2	23_Coupled_Mechanics.pdf
+LC-0487	23	2	Duhamel–Neumann Constitutive Law	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0488	23	3	Thermal Stress in Full Constraint	exact_linear	exact_structure_reference	OBSERVE	D11	23_Coupled_Mechanics.pdf
+LC-0489	23	4	Coupled Heat Equation with Deformation	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0490	23	5	Thermoelastic Damping (Zener)	exact_linear	exact_structure_reference	OBSERVE	D2	23_Coupled_Mechanics.pdf
+LC-0491	23	6	Biot Number	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0492	23	7	Thermal Shock Resistance Parameter	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0493	23	8	Thermal Buckling Load	exact_linear	exact_structure_reference	OBSERVE	D2	23_Coupled_Mechanics.pdf
+LC-0494	23	9	Terzaghi Effective Stress	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0495	23	10	Biot Effective Stress	exact_linear	exact_structure_reference	OBSERVE	D2	23_Coupled_Mechanics.pdf
+LC-0496	23	11	Biot Poroelastic Constitutive Law	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0497	23	12	Fluid Content Storage Equation	exact_linear	exact_structure_reference	OBSERVE	D11;D2	23_Coupled_Mechanics.pdf
+LC-0498	23	13	Darcy’s Law	exact_linear	exact_structure_reference	OBSERVE	D11;D2	23_Coupled_Mechanics.pdf
+LC-0499	23	14	Terzaghi Consolidation Equation	exact_linear	exact_structure_reference	OBSERVE	D2	23_Coupled_Mechanics.pdf
+LC-0500	23	15	Degree of Consolidation	exact_linear	exact_structure_reference	OBSERVE	D2	23_Coupled_Mechanics.pdf
+LC-0501	23	16	Skempton Coeﬀicient	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0502	23	17	Poroelastic Wave Speeds (Biot)	exact_linear	exact_structure_reference	OBSERVE	D2	23_Coupled_Mechanics.pdf
+LC-0503	23	18	Kozeny–Carman Permeability	structural_analogue	structural_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0504	23	19	Richards Equation	linearized	approximate_transform_candidate	OBSERVE	D13	23_Coupled_Mechanics.pdf
+LC-0505	23	20	Kinematic Interface Condition	exact_linear	exact_structure_reference	OBSERVE	D11	23_Coupled_Mechanics.pdf
+LC-0506	23	21	Dynamic Interface Condition	exact_linear	exact_structure_reference	OBSERVE	D11	23_Coupled_Mechanics.pdf
+LC-0507	23	22	Added Mass Coeﬀicient	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0508	23	23	Reduced Velocity	exact_linear	exact_structure_reference	OBSERVE	D2	23_Coupled_Mechanics.pdf
+LC-0509	23	24	Strouhal Number	linearized	approximate_transform_candidate	OBSERVE	D13;D2	23_Coupled_Mechanics.pdf
+LC-0510	23	25	Flutter Speed (Binary Model)	exact_linear	exact_structure_reference	OBSERVE	D2	23_Coupled_Mechanics.pdf
+LC-0511	23	26	Divergence Speed	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0512	23	27	Theodorsen Function	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0513	23	28	Womersley Number	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0514	23	29	Moens–Korteweg Pulse Wave Velocity	exact_linear	exact_structure_reference	OBSERVE	D2	23_Coupled_Mechanics.pdf
+LC-0515	23	30	Water Hammer (Joukowsky) Pressure Rise	exact_linear	exact_structure_reference	OBSERVE	D2	23_Coupled_Mechanics.pdf
+LC-0516	23	31	Piezoelectric Constitutive Equations	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0517	23	32	Electromechanical Coupling Factor	exact_linear	exact_structure_reference	OBSERVE	D2	23_Coupled_Mechanics.pdf
+LC-0518	23	33	Electrostrictive Strain	linearized	approximate_transform_candidate	OBSERVE	D13	23_Coupled_Mechanics.pdf
+LC-0519	23	34	Maxwell Stress Tensor	exact_linear	exact_structure_reference	OBSERVE	D2	23_Coupled_Mechanics.pdf
+LC-0520	23	35	Electrostatic Pull-In Voltage	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0521	23	36	Magnetostrictive Strain	linearized	approximate_transform_candidate	OBSERVE	D13	23_Coupled_Mechanics.pdf
+LC-0522	23	37	Villari (Inverse Magnetostrictive) Effect	linearized	approximate_transform_candidate	OBSERVE	D13	23_Coupled_Mechanics.pdf
+LC-0523	23	38	Magnetohydrodynamic Induction Equation	exact_linear	exact_structure_reference	OBSERVE	D2	23_Coupled_Mechanics.pdf
+LC-0524	23	39	Lorentz Force Density	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0525	23	40	Magnetic Reynolds Number	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0526	23	41	Hartmann Number	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0527	23	42	Chemical Potential with Stress	exact_linear	exact_structure_reference	OBSERVE	D10	23_Coupled_Mechanics.pdf
+LC-0528	23	43	Stress-Assisted Diffusion Flux	exact_linear	exact_structure_reference	OBSERVE	D11;D10	23_Coupled_Mechanics.pdf
+LC-0529	23	44	Diffusion-Induced Stress	exact_linear	exact_structure_reference	OBSERVE	D10	23_Coupled_Mechanics.pdf
+LC-0530	23	45	Swelling Pressure (Flory–Rehner)	linearized	approximate_transform_candidate	OBSERVE	D13	23_Coupled_Mechanics.pdf
+LC-0531	23	46	Poroelastic Swelling Time	exact_linear	exact_structure_reference	OBSERVE	D2	23_Coupled_Mechanics.pdf
+LC-0532	23	47	Nernst–Planck Equation	linearized	approximate_transform_candidate	OBSERVE	D13	23_Coupled_Mechanics.pdf
+LC-0533	23	48	Poisson–Boltzmann Equation	linearized	approximate_transform_candidate	OBSERVE	D13;D2	23_Coupled_Mechanics.pdf
+LC-0534	23	49	Debye Length	exact_linear	exact_structure_reference	OBSERVE	D2	23_Coupled_Mechanics.pdf
+LC-0535	23	50	Electroosmotic Velocity (Smoluchowski)	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0536	23	51	Electrophoretic Mobility	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0537	23	52	Streaming Potential	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0538	23	53	Onsager Reciprocal Relations	exact_linear	exact_structure_reference	OBSERVE	D11;D2	23_Coupled_Mechanics.pdf
+LC-0539	23	54	Thermoelectric Coupled Transport	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0540	23	55	Thermoelectric Figure of Merit	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0541	23	56	Soret (Thermodiffusion) Flux	exact_linear	exact_structure_reference	OBSERVE	D11;D10	23_Coupled_Mechanics.pdf
+LC-0542	23	57	Dufour Effect	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0543	23	58	Coupled Field Problem Monolithic Form	exact_linear	exact_structure_reference	OBSERVE	D11	23_Coupled_Mechanics.pdf
+LC-0544	23	59	Added Mass Instability Criterion (Partitioned FSI)	exact_linear	exact_structure_reference	OBSERVE	D2	23_Coupled_Mechanics.pdf
+LC-0545	23	60	Coupling Strength (Dimensionless)	exact_linear	exact_structure_reference	OBSERVE		23_Coupled_Mechanics.pdf
+LC-0546	27	1	Boltzmann Entropy	exact_linear	exact_structure_reference	OBSERVE		27_Statistical_Mechanics.pdf
+LC-0547	27	2	Gibbs Entropy	exact_linear	exact_structure_reference	OBSERVE	D2	27_Statistical_Mechanics.pdf
+LC-0548	27	3	Microcanonical Ensemble	exact_linear	exact_structure_reference	OBSERVE	D2;D4	27_Statistical_Mechanics.pdf
+LC-0549	27	4	Boltzmann Distribution	exact_linear	exact_structure_reference	OBSERVE	D11	27_Statistical_Mechanics.pdf
+LC-0550	27	5	Canonical Partition Function	exact_linear	exact_structure_reference	OBSERVE	D2	27_Statistical_Mechanics.pdf
+LC-0551	27	6	Free Energy from the Partition Function	exact_linear	exact_structure_reference	OBSERVE	D11	27_Statistical_Mechanics.pdf
+LC-0552	27	7	Average Energy	exact_linear	exact_structure_reference	OBSERVE	D11	27_Statistical_Mechanics.pdf
+LC-0553	27	8	Energy Fluctuation and Heat Capacity	exact_linear	exact_structure_reference	OBSERVE	D11	27_Statistical_Mechanics.pdf
+LC-0554	27	9	Grand Canonical Partition Function	exact_linear	exact_structure_reference	OBSERVE	D11	27_Statistical_Mechanics.pdf
+LC-0555	27	10	Classical Phase Space Partition Function	exact_linear	exact_structure_reference	OBSERVE		27_Statistical_Mechanics.pdf
+LC-0556	27	11	Equipartition Theorem	exact_linear	exact_structure_reference	OBSERVE	D11	27_Statistical_Mechanics.pdf
+LC-0557	27	12	Maxwell–Boltzmann Speed Distribution	exact_linear	exact_structure_reference	OBSERVE		27_Statistical_Mechanics.pdf
+LC-0558	27	13	Characteristic Speeds	exact_linear	exact_structure_reference	OBSERVE	D11	27_Statistical_Mechanics.pdf
+LC-0559	27	14	Barometric Formula	exact_linear	exact_structure_reference	OBSERVE		27_Statistical_Mechanics.pdf
+LC-0560	27	15	Ideal Gas Partition Function	exact_linear	exact_structure_reference	OBSERVE		27_Statistical_Mechanics.pdf
+LC-0561	27	16	Sackur–Tetrode Equation	exact_linear	exact_structure_reference	OBSERVE		27_Statistical_Mechanics.pdf
+LC-0562	27	17	Density of States	exact_linear	exact_structure_reference	OBSERVE	D2	27_Statistical_Mechanics.pdf
+LC-0563	27	18	Factorisation of Molecular Partition Functions	exact_linear	exact_structure_reference	OBSERVE		27_Statistical_Mechanics.pdf
+LC-0564	27	19	Vibrational Partition Function	exact_linear	exact_structure_reference	OBSERVE	D2	27_Statistical_Mechanics.pdf
+LC-0565	27	20	Einstein Solid Heat Capacity	exact_linear	exact_structure_reference	OBSERVE	D2	27_Statistical_Mechanics.pdf
+LC-0566	27	21	Debye Heat Capacity	exact_linear	exact_structure_reference	OBSERVE	D2	27_Statistical_Mechanics.pdf
+LC-0567	27	22	Fermi–Dirac Distribution	exact_linear	exact_structure_reference	OBSERVE	D2	27_Statistical_Mechanics.pdf
+LC-0568	27	23	Bose–Einstein Distribution	exact_linear	exact_structure_reference	OBSERVE	D2	27_Statistical_Mechanics.pdf
+LC-0569	27	24	Fermi Energy	exact_linear	exact_structure_reference	OBSERVE	D2	27_Statistical_Mechanics.pdf
+LC-0570	27	25	Sommerfeld Expansion	exact_linear	exact_structure_reference	OBSERVE	D8	27_Statistical_Mechanics.pdf
+LC-0571	27	26	Degeneracy Pressure	exact_linear	exact_structure_reference	OBSERVE	D2	27_Statistical_Mechanics.pdf
+LC-0572	27	27	Bose–Einstein Condensation Temperature	exact_linear	exact_structure_reference	OBSERVE	D2	27_Statistical_Mechanics.pdf
+LC-0573	27	28	Planck Distribution	exact_linear	exact_structure_reference	OBSERVE	D2	27_Statistical_Mechanics.pdf
+LC-0574	27	29	Rayleigh–Jeans and Wien Limits	exact_linear	exact_structure_reference	OBSERVE	D2	27_Statistical_Mechanics.pdf
+LC-0575	27	30	Photon Gas Thermodynamics	exact_linear	exact_structure_reference	OBSERVE	D2	27_Statistical_Mechanics.pdf
+LC-0576	27	31	Ising Model Hamiltonian	exact_linear	exact_structure_reference	OBSERVE	D2	27_Statistical_Mechanics.pdf
+LC-0577	27	32	Mean Field Self-Consistency	linearized	approximate_transform_candidate	OBSERVE	D13	27_Statistical_Mechanics.pdf
+LC-0578	27	33	Curie–Weiss Law	exact_linear	exact_structure_reference	OBSERVE	D11;D2	27_Statistical_Mechanics.pdf
+LC-0579	27	34	Onsager Exact 2-D Ising Solution	exact_linear	exact_structure_reference	OBSERVE	D2	27_Statistical_Mechanics.pdf
+LC-0580	27	35	Order Parameter	exact_linear	exact_structure_reference	OBSERVE	D2;D4	27_Statistical_Mechanics.pdf
+LC-0581	27	36	Critical Exponents	linearized	approximate_transform_candidate	OBSERVE	D13;D2	27_Statistical_Mechanics.pdf
+LC-0582	27	37	Scaling Relations	exact_linear	exact_structure_reference	OBSERVE	D2	27_Statistical_Mechanics.pdf
+LC-0583	27	38	Landau Free Energy Expansion	linearized	approximate_transform_candidate	OBSERVE	D13;D11;D2	27_Statistical_Mechanics.pdf
+LC-0584	27	39	Ginzburg–Landau Functional	linearized	approximate_transform_candidate	OBSERVE	D13;D2	27_Statistical_Mechanics.pdf
+LC-0585	27	40	Correlation Function	exact_linear	exact_structure_reference	OBSERVE	D2	27_Statistical_Mechanics.pdf
+LC-0586	27	41	Fluctuation–Dissipation (Susceptibility Sum Rule)	exact_linear	exact_structure_reference	OBSERVE		27_Statistical_Mechanics.pdf
+LC-0587	27	42	Renormalisation Group Recursion	linearized	approximate_transform_candidate	OBSERVE	D13;D2	27_Statistical_Mechanics.pdf
+LC-0588	27	43	Universality Class	linearized	approximate_transform_candidate	OBSERVE	D13;D2	27_Statistical_Mechanics.pdf
+LC-0589	27	44	Upper Critical Dimension	linearized	approximate_transform_candidate	OBSERVE	D13;D2	27_Statistical_Mechanics.pdf
+LC-0590	27	45	Percolation Threshold	exact_linear	exact_structure_reference	OBSERVE	D2	27_Statistical_Mechanics.pdf
+LC-0591	27	46	Transfer Matrix Method	exact_linear	exact_structure_reference	OBSERVE		27_Statistical_Mechanics.pdf
+LC-0592	27	47	Mermin–Wagner Theorem	exact_linear	exact_structure_reference	OBSERVE	D2	27_Statistical_Mechanics.pdf
+LC-0593	27	48	Kosterlitz–Thouless Transition	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14;D2	27_Statistical_Mechanics.pdf
+LC-0594	27	49	Boltzmann Transport Equation	linearized	approximate_transform_candidate	OBSERVE	D13	27_Statistical_Mechanics.pdf
+LC-0595	27	50	H-Theorem	exact_linear	exact_structure_reference	OBSERVE	D11	27_Statistical_Mechanics.pdf
+LC-0596	27	51	Langevin Equation	exact_linear	exact_structure_reference	OBSERVE		27_Statistical_Mechanics.pdf
+LC-0597	27	52	Einstein Relation	exact_linear	exact_structure_reference	OBSERVE	D2;D10	27_Statistical_Mechanics.pdf
+LC-0598	27	53	Stokes–Einstein Relation	exact_linear	exact_structure_reference	OBSERVE	D10	27_Statistical_Mechanics.pdf
+LC-0599	27	54	Mean Squared Displacement	exact_linear	exact_structure_reference	OBSERVE	D10	27_Statistical_Mechanics.pdf
+LC-0600	27	55	Green–Kubo Relations	exact_linear	exact_structure_reference	OBSERVE		27_Statistical_Mechanics.pdf
+LC-0601	27	56	Fluctuation–Dissipation Theorem	exact_linear	exact_structure_reference	OBSERVE	D2	27_Statistical_Mechanics.pdf
+LC-0602	27	57	Onsager Regression Hypothesis	exact_linear	exact_structure_reference	OBSERVE		27_Statistical_Mechanics.pdf
+LC-0603	27	58	Jarzynski Equality	structural_analogue	structural_reference	OBSERVE		27_Statistical_Mechanics.pdf
+LC-0604	27	59	Crooks Fluctuation Theorem	structural_analogue	structural_reference	OBSERVE		27_Statistical_Mechanics.pdf
+LC-0605	27	60	Landauer’s Principle	exact_linear	exact_structure_reference	OBSERVE		27_Statistical_Mechanics.pdf
+LC-0606	32	1	State Vector and Born Rule	exact_linear	quantum_semantic_candidate	OBSERVE	D4	32_Quantum_Mechanics.pdf
+LC-0607	32	2	Normalisation	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0608	32	3	Observables as Hermitian Operators	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0609	32	4	Expectation Value	exact_linear	quantum_semantic_candidate	OBSERVE	D11;D2	32_Quantum_Mechanics.pdf
+LC-0610	32	5	Completeness (Resolution of Identity)	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0611	32	6	Canonical Commutation Relation	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0612	32	7	Heisenberg Uncertainty Relation	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0613	32	8	Energy–Time Uncertainty	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0614	32	9	Time-Dependent Schrödinger Equation	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0615	32	10	Time-Independent Schrödinger Equation	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0616	32	11	Time Evolution Operator	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0617	32	12	Heisenberg Equation of Motion	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0618	32	13	Ehrenfest’s Theorem	exact_linear	quantum_semantic_candidate	OBSERVE	D11	32_Quantum_Mechanics.pdf
+LC-0619	32	14	Probability Current	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0620	32	15	Density Matrix	exact_linear	quantum_semantic_candidate	OBSERVE	D11;D2	32_Quantum_Mechanics.pdf
+LC-0621	32	16	Von Neumann Equation	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0622	32	17	Feynman Path Integral	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0623	32	18	Infinite Square Well	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0624	32	19	Finite Square Well Bound States	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0625	32	20	Quantum Harmonic Oscillator	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0626	32	21	Ladder Operators	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0627	32	22	Coherent State	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0628	32	23	Quantum Tunnelling Transmission	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0629	32	24	WKB Tunnelling Integral	linearized	approximate_transform_candidate	OBSERVE	D13;D2	32_Quantum_Mechanics.pdf
+LC-0630	32	25	Hydrogen Atom Energy Levels	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0631	32	26	Bohr Radius	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0632	32	27	Hydrogen Wavefunctions	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0633	32	28	Rydberg Formula	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0634	32	29	Fine Structure Constant	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0635	32	30	Fine Structure Splitting	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0636	32	31	Angular Momentum Commutation	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0637	32	32	Angular Momentum Eigenvalues	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0638	32	33	Spin-1/2 Pauli Matrices	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0639	32	34	Spin Magnetic Moment	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0640	32	35	Zeeman Effect	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0641	32	36	Landé g-Factor	exact_linear	quantum_semantic_candidate	OBSERVE	D4	32_Quantum_Mechanics.pdf
+LC-0642	32	37	Spin–Orbit Coupling	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0643	32	38	Clebsch–Gordan Addition	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0644	32	39	Wigner–Eckart Theorem	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0645	32	40	Electric Dipole Selection Rules	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0646	32	41	Time-Independent Perturbation Theory	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0647	32	42	Degenerate Perturbation Theory	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0648	32	43	Variational Principle	exact_linear	quantum_semantic_candidate	OBSERVE	D11	32_Quantum_Mechanics.pdf
+LC-0649	32	44	Fermi’s Golden Rule	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0650	32	45	Rabi Oscillation	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0651	32	46	Adiabatic Theorem	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0652	32	47	Born Approximation	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0653	32	48	Partial Wave Expansion	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0654	32	49	Optical Theorem	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0655	32	50	Scattering Cross Section	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0656	32	51	Symmetrisation Postulate	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0657	32	52	Pauli Exclusion Principle	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0658	32	53	Slater Determinant	exact_linear	quantum_semantic_candidate	OBSERVE	D11	32_Quantum_Mechanics.pdf
+LC-0659	32	54	Exchange Interaction	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0660	32	55	Entangled State (Bell State)	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0661	32	56	CHSH Bell Inequality	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0662	32	57	No-Cloning Theorem	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0663	32	58	Von Neumann Entropy	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0664	32	59	Decoherence Rate	exact_linear	quantum_semantic_candidate	OBSERVE	D2	32_Quantum_Mechanics.pdf
+LC-0665	32	60	Lindblad Master Equation	exact_linear	quantum_semantic_candidate	OBSERVE		32_Quantum_Mechanics.pdf
+LC-0666	57	1	Membrane Equation	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0667	57	2	Ohmic Ionic Current	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0668	57	3	Hodgkin–Huxley Equations	linearized	approximate_transform_candidate	OBSERVE	D13;D2	57_Computational_Neuroscience.pdf
+LC-0669	57	4	Gating Variable Kinetics	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0670	57	5	Boltzmann Activation Curve	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0671	57	6	Goldman–Hodgkin–Katz Current Equation	linearized	approximate_transform_candidate	OBSERVE	D13	57_Computational_Neuroscience.pdf
+LC-0672	57	7	Cable Equation	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0673	57	8	Length Constant	exact_linear	exact_structure_reference	OBSERVE	D2	57_Computational_Neuroscience.pdf
+LC-0674	57	9	Leaky Integrate-and-Fire Model	exact_linear	exact_structure_reference	OBSERVE	D2	57_Computational_Neuroscience.pdf
+LC-0675	57	10	LIF Firing Rate	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0676	57	11	Exponential Integrate-and-Fire	linearized	approximate_transform_candidate	OBSERVE	D13	57_Computational_Neuroscience.pdf
+LC-0677	57	12	Adaptive Exponential Model	exact_linear	exact_structure_reference	OBSERVE	D2	57_Computational_Neuroscience.pdf
+LC-0678	57	13	Izhikevich Model	linearized	approximate_transform_candidate	OBSERVE	D13	57_Computational_Neuroscience.pdf
+LC-0679	57	14	Morris–Lecar Model	linearized	approximate_transform_candidate	OBSERVE	D13	57_Computational_Neuroscience.pdf
+LC-0680	57	15	Type I and Type II Excitability	exact_linear	exact_structure_reference	OBSERVE	D2	57_Computational_Neuroscience.pdf
+LC-0681	57	16	Phase Response Curve	exact_linear	exact_structure_reference	OBSERVE	D11	57_Computational_Neuroscience.pdf
+LC-0682	57	17	Synaptic Conductance Kinetics	exact_linear	exact_structure_reference	OBSERVE	D12;D8	57_Computational_Neuroscience.pdf
+LC-0683	57	18	NMDA Magnesium Block	linearized	approximate_transform_candidate	OBSERVE	D13	57_Computational_Neuroscience.pdf
+LC-0684	57	19	Quantal Synaptic Release	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0685	57	20	Short-Term Depression	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0686	57	21	Short-Term Facilitation	exact_linear	exact_structure_reference	OBSERVE	D2	57_Computational_Neuroscience.pdf
+LC-0687	57	22	Hebbian Learning Rule	exact_linear	exact_structure_reference	OBSERVE	D2	57_Computational_Neuroscience.pdf
+LC-0688	57	23	Oja’s Rule	exact_linear	exact_structure_reference	OBSERVE	D2	57_Computational_Neuroscience.pdf
+LC-0689	57	24	BCM Rule	linearized	approximate_transform_candidate	OBSERVE	D13	57_Computational_Neuroscience.pdf
+LC-0690	57	25	Spike-Timing-Dependent Plasticity	exact_linear	exact_structure_reference	OBSERVE	D8	57_Computational_Neuroscience.pdf
+LC-0691	57	26	Calcium Control Hypothesis	linearized	approximate_transform_candidate	OBSERVE	D13	57_Computational_Neuroscience.pdf
+LC-0692	57	27	Synaptic Scaling	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0693	57	28	Rate Model	linearized	approximate_transform_candidate	OBSERVE	D13;D2	57_Computational_Neuroscience.pdf
+LC-0694	57	29	Wilson–Cowan Equations	linearized	approximate_transform_candidate	OBSERVE	D13;D2	57_Computational_Neuroscience.pdf
+LC-0695	57	30	Balanced Network Condition	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0696	57	31	Diffusion Approximation for Input	exact_linear	exact_structure_reference	OBSERVE	D10	57_Computational_Neuroscience.pdf
+LC-0697	57	32	Siegert Formula	exact_linear	exact_structure_reference	OBSERVE	D10	57_Computational_Neuroscience.pdf
+LC-0698	57	33	Hopfield Network Energy	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0699	57	34	Hopfield Storage Capacity	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0700	57	35	Ring Attractor Dynamics	exact_linear	exact_structure_reference	OBSERVE	D12;D2	57_Computational_Neuroscience.pdf
+LC-0701	57	36	Line Attractor for Integration	exact_linear	exact_structure_reference	OBSERVE	D2	57_Computational_Neuroscience.pdf
+LC-0702	57	37	Oscillation Frequency from Delayed Inhibition	linearized	approximate_transform_candidate	OBSERVE	D13	57_Computational_Neuroscience.pdf
+LC-0703	57	38	Kuramoto Synchronisation of Neurons	linearized	approximate_transform_candidate	OBSERVE	D13	57_Computational_Neuroscience.pdf
+LC-0704	57	39	Poisson Spike Model	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0705	57	40	Fano Factor of Spike Counts	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0706	57	41	Coeﬀicient of Variation of Intervals	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0707	57	42	Spike-Triggered Average	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0708	57	43	Linear–Nonlinear–Poisson Model	exact_linear	exact_structure_reference	OBSERVE	D2;D4	57_Computational_Neuroscience.pdf
+LC-0709	57	44	Generalised Linear Model for Spikes	exact_linear	exact_structure_reference	OBSERVE	D11	57_Computational_Neuroscience.pdf
+LC-0710	57	45	Mutual Information of a Neural Code	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0711	57	46	Direct Method Information Rate	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0712	57	47	Fisher Information for Neural Populations	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0713	57	48	Population Vector Decoding	exact_linear	exact_structure_reference	OBSERVE	D11	57_Computational_Neuroscience.pdf
+LC-0714	57	49	Maximum Likelihood Decoding	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0715	57	50	Signal Detection d-Prime	exact_linear	exact_structure_reference	OBSERVE	D11;D4	57_Computational_Neuroscience.pdf
+LC-0716	57	51	Neurometric–Psychometric Comparison	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0717	57	52	Eﬀicient Coding Principle	exact_linear	exact_structure_reference	OBSERVE	D11	57_Computational_Neuroscience.pdf
+LC-0718	57	53	Predictive Coding Error	exact_linear	exact_structure_reference	OBSERVE	D11;D4	57_Computational_Neuroscience.pdf
+LC-0719	57	54	Free Energy Principle	exact_linear	exact_structure_reference	OBSERVE	D11	57_Computational_Neuroscience.pdf
+LC-0720	57	55	Reinforcement Learning Prediction Error	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0721	57	56	BOLD Haemodynamic Response Function	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0722	57	57	General Linear Model for fMRI	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0723	57	58	Random Field Theory Correction	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0724	57	59	Dynamic Causal Modelling	exact_linear	exact_structure_reference	OBSERVE		57_Computational_Neuroscience.pdf
+LC-0725	57	60	Granger Causality	exact_linear	exact_structure_reference	OBSERVE	D11	57_Computational_Neuroscience.pdf
+LC-0726	58	1	Asymptotic Notation	structural_analogue	structural_reference	OBSERVE		58_Computer_Science.pdf
+LC-0727	58	2	Master Theorem	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0728	58	3	Akra–Bazzi Theorem	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0729	58	4	Merge Sort Recurrence	exact_linear	exact_structure_reference	OBSERVE	D11	58_Computer_Science.pdf
+LC-0730	58	5	Comparison Sort Lower Bound	structural_analogue	structural_reference	OBSERVE		58_Computer_Science.pdf
+LC-0731	58	6	Quicksort Expected Time	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0732	58	7	Binary Search	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0733	58	8	Amortised Analysis (Aggregate Method)	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0734	58	9	Potential Method	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0735	58	10	Union-Find Complexity	structural_analogue	structural_reference	OBSERVE		58_Computer_Science.pdf
+LC-0736	58	11	Fibonacci Heap Bounds	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0737	58	12	Hash Table Load Factor	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0738	58	13	Universal Hashing	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0739	58	14	Birthday Bound	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0740	58	15	Balanced Tree Height	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0741	58	16	B-Tree Height	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0742	58	17	Skip List Expected Height	structural_analogue	structural_reference	OBSERVE		58_Computer_Science.pdf
+LC-0743	58	18	Cache-Oblivious Complexity	structural_analogue	structural_reference	OBSERVE	D11	58_Computer_Science.pdf
+LC-0744	58	19	Complexity Class P	structural_analogue	structural_reference	OBSERVE		58_Computer_Science.pdf
+LC-0745	58	20	Complexity Class NP	structural_analogue	structural_reference	OBSERVE		58_Computer_Science.pdf
+LC-0746	58	21	Polynomial-Time Reduction	structural_analogue	structural_reference	OBSERVE		58_Computer_Science.pdf
+LC-0747	58	22	Cook–Levin Theorem	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	58_Computer_Science.pdf
+LC-0748	58	23	Space Hierarchy and Savitch’s Theorem	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0749	58	24	Time Hierarchy Theorem	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	58_Computer_Science.pdf
+LC-0750	58	25	Halting Problem Undecidability	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	58_Computer_Science.pdf
+LC-0751	58	26	Rice’s Theorem	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	58_Computer_Science.pdf
+LC-0752	58	27	Kolmogorov Complexity	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	58_Computer_Science.pdf
+LC-0753	58	28	Invariance Theorem	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0754	58	29	Approximation Ratio	exact_linear	exact_structure_reference	OBSERVE	D11;D4	58_Computer_Science.pdf
+LC-0755	58	30	PCP Theorem	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0756	58	31	Randomised Complexity Classes	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0757	58	32	Quantum Complexity BQP	exact_linear	exact_structure_reference	OBSERVE	D4	58_Computer_Science.pdf
+LC-0758	58	33	Grover Search Speedup	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0759	58	34	Shor Factoring Complexity	exact_linear	exact_structure_reference	OBSERVE	D12;D2	58_Computer_Science.pdf
+LC-0760	58	35	Graph Traversal Complexity	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0761	58	36	Dijkstra’s Algorithm	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0762	58	37	Bellman–Ford Complexity	exact_linear	exact_structure_reference	OBSERVE	D2	58_Computer_Science.pdf
+LC-0763	58	38	Floyd–Warshall All-Pairs	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0764	58	39	A* Search Admissibility	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0765	58	40	Minimum Spanning Tree Cut Property	exact_linear	exact_structure_reference	OBSERVE	D11	58_Computer_Science.pdf
+LC-0766	58	41	Max-Flow Min-Cut	exact_linear	exact_structure_reference	OBSERVE	D11	58_Computer_Science.pdf
+LC-0767	58	42	Edmonds–Karp Complexity	exact_linear	exact_structure_reference	OBSERVE	D11	58_Computer_Science.pdf
+LC-0768	58	43	Graph Colouring Bound	exact_linear	exact_structure_reference	OBSERVE	D2;D4	58_Computer_Science.pdf
+LC-0769	58	44	Strongly Connected Components	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0770	58	45	RSA Encryption	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0771	58	46	Diﬀie–Hellman Key Exchange	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0772	58	47	Elliptic Curve Discrete Log	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0773	58	48	Security Level in Bits	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0774	58	2	Structure: XOR is exactly vector addition over 𝔽2, and a uniform key makes the ciphertext uniform regardless	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0775	58	50	Hash Function Properties	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	58_Computer_Science.pdf
+LC-0776	58	51	Merkle Tree Proof Size	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0777	58	52	Amdahl’s Law	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0778	58	53	Gustafson’s Law	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0779	58	54	Average Memory Access Time	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0780	58	55	Cache Miss Categories	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0781	58	56	Instruction Pipeline Speedup	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0782	58	57	CPU Performance Equation	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0783	58	58	Little’s Law for Systems	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0784	58	59	Roofline Model	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0785	58	60	Shannon Entropy for Compression	exact_linear	exact_structure_reference	OBSERVE		58_Computer_Science.pdf
+LC-0786	59	1	Sample Moments	exact_linear	exact_structure_reference	OBSERVE	D11;D4	59_Data_Science.pdf
+LC-0787	59	2	Skewness and Kurtosis	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0788	59	3	Quantile Definition	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0789	59	4	Interquartile Range and Outlier Fence	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0790	59	5	Median Absolute Deviation	exact_linear	exact_structure_reference	OBSERVE	D11	59_Data_Science.pdf
+LC-0791	59	6	Winsorised and Trimmed Mean	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0792	59	7	Breakdown Point	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0793	59	8	Influence Function	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0794	59	9	Empirical CDF and Kolmogorov–Smirnov Distance	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0795	59	10	Population Stability Index	exact_linear	exact_structure_reference	OBSERVE	D4	59_Data_Science.pdf
+LC-0796	59	11	Minkowski Distance	exact_linear	exact_structure_reference	OBSERVE	D11	59_Data_Science.pdf
+LC-0797	59	12	Mahalanobis Distance	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0798	59	13	Cosine Similarity	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0799	59	14	Jaccard Index	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0800	59	15	Edit (Levenshtein) Distance	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0801	59	16	Earth Mover’s (Wasserstein) Distance	exact_linear	exact_structure_reference	OBSERVE	D11	59_Data_Science.pdf
+LC-0802	59	17	Kullback–Leibler Divergence	exact_linear	exact_structure_reference	OBSERVE	D11	59_Data_Science.pdf
+LC-0803	59	18	Jensen–Shannon Divergence	exact_linear	exact_structure_reference	OBSERVE	D11	59_Data_Science.pdf
+LC-0804	59	19	Locality-Sensitive Hashing	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0805	59	20	Curse of Dimensionality	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0806	59	21	Principal Component Analysis	exact_linear	exact_structure_reference	OBSERVE	D2	59_Data_Science.pdf
+LC-0807	59	22	Explained Variance Ratio	exact_linear	exact_structure_reference	OBSERVE	D2	59_Data_Science.pdf
+LC-0808	59	23	PCA via SVD	exact_linear	exact_structure_reference	OBSERVE	D11;D2	59_Data_Science.pdf
+LC-0809	59	24	Kernel PCA	exact_linear	exact_structure_reference	OBSERVE	D8	59_Data_Science.pdf
+LC-0810	59	25	Multidimensional Scaling	exact_linear	exact_structure_reference	OBSERVE	D2;D4	59_Data_Science.pdf
+LC-0811	59	26	Isomap Geodesic Distance	exact_linear	exact_structure_reference	OBSERVE	D2	59_Data_Science.pdf
+LC-0812	59	27	t-SNE Objective	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14;D11;D8	59_Data_Science.pdf
+LC-0813	59	28	UMAP Cross-Entropy Objective	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14;D11;D2	59_Data_Science.pdf
+LC-0814	59	29	Random Projection Bound	exact_linear	exact_structure_reference	OBSERVE	D4	59_Data_Science.pdf
+LC-0815	59	30	Non-Negative Matrix Factorisation	exact_linear	exact_structure_reference	OBSERVE	D11	59_Data_Science.pdf
+LC-0816	59	31	K-Means Objective	exact_linear	exact_structure_reference	OBSERVE	D2	59_Data_Science.pdf
+LC-0817	59	32	Silhouette Coeﬀicient	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0818	59	33	Elbow and Gap Statistic	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0819	59	34	Gaussian Mixture Model	exact_linear	exact_structure_reference	OBSERVE	D11	59_Data_Science.pdf
+LC-0820	59	35	EM Algorithm Steps	exact_linear	exact_structure_reference	OBSERVE	D11	59_Data_Science.pdf
+LC-0821	59	36	DBSCAN Density Criterion	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0822	59	37	Hierarchical Linkage Criteria	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0823	59	38	Spectral Clustering	exact_linear	exact_structure_reference	OBSERVE	D11;D2	59_Data_Science.pdf
+LC-0824	59	39	Adjusted Rand Index	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0825	59	40	Normalised Mutual Information	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0826	59	41	Autocorrelation Function	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0827	59	42	Stationarity Conditions	exact_linear	exact_structure_reference	OBSERVE	D2	59_Data_Science.pdf
+LC-0828	59	43	ARIMA Model	exact_linear	exact_structure_reference	OBSERVE	D2	59_Data_Science.pdf
+LC-0829	59	44	Exponential Smoothing	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0830	59	45	STL Decomposition	exact_linear	exact_structure_reference	OBSERVE	D11;D4	59_Data_Science.pdf
+LC-0831	59	46	Dynamic Time Warping	exact_linear	exact_structure_reference	OBSERVE	D11	59_Data_Science.pdf
+LC-0832	59	47	CUSUM Change Detection	exact_linear	exact_structure_reference	OBSERVE	D11	59_Data_Science.pdf
+LC-0833	59	48	EWMA Control Chart	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0834	59	49	Isolation Forest Anomaly Score	structural_analogue	structural_reference	OBSERVE		59_Data_Science.pdf
+LC-0835	59	50	Local Outlier Factor	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0836	59	51	A/B Test Sample Size	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0837	59	52	CUPED Variance Reduction	exact_linear	exact_structure_reference	OBSERVE	D11	59_Data_Science.pdf
+LC-0838	59	53	Sequential Testing Always-Valid p-Value	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0839	59	54	Sample Ratio Mismatch Test	exact_linear	exact_structure_reference	OBSERVE	D11	59_Data_Science.pdf
+LC-0840	59	55	Simpson’s Paradox	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	59_Data_Science.pdf
+LC-0841	59	56	Precision, Recall, and F1	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0842	59	57	Precision–Recall AUC	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0843	59	58	Normalised Discounted Cumulative Gain	exact_linear	exact_structure_reference	OBSERVE	D11	59_Data_Science.pdf
+LC-0844	59	59	Bootstrap Confidence Interval	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0845	59	60	Benford’s Law	exact_linear	exact_structure_reference	OBSERVE		59_Data_Science.pdf
+LC-0846	60	1	Empirical Risk Minimisation	exact_linear	exact_structure_reference	OBSERVE	D11	60_Machine_Learning.pdf
+LC-0847	60	2	Bias–Variance Decomposition	exact_linear	exact_structure_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0848	60	3	Double Descent	exact_linear	exact_structure_reference	OBSERVE	D2	60_Machine_Learning.pdf
+LC-0849	60	4	Squared Error Loss	exact_linear	exact_structure_reference	OBSERVE	D11;D4	60_Machine_Learning.pdf
+LC-0850	60	5	Absolute and Huber Loss	exact_linear	exact_structure_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0851	60	6	Cross-Entropy Loss	exact_linear	exact_structure_reference	OBSERVE	D11	60_Machine_Learning.pdf
+LC-0852	60	7	Softmax Function	exact_linear	exact_structure_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0853	60	8	Hinge Loss	exact_linear	exact_structure_reference	OBSERVE	D11	60_Machine_Learning.pdf
+LC-0854	60	9	Focal Loss	exact_linear	exact_structure_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0855	60	10	Regularised Objective	exact_linear	exact_structure_reference	OBSERVE	D11	60_Machine_Learning.pdf
+LC-0856	60	11	Ridge and Lasso Penalties	exact_linear	exact_structure_reference	OBSERVE	D11;D2	60_Machine_Learning.pdf
+LC-0857	60	12	Elastic Net	exact_linear	exact_structure_reference	OBSERVE	D11	60_Machine_Learning.pdf
+LC-0858	60	13	Generalisation Gap	exact_linear	exact_structure_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0859	60	14	VC Dimension Bound	exact_linear	exact_structure_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0860	60	15	Rademacher Complexity	exact_linear	exact_structure_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0861	60	16	PAC Learning Sample Complexity	exact_linear	exact_structure_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0862	60	17	Margin Bound	exact_linear	exact_structure_reference	OBSERVE	D8	60_Machine_Learning.pdf
+LC-0863	60	18	Bayes Error Rate	exact_linear	exact_structure_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0864	60	19	No Free Lunch for Learning	structural_analogue	structural_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0865	60	20	Cross-Validation Estimate	exact_linear	exact_structure_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0866	60	21	SVM Primal Problem	exact_linear	exact_structure_reference	OBSERVE	D11	60_Machine_Learning.pdf
+LC-0867	60	22	SVM Dual Problem	exact_linear	exact_structure_reference	OBSERVE	D11;D8	60_Machine_Learning.pdf
+LC-0868	60	23	Kernel Trick	exact_linear	exact_structure_reference	OBSERVE	D4;D8	60_Machine_Learning.pdf
+LC-0869	60	24	Common Kernels	exact_linear	exact_structure_reference	OBSERVE	D4;D8	60_Machine_Learning.pdf
+LC-0870	60	25	Representer Theorem	exact_linear	exact_structure_reference	OBSERVE	D11;D4;D8	60_Machine_Learning.pdf
+LC-0871	60	26	Gaussian Process Posterior	exact_linear	exact_structure_reference	OBSERVE	D8	60_Machine_Learning.pdf
+LC-0872	60	27	Bagging Variance Reduction	exact_linear	exact_structure_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0873	60	28	Random Forest Feature Subsampling	exact_linear	exact_structure_reference	OBSERVE	D11	60_Machine_Learning.pdf
+LC-0874	60	29	Out-of-Bag Error	exact_linear	exact_structure_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0875	60	30	AdaBoost Weight Update	exact_linear	exact_structure_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0876	60	31	Gradient Boosting	exact_linear	exact_structure_reference	OBSERVE	D11	60_Machine_Learning.pdf
+LC-0877	60	32	XGBoost Regularised Objective	linearized	approximate_transform_candidate	OBSERVE	D13;D11	60_Machine_Learning.pdf
+LC-0878	60	33	Feedforward Layer	exact_linear	exact_structure_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0879	60	34	Universal Approximation Theorem	exact_linear	exact_structure_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0880	60	35	Backpropagation	exact_linear	exact_structure_reference	OBSERVE	D11	60_Machine_Learning.pdf
+LC-0881	60	36	Activation Functions	exact_linear	exact_structure_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0882	60	37	Vanishing and Exploding Gradients	exact_linear	exact_structure_reference	OBSERVE	D11;D2	60_Machine_Learning.pdf
+LC-0883	60	38	Xavier and He Initialisation	exact_linear	exact_structure_reference	OBSERVE	D2	60_Machine_Learning.pdf
+LC-0884	60	39	Batch Normalisation	exact_linear	exact_structure_reference	OBSERVE	D11;D2	60_Machine_Learning.pdf
+LC-0885	60	40	Layer Normalisation	exact_linear	exact_structure_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0886	60	41	Dropout	exact_linear	exact_structure_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0887	60	42	Residual Connection	exact_linear	exact_structure_reference	OBSERVE	D11	60_Machine_Learning.pdf
+LC-0888	60	43	Convolution Operation	exact_linear	exact_structure_reference	OBSERVE	D12	60_Machine_Learning.pdf
+LC-0889	60	44	Convolution Output Size	exact_linear	exact_structure_reference	OBSERVE	D12	60_Machine_Learning.pdf
+LC-0890	60	45	Receptive Field Growth	exact_linear	exact_structure_reference	OBSERVE	D12	60_Machine_Learning.pdf
+LC-0891	60	46	Scaled Dot-Product Attention	exact_linear	exact_structure_reference	OBSERVE	D11;D4	60_Machine_Learning.pdf
+LC-0892	60	47	Multi-Head Attention	exact_linear	exact_structure_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0893	60	48	Positional Encoding	exact_linear	exact_structure_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0894	60	49	Transformer Parameter Count	exact_linear	exact_structure_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0895	60	50	Neural Scaling Law	exact_linear	exact_structure_reference	OBSERVE		60_Machine_Learning.pdf
+LC-0896	60	51	Compute-Optimal Allocation	exact_linear	exact_structure_reference	OBSERVE	D11	60_Machine_Learning.pdf
+LC-0897	60	52	Autoencoder Reconstruction	exact_linear	exact_structure_reference	OBSERVE	D11	60_Machine_Learning.pdf
+LC-0898	60	53	Variational Autoencoder ELBO	exact_linear	exact_structure_reference	OBSERVE	D11	60_Machine_Learning.pdf
+LC-0899	60	54	Reparametrisation Trick	exact_linear	exact_structure_reference	OBSERVE	D11	60_Machine_Learning.pdf
+LC-0900	60	55	GAN Minimax Objective	linearized	approximate_transform_candidate	OBSERVE	D13;D11;D2	60_Machine_Learning.pdf
+LC-0901	60	56	Wasserstein GAN	exact_linear	exact_structure_reference	OBSERVE	D11	60_Machine_Learning.pdf
+LC-0902	60	57	Diffusion Forward Process	exact_linear	exact_structure_reference	OBSERVE	D10	60_Machine_Learning.pdf
+LC-0903	60	58	Diffusion Training Objective	exact_linear	exact_structure_reference	OBSERVE	D11;D10	60_Machine_Learning.pdf
+LC-0904	60	59	Score Function and Langevin Sampling	exact_linear	exact_structure_reference	OBSERVE	D11;D2	60_Machine_Learning.pdf
+LC-0905	60	60	Contrastive Learning (InfoNCE)	exact_linear	exact_structure_reference	OBSERVE	D4	60_Machine_Learning.pdf
+LC-0906	61	1	Uninformed Search Complexity	structural_analogue	structural_reference	OBSERVE	D2	61_Artificial_Intelligence.pdf
+LC-0907	61	2	Iterative Deepening	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0908	61	3	A* Evaluation Function	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0909	61	4	Admissibility and Consistency	exact_linear	exact_structure_reference	OBSERVE	D11	61_Artificial_Intelligence.pdf
+LC-0910	61	5	Heuristic Dominance	structural_analogue	structural_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0911	61	6	Effective Branching Factor	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0912	61	7	Pattern Database Heuristic	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0913	61	8	Minimax Value	structural_analogue	structural_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0914	61	9	Alpha–Beta Pruning Complexity	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0915	61	10	Monte Carlo Tree Search UCT	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0916	61	11	PUCT with a Policy Prior	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0917	61	12	Constraint Satisfaction Arc Consistency	structural_analogue	structural_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0918	61	13	STRIPS Planning Representation	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0919	61	14	Relaxed Plan Heuristic	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0920	61	15	Propositional Entailment	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0921	61	16	Resolution Rule	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	61_Artificial_Intelligence.pdf
+LC-0922	61	17	DPLL Unit Propagation	structural_analogue	structural_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0923	61	18	Conflict-Driven Clause Learning	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0924	61	19	First-Order Unification	structural_analogue	structural_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0925	61	20	Description Logic Subsumption	structural_analogue	structural_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0926	61	21	Default Logic Extension	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	61_Artificial_Intelligence.pdf
+LC-0927	61	22	Bayesian Network Factorisation	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0928	61	23	D-Separation	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0929	61	24	Variable Elimination	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0930	61	25	Belief Propagation	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0931	61	26	Junction Tree Complexity	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0932	61	27	Markov Random Field	exact_linear	exact_structure_reference	OBSERVE	D10	61_Artificial_Intelligence.pdf
+LC-0933	61	28	Conditional Random Field	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0934	61	29	Particle Filter Weight Update	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0935	61	30	Effective Sample Size for Particles	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0936	61	31	Variational Inference Objective	exact_linear	exact_structure_reference	OBSERVE	D11;D4	61_Artificial_Intelligence.pdf
+LC-0937	61	32	Dempster–Shafer Combination	exact_linear	exact_structure_reference	OBSERVE	D12	61_Artificial_Intelligence.pdf
+LC-0938	61	33	Markov Decision Process	exact_linear	exact_structure_reference	OBSERVE	D11;D10	61_Artificial_Intelligence.pdf
+LC-0939	61	34	Bellman Expectation Equation	exact_linear	exact_structure_reference	OBSERVE	D2	61_Artificial_Intelligence.pdf
+LC-0940	61	35	Bellman Optimality Equation	linearized	approximate_transform_candidate	OBSERVE	D13;D11	61_Artificial_Intelligence.pdf
+LC-0941	61	36	Q-Function	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0942	61	37	Value Iteration Contraction	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0943	61	38	Q-Learning Update	exact_linear	exact_structure_reference	OBSERVE	D11;D2	61_Artificial_Intelligence.pdf
+LC-0944	61	39	SARSA Update	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0945	61	40	TD(𝜆) Eligibility Traces	exact_linear	exact_structure_reference	OBSERVE	D11	61_Artificial_Intelligence.pdf
+LC-0946	61	41	Policy Gradient Theorem	exact_linear	exact_structure_reference	OBSERVE	D11	61_Artificial_Intelligence.pdf
+LC-0947	61	42	Advantage Function and Baseline	exact_linear	exact_structure_reference	OBSERVE	D11	61_Artificial_Intelligence.pdf
+LC-0948	61	43	Generalised Advantage Estimation	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0949	61	44	Trust Region Policy Constraint	exact_linear	exact_structure_reference	OBSERVE	D11	61_Artificial_Intelligence.pdf
+LC-0950	61	45	PPO Clipped Objective	exact_linear	exact_structure_reference	OBSERVE	D11	61_Artificial_Intelligence.pdf
+LC-0951	61	46	Soft Actor-Critic Objective	exact_linear	exact_structure_reference	OBSERVE	D11	61_Artificial_Intelligence.pdf
+LC-0952	61	47	POMDP Belief Update	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0953	61	48	Value of Information	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0954	61	49	Nash Equilibrium in Multi-Agent RL	exact_linear	exact_structure_reference	OBSERVE	D11;D4	61_Artificial_Intelligence.pdf
+LC-0955	61	50	Fictitious Self-Play	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0956	61	51	Counterfactual Regret Minimisation	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0957	61	52	Shapley Value for Credit Assignment	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0958	61	53	Language Model Objective	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0959	61	54	Perplexity	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0960	61	55	Temperature Sampling	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0961	61	56	Nucleus (Top-p) Sampling	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0962	61	57	Beam Search	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0963	61	58	RLHF Reward Model	exact_linear	exact_structure_reference	OBSERVE		61_Artificial_Intelligence.pdf
+LC-0964	61	59	KL-Regularised Policy Objective	exact_linear	exact_structure_reference	OBSERVE	D11	61_Artificial_Intelligence.pdf
+LC-0965	61	60	Direct Preference Optimisation	exact_linear	exact_structure_reference	OBSERVE	D11	61_Artificial_Intelligence.pdf
+LC-0966	62	1	Homogeneous Transformation	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-0967	62	2	Rotation Matrix Properties	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-0968	62	3	Euler Angles and Gimbal Lock	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-0969	62	4	Axis–Angle and Rodrigues Formula	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-0970	62	5	Unit Quaternion Rotation	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-0971	62	6	Twist and Screw Motion	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-0972	62	7	Denavit–Hartenberg Transform	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-0973	62	8	Forward Kinematics	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-0974	62	9	Manipulator Jacobian	exact_linear	exact_structure_reference	OBSERVE	D11;D2	62_Robotics.pdf
+LC-0975	62	10	Inverse Kinematics via Pseudoinverse	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-0976	62	11	Damped Least Squares	exact_linear	exact_structure_reference	OBSERVE	D2	62_Robotics.pdf
+LC-0977	62	12	Manipulability Measure	exact_linear	exact_structure_reference	OBSERVE	D2	62_Robotics.pdf
+LC-0978	62	13	Kinematic Singularity	exact_linear	exact_structure_reference	OBSERVE	D2	62_Robotics.pdf
+LC-0979	62	14	Differential Drive Kinematics	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-0980	62	15	Ackermann Steering	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-0981	62	16	Nonholonomic Constraint	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-0982	62	17	Manipulator Equation of Motion	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-0983	62	18	Skew-Symmetry Property	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-0984	62	19	Recursive Newton–Euler Algorithm	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-0985	62	20	Composite Rigid Body Inertia	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-0986	62	21	Articulated Body Algorithm	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-0987	62	22	Operational Space Formulation	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-0988	62	23	Contact Wrench Cone	exact_linear	exact_structure_reference	OBSERVE	D11;D4	62_Robotics.pdf
+LC-0989	62	24	Zero Moment Point	exact_linear	exact_structure_reference	OBSERVE	D11	62_Robotics.pdf
+LC-0990	62	25	Linear Inverted Pendulum Model	exact_linear	exact_structure_reference	OBSERVE	D2	62_Robotics.pdf
+LC-0991	62	26	Capture Point	exact_linear	exact_structure_reference	OBSERVE	D2	62_Robotics.pdf
+LC-0992	62	27	Configuration Space	structural_analogue	structural_reference	OBSERVE		62_Robotics.pdf
+LC-0993	62	28	Minkowski Sum Obstacle Growth	exact_linear	exact_structure_reference	OBSERVE	D11	62_Robotics.pdf
+LC-0994	62	29	Probabilistic Roadmap Coverage	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-0995	62	30	RRT Growth	structural_analogue	structural_reference	OBSERVE	D4	62_Robotics.pdf
+LC-0996	62	31	RRT* Rewiring Radius	exact_linear	exact_structure_reference	OBSERVE	D11	62_Robotics.pdf
+LC-0997	62	32	Artificial Potential Field	exact_linear	exact_structure_reference	OBSERVE	D11	62_Robotics.pdf
+LC-0998	62	33	Dynamic Window Approach	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-0999	62	34	Velocity Obstacle	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-1000	62	35	Trajectory Optimisation Objective	linearized	approximate_transform_candidate	OBSERVE	D13;D11;D4	62_Robotics.pdf
+LC-1001	62	36	Minimum Jerk Trajectory	exact_linear	exact_structure_reference	OBSERVE	D11	62_Robotics.pdf
+LC-1002	62	37	Dubins Path	structural_analogue	structural_reference	OBSERVE	D11	62_Robotics.pdf
+LC-1003	62	38	Kalman Filter Prediction	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-1004	62	39	Kalman Filter Update	exact_linear	exact_structure_reference	OBSERVE	D11	62_Robotics.pdf
+LC-1005	62	40	Extended Kalman Filter Linearisation	linearized	approximate_transform_candidate	OBSERVE	D13;D11	62_Robotics.pdf
+LC-1006	62	41	Unscented Transform	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-1007	62	42	Mahalanobis Gating	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-1008	62	43	Monte Carlo Localisation	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-1009	62	44	SLAM Posterior	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-1010	62	45	Graph SLAM Objective	linearized	approximate_transform_candidate	OBSERVE	D13	62_Robotics.pdf
+LC-1011	62	46	Information Matrix Sparsity	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-1012	62	47	Bundle Adjustment	linearized	approximate_transform_candidate	OBSERVE	D13;D11	62_Robotics.pdf
+LC-1013	62	48	Pinhole Camera Projection	exact_linear	exact_structure_reference	OBSERVE	D4	62_Robotics.pdf
+LC-1014	62	49	Epipolar Constraint	exact_linear	exact_structure_reference	OBSERVE	D2	62_Robotics.pdf
+LC-1015	62	50	RANSAC Iteration Count	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-1016	62	51	Computed Torque Control	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-1017	62	52	PD Plus Gravity Compensation	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-1018	62	53	Impedance Control	exact_linear	exact_structure_reference	OBSERVE	D2	62_Robotics.pdf
+LC-1019	62	54	Hybrid Force–Position Control	exact_linear	exact_structure_reference	OBSERVE	D4	62_Robotics.pdf
+LC-1020	62	55	Admittance Control	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-1021	62	56	Grasp Matrix and Force Closure	exact_linear	exact_structure_reference	OBSERVE	D4	62_Robotics.pdf
+LC-1022	62	57	Grasp Quality (Ferrari–Canny)	exact_linear	exact_structure_reference	OBSERVE	D11	62_Robotics.pdf
+LC-1023	62	58	Visual Servoing Control Law	exact_linear	exact_structure_reference	OBSERVE		62_Robotics.pdf
+LC-1024	62	59	Model Predictive Control for Robots	exact_linear	exact_structure_reference	OBSERVE	D11	62_Robotics.pdf
+LC-1025	62	60	Control Barrier Function Safety Constraint	exact_linear	exact_structure_reference	OBSERVE	D4	62_Robotics.pdf
+LC-1026	77	1	Adjacency Matrix	exact_linear	exact_structure_reference	OBSERVE	D2	77_Network_Science.pdf
+LC-1027	77	2	Degree and Degree Sequence	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1028	77	3	Handshaking Lemma	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1029	77	4	Density	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1030	77	5	Average Degree and Sparsity	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1031	77	6	Degree Distribution	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1032	77	7	Power-Law Degree Distribution	exact_linear	exact_structure_reference	OBSERVE	D2;D4	77_Network_Science.pdf
+LC-1033	77	8	Excess Degree Distribution	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1034	77	9	Clustering Coeﬀicient (Local)	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1035	77	10	Transitivity (Global Clustering)	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1036	77	11	Shortest Path Length and Diameter	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1037	77	12	Degree Assortativity	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1038	77	13	Reciprocity	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1039	77	14	Motif Significance	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1040	77	15	Degree Centrality	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1041	77	16	Closeness Centrality	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1042	77	17	Harmonic Centrality	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1043	77	18	Betweenness Centrality	exact_linear	exact_structure_reference	OBSERVE	D2	77_Network_Science.pdf
+LC-1044	77	19	Eigenvector Centrality	exact_linear	exact_structure_reference	OBSERVE	D2	77_Network_Science.pdf
+LC-1045	77	20	Katz Centrality	exact_linear	exact_structure_reference	OBSERVE	D2	77_Network_Science.pdf
+LC-1046	77	21	PageRank	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1047	77	22	HITS Hubs and Authorities	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1048	77	23	k-Core Decomposition	structural_analogue	structural_reference	OBSERVE	D2	77_Network_Science.pdf
+LC-1049	77	24	Subgraph Centrality	exact_linear	exact_structure_reference	OBSERVE	D2	77_Network_Science.pdf
+LC-1050	77	25	Percolation and Bridging Centrality	exact_linear	exact_structure_reference	OBSERVE	D2	77_Network_Science.pdf
+LC-1051	77	26	Erdős–Rényi Random Graph	exact_linear	exact_structure_reference	OBSERVE	D2	77_Network_Science.pdf
+LC-1052	77	27	Giant Component Threshold	exact_linear	exact_structure_reference	OBSERVE	D2	77_Network_Science.pdf
+LC-1053	77	28	Molloy–Reed Criterion	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1054	77	29	Configuration Model	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1055	77	30	Watts–Strogatz Small World	exact_linear	exact_structure_reference	OBSERVE	D12;D2	77_Network_Science.pdf
+LC-1056	77	31	Barabási–Albert Preferential Attachment	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1057	77	32	Price Model and Fitness	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1058	77	33	Exponential Random Graph Model	exact_linear	exact_structure_reference	OBSERVE	D11	77_Network_Science.pdf
+LC-1059	77	34	Stochastic Block Model	exact_linear	exact_structure_reference	OBSERVE	D2	77_Network_Science.pdf
+LC-1060	77	35	Spatial and Geometric Random Graphs	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1061	77	36	Hyperbolic Network Model	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1062	77	37	Modularity	exact_linear	exact_structure_reference	OBSERVE	D11;D2	77_Network_Science.pdf
+LC-1063	77	38	Resolution-Limited Modularity	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1064	77	39	Louvain and Leiden Algorithms	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1065	77	40	Map Equation (Infomap)	exact_linear	exact_structure_reference	OBSERVE	D2	77_Network_Science.pdf
+LC-1066	77	41	Normalised Mutual Information	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1067	77	42	Detectability Threshold	exact_linear	exact_structure_reference	OBSERVE	D2	77_Network_Science.pdf
+LC-1068	77	43	Overlapping Community (Clique Percolation)	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1069	77	44	Core–Periphery Structure	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1070	77	45	Graph Laplacian	exact_linear	exact_structure_reference	OBSERVE	D2	77_Network_Science.pdf
+LC-1071	77	46	Algebraic Connectivity	exact_linear	exact_structure_reference	OBSERVE	D2	77_Network_Science.pdf
+LC-1072	77	47	Cheeger Inequality	exact_linear	exact_structure_reference	OBSERVE	D2	77_Network_Science.pdf
+LC-1073	77	48	Spectral Clustering	exact_linear	exact_structure_reference	OBSERVE	D2	77_Network_Science.pdf
+LC-1074	77	49	Spectral Radius and Epidemic Threshold	exact_linear	exact_structure_reference	OBSERVE	D2	77_Network_Science.pdf
+LC-1075	77	50	Random Walk Stationary Distribution	exact_linear	exact_structure_reference	OBSERVE	D2	77_Network_Science.pdf
+LC-1076	77	51	Mixing Time and Spectral Gap	exact_linear	exact_structure_reference	OBSERVE	D2	77_Network_Science.pdf
+LC-1077	77	52	SIS Epidemic on Networks	linearized	approximate_transform_candidate	OBSERVE	D13;D2	77_Network_Science.pdf
+LC-1078	77	53	Percolation Threshold	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1079	77	54	Targeted Attack Vulnerability	exact_linear	exact_structure_reference	OBSERVE	D11	77_Network_Science.pdf
+LC-1080	77	55	Cascading Failure Load Model	linearized	approximate_transform_candidate	OBSERVE	D13	77_Network_Science.pdf
+LC-1081	77	56	Kuramoto Synchronisation on a Network	linearized	approximate_transform_candidate	OBSERVE	D13;D2;D10	77_Network_Science.pdf
+LC-1082	77	57	Master Stability Function	exact_linear	exact_structure_reference	OBSERVE	D2	77_Network_Science.pdf
+LC-1083	77	58	Structural Controllability	exact_linear	exact_structure_reference	OBSERVE	D2	77_Network_Science.pdf
+LC-1084	77	59	Network Eﬀiciency	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1085	77	60	Temporal and Multilayer Networks	exact_linear	exact_structure_reference	OBSERVE		77_Network_Science.pdf
+LC-1086	79	1	Shannon Entropy	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1087	79	2	Joint Entropy	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1088	79	3	Conditional Entropy	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1089	79	4	Chain Rule for Entropy	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1090	79	5	Mutual Information	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1091	79	6	Mutual Information Identities	exact_linear	exact_structure_reference	OBSERVE	D4	79_Information_Theory.pdf
+LC-1092	79	7	Conditional Mutual Information	exact_linear	exact_structure_reference	OBSERVE	D4	79_Information_Theory.pdf
+LC-1093	79	8	Kullback–Leibler Divergence	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1094	79	9	Jensen–Shannon Divergence	exact_linear	exact_structure_reference	OBSERVE	D11	79_Information_Theory.pdf
+LC-1095	79	10	Cross Entropy	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1096	79	11	Differential Entropy	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1097	79	12	Maximum Entropy Distributions	exact_linear	exact_structure_reference	OBSERVE	D11	79_Information_Theory.pdf
+LC-1098	79	13	Gaussian Entropy	exact_linear	exact_structure_reference	OBSERVE	D2	79_Information_Theory.pdf
+LC-1099	79	14	Rényi Entropy	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1100	79	15	Min-Entropy	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1101	79	16	Tsallis Entropy	structural_analogue	structural_reference	OBSERVE		79_Information_Theory.pdf
+LC-1102	79	17	Fisher Information	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1103	79	18	Data Processing Inequality	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1104	79	19	Fano’s Inequality	exact_linear	exact_structure_reference	OBSERVE	D11	79_Information_Theory.pdf
+LC-1105	79	20	Source Coding Theorem	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1106	79	21	Kraft–McMillan Inequality	exact_linear	exact_structure_reference	OBSERVE	D11	79_Information_Theory.pdf
+LC-1107	79	22	Shannon–Fano–Elias Code Length	exact_linear	exact_structure_reference	OBSERVE	D11	79_Information_Theory.pdf
+LC-1108	79	23	Huffman Coding	exact_linear	exact_structure_reference	OBSERVE	D11	79_Information_Theory.pdf
+LC-1109	79	24	Arithmetic Coding	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1110	79	25	Asymptotic Equipartition Property	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1111	79	26	Typical Set Size	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1112	79	27	Lempel–Ziv Universal Coding	structural_analogue	structural_reference	OBSERVE	D11	79_Information_Theory.pdf
+LC-1113	79	28	Entropy Rate	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1114	79	29	Markov Source Entropy Rate	exact_linear	exact_structure_reference	OBSERVE	D2;D10	79_Information_Theory.pdf
+LC-1115	79	30	Minimum Description Length	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1116	79	31	Channel Capacity	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1117	79	32	Binary Symmetric Channel	exact_linear	exact_structure_reference	OBSERVE	D11	79_Information_Theory.pdf
+LC-1118	79	33	Binary Entropy Function	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1119	79	34	Binary Erasure Channel	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1120	79	35	Shannon–Hartley Capacity	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1121	79	36	Gaussian Channel Capacity	exact_linear	exact_structure_reference	OBSERVE	D11	79_Information_Theory.pdf
+LC-1122	79	37	Water-Filling Power Allocation	exact_linear	exact_structure_reference	OBSERVE	D11	79_Information_Theory.pdf
+LC-1123	79	38	MIMO Capacity	exact_linear	exact_structure_reference	OBSERVE	D2	79_Information_Theory.pdf
+LC-1124	79	39	Channel Coding Theorem	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1125	79	40	Rate–Distortion Function	exact_linear	exact_structure_reference	OBSERVE	D11	79_Information_Theory.pdf
+LC-1126	79	41	Gaussian Rate–Distortion	exact_linear	exact_structure_reference	OBSERVE	D2	79_Information_Theory.pdf
+LC-1127	79	42	Information Bottleneck	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1128	79	43	Slepian–Wolf Distributed Coding	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1129	79	44	Multiple Access Channel Capacity	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1130	79	45	Broadcast Channel and Superposition Coding	exact_linear	exact_structure_reference	OBSERVE	D11	79_Information_Theory.pdf
+LC-1131	79	46	Hamming Distance and Error Correction	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1132	79	47	Hamming Bound	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1133	79	48	Singleton and Gilbert–Varshamov Bounds	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1134	79	2	Structure: The code is literally a subspace: 𝐺’s rows are a basis, 𝐻spans the dual (null) space, and 𝐺𝐻⊤= 0.	exact_linear	exact_structure_reference	OBSERVE	D11	79_Information_Theory.pdf
+LC-1135	79	50	Hamming Code Parameters	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1136	79	51	Reed–Solomon Code	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1137	79	52	Convolutional Code and Viterbi Decoding	exact_linear	exact_structure_reference	OBSERVE	D12	79_Information_Theory.pdf
+LC-1138	79	53	Turbo Code Iterative Decoding	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1139	79	54	LDPC Belief Propagation	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1140	79	55	Polar Code Channel Polarisation	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1141	79	2	Perfect secrecy is a	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1142	79	57	Unicity Distance	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1143	79	58	Wiretap Channel Secrecy Capacity	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1144	79	59	Landauer’s Principle	exact_linear	exact_structure_reference	OBSERVE		79_Information_Theory.pdf
+LC-1145	79	60	Von Neumann Entropy and Holevo Bound	exact_linear	exact_structure_reference	OBSERVE	D2	79_Information_Theory.pdf
+LC-1146	80	1	Speedup	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1147	80	2	Eﬀiciency	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1148	80	3	Amdahl’s Law	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1149	80	4	Gustafson–Barsis Law	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1150	80	5	Karp–Flatt Metric	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1151	80	6	Strong and Weak Scaling	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1152	80	7	Isoeﬀiciency Function	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1153	80	8	Cost and Cost Optimality	exact_linear	exact_structure_reference	OBSERVE	D11	80_Parallel_and_Distributed_Computing.pdf
+LC-1154	80	9	Overhead Function	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1155	80	10	Roofline Model	exact_linear	exact_structure_reference	OBSERVE	D8	80_Parallel_and_Distributed_Computing.pdf
+LC-1156	80	11	Arithmetic Intensity	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1157	80	12	Little’s Law for Concurrency	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1158	80	13	Communication Time Model	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1159	80	14	LogP Model	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1160	80	15	BSP Superstep Cost	exact_linear	exact_structure_reference	OBSERVE	D4	80_Parallel_and_Distributed_Computing.pdf
+LC-1161	80	16	Bisection Bandwidth	exact_linear	exact_structure_reference	OBSERVE	D11	80_Parallel_and_Distributed_Computing.pdf
+LC-1162	80	17	Network Diameter and Degree	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1163	80	18	Fat Tree Bandwidth	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1164	80	19	Dragonfly Topology	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1165	80	20	Collective Communication Cost	exact_linear	exact_structure_reference	OBSERVE	D11	80_Parallel_and_Distributed_Computing.pdf
+LC-1166	80	21	Broadcast and Scatter Costs	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1167	80	22	Bandwidth–Latency Product	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1168	80	23	Communication–Computation Overlap	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1169	80	24	Communication Lower Bound	exact_linear	exact_structure_reference	OBSERVE	D4	80_Parallel_and_Distributed_Computing.pdf
+LC-1170	80	25	Average Memory Access Time	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1171	80	26	Cache Miss Classification	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1172	80	27	False Sharing Cost	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1173	80	28	Cache Coherence Protocol States	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1174	80	29	Directory Protocol Scalability	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1175	80	30	NUMA Access Ratio	exact_linear	exact_structure_reference	OBSERVE	D11	80_Parallel_and_Distributed_Computing.pdf
+LC-1176	80	31	Memory Bandwidth per Core	exact_linear	exact_structure_reference	OBSERVE	D8	80_Parallel_and_Distributed_Computing.pdf
+LC-1177	80	32	Cache-Oblivious Complexity	structural_analogue	structural_reference	OBSERVE	D11	80_Parallel_and_Distributed_Computing.pdf
+LC-1178	80	33	PRAM Work–Depth	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1179	80	34	Parallelism and Span	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1180	80	35	Parallel Prefix (Scan)	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1181	80	36	Parallel Reduction	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1182	80	37	Parallel Sorting Lower Bound	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1183	80	38	Bitonic Sort Complexity	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1184	80	39	Matrix Multiplication (Cannon’s Algorithm)	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1185	80	40	Parallel FFT	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1186	80	41	Domain Decomposition Surface-to-Volume	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1187	80	42	Parallel Monte Carlo Eﬀiciency	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1188	80	43	Speculative Execution Gain	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1189	80	44	CAP Theorem	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	80_Parallel_and_Distributed_Computing.pdf
+LC-1190	80	45	PACELC Extension	structural_analogue	structural_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1191	80	46	FLP Impossibility	no_faithful_form	preserved_obstruction	REJECT_NO_FAITHFUL_FORM	D14	80_Parallel_and_Distributed_Computing.pdf
+LC-1192	80	47	Byzantine Fault Tolerance Bound	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1193	80	48	Quorum Intersection	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1194	80	49	Paxos and Raft Round Complexity	structural_analogue	structural_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1195	80	50	Lamport Logical Clock	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1196	80	51	Vector Clock	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1197	80	52	Consistent Hashing	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1198	80	53	CRDT Convergence	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1199	80	54	Two-Phase Commit Blocking	structural_analogue	structural_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1200	80	55	Load Imbalance Factor	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1201	80	56	Work Stealing Bound	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1202	80	57	List Scheduling Bound	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1203	80	58	Checkpoint Interval (Young–Daly)	exact_linear	exact_structure_reference	OBSERVE	D11	80_Parallel_and_Distributed_Computing.pdf
+LC-1204	80	59	System Mean Time Between Failures	exact_linear	exact_structure_reference	OBSERVE		80_Parallel_and_Distributed_Computing.pdf
+LC-1205	80	60	Energy–Delay Product and Power Scaling	exact_linear	exact_structure_reference	OBSERVE	D11	80_Parallel_and_Distributed_Computing.pdf

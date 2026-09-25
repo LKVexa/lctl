@@ -1,0 +1,43 @@
+{
+  "schema": "LCTL-REFERENCE-HOST-BENCHMARK/1.0",
+  "scope": "compiler/reference-emulator command latency only",
+  "not_qpu_performance": true,
+  "python_platform": "Linux-6.18.35-x86_64-with-glibc2.41",
+  "commands": {
+    "verify": {
+      "runs": 10,
+      "mean_ms": 84.40381460009121,
+      "median_ms": 82.35321749998548,
+      "min_ms": 76.48785100036548,
+      "max_ms": 98.76049800004694
+    },
+    "causal-dag": {
+      "runs": 10,
+      "mean_ms": 82.894001700015,
+      "median_ms": 77.73438449999048,
+      "min_ms": 72.38430999996126,
+      "max_ms": 122.24421400014762
+    },
+    "distributed-plan": {
+      "runs": 10,
+      "mean_ms": 110.20636419989387,
+      "median_ms": 108.45942800006014,
+      "min_ms": 102.5012439999955,
+      "max_ms": 125.76746799959437
+    },
+    "qcir-p": {
+      "runs": 10,
+      "mean_ms": 95.5119003001073,
+      "median_ms": 96.03215600009207,
+      "min_ms": 85.14977499999077,
+      "max_ms": 106.6455870000027
+    },
+    "emulate-distributed": {
+      "runs": 10,
+      "mean_ms": 89.81228559996453,
+      "median_ms": 87.3438424998767,
+      "min_ms": 82.17440099997475,
+      "max_ms": 115.91063200012286
+    }
+  }
+}

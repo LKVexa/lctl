@@ -1,0 +1,14 @@
+LCTLC/1.0
+@unit id=lctl.example.qaoa version=1.0.0 profile=lctl.quantum.core entry=F0000:C0010 target=local-reference error_budget=0.01 resource_ceiling=q<=12;density<=8 proof=release-proof
+@defaults qspace=H basis=computational regime=exact assume=finite_dimension error=exact conf=1.0
+@frame id=F0000 parent=ROOT module=lctl.example.qaoa proof=lctl-core
+ID│LANE│OP│OUT│CTRL│IN│ARG│META
+D0001 │ alloc │ Q │ q │ _ │ _ │ 2 │ qs=H2^2;res="logical_qubits=2"
+C0010 │ circuit │ H │ q[0] │ _ │ q[0] │ _ │ _
+C0011 │ circuit │ H │ q[1] │ _ │ q[1] │ _ │ _
+C0012 │ circuit │ CPHASE │ q[1] │ q[0] │ q[1] │ 0.8 │ _
+C0013 │ circuit │ RX │ q[0] │ _ │ q[0] │ 0.4 │ _
+C0014 │ circuit │ RX │ q[1] │ _ │ q[1] │ 0.4 │ _
+C0015 │ analysis │ EXPECT │ _ │ _ │ _ │ Z@q[0]*Z@q[1] │ t=expectation;basis=Pauli;asm=normalized_state;res="shots=0";p=qaoa:cost
+M0016 │ optimization │ OBJECTIVE │ cut_cost │ _ │ gamma,beta │ <ZZ> │ f=MODEL;t=real;basis=Pauli;r=variational;asm=classical_outer_loop;err=sampling+optimizer;res="iterations=external";p=qaoa:loop
+@end

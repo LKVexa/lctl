@@ -1,0 +1,14 @@
+{
+  "claim": "Density-matrix noise",
+  "method": "reference simulation + invariant verification",
+  "source": "LCTL normative core",
+  "transform_role": "none",
+  "admission": "ADMIT_EXACT unless row regime says otherwise",
+  "execution_evidence": {
+    "verifier": "VERIFIER_RESULT.json",
+    "simulator": "SIMULATOR_RESULT.json",
+    "resource": "RESOURCE_REPORT.json",
+    "qcir": "QCIR.json"
+  },
+  "source_sha256": "db0a43d61c6149cc9ca6d61586c51d9828341f0faaea166043f366aa7b6b5fad"
+}

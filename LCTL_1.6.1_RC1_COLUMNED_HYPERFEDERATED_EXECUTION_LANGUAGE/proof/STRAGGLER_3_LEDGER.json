@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "schema": "LCTL-STRAGGLER/3.0",
+  "workers": 4,
+  "detected": true,
+  "mitigation": "SPECULATIVE_DUPLICATE_PURE_CLASSICAL",
+  "loser_cancel_requested": true,
+  "elapsed_ns": 21005582,
+  "result_checksum": -7014570128697090922,
+  "quantum_speculation": false
+}

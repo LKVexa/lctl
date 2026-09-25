@@ -1,0 +1,7 @@
+{
+  "verify": "PASS",
+  "distributed_plan": "PASS",
+  "qcir_p": "PASS",
+  "distributed_emulation": "REFERENCE_ONLY",
+  "physical_distributed_execution": "BLOCKED_NO_QUALIFIED_TARGET"
+}

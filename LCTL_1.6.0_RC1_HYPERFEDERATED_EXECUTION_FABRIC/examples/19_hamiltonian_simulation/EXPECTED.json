@@ -1,0 +1,5 @@
+{
+  "title": "Hamiltonian simulation",
+  "expected": "Exact single-term unitary evolution plus an explicitly separate local Frechet transform model.",
+  "notes": "Calculus Transform D13 is used only for the local control-model linearization, not to replace unitary Hamiltonian evolution."
+}

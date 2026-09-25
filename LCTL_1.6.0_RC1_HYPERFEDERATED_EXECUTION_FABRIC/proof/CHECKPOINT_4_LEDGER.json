@@ -1,0 +1,12 @@
+{
+  "status": "PASS_WITH_SCOPE",
+  "schema": "LCTL-CHECKPOINT/4.0",
+  "commit_marker": true,
+  "manifest": "/mnt/data/lctl16_work/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/proof/checkpoints16/reference.json.manifest.json",
+  "base": {
+    "status": "PASS",
+    "schema": "LCTL-CHECKPOINT-RECEIPT/1.5",
+    "checkpoint": "/mnt/data/lctl16_work/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/proof/checkpoints16/reference.json",
+    "sha256": "9d0def15d142c8e8042e861ee1918680aa9fb21de43df4c5380979d19f948df5"
+  }
+}

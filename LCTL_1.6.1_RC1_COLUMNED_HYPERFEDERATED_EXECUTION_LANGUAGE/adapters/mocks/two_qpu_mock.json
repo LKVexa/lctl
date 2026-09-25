@@ -1,0 +1,20 @@
+{
+  "schema": "LCTL-ADAPTER/1.0",
+  "name": "two-qpu-mock",
+  "physical": false,
+  "authenticated": false,
+  "topology": {
+    "nodes": [
+      "Q0",
+      "Q1"
+    ],
+    "link": "mock"
+  },
+  "calibration": {
+    "epoch": "mock",
+    "stale": false
+  },
+  "execution_receipt": "mock-only",
+  "measurement_receipt": "mock-only",
+  "notice": "NONPHYSICAL MOCK ADAPTER"
+}

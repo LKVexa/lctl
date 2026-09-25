@@ -1,0 +1,9 @@
+{
+  "schema": "LCTL-CHECKPOINT/1.5",
+  "created_utc": "2026-08-11T01:05:18.613306870Z",
+  "source_path": "examples/24_parallel_bell_pair_generation/program.lctl",
+  "source_sha256": "e2a01db86bc837371bbef99f49f01c296fe33f50e441b480afbcab962007fe0a",
+  "classical_only": true,
+  "quantum_unknown_state_serialized": false,
+  "task_count": 5
+}

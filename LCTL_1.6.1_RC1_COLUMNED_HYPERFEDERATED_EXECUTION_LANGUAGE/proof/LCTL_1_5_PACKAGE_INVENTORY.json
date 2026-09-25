@@ -1,0 +1,12 @@
+{
+  "schema": "LCTL-PACKAGE-INVENTORY/1.5",
+  "version": "1.5.0-rc1",
+  "file_count_before_checksum_refresh": 2088,
+  "payload_bytes_before_checksum_refresh": 8097499,
+  "max_relative_path_chars": 96,
+  "longest_relative_path": "authority/QUORUM_LCTL_QUANTUM_COMPUTING_TECHNICAL_LANGUAGE_CREATION_PROMPT_AND_WORKFLOW_1.0.0.md",
+  "java_sources": 4,
+  "class_files": 70,
+  "conformance_1_5_positive": 256,
+  "conformance_1_5_negative": 256
+}

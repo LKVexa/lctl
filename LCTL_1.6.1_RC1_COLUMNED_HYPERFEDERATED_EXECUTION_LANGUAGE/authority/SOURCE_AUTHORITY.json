@@ -1,0 +1,46 @@
+{
+  "frozen_inputs": {
+    "pre_migration_qctl_workflow_sha256": "5b60c1a8c58799fc5730bb0f94e33a9fda2dc29273ade83e539d7595f08a9c6c",
+    "active_lctl_workflow_sha256": "8cf3a556f95cba885e036cd787b83c056cf0bd46c5a21c8b1a72a63b111c23ee",
+    "learned_system_sha256": "f017bc6006a0958e71c9f7a406e275c607c7c9e12c693d09995b210d825970c9",
+    "calculus_transform_sha256": "df5e603ebcf5b202c76707ed374ceae464907bbe7665078dddba741dcbdfcbd3"
+  },
+  "precedence": [
+    "LCTL creation prompt/workflow",
+    "standard quantum mechanics/information semantics encoded by LCTL specification",
+    "Foundations Calculus Transform as mathematical transform/retraction guide",
+    "MSSLB-LX learned system as architectural/learning substrate"
+  ],
+  "transform_use": "The Calculus Transform guides admitted continuum, spectral, variational, differential, retraction, and obstruction semantics. It does not replace quantum mechanics and is never treated as a universal physical law.",
+  "network": "deny",
+  "backend": "none",
+  "authority_note": "The active LCTL workflow is an identifier-migrated derivative of the frozen pre-migration workflow. Both hashes are recorded so provenance and active authority are independently verifiable.",
+  "language": "LCTL",
+  "version": "1.2.0-rc1",
+  "parallel_authorities": [
+    {
+      "file": "22_Continuum_Mechanics.pdf",
+      "sha256": "511c4f73c2a8f55be91fa52d097f81150b1a82215efec559b5e744ce902ae151"
+    },
+    {
+      "file": "23_Coupled_Mechanics.pdf",
+      "sha256": "e9f115a37aeef1850eba3568401ee42221632d3021c88938e73a522bbbdac5c2"
+    },
+    {
+      "file": "32_Quantum_Mechanics.pdf",
+      "sha256": "d677dff1378fde4085006a84128a2f18c932b1b079807952431d983decde6d73"
+    },
+    {
+      "file": "80_Parallel_and_Distributed_Computing.pdf",
+      "sha256": "58316772884e72d72a39ccfafe649c6167484b499ac6da8d12f631359747fffd"
+    }
+  ],
+  "parallel_profile": "lctl.quantum.parallel.distributed",
+  "parallel_design_rule": "logical parallelism is distinct from physical target concurrency",
+  "distributed_workflow": {
+    "file": "QUORUM_LCTL_1.2.x_PARALLEL_DISTRIBUTED_SYSTEM_EXPANSION_PROMPT_AND_WORKFLOW.md",
+    "sha256": "436e9ed097a34ad6b1998d98b0fadd2347284e2a3439532cf011888a2b12a4b2"
+  },
+  "distributed_design_rule": "logical distribution, distributed compilation, classical emulation, and physical distributed QPU execution remain distinct evidence classes",
+  "physical_distributed_execution": "BLOCKED_NO_QUALIFIED_MULTI_QPU_TARGET"
+}

@@ -1,0 +1,19 @@
+{
+  "classical_communication_time_model": 5.0,
+  "distributed_state": "DISTRIBUTED_CLASSICAL_EMULATION",
+  "ebits_modelled": 0,
+  "execution_class": "DISTRIBUTED_CLASSICAL_EMULATION",
+  "language": "LCTL/1.2",
+  "messages": 1,
+  "parallel_state": "PARALLEL_EMULATION",
+  "physical_distributed": false,
+  "physical_parallel": false,
+  "physical_qpu": false,
+  "protocol_ops_modelled": 0,
+  "quantum_boundary": "NOT_CROSSED",
+  "quantum_link_attempts_emulated": 0,
+  "quantum_link_time_model": 0.0,
+  "seed": 7,
+  "state_realization": "CLASSICAL_DISTRIBUTED_MODEL",
+  "warning": "This is classical emulation of distributed semantics, not physical distributed quantum execution."
+}

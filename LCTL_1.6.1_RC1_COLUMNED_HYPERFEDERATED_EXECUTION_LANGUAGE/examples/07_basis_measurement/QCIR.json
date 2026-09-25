@@ -1,0 +1,1 @@
+{"qcir":"QCIR/1.0","source_sha256":"9182b8cd124a664af36fbb5508b87b95ec331570805965c142910cb3e4fe2ea5","qubits":1,"cbits":2,"ops":[{"id":"C0010","op":"H","out":"q[0]","ctrl":"_","a":"q[0]","b":"_","param":"_","regime":"exact","proof":"op:h"},{"id":"C0011","op":"MEASURE_X","out":"c[0]","ctrl":"_","a":"q[0]","b":"_","param":"_","regime":"stochastic","proof":"measure:x"}]}

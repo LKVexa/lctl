@@ -1,0 +1,22 @@
+LCTLC/1.0
+@unit id=lctl.example.parallel_bell_pairs version=1.1.0 profile=lctl.quantum.parallel entry=F0000:C0010 target=local-reference error_budget=0.01 resource_ceiling=q<=12;density<=8;parallel=logical proof=parallel-proof
+@defaults qspace=H basis=computational regime=exact assume=finite_dimension error=exact conf=1.0
+@frame id=F0000 parent=ROOT module=lctl.example.parallel_bell_pairs proof=parallel:1.1
+ID│LANE│OP│OUT│CTRL│IN│ARG│META
+D0001 │ alloc │ Q │ q │ _ │ _ │ 4 │ qs=H2^4;res="logical_qubits=4";p=parallel:1.1
+P0001 │ meta │ REG │ _ │ _ │ _ │ bell_pairs;lanes=2 │ t=parallel_region;res="W=4;D=2";p=parallel:1.1
+C0010 │ lane0 │ H │ q[0] │ _ │ q[0] │ _ │ _
+C0011 │ lane1 │ H │ q[2] │ _ │ q[2] │ _ │ _
+@end
+@frame id=F0001 parent=F0000 module=lctl.example.parallel_bell_pairs tick=1 prev=F0000 proof=parallel:1.1
+ID│LANE│OP│OUT│CTRL│IN│ARG│META
+P0010 │ meta │ DEP │ _ │ _ │ _ │ C0010->C0020;C0011->C0021 │ t=dependency;p=work-span:exact
+C0020 │ lane0 │ CX │ q[1] │ q[0] │ q[1] │ _ │ _
+C0021 │ lane1 │ CX │ q[3] │ q[2] │ q[3] │ _ │ _
+@end
+@frame id=F0002 parent=F0001 module=lctl.example.parallel_bell_pairs tick=2 prev=F0001 proof=parallel:1.1
+ID│LANE│OP│OUT│CTRL│IN│ARG│META
+P0020 │ meta │ CM │ _ │ _ │ _ │ alpha=0;beta=0;local_only=true │ t=communication_model;p=PDC80:communication
+P0021 │ meta │ MEMORY_TIER │ _ │ _ │ _ │ statevector=RAM;artifacts=SSD │ t=memory_tier;p=PDC80:memory
+C0030 │ sync │ BAR │ _ │ _ │ _ │ _ │ t=barrier;p=parallel:barrier
+@end

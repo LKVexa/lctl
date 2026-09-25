@@ -1,0 +1,12 @@
+{
+  "exit": 0,
+  "pass": true,
+  "shots": 256,
+  "seed": 20260810,
+  "result": {
+    "shots": 256,
+    "histogram": {
+      "00": 256
+    }
+  }
+}

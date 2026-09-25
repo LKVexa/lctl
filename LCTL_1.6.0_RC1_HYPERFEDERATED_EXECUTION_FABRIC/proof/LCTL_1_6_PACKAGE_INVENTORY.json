@@ -1,0 +1,9 @@
+{
+  "schema": "LCTL-PACKAGE-INVENTORY/1.6",
+  "file_count_excluding_checksum_file": 3203,
+  "total_bytes_excluding_checksum_file": 8385385,
+  "conformance_1_6_positive": 512,
+  "conformance_1_6_negative": 512,
+  "required_ledgers": 41,
+  "required_reports": 25
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "LCTL-SOURCE-AUTHORITY/1.2",
+  "base_language_package": {
+    "file": "LCTL_PARALLEL_LANGUAGE_1.1.0_DEVELOPMENT_CANDIDATE.zip",
+    "sha256": "0c228c23e6483c38906d3c3ec55ad46686ed5ff12b39670ddac8de6a2cd05490"
+  },
+  "governing_workflow": {
+    "file": "QUORUM_LCTL_1.2.x_PARALLEL_DISTRIBUTED_SYSTEM_EXPANSION_PROMPT_AND_WORKFLOW.md",
+    "sha256": "436e9ed097a34ad6b1998d98b0fadd2347284e2a3439532cf011888a2b12a4b2"
+  },
+  "compendium_authorities": [
+    "00_Foundations_Calculus_Transform.pdf",
+    "22_Continuum_Mechanics.pdf",
+    "23_Coupled_Mechanics.pdf",
+    "32_Quantum_Mechanics.pdf",
+    "80_Parallel_and_Distributed_Computing.pdf"
+  ],
+  "policy": "fail-closed; physical distributed execution requires authenticated target evidence"
+}

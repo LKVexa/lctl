@@ -1,0 +1,13 @@
+LCTL/1.3
+BUNDLE¦ID¦VERSION¦PROFILE¦ENTRY¦FRAMES¦TARGET¦BACKEND¦NETWORK¦REPLAY¦PRECISION¦ERROR_BUDGET¦RESOURCE_CEILING¦ADMISSION¦STATE¦PROOF
+(bundle ¦ lctl.test.nine_qubit_density ¦ 1.3.0-rc1 ¦ lctl.quantum.parallel.distributed.native ¦ F0:C1 ¦ 1 ¦ local-reference ¦ none ¦ deny ¦ deterministic ¦ f64 ¦ 0 ¦ q<=18 ¦ q1-q6 ¦ development ¦ lctl13:test)
+QFRAME/1.0 BEGIN F0
+ID¦PARENT¦MODULE¦QSPACE¦TICK¦PREV¦REGISTERS¦BASIS¦STATE_REGIME¦NOISE_REGIME¦APPROX_REGIME¦HARDWARE¦CONF¦ERROR¦ADMIT¦PROOF
+(F0 ¦ ROOT ¦ test ¦ H ¦ 0 ¦ _ ¦ declared ¦ computational ¦ pure ¦ explicit ¦ exact ¦ local ¦ 1.0 ¦ exact ¦ observe ¦ test)
+QTUPLE/1.0
+ROW¦FACE¦LANE¦QSPACE¦OP¦OUT¦CTRL¦A¦B¦PARAM¦TYPE¦BASIS¦REGIME¦ASSUME¦ERROR¦RESOURCE¦CONF¦PROOF
+(D1 ¦ DECL ¦ alloc ¦ H2^9 ¦ QREG ¦ q ¦ _ ¦ _ ¦ _ ¦ 9 ¦ qreg[9] ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ logical_qubits=9 ¦ 1.0 ¦ test)
+(C1 ¦ CODE ¦ lane0 ¦ H ¦ H ¦ q[0] ¦ _ ¦ q[0] ¦ _ ¦ _ ¦ operator ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ _ ¦ 1.0 ¦ test)
+END QTUPLE
+END QFRAME
+END LCTL

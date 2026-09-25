@@ -1,0 +1,7 @@
+{
+  "status": "IMPLEMENTED",
+  "schema": "LCTL-RECONSTRUCTION/2.0",
+  "inherited_event_replay": "VERIFIED",
+  "queue_shard_route_inventory_full_reconstruction": "IMPLEMENTED_PARTIAL",
+  "qualification": "NOT_QUALIFIED"
+}

@@ -1,0 +1,14 @@
+LCTLC/1.0
+@unit id=lctl.example.coupled_continuum_parallel version=1.1.0 profile=lctl.quantum.parallel entry=F1000:C1001 target=local-reference error_budget=0.01 resource_ceiling=q<=12;density<=8;parallel=logical proof=parallel-proof
+@defaults qspace=H basis=computational regime=exact assume=finite_dimension error=exact conf=1.0
+@frame id=F1000 parent=ROOT module=lctl.example.coupled_parallel_model proof=parallel:1.1
+ID│LANE│OP│OUT│CTRL│IN│ARG│META
+D1001 │ alloc │ Q │ q │ _ │ _ │ 1 │ qs=H2;res="logical_qubits=1";p=parallel:1.1
+F1001 │ field0 │ TENSOR │ _ │ _ │ _ │ rank=2;symmetry=symmetric;domain=Omega │ t=tensor[2];p=CM22:tensor
+F1002 │ field0 │ LINEARIZATION │ _ │ _ │ _ │ finite_model->tangent;validity=declared │ t=linearization;r=linearized;asm="approx_allowed;small_perturbation";err="abs<=0.001";p=CM22:linearization
+K1001 │ couple │ BLOCK_COUPLING │ _ │ _ │ _ │ A,B;C,D │ t=coupled_system;p=CP23:block
+K1002 │ couple │ RECIPROCITY │ _ │ _ │ _ │ B=C^T │ t=coupling_block;p=CP23:onsager
+A1001 │ proof │ COUPLING_RECIPROCITY │ _ │ _ │ _ │ 0,1;2,0||0,2;1,0 │ t=assertion;p=CP23:reciprocity
+P1001 │ meta │ DOMAIN_DECOMP │ _ │ _ │ _ │ subdomains=2;interface=explicit │ t=parallel_region;p="CM22:balance;PDC80:surface-volume"
+C1001 │ lane0 │ . │ _ │ _ │ _ │ _ │ p=parallel:nop
+@end

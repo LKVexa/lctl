@@ -1,0 +1,1 @@
+{"status":"PASS","schema":"LCTL-REPARTITION/1.5","trigger":"REFERENCE_LOAD_SKEW","moved_tasks":0,"quantum_unknown_state_cloned":false,"quantum_migration_policy":"OWNERSHIP_MOVE_OR_ADMITTED_PROTOCOL_ONLY"}

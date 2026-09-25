@@ -1,0 +1,7 @@
+{
+  "id": "P095",
+  "family": "collective",
+  "type": "scan",
+  "workers": 4,
+  "expect": "PASS"
+}

@@ -1,0 +1,15 @@
+{
+  "dag": "LCTL-CAUSAL-DAG/1.0",
+  "edge_count": 0,
+  "edges": [],
+  "node_count": 1,
+  "nodes": [
+    {
+      "id": "C0010",
+      "lane": "sync",
+      "op": "BARRIER",
+      "resources": ""
+    }
+  ],
+  "source_hash": "e3131bb1986be88a1e6bef37b8609704d5f2284d10dbdce5c2fef5199ae91829"
+}

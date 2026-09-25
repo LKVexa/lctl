@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "schema": "LCTL-TOPOLOGY-DISCOVERY/1.6",
+  "os": "Linux",
+  "arch": "amd64",
+  "available_processors": 4,
+  "numa_nodes_observed": 1,
+  "jvm_max_memory_bytes": 1073741824,
+  "jvm_total_memory_bytes": 69206016,
+  "jvm_free_memory_bytes": 67058160,
+  "devices_invented": false,
+  "remote_domains_claimed": false
+}

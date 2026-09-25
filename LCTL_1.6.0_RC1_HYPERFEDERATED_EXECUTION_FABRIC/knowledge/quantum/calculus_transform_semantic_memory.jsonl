@@ -1,0 +1,9 @@
+{"id": "CT-D1", "claim": "Fredholm continuum coupling", "class": "operator", "regime": "asymptotic", "assumptions": "R1;R2", "error": "abs<=O(sigma^2)+O(l^2)", "proof": "D1;Theta-G;Theta-J"}
+{"id": "CT-D2", "claim": "Spectral continuum image and Rayleigh quotient", "class": "spectral", "regime": "asymptotic", "assumptions": "compact_domain;R1;R2", "error": "abs<=O(sigma^2)+O(l^2)", "proof": "D2;Theta-G;Theta-J"}
+{"id": "CT-D3", "claim": "Quadratic form to Dirichlet energy", "class": "variational", "regime": "exact_linear", "assumptions": "boundary_condition;positive_metric", "error": "exact-form;retraction O(l^2)", "proof": "D3;Theta-C;Theta-J"}
+{"id": "CT-D8", "claim": "Kernel to heat semigroup", "class": "operator", "regime": "asymptotic", "assumptions": "constant_or_declared_density", "error": "abs<=O(sigma^2)", "proof": "D8;Theta-D;Theta-G"}
+{"id": "CT-D10", "claim": "Reversible chain to Fokker-Planck", "class": "stochastic", "regime": "structural_analogue", "assumptions": "classical_density;reversibility", "error": "model-dependent", "proof": "D10"}
+{"id": "CT-D11", "claim": "Optimization to Euler-Lagrange/KKT", "class": "variational", "regime": "exact_linear", "assumptions": "constraint_qualification;convexity_when_uniqueness_claimed", "error": "exact first-order condition", "proof": "D11;Theta-H"}
+{"id": "CT-D13", "claim": "Nonlinear model to Frechet derivative", "class": "operator", "regime": "linearized", "assumptions": "twice_Frechet_differentiable;local_validity", "error": "abs<=0.5*sup||D2N||*||xi||^2", "proof": "D13"}
+{"id": "CT-D14", "claim": "Obstruction preserved", "class": "obstruction", "regime": "no_faithful_form", "assumptions": "zero_first_variation", "error": "exact rejection certificate", "proof": "D14"}
+{"id": "CT-J", "claim": "Tower retraction", "class": "retraction", "regime": "asymptotic", "assumptions": "C2_integrand;interior_or_boundary_rule", "error": "abs<=O(l^2)+O(sigma^2)", "proof": "Theta-J"}

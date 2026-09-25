@@ -1,0 +1,25 @@
+{
+  "schema": "LCTL-PARTIAL-ORDER/2.0",
+  "nodes": 5,
+  "exact_width": 3,
+  "levels": 2,
+  "layers": [
+    {
+      "level": 0,
+      "tasks": [
+        "C0010",
+        "C0011",
+        "C9999"
+      ]
+    },
+    {
+      "level": 1,
+      "tasks": [
+        "C0020",
+        "C0021"
+      ]
+    }
+  ],
+  "width_method": "DILWORTH_MAXIMUM_MATCHING_EXACT",
+  "physical_parallelism_claimed": false
+}

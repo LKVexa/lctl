@@ -1,0 +1,124 @@
+{
+  "schema": "LCTL-1.4-RELEASE-QUALIFICATION/1.0",
+  "release": "1.4.0-rc1-adaptive-execution-mesh",
+  "overall": "DEVELOPMENT_CANDIDATE_NOT_FULLY_QUALIFIED",
+  "evidence": {
+    "lctl_1_3_regression": {
+      "positive": {
+        "total": 109,
+        "pass": 109,
+        "fail": 0
+      },
+      "negative": {
+        "total": 80,
+        "pass": 80,
+        "fail": 0
+      },
+      "overall": {
+        "total": 189,
+        "pass": 189,
+        "fail": 0
+      }
+    },
+    "lctl_1_4_conformance": {
+      "total": 320,
+      "pass": 320,
+      "fail": 0
+    },
+    "property_test": {
+      "pass": 500,
+      "total": 500
+    },
+    "metamorphic_test": {
+      "pass": 500,
+      "total": 500
+    },
+    "recovery_campaign": {
+      "pass": 120,
+      "total": 120
+    },
+    "short_soak": {
+      "status": "PASS",
+      "schema": "LCTL-SOAK/1.0",
+      "requested_hours": 0.001,
+      "actual_hours": 0.0010011837155555555,
+      "iterations": 4340,
+      "stable_result_hash": "d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929"
+    },
+    "required_8h_soak": "NOT_EXECUTED"
+  },
+  "subsystem_status": {
+    "parallel_discovery": "OPERATIONAL",
+    "partial_order": "OPERATIONAL",
+    "commutation_authority_2": "IMPLEMENTED",
+    "hypergraph_partitioning": "IMPLEMENTED",
+    "pareto_partitioning": "IMPLEMENTED",
+    "hierarchical_placement": "IMPLEMENTED",
+    "routing_2": "IMPLEMENTED",
+    "temporal_scheduler_2": "IMPLEMENTED",
+    "task_runtime": "OPERATIONAL",
+    "bsp_runtime": "OPERATIONAL",
+    "async_runtime": "OPERATIONAL",
+    "collectives": "OPERATIONAL",
+    "distributed_density_2": "OPERATIONAL",
+    "stabilizer_2": "IMPLEMENTED",
+    "tensor_network": "IMPLEMENTED",
+    "out_of_core": "OPERATIONAL",
+    "teleportation_2": "OPERATIONAL",
+    "remote_gate_2": "IMPLEMENTED",
+    "live_recovery": "IMPLEMENTED",
+    "event_reconstruction": "IMPLEMENTED",
+    "error_algebra_2": "IMPLEMENTED"
+  },
+  "mandatory_release_outputs": {
+    "NATIVE_PARALLEL_EXECUTION": "BLOCKED",
+    "NATIVE_DISTRIBUTED_EXECUTION": "BLOCKED",
+    "DISTRIBUTED_NUMERICAL_SIMULATION": "BLOCKED",
+    "DISTRIBUTED_PROTOCOL_EMULATION": "BLOCKED",
+    "ADAPTIVE_TASK_RUNTIME": "BLOCKED",
+    "DYNAMIC_RECOVERY": "BLOCKED",
+    "PHYSICAL_PARALLEL_QPU_EXECUTION": "BLOCKED",
+    "PHYSICAL_DISTRIBUTED_QPU_EXECUTION": "BLOCKED"
+  },
+  "blocking_reasons": [
+    "required 8-hour soak not executed",
+    "dynamic scheduler/load balancer not complete",
+    "full commutation/hypergraph/quantum-routing/error-algebra authorities remain partial",
+    "remote-gate numerical equivalence incomplete",
+    "tensor-network numerical backend incomplete",
+    "physical target authority absent"
+  ],
+  "subsystem_scope": {
+    "parallel_discovery": "OPERATIONAL",
+    "partial_order": "OPERATIONAL",
+    "commutation_authority_2": "IMPLEMENTED",
+    "hypergraph_partitioning": "IMPLEMENTED",
+    "pareto_partitioning": "IMPLEMENTED",
+    "hierarchical_placement": "IMPLEMENTED",
+    "routing_2": "IMPLEMENTED",
+    "temporal_scheduler_2": "IMPLEMENTED",
+    "task_runtime": "OPERATIONAL_REFERENCE_SUBSET",
+    "bsp_runtime": "OPERATIONAL_REFERENCE_SUBSET",
+    "async_runtime": "OPERATIONAL_REFERENCE_SUBSET",
+    "collectives": "OPERATIONAL_REFERENCE_SUBSET",
+    "distributed_density_2": "OPERATIONAL_BOUNDED_REFERENCE",
+    "stabilizer_2": "IMPLEMENTED_REFERENCE",
+    "tensor_network": "IMPLEMENTED_PARTIAL_PLANNER_ONLY",
+    "out_of_core": "OPERATIONAL_REFERENCE",
+    "teleportation_2": "OPERATIONAL_IDEAL_REFERENCE",
+    "remote_gate_2": "IMPLEMENTED_PARTIAL",
+    "live_recovery": "IMPLEMENTED_PARTIAL",
+    "event_reconstruction": "IMPLEMENTED_PARTIAL",
+    "error_algebra_2": "IMPLEMENTED_PARTIAL"
+  },
+  "mandatory_release_blockers": {
+    "NATIVE_PARALLEL_EXECUTION": "Full 1.4 qualification incomplete; 8-hour soak and completeness gates open.",
+    "NATIVE_DISTRIBUTED_EXECUTION": "Full 1.4 qualification incomplete; dynamic cluster scheduling/recovery gates open.",
+    "DISTRIBUTED_NUMERICAL_SIMULATION": "Full 1.4 qualification incomplete; tensor backend and broader qualification gates open.",
+    "DISTRIBUTED_PROTOCOL_EMULATION": "Remote-gate numerical equivalence and broader protocol qualification remain partial.",
+    "ADAPTIVE_TASK_RUNTIME": "Dynamic work stealing/straggler/actor-channel completeness and soak remain open.",
+    "DYNAMIC_RECOVERY": "Live orchestration across all modeled failures remains partial.",
+    "PHYSICAL_PARALLEL_QPU_EXECUTION": "EXTERNAL_AUTHORITY: no authenticated physical QPU evidence.",
+    "PHYSICAL_DISTRIBUTED_QPU_EXECUTION": "EXTERNAL_AUTHORITY: no authenticated multi-QPU/link evidence."
+  }
+}

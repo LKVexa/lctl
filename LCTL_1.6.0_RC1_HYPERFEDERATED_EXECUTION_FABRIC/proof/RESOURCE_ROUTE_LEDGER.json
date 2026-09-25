@@ -1,0 +1,13 @@
+{
+  "status": "PASS_WITH_SCOPE",
+  "schema": "LCTL-TIME-EXPANDED-RESOURCE-ROUTER/1.6",
+  "resources": [
+    "bandwidth",
+    "device_reservation",
+    "ebit_inventory",
+    "calibration_window"
+  ],
+  "topology_links": 6,
+  "bounded_min_cost_reference": true,
+  "full_live_inventory_feed": "BLOCKED_EXTERNAL_AUTHORITY"
+}

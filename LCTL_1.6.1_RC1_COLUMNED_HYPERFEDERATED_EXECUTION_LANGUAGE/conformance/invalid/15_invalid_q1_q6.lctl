@@ -1,0 +1,20 @@
+LCTL/1.0
+BUNDLE¦ID¦VERSION¦PROFILE¦ENTRY¦FRAMES¦TARGET¦BACKEND¦NETWORK¦REPLAY¦PRECISION¦ERROR_BUDGET¦RESOURCE_CEILING¦ADMISSION¦STATE¦PROOF
+(bundle ¦ lctl.negative.15_invalid_q1_q6 ¦ 1.0.0 ¦ lctl.quantum.core ¦ F0000:D0001 ¦ 1 ¦ local-reference ¦ none ¦ deny ¦ deterministic-seeded ¦ f64 ¦ 0.01 ¦ q<=12;density<=8 ¦ q1-q6 ¦ sealed ¦ release-proof)
+QFRAME/1.0 BEGIN F0000
+ID¦PARENT¦MODULE¦QSPACE¦TICK¦PREV¦REGISTERS¦BASIS¦STATE_REGIME¦NOISE_REGIME¦APPROX_REGIME¦HARDWARE¦CONF¦ERROR¦ADMIT¦PROOF
+(F0000 ¦ ROOT ¦ bad-learn ¦ H ¦ 0 ¦ _ ¦ declared ¦ computational ¦ pure ¦ none ¦ exact ¦ local ¦ 1.0 ¦ exact ¦ admit ¦ negative)
+QTUPLE/1.0
+ROW¦FACE¦LANE¦QSPACE¦OP¦OUT¦CTRL¦A¦B¦PARAM¦TYPE¦BASIS¦REGIME¦ASSUME¦ERROR¦RESOURCE¦CONF¦PROOF
+(D0001 ¦ DECL ¦ alloc ¦ H2^1 ¦ QREG ¦ q ¦ _ ¦ _ ¦ _ ¦ 1 ¦ qreg[1] ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ logical_qubits=1 ¦ 1.0 ¦ type:qreg)
+(L0010 ¦ LEARN ¦ learning ¦ H ¦ REL ¦ candidate ¦ _ ¦ a ¦ b ¦ rule ¦ semantic_relation ¦ custom ¦ exact_linear ¦ finite_dimension ¦ exact ¦ _ ¦ 0.9 ¦ candidate)
+(E001 ¦ EVIDENCE ¦ proof ¦ H ¦ Q1 ¦ F0000 ¦ _ ¦ pass ¦ _ ¦ evidence1 ¦ proof_record ¦ custom ¦ exact ¦ none ¦ exact ¦ _ ¦ 1.0 ¦ q1)
+(E002 ¦ EVIDENCE ¦ proof ¦ H ¦ Q2 ¦ F0000 ¦ _ ¦ pass ¦ _ ¦ evidence2 ¦ proof_record ¦ custom ¦ exact ¦ none ¦ exact ¦ _ ¦ 1.0 ¦ q2)
+(E003 ¦ EVIDENCE ¦ proof ¦ H ¦ Q3 ¦ F0000 ¦ _ ¦ pass ¦ _ ¦ evidence3 ¦ proof_record ¦ custom ¦ exact ¦ none ¦ exact ¦ _ ¦ 1.0 ¦ q3)
+(E004 ¦ EVIDENCE ¦ proof ¦ H ¦ Q4 ¦ F0000 ¦ _ ¦ pass ¦ _ ¦ evidence4 ¦ proof_record ¦ custom ¦ exact ¦ none ¦ exact ¦ _ ¦ 1.0 ¦ q4)
+(E005 ¦ EVIDENCE ¦ proof ¦ H ¦ Q5 ¦ F0000 ¦ _ ¦ pass ¦ _ ¦ evidence5 ¦ proof_record ¦ custom ¦ exact ¦ none ¦ exact ¦ _ ¦ 1.0 ¦ q5)
+END QTUPLE
+END QFRAME
+@frame sha256:652c604f899ae9d4f07d939270c65a7f6168b532655ec5cc9b3f29c612099148
+END LCTL
+@bundle sha256:0e181eef135de1b480730000751767d94a07cb51b3452f1860ec8373f5011c6a

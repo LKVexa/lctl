@@ -1,0 +1,11 @@
+LCTL 1.0.0-rc.2 CONFORMANCE RESULTS
+valid: 21/21 accepted
+invalid: 21/21 rejected as required
+examples: 20/20 verified + classically simulated
+QCIR deterministic smoke: PASS
+QASM adapter smoke: PASS
+optimizer smoke: PASS
+Calculus Transform numeric sanity: PASS
+classical-host / quantum-boundary evidence: PASS
+physical QPU fail-closed gate: PASS (no qualified hardware adapter bundled)
+NOTE: CLASSICAL_SIMULATION is mathematical reference execution, not physical QPU execution.

@@ -1,0 +1,19 @@
+{
+  "status": "PASS_WITH_SCOPE",
+  "schema": "LCTL-COLLECTIVE/3.0",
+  "hierarchical_selection": true,
+  "base": {
+    "status": "PASS",
+    "schema": "LCTL-COLLECTIVE/2.0",
+    "algorithm_selection": "TOPOLOGY_SIZE_REFERENCE",
+    "base": {
+      "status": "PASS",
+      "schema": "LCTL-COLLECTIVE/1.0",
+      "type": "broadcast",
+      "workers": 4,
+      "messages": 3,
+      "result": "root=1;replicas=4",
+      "execution_class": "LOCAL_CLASSICAL_COLLECTIVE"
+    }
+  }
+}

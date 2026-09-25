@@ -1,0 +1,46 @@
+{
+  "dag": "LCTL-CAUSAL-DAG/1.0",
+  "edge_count": 2,
+  "edges": [
+    {
+      "from": "C0010",
+      "reason": "QUANTUM_OWNERSHIP",
+      "resource": "q:q[0]",
+      "to": "C0020"
+    },
+    {
+      "from": "C0011",
+      "reason": "QUANTUM_OWNERSHIP",
+      "resource": "q:q[2]",
+      "to": "C0021"
+    }
+  ],
+  "node_count": 4,
+  "nodes": [
+    {
+      "id": "C0010",
+      "lane": "lane0",
+      "op": "H",
+      "resources": "q:q[0]"
+    },
+    {
+      "id": "C0011",
+      "lane": "lane1",
+      "op": "H",
+      "resources": "q:q[2]"
+    },
+    {
+      "id": "C0020",
+      "lane": "lane0",
+      "op": "CX",
+      "resources": "q:q[0],q:q[1]"
+    },
+    {
+      "id": "C0021",
+      "lane": "lane1",
+      "op": "CX",
+      "resources": "q:q[2],q:q[3]"
+    }
+  ],
+  "source_hash": "06d74ad58f098a5460ca70331faf294d9351cb1f38969a7b89f780945bdad6e8"
+}

@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "schema": "LCTL-ELASTIC-WORKERS/1.6",
+  "workers_before": 1,
+  "workers_after": 4,
+  "live_population_changed": true,
+  "tasks": 96,
+  "safe_boundary": "CLASSICAL_TASK_QUEUE",
+  "result_checksum": -5452867249340722886
+}

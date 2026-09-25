@@ -1,0 +1,1 @@
+PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.depolarizing_channel frames=1 rows=4 sha256=5fe92fbe8fa0f2ac00c132bd8a16134cd751cd0af42a9f22ccaf0702055323f2

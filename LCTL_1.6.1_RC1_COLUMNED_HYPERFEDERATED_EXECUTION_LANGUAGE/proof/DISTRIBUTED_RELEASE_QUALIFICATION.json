@@ -1,0 +1,173 @@
+{
+  "schema": "LCTL-DISTRIBUTED-RELEASE-QUALIFICATION/1.0",
+  "version": "1.2.0-rc1",
+  "profile": "lctl.quantum.parallel.distributed",
+  "overall": "DEVELOPMENT_CANDIDATE",
+  "logical_distributed_language": "IMPLEMENTED_REFERENCE_SUBSET",
+  "physical_distributed_execution": "BLOCKED",
+  "phases": [
+    {
+      "phase": 0,
+      "name": "SOURCE FREEZE AND BASELINE",
+      "status": "PASS",
+      "evidence": "23/23 prior valid and 22/22 prior invalid regression checks passed."
+    },
+    {
+      "phase": 1,
+      "name": "DISTRIBUTED LANGUAGE THESIS",
+      "status": "PASS",
+      "evidence": "Normative 1.2 distributed thesis and execution-state taxonomy written."
+    },
+    {
+      "phase": 2,
+      "name": "PARALLEL/DISTRIBUTED TYPE SYSTEM",
+      "status": "IMPLEMENTED",
+      "evidence": "New DISTRIBUTED/TOPOLOGY/PROTOCOL/FAILURE/MEMORY semantic faces and validators."
+    },
+    {
+      "phase": 3,
+      "name": "GLOBAL OWNERSHIP",
+      "status": "IMPLEMENTED",
+      "evidence": "QSTATE_BIND/MOVE/REMOTE_QOP plus no-cloning and serialization rejection."
+    },
+    {
+      "phase": 4,
+      "name": "CAUSAL DAG",
+      "status": "IMPLEMENTED",
+      "evidence": "`causal-dag` emits deterministic reason-labeled DAG."
+    },
+    {
+      "phase": 5,
+      "name": "WORK/SPAN ENGINE",
+      "status": "IMPLEMENTED",
+      "evidence": "Existing parallel-plan preserved and integrated."
+    },
+    {
+      "phase": 6,
+      "name": "COMMUTATION ENGINE",
+      "status": "PARTIAL",
+      "evidence": "Proof-gated existing optimizer retained; comprehensive distributed commutation catalog not complete."
+    },
+    {
+      "phase": 7,
+      "name": "COUPLING ANALYSIS",
+      "status": "IMPLEMENTED_REFERENCE",
+      "evidence": "Coupling metadata, reciprocity assertion, weak/strong/monolithic examples."
+    },
+    {
+      "phase": 8,
+      "name": "DOMAIN DECOMPOSITION",
+      "status": "IMPLEMENTED_REFERENCE",
+      "evidence": "Domain/interface/halo metadata and communication examples; no full PDE partition solver."
+    },
+    {
+      "phase": 9,
+      "name": "TOPOLOGY MODEL",
+      "status": "IMPLEMENTED",
+      "evidence": "Typed topology rows, quantum/classical links, validation, deterministic topology hash."
+    },
+    {
+      "phase": 10,
+      "name": "PARTITIONER",
+      "status": "PARTIAL",
+      "evidence": "Partitions/shards represented and validated; automatic multi-objective graph partition optimization is not complete."
+    },
+    {
+      "phase": 11,
+      "name": "PLACER",
+      "status": "PARTIAL",
+      "evidence": "Placement representation and target constraints implemented; hardware-calibrated placement optimization blocked."
+    },
+    {
+      "phase": 12,
+      "name": "ROUTER",
+      "status": "PARTIAL",
+      "evidence": "Route representation and remote-gate route validation implemented; physical route discovery target-specific."
+    },
+    {
+      "phase": 13,
+      "name": "COMMUNICATION MODEL",
+      "status": "IMPLEMENTED_REFERENCE",
+      "evidence": "Affine classical cost and quantum-link setup/heralding/success emulation."
+    },
+    {
+      "phase": 14,
+      "name": "SCHEDULER",
+      "status": "IMPLEMENTED_CONSERVATIVE",
+      "evidence": "Deterministic conservative scheduling; global optimality and full target timing integration not claimed."
+    },
+    {
+      "phase": 15,
+      "name": "QCIR-P",
+      "status": "IMPLEMENTED",
+      "evidence": "Deterministic QCIR-P/1.0 with causal DAG and integrity hashes."
+    },
+    {
+      "phase": 16,
+      "name": "CLASSICAL DISTRIBUTED EMULATOR",
+      "status": "IMPLEMENTED",
+      "evidence": "Local reference emulator with explicit nonphysical provenance."
+    },
+    {
+      "phase": 17,
+      "name": "DISTRIBUTED QUANTUM PROTOCOLS",
+      "status": "IMPLEMENTED_REFERENCE",
+      "evidence": "EPR/teleport/remote gate/swap/feedback validation semantics; no physical network."
+    },
+    {
+      "phase": 18,
+      "name": "MEMORY/LOCALITY",
+      "status": "IMPLEMENTED_REFERENCE",
+      "evidence": "Capacity/locality metadata and distributed resource accounting."
+    },
+    {
+      "phase": 19,
+      "name": "FAILURE AND RESILIENCE",
+      "status": "IMPLEMENTED_REFERENCE",
+      "evidence": "Typed failure/checkpoint rules and failure reporting; dynamic recovery engine remains partial."
+    },
+    {
+      "phase": 20,
+      "name": "RESOURCE/ERROR LEDGERS",
+      "status": "PARTIAL",
+      "evidence": "Distributed resource ledger implemented; full calibrated cross-domain error composition remains target-specific."
+    },
+    {
+      "phase": 21,
+      "name": "TARGET ADAPTER EXPANSION",
+      "status": "SCAFFOLDED",
+      "evidence": "Distributed adapter contract and multi-QPU scaffold included; no physical adapter qualified."
+    },
+    {
+      "phase": 22,
+      "name": "CONFORMANCE",
+      "status": "PASS",
+      "evidence": "11/11 aggregate conformance gates; 30/30 distributed valid and 30/30 distributed invalid."
+    },
+    {
+      "phase": 23,
+      "name": "PERFORMANCE QUALIFICATION",
+      "status": "CHARACTERIZED_REFERENCE_HOST",
+      "evidence": "Reference command latency characterized; no QPU speedup claim."
+    },
+    {
+      "phase": 24,
+      "name": "PHYSICAL DISTRIBUTED QUALIFICATION",
+      "status": "BLOCKED",
+      "evidence": "No authenticated multi-QPU endpoints, calibrated interconnect, timing/crosstalk evidence, or execution receipts."
+    }
+  ],
+  "conformance": {
+    "core_valid": "23/23",
+    "core_invalid": "22/22 rejected",
+    "distributed_valid": "30/30",
+    "distributed_invalid": "30/30 rejected",
+    "aggregate_gates": "11/11"
+  },
+  "physical_blockers": [
+    "no authenticated multi-QPU endpoints",
+    "no qualified physical quantum interconnect",
+    "no target calibration/timing/crosstalk evidence",
+    "no physical execution or measurement receipts"
+  ]
+}

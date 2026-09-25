@@ -1,0 +1,1 @@
+{"status":"PASS","schema":"LCTL-PIPELINE/1.5","stages":4,"bounded_buffers":true,"microbatching":true,"items":256,"checksum":65536}

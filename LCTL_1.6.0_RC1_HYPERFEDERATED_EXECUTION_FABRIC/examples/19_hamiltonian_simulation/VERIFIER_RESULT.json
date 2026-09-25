@@ -1,0 +1,5 @@
+{
+  "exit": 0,
+  "pass": true,
+  "output": "PASS LCTL verify bundle=lctl.example.hamiltonian_simulation frames=1 rows=4 sha256=475a32cc53164cfe5ae06f0312999fa5f330bf78f38c9cec7a76d2541a78e045"
+}

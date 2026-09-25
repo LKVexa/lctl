@@ -1,0 +1,31 @@
+LCTL/1.0
+BUNDLE¦ID¦VERSION¦PROFILE¦ENTRY¦FRAMES¦TARGET¦BACKEND¦NETWORK¦REPLAY¦PRECISION¦ERROR_BUDGET¦RESOURCE_CEILING¦ADMISSION¦STATE¦PROOF
+(bundle ¦ lctl.conformance.calculus_transform ¦ 1.0.0 ¦ lctl.quantum.core ¦ F0000:D0001 ¦ 2 ¦ local-reference ¦ none ¦ deny ¦ deterministic-seeded ¦ f64 ¦ 0.01 ¦ q<=12;density<=8 ¦ q1-q6 ¦ sealed ¦ release-proof)
+QFRAME/1.0 BEGIN F0000
+ID¦PARENT¦MODULE¦QSPACE¦TICK¦PREV¦REGISTERS¦BASIS¦STATE_REGIME¦NOISE_REGIME¦APPROX_REGIME¦HARDWARE¦CONF¦ERROR¦ADMIT¦PROOF
+(F0000 ¦ ROOT ¦ transform-demo ¦ H ¦ 0 ¦ _ ¦ declared ¦ computational ¦ pure ¦ none ¦ typed ¦ local-reference ¦ 1.0 ¦ tracked ¦ observe ¦ lctl-core)
+QTUPLE/1.0
+ROW¦FACE¦LANE¦QSPACE¦OP¦OUT¦CTRL¦A¦B¦PARAM¦TYPE¦BASIS¦REGIME¦ASSUME¦ERROR¦RESOURCE¦CONF¦PROOF
+(D0001 ¦ DECL ¦ alloc ¦ H2^1 ¦ QREG ¦ q ¦ _ ¦ _ ¦ _ ¦ 1 ¦ qreg[1] ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ logical_qubits=1 ¦ 1.0 ¦ type:qreg)
+(T0100 ¦ TRANSFORM ¦ continuum ¦ C ¦ THETA_G_CONTINUUM ¦ L_star ¦ _ ¦ L_sigma ¦ _ ¦ -1/(2p^2) div(p^2 G^-1 grad) ¦ operator ¦ continuum ¦ asymptotic ¦ R1:C4_f,C2_p,p>0;R2:interior ¦ abs<=0.001 ¦ sigma->0 ¦ 0.99 ¦ theta:G)
+(T0101 ¦ TRANSFORM ¦ retraction ¦ C ¦ THETA_J_RETRACT ¦ lattice_replay ¦ _ ¦ T_cal ¦ T_8S ¦ S_l o T_cal = T_8S + O(l^2) ¦ proof_record ¦ lattice ¦ asymptotic ¦ C2_integrand;declared_boundary_rule ¦ abs<=0.001 ¦ lattice_scale=l ¦ 1.0 ¦ theta:J)
+END QTUPLE
+END QFRAME
+@frame sha256:c887f41ff2a2dad8ff781f4ac9c2dc991a917d6bfc89ecb8927e922c296f7f92
+QFRAME/1.0 BEGIN F0001
+ID¦PARENT¦MODULE¦QSPACE¦TICK¦PREV¦REGISTERS¦BASIS¦STATE_REGIME¦NOISE_REGIME¦APPROX_REGIME¦HARDWARE¦CONF¦ERROR¦ADMIT¦PROOF
+(F0001 ¦ F0000 ¦ calculus-transform ¦ C ¦ 1 ¦ F0000 ¦ n/a ¦ continuum ¦ model ¦ n/a ¦ asymptotic ¦ none ¦ 0.99 ¦ O(sigma^2)+O(l^2) ¦ admit ¦ theta:G+J)
+QTUPLE/1.0
+ROW¦FACE¦LANE¦QSPACE¦OP¦OUT¦CTRL¦A¦B¦PARAM¦TYPE¦BASIS¦REGIME¦ASSUME¦ERROR¦RESOURCE¦CONF¦PROOF
+(L0200 ¦ LEARN ¦ transform ¦ C ¦ REL ¦ lctl_continuum_profile ¦ _ ¦ discrete_coupling ¦ continuum_operator ¦ admitted_under_Q1_Q6 ¦ semantic_relation ¦ custom ¦ asymptotic ¦ R1;R2;Theta-J ¦ abs<=0.002 ¦ transform_profile ¦ 0.99 ¦ ct:admission)
+(E0101 ¦ EVIDENCE ¦ proof ¦ C ¦ Q1 ¦ F0001 ¦ _ ¦ pass ¦ _ ¦ class=continuum_operator ¦ proof_record ¦ custom ¦ exact ¦ none ¦ exact ¦ _ ¦ 1.0 ¦ ct:q1)
+(E0102 ¦ EVIDENCE ¦ proof ¦ C ¦ Q2 ¦ F0001 ¦ _ ¦ pass ¦ _ ¦ image=weighted_elliptic_operator ¦ proof_record ¦ custom ¦ exact ¦ none ¦ exact ¦ _ ¦ 1.0 ¦ ct:q2)
+(E0103 ¦ EVIDENCE ¦ proof ¦ C ¦ Q3 ¦ F0001 ¦ _ ¦ pass ¦ _ ¦ R1;R2 ¦ proof_record ¦ custom ¦ exact ¦ none ¦ exact ¦ _ ¦ 1.0 ¦ ct:q3)
+(E0104 ¦ EVIDENCE ¦ proof ¦ C ¦ Q4 ¦ F0001 ¦ _ ¦ pass ¦ _ ¦ Taylor+Gaussian_moments ¦ proof_record ¦ custom ¦ exact ¦ none ¦ exact ¦ _ ¦ 1.0 ¦ ct:q4)
+(E0105 ¦ EVIDENCE ¦ proof ¦ C ¦ Q5 ¦ F0001 ¦ _ ¦ pass ¦ _ ¦ Theta-J_two_step_retraction ¦ proof_record ¦ custom ¦ exact ¦ none ¦ exact ¦ _ ¦ 1.0 ¦ ct:q5)
+(E0106 ¦ EVIDENCE ¦ proof ¦ C ¦ Q6 ¦ F0001 ¦ _ ¦ pass ¦ _ ¦ ADMIT_APPROXIMATE ¦ proof_record ¦ custom ¦ exact ¦ none ¦ exact ¦ _ ¦ 1.0 ¦ ct:q6)
+END QTUPLE
+END QFRAME
+@frame sha256:544d8747d19144a2d34704833ba58e8b05506be6eae34879cf606adecdd467a6
+END LCTL
+@bundle sha256:b271d3652ec5f321a8b8d857be14d2a428351188b8d4a93cbde3cfb30ef5b4f4

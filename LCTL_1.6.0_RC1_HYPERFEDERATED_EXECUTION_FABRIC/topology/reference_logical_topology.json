@@ -1,0 +1,38 @@
+{
+  "schema": "LCTL-TOPOLOGY/1.0",
+  "physical": false,
+  "nodes": [
+    {
+      "id": "N0",
+      "class": "emulated_cpu",
+      "memory_gb": 16
+    },
+    {
+      "id": "Q0",
+      "class": "abstract_qpu_partition",
+      "qubits": 4
+    },
+    {
+      "id": "Q1",
+      "class": "abstract_qpu_partition",
+      "qubits": 4
+    }
+  ],
+  "links": [
+    {
+      "src": "N0",
+      "dst": "Q0",
+      "type": "classical",
+      "latency": 1.0,
+      "bandwidth": 1000.0
+    },
+    {
+      "src": "Q0",
+      "dst": "Q1",
+      "type": "quantum",
+      "latency": 5.0,
+      "fidelity": 0.98,
+      "success": 0.8
+    }
+  ]
+}

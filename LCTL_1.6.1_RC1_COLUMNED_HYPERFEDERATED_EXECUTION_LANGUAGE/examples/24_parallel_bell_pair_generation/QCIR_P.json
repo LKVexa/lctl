@@ -1,0 +1,164 @@
+{
+  "causal_dag": {
+    "dag": "LCTL-CAUSAL-DAG/1.0",
+    "edge_count": 2,
+    "edges": [
+      {
+        "from": "C0010",
+        "reason": "QUANTUM_OWNERSHIP",
+        "resource": "q:q[0]",
+        "to": "C0020"
+      },
+      {
+        "from": "C0011",
+        "reason": "QUANTUM_OWNERSHIP",
+        "resource": "q:q[2]",
+        "to": "C0021"
+      }
+    ],
+    "node_count": 4,
+    "nodes": [
+      {
+        "id": "C0010",
+        "lane": "lane0",
+        "op": "H",
+        "resources": "q:q[0]"
+      },
+      {
+        "id": "C0011",
+        "lane": "lane1",
+        "op": "H",
+        "resources": "q:q[2]"
+      },
+      {
+        "id": "C0020",
+        "lane": "lane0",
+        "op": "CX",
+        "resources": "q:q[0],q:q[1]"
+      },
+      {
+        "id": "C0021",
+        "lane": "lane1",
+        "op": "CX",
+        "resources": "q:q[2],q:q[3]"
+      }
+    ],
+    "source_hash": "06d74ad58f098a5460ca70331faf294d9351cb1f38969a7b89f780945bdad6e8"
+  },
+  "execution_class": "QUANTUM_COMPILATION",
+  "physical_distributed": false,
+  "physical_qpu": false,
+  "profile": "lctl.quantum.parallel.distributed",
+  "qcir": "QCIR-P/1.0",
+  "quantum_boundary": "NOT_CROSSED",
+  "records": [
+    {
+      "a": "_",
+      "b": "_",
+      "ctrl": "_",
+      "face": "DECL",
+      "id": "D0001",
+      "lane": "alloc",
+      "op": "QREG",
+      "out": "q",
+      "param": "4",
+      "proof": "lctl:1.2",
+      "regime": "exact"
+    },
+    {
+      "a": "_",
+      "b": "_",
+      "ctrl": "_",
+      "face": "DECL",
+      "id": "D0002",
+      "lane": "alloc",
+      "op": "CREG",
+      "out": "c",
+      "param": "2",
+      "proof": "lctl:1.2",
+      "regime": "exact"
+    },
+    {
+      "a": "_",
+      "b": "_",
+      "ctrl": "_",
+      "face": "PARALLEL",
+      "id": "P0001",
+      "lane": "meta",
+      "op": "REGION",
+      "out": "_",
+      "param": "name=bell_pairs;lanes=2",
+      "proof": "lctl-dist:1.2",
+      "regime": "exact"
+    },
+    {
+      "a": "q[0]",
+      "b": "_",
+      "ctrl": "_",
+      "face": "CODE",
+      "id": "C0010",
+      "lane": "lane0",
+      "op": "H",
+      "out": "q[0]",
+      "param": "_",
+      "proof": "op:h",
+      "regime": "exact"
+    },
+    {
+      "a": "q[2]",
+      "b": "_",
+      "ctrl": "_",
+      "face": "CODE",
+      "id": "C0011",
+      "lane": "lane1",
+      "op": "H",
+      "out": "q[2]",
+      "param": "_",
+      "proof": "op:h",
+      "regime": "exact"
+    },
+    {
+      "a": "q[1]",
+      "b": "_",
+      "ctrl": "q[0]",
+      "face": "CODE",
+      "id": "C0020",
+      "lane": "lane0",
+      "op": "CX",
+      "out": "q[1]",
+      "param": "_",
+      "proof": "op:cx",
+      "regime": "exact"
+    },
+    {
+      "a": "q[3]",
+      "b": "_",
+      "ctrl": "q[2]",
+      "face": "CODE",
+      "id": "C0021",
+      "lane": "lane1",
+      "op": "CX",
+      "out": "q[3]",
+      "param": "_",
+      "proof": "op:cx",
+      "regime": "exact"
+    },
+    {
+      "a": "_",
+      "b": "_",
+      "ctrl": "_",
+      "face": "CODE",
+      "id": "C9999",
+      "lane": "lane0",
+      "op": "NOP",
+      "out": "_",
+      "param": "_",
+      "proof": "lctl:nop",
+      "regime": "exact"
+    }
+  ],
+  "schedule_hash": "1faff5fd89045a8497339061bd55f5b3ae466ba3063d971c9ca7498c8d8f6fb0",
+  "source_language": "LCTL/1.2",
+  "source_sha256": "06d74ad58f098a5460ca70331faf294d9351cb1f38969a7b89f780945bdad6e8",
+  "topology_hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+}

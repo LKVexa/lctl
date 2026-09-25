@@ -1,0 +1,5 @@
+{
+  "exit": 0,
+  "pass": true,
+  "output": "PASS LCTL verify bundle=lctl.example.phase_estimation frames=1 rows=7 sha256=b2f15e0d31e0258a0675a53c76d968807d1fa874c3da1e2f2880515db69724af"
+}

@@ -1,0 +1,1 @@
+PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.qaoa frames=1 rows=8 sha256=0220ed65934e5302e456ae8a86a3604d9c840aa309fa0be82e8a949e5c964912

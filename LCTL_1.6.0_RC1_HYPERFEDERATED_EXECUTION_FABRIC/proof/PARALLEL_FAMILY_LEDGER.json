@@ -1,0 +1,1 @@
+{"status":"PASS","schema":"LCTL-PARALLEL-FAMILY/1.5","semantic_width":3,"task_width":3,"circuit_width":4,"shot_width":1,"state_shard_width":2,"admissible_families":["TASK_PARALLEL","PIPELINE_PARALLEL","CIRCUIT_PARALLEL","NUMERICAL_SHARD_PARALLEL"],"selected_family":"TASK_PARALLEL","selection_policy":"CHEAPEST_SEMANTICALLY_VALID_REFERENCE"}

@@ -1,0 +1,13 @@
+{
+  "source": "program.lctl",
+  "source_sha256": "87076198ceec74aa27fbc65d8f0346627e3bdc6c9027c104f62e163bb213701d",
+  "runtime_inspect": {
+    "status": "PASS",
+    "bundle": "lctl.example.amplitude_damping",
+    "qubits": 1,
+    "cbits": 1,
+    "exec_rows": 3,
+    "approx_error": 0.0
+  },
+  "canonical_format": "LCTL/1.0"
+}

@@ -1,0 +1,5 @@
+{
+  "exit": 0,
+  "pass": true,
+  "output": "PASS LCTL verify bundle=lctl.example.superdense_coding frames=1 rows=10 sha256=061c5f133c4689a35f59b5646b6024b87a1c1c3d760c82c8aa6c6703907957ec"
+}

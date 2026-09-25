@@ -1,0 +1,1 @@
+PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.coupled_continuum_parallel frames=1 rows=8 sha256=6374e7e23dd83870a13b2b300e78c39e2bf10c8022d45170996d43ce16561b99

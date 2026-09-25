@@ -1,0 +1,70 @@
+{
+  "classical_bytes": 0.0,
+  "classical_links": 0,
+  "distributed_state": "DISTRIBUTED_SCHEDULED",
+  "ebits_reserved": 0,
+  "events": 0,
+  "execution_class": "QUANTUM_COMPILATION",
+  "failure_rows": 0,
+  "futures": 0,
+  "language": "LCTL/1.2",
+  "memory_rows": 0,
+  "messages": 0,
+  "node_ids": "N0,N1",
+  "nodes": 2,
+  "parallel_plan": {
+    "barriers": 0,
+    "communication_metadata_rows": 0,
+    "coupling_rows": 0,
+    "execution_class": "QUANTUM_COMPILATION",
+    "field_rows": 0,
+    "lanes": 2,
+    "language": "LCTL/1.2",
+    "layers": [
+      {
+        "frame": "F0000",
+        "layer": 1,
+        "ops": [
+          {
+            "id": "C0010",
+            "lane": "lane0",
+            "op": "H"
+          },
+          {
+            "id": "C0011",
+            "lane": "lane1",
+            "op": "H"
+          }
+        ]
+      }
+    ],
+    "logical_parallel": true,
+    "max_exploitable_parallelism": 2.0,
+    "parallel_metadata_rows": 0,
+    "physical_parallel": false,
+    "physical_qpu": false,
+    "profile": "lctl.quantum.parallel.distributed",
+    "quantum_boundary": "NOT_CROSSED",
+    "scheduled_parallel": true,
+    "span": 1,
+    "synchronization_markers": 0,
+    "work": 2
+  },
+  "parallel_state": "SCHEDULED_PARALLEL",
+  "partitions": 0,
+  "physical_distributed": false,
+  "physical_parallel": false,
+  "physical_qpu": false,
+  "placements": 0,
+  "profile": "lctl.quantum.parallel.distributed",
+  "protocol_ops": 0,
+  "protocols": "",
+  "qcir_p_hash": "3d69480aa3e842460cd0e95feec4452272bb8a70f906b2a501073695ba30c5b1",
+  "quantum_boundary": "NOT_CROSSED",
+  "quantum_links": 0,
+  "remote_gate_ops": 0,
+  "routes": 0,
+  "schedule_hash": "6c0b6232ac324ab1951b4591e994aed8cdad4676324610c853d0241a3d42aeed",
+  "source_hash": "7166695de6b1cbe7837cf34d0f509a10a7cbacb66272e3dcc63ae8476b4256fc",
+  "topology_hash": "02fa860ef278b82a78f1ef12ce8a21c2e2097650d81e5a4af044252f30891922"
+}

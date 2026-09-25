@@ -1,0 +1,7 @@
+{
+  "id": "N023",
+  "family": "invalid_consistency",
+  "profile": "INVALID_22",
+  "program": "examples/24_parallel_bell_pair_generation/program.lctl",
+  "expect_exit": 1
+}

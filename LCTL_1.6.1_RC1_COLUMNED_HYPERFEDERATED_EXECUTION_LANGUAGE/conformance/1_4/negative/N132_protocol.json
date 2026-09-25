@@ -1,0 +1,7 @@
+{
+  "id": "N132",
+  "family": "invalid_protocol",
+  "program": "conformance/invalid_distributed/11_teleport_without_classical_path.lctl",
+  "seed": 4011,
+  "expect_exit": 1
+}

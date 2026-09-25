@@ -1,0 +1,65 @@
+{
+  "schema": "LCTL-RELEASE-QUALIFICATION/1.3",
+  "version": "1.3.0-rc1",
+  "release_class": "DEVELOPMENT_CANDIDATE",
+  "gates": {
+    "LCTL_1_2_RC1_BASELINE_VERIFIED": "PASS",
+    "SES_OPERATIONAL": "PASS",
+    "COMMUTATION_ENGINE_OPERATIONAL": "PARTIAL",
+    "PARTITIONER_OPERATIONAL": "PARTIAL",
+    "PLACER_OPERATIONAL": "PARTIAL",
+    "CLASSICAL_ROUTER_OPERATIONAL": "PASS_REFERENCE",
+    "QUANTUM_ROUTER_OPERATIONAL_REFERENCE": "PARTIAL",
+    "TEMPORAL_SCHEDULER_OPERATIONAL": "PARTIAL",
+    "QCIR_P2_OPERATIONAL": "PASS_REFERENCE",
+    "LOCAL_EXECUTION_FABRIC_OPERATIONAL": "PASS_REFERENCE",
+    "DISTRIBUTED_STATEVECTOR_OPERATIONAL": "PASS_REFERENCE",
+    "DISTRIBUTED_DENSITY_OPERATIONAL": "PARTIAL",
+    "STABILIZER_ENGINE_OPERATIONAL": "PASS_REFERENCE_SUBSET",
+    "EPR_RESOURCE_ENGINE_OPERATIONAL": "PASS_REFERENCE",
+    "TELEPORTATION_OPERATIONAL_REFERENCE": "PARTIAL",
+    "REMOTE_GATE_OPERATIONAL_REFERENCE": "PARTIAL",
+    "FAILURE_INJECTION_OPERATIONAL": "PASS_REFERENCE",
+    "RECOVERY_ENGINE_OPERATIONAL_REFERENCE": "PARTIAL",
+    "DETERMINISTIC_REPLAY_OPERATIONAL": "PARTIAL",
+    "DISTRIBUTED_ERROR_ALGEBRA_OPERATIONAL": "PARTIAL",
+    "LCTL_1_3_CONFORMANCE_PASS": "PASS",
+    "NUMERICAL_EQUIVALENCE_PASS": "PASS_REFERENCE",
+    "SCALABILITY_CHARACTERIZED": "PASS",
+    "LOCAL_DISTRIBUTED_SOAK_PASS": "BLOCKED_NOT_8_HOUR",
+    "PHYSICAL_DISTRIBUTED_EXECUTION": "BLOCKED_EXTERNAL_AUTHORITY"
+  },
+  "conformance_summary": {
+    "positive": {
+      "total": 109,
+      "pass": 109,
+      "fail": 0
+    },
+    "negative": {
+      "total": 80,
+      "pass": 80,
+      "fail": 0
+    },
+    "overall": {
+      "total": 189,
+      "pass": 189,
+      "fail": 0
+    }
+  },
+  "numerical_summary": {
+    "statevector_pass": 12,
+    "statevector_total": 12,
+    "max_statevector_error": 0.0,
+    "density_trace_error": 4.440892098500626e-16,
+    "density_hermiticity_error": 0.0
+  },
+  "mandatory_release_outputs": {
+    "NATIVE_PARALLEL_EXECUTION": "BLOCKED",
+    "NATIVE_DISTRIBUTED_EXECUTION": "BLOCKED",
+    "DISTRIBUTED_NUMERICAL_SIMULATION": "BLOCKED",
+    "DISTRIBUTED_PROTOCOL_EMULATION": "BLOCKED",
+    "PHYSICAL_PARALLEL_QPU_EXECUTION": "BLOCKED_EXTERNAL_AUTHORITY",
+    "PHYSICAL_DISTRIBUTED_QPU_EXECUTION": "BLOCKED_EXTERNAL_AUTHORITY"
+  },
+  "reason": "The reference fabric has substantial executable mechanisms, but full 1.3 qualification is withheld because several required engines remain partial and the recommended 8-hour soak was not executed. Physical gates additionally require external hardware authority."
+}

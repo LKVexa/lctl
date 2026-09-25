@@ -1,0 +1,12 @@
+LCTLC/1.0
+@unit id=lctl.example.communication_aware_scheduling version=1.2.0-rc1 profile=lctl.quantum.parallel.distributed entry=F0000:C9999 target=local-reference error_budget=0.05 resource_ceiling=q<=12;distributed=logical;physical=false proof=lctl-dist:1.2
+@defaults qspace=H basis=computational regime=exact assume=finite_dimension error=exact conf=1.0
+@frame id=F0000 parent=ROOT module=lctl.example.communication_aware_scheduling proof=lctl-dist:1.2
+ID│LANE│OP│OUT│CTRL│IN│ARG│META
+D0001 │ alloc │ Q │ q │ _ │ _ │ 2 │ qs=H2^2;res="logical_qubits=2";p=lctl:1.2
+D0002 │ alloc │ C │ c │ _ │ _ │ 2 │ qs=C;t=creg[2];res="classical_bits=2";p=lctl:1.2
+P0001 │ meta │ CM │ _ │ _ │ _ │ alpha=3;beta=0.02 │ p=lctl-dist:1.2
+X0002 │ meta │ MSG │ _ │ _ │ _ │ src=N0;dst=N1;bytes=100;budget=200 │ asm=finite_dimension;p=lctl-dist:1.2
+X0003 │ meta │ ROUTE │ _ │ _ │ _ │ id=R0;src=N0;dst=N1;kind=classical │ asm=finite_dimension;p=lctl-dist:1.2
+C9999 │ lane0 │ . │ _ │ _ │ _ │ _ │ p=lctl:nop
+@end

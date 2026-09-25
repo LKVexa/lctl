@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "schema": "LCTL-TASK-RUNTIME/2.0",
+  "mode": "TASK",
+  "workers": 4,
+  "tasks": 5,
+  "max_observed_concurrency": 3,
+  "wall_seconds": 0.018163557,
+  "result_hash": "d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929",
+  "trace_written": true,
+  "quantum_payload_policy": "OWNERSHIP_TRANSFER_NOT_CLONE",
+  "physical_qpu": false
+}

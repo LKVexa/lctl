@@ -1,0 +1,17 @@
+{
+  "classical_links": 1,
+  "execution_class": "QUANTUM_COMPILATION",
+  "language": "LCTL/1.2",
+  "links": 1,
+  "node_ids": "Q0,Q1",
+  "nodes": 2,
+  "numa_domains": 0,
+  "physical_distributed": false,
+  "physical_qpu": false,
+  "profile": "lctl.quantum.parallel.distributed",
+  "qpu_descriptors": 0,
+  "quantum_boundary": "NOT_CROSSED",
+  "quantum_links": 0,
+  "status": "PASS",
+  "topology_hash": "1eb548e42f21a4873a765f4ed74a1a9b5bc4f9a7dfe0cb53663198ebc319bd2d"
+}

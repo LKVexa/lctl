@@ -1,0 +1,275 @@
+{
+  "schema": "LCTL-1.5-PHASE-LEDGER/1.0",
+  "phases": [
+    {
+      "phase": 0,
+      "status": "VERIFIED",
+      "gate": "LCTL_1_4_BASELINE_VERIFIED"
+    },
+    {
+      "phase": 1,
+      "status": "VERIFIED",
+      "gate": "LCTL_1_5_GAP_MATRIX_PASS"
+    },
+    {
+      "phase": 2,
+      "status": "VERIFIED",
+      "gate": "FEDERATION_TYPES_OPERATIONAL"
+    },
+    {
+      "phase": 3,
+      "status": "VERIFIED",
+      "gate": "PARALLEL_FAMILY_DISCOVERY_OPERATIONAL"
+    },
+    {
+      "phase": 4,
+      "status": "IMPLEMENTED",
+      "gate": "COMMUTATION_3_PARTIAL"
+    },
+    {
+      "phase": 5,
+      "status": "VERIFIED",
+      "gate": "PARALLEL_REWRITE_ENGINE_OPERATIONAL"
+    },
+    {
+      "phase": 6,
+      "status": "IMPLEMENTED",
+      "gate": "HYPERGRAPH_3_PARTIAL"
+    },
+    {
+      "phase": 7,
+      "status": "IMPLEMENTED",
+      "gate": "DYNAMIC_REPARTITION_IMPLEMENTED"
+    },
+    {
+      "phase": 8,
+      "status": "IMPLEMENTED",
+      "gate": "PARETO_3_REFERENCE"
+    },
+    {
+      "phase": 9,
+      "status": "VERIFIED",
+      "gate": "FEDERATED_PLACEMENT_OPERATIONAL_REFERENCE"
+    },
+    {
+      "phase": 10,
+      "status": "VERIFIED",
+      "gate": "CLASSICAL_ROUTER_3_OPERATIONAL_REFERENCE"
+    },
+    {
+      "phase": 11,
+      "status": "IMPLEMENTED",
+      "gate": "QUANTUM_ROUTER_3_REFERENCE_PARTIAL"
+    },
+    {
+      "phase": 12,
+      "status": "IMPLEMENTED",
+      "gate": "TEMPORAL_SCHEDULER_3_REFERENCE"
+    },
+    {
+      "phase": 13,
+      "status": "IMPLEMENTED",
+      "gate": "DYNAMIC_SCHEDULER_REFERENCE"
+    },
+    {
+      "phase": 14,
+      "status": "IMPLEMENTED",
+      "gate": "WORK_STEALING_PARTIAL"
+    },
+    {
+      "phase": 15,
+      "status": "OPERATIONAL",
+      "gate": "ACTOR_CHANNEL_RUNTIME_OPERATIONAL"
+    },
+    {
+      "phase": 16,
+      "status": "OPERATIONAL",
+      "gate": "CLASSICAL_REPLICATION_OPERATIONAL_REFERENCE"
+    },
+    {
+      "phase": 17,
+      "status": "OPERATIONAL",
+      "gate": "HIERARCHICAL_RUNTIME_OPERATIONAL_REFERENCE"
+    },
+    {
+      "phase": 18,
+      "status": "VERIFIED",
+      "gate": "LIVENESS_DETECTOR_INHERITED_REFERENCE"
+    },
+    {
+      "phase": 19,
+      "status": "VERIFIED",
+      "gate": "COLLECTIVES_2_OPERATIONAL_REFERENCE"
+    },
+    {
+      "phase": 20,
+      "status": "VERIFIED",
+      "gate": "FEDERATED_FARM_OPERATIONAL_REFERENCE"
+    },
+    {
+      "phase": 21,
+      "status": "VERIFIED",
+      "gate": "ADAPTIVE_SHOTS_OPERATIONAL"
+    },
+    {
+      "phase": 22,
+      "status": "IMPLEMENTED",
+      "gate": "VARIATIONAL_3_PARTIAL"
+    },
+    {
+      "phase": 23,
+      "status": "VERIFIED",
+      "gate": "STATEVECTOR_3_QUALIFIED_REFERENCE"
+    },
+    {
+      "phase": 24,
+      "status": "VERIFIED",
+      "gate": "DENSITY_3_QUALIFIED_REFERENCE_SCOPE"
+    },
+    {
+      "phase": 25,
+      "status": "IMPLEMENTED",
+      "gate": "STABILIZER_3_PARTIAL"
+    },
+    {
+      "phase": 26,
+      "status": "IMPLEMENTED",
+      "gate": "TENSOR_NETWORK_BOUNDED_OPERATIONAL"
+    },
+    {
+      "phase": 27,
+      "status": "VERIFIED",
+      "gate": "OUT_OF_CORE_3_REFERENCE"
+    },
+    {
+      "phase": 28,
+      "status": "IMPLEMENTED",
+      "gate": "NUMERICAL_PLANNER_3_REFERENCE"
+    },
+    {
+      "phase": 29,
+      "status": "VERIFIED",
+      "gate": "PROTOCOL_COMPILER_2_OPERATIONAL_REFERENCE"
+    },
+    {
+      "phase": 30,
+      "status": "QUALIFIED",
+      "gate": "REMOTE_CNOT_REFERENCE_EQUIVALENCE_PASS"
+    },
+    {
+      "phase": 31,
+      "status": "IMPLEMENTED",
+      "gate": "NOISY_PROTOCOL_REFERENCE_PARTIAL"
+    },
+    {
+      "phase": 32,
+      "status": "IMPLEMENTED",
+      "gate": "LIVE_RECOVERY_2_REFERENCE"
+    },
+    {
+      "phase": 33,
+      "status": "IMPLEMENTED",
+      "gate": "RECOVERY_SUPERVISION_REFERENCE"
+    },
+    {
+      "phase": 34,
+      "status": "IMPLEMENTED",
+      "gate": "EVENT_SOURCING_3_PARTIAL"
+    },
+    {
+      "phase": 35,
+      "status": "IMPLEMENTED",
+      "gate": "STATE_RECONSTRUCTION_PARTIAL"
+    },
+    {
+      "phase": 36,
+      "status": "VERIFIED",
+      "gate": "CHECKPOINT_SYSTEM_OPERATIONAL_REFERENCE"
+    },
+    {
+      "phase": 37,
+      "status": "IMPLEMENTED",
+      "gate": "ERROR_ALGEBRA_3_PARTIAL"
+    },
+    {
+      "phase": 38,
+      "status": "IMPLEMENTED",
+      "gate": "ERROR_AWARE_PARETO_REFERENCE"
+    },
+    {
+      "phase": 39,
+      "status": "IMPLEMENTED",
+      "gate": "FEDERATION_CONTROL_REFERENCE"
+    },
+    {
+      "phase": 40,
+      "status": "IMPLEMENTED",
+      "gate": "MEMBERSHIP_CAUSALITY_REFERENCE"
+    },
+    {
+      "phase": 41,
+      "status": "IMPLEMENTED",
+      "gate": "ADAPTER_ABI_3_REFERENCE"
+    },
+    {
+      "phase": 42,
+      "status": "VERIFIED",
+      "gate": "ADAPTER_MOCK_CAMPAIGN_PASS"
+    },
+    {
+      "phase": 43,
+      "status": "SPECIFIED",
+      "gate": "FORMAL_STATE_MACHINE_CHECKS_NOT_FULLY_RUN"
+    },
+    {
+      "phase": 44,
+      "status": "VERIFIED",
+      "gate": "PROPERTY_CAMPAIGN_2_PASS"
+    },
+    {
+      "phase": 45,
+      "status": "IMPLEMENTED",
+      "gate": "DIFFERENTIAL_METAMORPHIC_2_PARTIAL"
+    },
+    {
+      "phase": 46,
+      "status": "VERIFIED",
+      "gate": "LCTL_1_5_CONFORMANCE_PASS"
+    },
+    {
+      "phase": 47,
+      "status": "VERIFIED",
+      "gate": "LCTL_1_5_PERFORMANCE_CHARACTERIZED"
+    },
+    {
+      "phase": 48,
+      "status": "VERIFIED",
+      "gate": "FEDERATED_RECOVERY_CAMPAIGN_PASS"
+    },
+    {
+      "phase": 49,
+      "status": "BLOCKED",
+      "gate": "LCTL_1_5_8H_SOAK_NOT_RUN"
+    },
+    {
+      "phase": 50,
+      "status": "BLOCKED",
+      "gate": "LCTL_1_5_24H_SOAK_NOT_RUN"
+    },
+    {
+      "phase": 51,
+      "status": "VERIFIED",
+      "gate": "LCTL_1_5_GAP_AUDIT_COMPLETE"
+    },
+    {
+      "phase": 52,
+      "status": "IMPLEMENTED",
+      "gate": "LCTL_1_5_NATIVE_FEDERATED_NOT_FULLY_QUALIFIED"
+    },
+    {
+      "phase": 53,
+      "status": "BLOCKED",
+      "gate": "PHYSICAL_QPU_BLOCKED_EXTERNAL_AUTHORITY"
+    }
+  ]
+}

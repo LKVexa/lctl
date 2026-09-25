@@ -1,0 +1,14 @@
+{
+  "claim": "Hybrid measurement-feedback circuit",
+  "method": "reference simulation + invariant verification",
+  "source": "LCTL normative core",
+  "transform_role": "none",
+  "admission": "ADMIT_EXACT unless row regime says otherwise",
+  "execution_evidence": {
+    "verifier": "VERIFIER_RESULT.json",
+    "simulator": "SIMULATOR_RESULT.json",
+    "resource": "RESOURCE_REPORT.json",
+    "qcir": "QCIR.json"
+  },
+  "source_sha256": "ead4935b420086e8cdc09684845f6b9b25b7a6cdc953012e5819a1a3fd6e5e03"
+}

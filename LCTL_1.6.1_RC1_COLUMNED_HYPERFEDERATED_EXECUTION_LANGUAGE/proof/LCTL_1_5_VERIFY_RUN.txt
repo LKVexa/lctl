@@ -1,0 +1,25 @@
+[1/12] 1.5 512-case conformance
+{"status":"PASS","schema":"LCTL-1.5-CONFORMANCE/1.0","positive":{"total":256,"pass":256},"negative":{"total":256,"pass":256},"overall":{"total":512,"pass":512},"physical_qpu":false}
+[2/12] 1.4 320-case baseline
+{"status":"PASS","schema":"LCTL-1.4-BASELINE-REVALIDATION/1.5","positive":{"total":160,"pass":160},"negative":{"total":160,"pass":160},"overall":{"total":320,"pass":320,"fail":0},"failures":""}
+[3/12] federation plan
+{"status":"PASS","schema":"LCTL-FEDERATION/1.5","source_sha256":"e2a01db86bc837371bbef99f49f01c296fe33f50e441b480afbcab962007fe0a","semantic_width":3,"topology_nodes":6,"recommended_worker_groups":3,"domains":[{"id":"CLASSICAL_DOMAIN","members":["N0","N1","N2"],"failure_boundary":"EXPLICIT","trust":"REFERENCE_LOCAL"},{"id":"LOGICAL_QPU_DOMAIN","members":["Q0","Q1","Q2"],"failure_boundary":"EXPLICIT","trust":"REFERENCE_LOCAL"}],"ownership_policy":"SINGLE_OWNER_QSTATE","network_authority":"LOGICAL_REFERENCE_ONLY","physical_qpu":false}
+[4/12] native local federation
+{"status":"PASS","schema":"LCTL-FEDERATED-RUNTIME/1.5","execution_class":"NATIVE_LOCAL_FEDERATED_REFERENCE","domains":2,"workers":4,"tasks":5,"max_observed_concurrency":3,"result_hash":"d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929","event_replay":{"status":"PASS","schema":"LCTL-EVENT-RECONSTRUCTION/2.0","events":5,"event_chain_head":"56beb01211a7440f1a7e49a7264242c1719c6aae7291a188452e17f5e0fccf8d","result_hash":"d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929","source_sha256":"e2a01db86bc837371bbef99f49f01c296fe33f50e441b480afbcab962007fe0a","reconstruction":"TASK_AND_CAUSAL_STATE_VERIFIED"},"network_default":"deny","physical_qpu":false}
+[5/12] actor/channel/pipeline
+[6/12] CRDT
+{"status":"PASS","schema":"LCTL-CRDT/1.5","type":"G-COUNTER","replicas":4,"state":"count=10","merge_commutative":true,"merge_associative":true,"merge_idempotent":true,"quantum_state_crdt":false}
+[7/12] statevector equivalence
+{"status":"PASS","schema":"LCTL-STATEVECTOR/3.0","workers":2,"qubits":4,"gates":4,"bytes_touched":1024,"state_sha256":"832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e","single_worker_equivalence":true,"checkpoint_class":"CLASSICAL_NUMERICAL_SHARD","physical_qstate":false}
+[8/12] arbitrary-state remote CNOT
+{"status":"PASS","schema":"LCTL-REMOTE-CNOT-EQUIVALENCE/1.5","seed":314159,"minimum_branch_fidelity":1.0,"ownership_verified":true,"gate":"REMOTE_CNOT_REFERENCE_EQUIVALENCE_PASS","physical_qpu":false}
+[9/12] checkpoint/restore
+{"status":"PASS","schema":"LCTL-RESTORE/1.5","checkpoint_sha256":"a901ef7582ad4e0bacd9e006a185f8cec6fbd2200985e9a2831f2b7fe7876e55","classical_state_metadata_restored":true,"physical_qstate_restored":false}
+[10/12] adapter ABI mock
+{"status":"PASS_WITH_SCOPE","schema":"LCTL-ADAPTER-ABI/3.0","adapter_sha256":"eb93c70acb264b96894a0670749baad484abf57323848e2ed60ac3532d4ab910","dynamic_capabilities":true,"topology_update":true,"calibration_update":true,"reservation":true,"cancel":true,"receipt_retrieval":true,"physical_requested":false,"authenticated_evidence_present":true}
+[11/12] physical evidence firewall
+[12/12] preserved 1.3 command delegation
+PASS: LCTL 1.5 RC1 smoke verification complete.
+Full 1.3 revalidation: python3 tools/run_lctl13_conformance.py
+Full 1.5 descriptor suite: python3 tools/run_lctl15_conformance.py
+8-hour soak remains NOT RUN in the packaged development candidate.

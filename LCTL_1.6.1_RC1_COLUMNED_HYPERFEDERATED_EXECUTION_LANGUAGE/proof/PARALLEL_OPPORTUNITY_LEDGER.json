@@ -1,0 +1,104 @@
+{
+  "schema": "LCTL-PARALLEL-OPPORTUNITY/2.0",
+  "exact_partial_order_width": 3,
+  "opportunities": [
+    {
+      "opportunity_id": "OPP1",
+      "source_nodes": [
+        "C0010",
+        "C0011"
+      ],
+      "parallelism_class": "DISJOINT_TENSOR_OR_TASK",
+      "estimated_width": 2,
+      "exactness": "EXACT",
+      "proof_ref": "DISJOINT_OWNERSHIP"
+    },
+    {
+      "opportunity_id": "OPP2",
+      "source_nodes": [
+        "C0010",
+        "C0021"
+      ],
+      "parallelism_class": "DISJOINT_TENSOR_OR_TASK",
+      "estimated_width": 2,
+      "exactness": "EXACT",
+      "proof_ref": "DISJOINT_OWNERSHIP"
+    },
+    {
+      "opportunity_id": "OPP3",
+      "source_nodes": [
+        "C0010",
+        "C9999"
+      ],
+      "parallelism_class": "DISJOINT_TENSOR_OR_TASK",
+      "estimated_width": 2,
+      "exactness": "EXACT",
+      "proof_ref": "DISJOINT_OWNERSHIP"
+    },
+    {
+      "opportunity_id": "OPP4",
+      "source_nodes": [
+        "C0011",
+        "C0020"
+      ],
+      "parallelism_class": "DISJOINT_TENSOR_OR_TASK",
+      "estimated_width": 2,
+      "exactness": "EXACT",
+      "proof_ref": "DISJOINT_OWNERSHIP"
+    },
+    {
+      "opportunity_id": "OPP5",
+      "source_nodes": [
+        "C0011",
+        "C9999"
+      ],
+      "parallelism_class": "DISJOINT_TENSOR_OR_TASK",
+      "estimated_width": 2,
+      "exactness": "EXACT",
+      "proof_ref": "DISJOINT_OWNERSHIP"
+    },
+    {
+      "opportunity_id": "OPP6",
+      "source_nodes": [
+        "C0020",
+        "C0021"
+      ],
+      "parallelism_class": "DISJOINT_TENSOR_OR_TASK",
+      "estimated_width": 2,
+      "exactness": "EXACT",
+      "proof_ref": "DISJOINT_OWNERSHIP"
+    },
+    {
+      "opportunity_id": "OPP7",
+      "source_nodes": [
+        "C0020",
+        "C9999"
+      ],
+      "parallelism_class": "DISJOINT_TENSOR_OR_TASK",
+      "estimated_width": 2,
+      "exactness": "EXACT",
+      "proof_ref": "DISJOINT_OWNERSHIP"
+    },
+    {
+      "opportunity_id": "OPP8",
+      "source_nodes": [
+        "C0021",
+        "C9999"
+      ],
+      "parallelism_class": "DISJOINT_TENSOR_OR_TASK",
+      "estimated_width": 2,
+      "exactness": "EXACT",
+      "proof_ref": "DISJOINT_OWNERSHIP"
+    }
+  ],
+  "semantic_layers": [
+    "instruction",
+    "subsystem",
+    "circuit",
+    "shot",
+    "parameter",
+    "numerical_state",
+    "process"
+  ],
+  "physical_qpu": false
+}

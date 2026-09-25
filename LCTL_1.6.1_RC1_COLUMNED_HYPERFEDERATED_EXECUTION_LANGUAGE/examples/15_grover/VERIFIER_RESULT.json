@@ -1,0 +1,5 @@
+{
+  "exit": 0,
+  "pass": true,
+  "output": "PASS LCTL verify bundle=lctl.example.grover frames=1 rows=16 sha256=0f1ada6969c98dcfe4ff225a23774cac4cdc7a31c5832f0321a4bd330ee993a1"
+}

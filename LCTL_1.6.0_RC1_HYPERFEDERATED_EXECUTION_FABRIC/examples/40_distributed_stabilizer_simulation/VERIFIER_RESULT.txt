@@ -1,0 +1,1 @@
+PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.distributed_stabilizer_simulation frames=1 rows=6 sha256=ebbe1dbf55a488d1260f7922c1cdd1e595f581d313d8eede4d28bb81437a05ed

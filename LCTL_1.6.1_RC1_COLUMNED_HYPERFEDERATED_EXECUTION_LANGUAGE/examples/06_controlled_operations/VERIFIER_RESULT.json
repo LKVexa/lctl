@@ -1,0 +1,5 @@
+{
+  "exit": 0,
+  "pass": true,
+  "output": "PASS LCTL verify bundle=lctl.example.controlled_operations frames=1 rows=5 sha256=3faf3fae809218ed1d0e11693f6cb3c663cbfda579f24e407267203f35928a6d"
+}

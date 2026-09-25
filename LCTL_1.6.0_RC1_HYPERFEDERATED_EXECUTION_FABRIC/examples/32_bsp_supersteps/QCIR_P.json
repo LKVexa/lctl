@@ -1,0 +1,107 @@
+{
+  "causal_dag": {
+    "dag": "LCTL-CAUSAL-DAG/1.0",
+    "edge_count": 0,
+    "edges": [],
+    "node_count": 1,
+    "nodes": [
+      {
+        "id": "C0010",
+        "lane": "sync",
+        "op": "BARRIER",
+        "resources": ""
+      }
+    ],
+    "source_hash": "e3131bb1986be88a1e6bef37b8609704d5f2284d10dbdce5c2fef5199ae91829"
+  },
+  "execution_class": "QUANTUM_COMPILATION",
+  "physical_distributed": false,
+  "physical_qpu": false,
+  "profile": "lctl.quantum.parallel.distributed",
+  "qcir": "QCIR-P/1.0",
+  "quantum_boundary": "NOT_CROSSED",
+  "records": [
+    {
+      "a": "_",
+      "b": "_",
+      "ctrl": "_",
+      "face": "DECL",
+      "id": "D0001",
+      "lane": "alloc",
+      "op": "QREG",
+      "out": "q",
+      "param": "2",
+      "proof": "lctl:1.2",
+      "regime": "exact"
+    },
+    {
+      "a": "_",
+      "b": "_",
+      "ctrl": "_",
+      "face": "DECL",
+      "id": "D0002",
+      "lane": "alloc",
+      "op": "CREG",
+      "out": "c",
+      "param": "2",
+      "proof": "lctl:1.2",
+      "regime": "exact"
+    },
+    {
+      "a": "_",
+      "b": "_",
+      "ctrl": "_",
+      "face": "PARALLEL",
+      "id": "P0001",
+      "lane": "meta",
+      "op": "COMM_MODEL",
+      "out": "_",
+      "param": "alpha=1;beta=0.01;profile=BSP",
+      "proof": "lctl-dist:1.2",
+      "regime": "exact"
+    },
+    {
+      "a": "_",
+      "b": "_",
+      "ctrl": "_",
+      "face": "DISTRIBUTED",
+      "id": "X0002",
+      "lane": "meta",
+      "op": "EPOCH",
+      "out": "_",
+      "param": "id=superstep0;compute=10;communication=2;sync=1",
+      "proof": "lctl-dist:1.2",
+      "regime": "exact"
+    },
+    {
+      "a": "_",
+      "b": "_",
+      "ctrl": "_",
+      "face": "CODE",
+      "id": "C0010",
+      "lane": "sync",
+      "op": "BARRIER",
+      "out": "_",
+      "param": "_",
+      "proof": "bsp",
+      "regime": "exact"
+    },
+    {
+      "a": "_",
+      "b": "_",
+      "ctrl": "_",
+      "face": "CODE",
+      "id": "C9999",
+      "lane": "lane0",
+      "op": "NOP",
+      "out": "_",
+      "param": "_",
+      "proof": "lctl:nop",
+      "regime": "exact"
+    }
+  ],
+  "schedule_hash": "0e2859662fac9e2a5d536f470f2f92a4eca9fe1437df6195dcc43e5190557024",
+  "source_language": "LCTL/1.2",
+  "source_sha256": "e3131bb1986be88a1e6bef37b8609704d5f2284d10dbdce5c2fef5199ae91829",
+  "topology_hash": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+}

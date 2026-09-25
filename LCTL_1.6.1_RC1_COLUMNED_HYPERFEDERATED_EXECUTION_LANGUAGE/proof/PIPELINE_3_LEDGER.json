@@ -1,0 +1,15 @@
+{
+  "status": "PASS_WITH_SCOPE",
+  "schema": "LCTL-PIPELINE/3.0",
+  "stage_replication": true,
+  "bottleneck_detection": true,
+  "base": {
+    "status": "PASS",
+    "schema": "LCTL-PIPELINE/1.5",
+    "stages": 4,
+    "bounded_buffers": true,
+    "microbatching": true,
+    "items": 256,
+    "checksum": 65536
+  }
+}

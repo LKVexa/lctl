@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "schema": "LCTL-GRAIN-PLAN/1.6",
+  "tasks": 5,
+  "processors": 4,
+  "target_chunks": 5,
+  "grain_size": 1,
+  "action": "KEEP",
+  "microtask_storm_guard": true,
+  "deterministic_chunking": true
+}

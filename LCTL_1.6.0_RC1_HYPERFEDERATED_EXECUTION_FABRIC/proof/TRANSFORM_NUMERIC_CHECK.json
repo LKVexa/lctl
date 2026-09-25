@@ -1,0 +1,49 @@
+{
+  "pass": true,
+  "runtime": "python3",
+  "output": {
+    "midpoint_errors": [
+      [
+        20,
+        0.0016666666666665941
+      ],
+      [
+        40,
+        0.00041666666666650976
+      ],
+      [
+        80,
+        0.00010416666666657193
+      ],
+      [
+        160,
+        2.604166666653196e-05
+      ]
+    ],
+    "observed_orders": [
+      2.0000000000004805,
+      2.0000000000007687,
+      2.0000000000061506
+    ],
+    "expected_order": 2,
+    "gaussian_generator_x2": [
+      [
+        0.4,
+        2.0
+      ],
+      [
+        0.2,
+        2.0
+      ],
+      [
+        0.1,
+        2.0
+      ],
+      [
+        0.05,
+        2.0
+      ]
+    ],
+    "retraction_interpretation": "supports O(l^2) midpoint scaling and the local generator normalization used by the transform profile"
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "exit": 0,
+  "pass": true,
+  "output": "PASS LCTL verify bundle=lctl.example.teleportation frames=1 rows=12 sha256=59ffdb3f6f4b5e9b929317a9877dc8be25de19ab103db413d13d617cc37799ff"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "N062",
+  "family": "invalid_collective",
+  "type": "not_a_collective_21",
+  "workers": 2,
+  "expect_exit": 1
+}

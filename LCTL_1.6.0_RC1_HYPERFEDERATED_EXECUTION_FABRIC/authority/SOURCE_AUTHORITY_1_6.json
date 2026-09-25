@@ -1,0 +1,7 @@
+{
+  "schema": "LCTL-SOURCE-AUTHORITY/1.6",
+  "governing_workflow": "QUORUM_LCTL_1.6.x_HYPERFEDERATED_MASSIVELY_PARALLEL_DISTRIBUTED_EXECUTION_FABRIC_PROMPT_AND_WORKFLOW.md",
+  "baseline": "LCTL 1.5.0-RC1 preserved",
+  "physical_authority": "ABSENT",
+  "network_default": "deny"
+}

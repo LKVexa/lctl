@@ -1,0 +1,8 @@
+{
+  "status": "IMPLEMENTED",
+  "schema": "LCTL-LIVE-SCHEDULE/4.0",
+  "incremental_reoptimization": true,
+  "thrash_hysteresis": true,
+  "work_steal_integration": "VERIFIED_REFERENCE",
+  "live_remote_telemetry": "BLOCKED_EXTERNAL_AUTHORITY"
+}

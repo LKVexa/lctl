@@ -1,0 +1,8 @@
+{
+  "execution_class": "SYMBOLIC",
+  "failure_classes": "NODE_UNAVAILABLE",
+  "failure_rows": 1,
+  "physical_qpu": false,
+  "quantum_recovery_policy": "NO_UNKNOWN_QSTATE_COPY",
+  "status": "PASS"
+}

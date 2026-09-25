@@ -1,0 +1,5 @@
+{
+  "exit": 0,
+  "pass": true,
+  "output": "PASS LCTL verify bundle=lctl.example.povm frames=1 rows=3 sha256=fd79d0f62ee08f7a29a0cdc3a36d1a99d44e1301888b26f8086f368a9d1ab057"
+}

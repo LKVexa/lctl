@@ -1,0 +1,16 @@
+{
+  "package": "LCTL_PARALLEL_LANGUAGE_1.1.0",
+  "file_count": 409,
+  "bytes": 6111121,
+  "sha256_authorities": {
+    "22_Continuum_Mechanics.pdf": "511c4f73c2a8f55be91fa52d097f81150b1a82215efec559b5e744ce902ae151",
+    "23_Coupled_Mechanics.pdf": "e9f115a37aeef1850eba3568401ee42221632d3021c88938e73a522bbbdac5c2",
+    "32_Quantum_Mechanics.pdf": "d677dff1378fde4085006a84128a2f18c932b1b079807952431d983decde6d73",
+    "80_Parallel_and_Distributed_Computing.pdf": "58316772884e72d72a39ccfafe649c6167484b499ac6da8d12f631359747fffd"
+  },
+  "runtime_jar_sha256": "fcebb3b59a92296e2fff50487fda4d0dbdbbbbe59451574cb43bfd0c60e20f44",
+  "parallel_conformance": {
+    "valid": "23/23",
+    "invalid_rejected": "22/22"
+  }
+}

@@ -1,0 +1,1 @@
+{"status":"PASS","schema":"LCTL-ADAPTIVE-SHOTS/2.0","workers":4,"seed":314159,"shots":3040,"ones":1514,"ci95_half_width":0.017774029651123006,"precision_target":0.02,"early_stop":true}

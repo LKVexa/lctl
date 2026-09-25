@@ -1,0 +1,302 @@
+{
+  "1": {
+    "title": "Pure Mathematics",
+    "lesson": "Preserve exact structure where it exists, but encode non-reducibility and analogy as legitimate semantic outcomes.",
+    "features": [
+      "proof objects",
+      "structural types",
+      "rejection/no-faithful-form regime",
+      "projection/rank invariants"
+    ],
+    "regimes": {
+      "exact_linear": 52,
+      "no_faithful_form": 4,
+      "structural_analogue": 9
+    }
+  },
+  "13": {
+    "title": "Probability Theory",
+    "lesson": "Make uncertainty typed: distributions, normalization, expectation, covariance, concentration and Markov evolution must carry probabilistic constraints.",
+    "features": [
+      "distribution/simplex types",
+      "confidence",
+      "stochastic regime",
+      "belief transitions"
+    ],
+    "regimes": {
+      "exact_linear": 55,
+      "structural_analogue": 3,
+      "no_faithful_form": 1,
+      "linearized": 1
+    }
+  },
+  "15": {
+    "title": "Computational Mathematics",
+    "lesson": "Numerical meaning requires error, conditioning and exactness metadata; algorithms should expose structured factorization rather than hide it.",
+    "features": [
+      "error envelopes",
+      "conditioning contracts",
+      "exact/validated mode",
+      "factorization/operator tags"
+    ],
+    "regimes": {
+      "exact_linear": 53,
+      "no_faithful_form": 5,
+      "structural_analogue": 2
+    }
+  },
+  "17": {
+    "title": "Optimization",
+    "lesson": "Optimization should be expressed through objective, constraints, regularity, duality and admission conditions rather than opaque search.",
+    "features": [
+      "objective/constraint rows",
+      "KKT proof gate",
+      "convexity assumptions",
+      "argmin/argmax model ops"
+    ],
+    "regimes": {
+      "exact_linear": 56,
+      "structural_analogue": 3,
+      "no_faithful_form": 1
+    }
+  },
+  "19": {
+    "title": "Decision Theory",
+    "lesson": "Decisions require utility, risk, beliefs and uncertainty to remain visible; descriptive nonlinearity should not be silently linearized.",
+    "features": [
+      "utility/risk types",
+      "policy state",
+      "belief/confidence",
+      "nonlinear/no-faithful-form regimes"
+    ],
+    "regimes": {
+      "exact_linear": 46,
+      "no_faithful_form": 10,
+      "structural_analogue": 4
+    }
+  },
+  "20": {
+    "title": "Game Theory",
+    "lesson": "Multi-agent semantics require payoff structure, strategic state and equilibrium status, while computational hardness remains an explicit boundary.",
+    "features": [
+      "agent/game model types",
+      "payoff relations",
+      "equilibrium tags",
+      "complexity/impossibility status"
+    ],
+    "regimes": {
+      "exact_linear": 53,
+      "no_faithful_form": 3,
+      "structural_analogue": 3,
+      "linearized": 1
+    }
+  },
+  "21": {
+    "title": "Classical Mechanics",
+    "lesson": "Dynamics should carry state, conserved quantities, energy and evolution operators, with exact and linearized regimes separated.",
+    "features": [
+      "state/evolution types",
+      "invariant/conservation assertions",
+      "energy metadata",
+      "linearized dynamics regime"
+    ],
+    "regimes": {
+      "exact_linear": 54,
+      "linearized": 5,
+      "structural_analogue": 1
+    }
+  },
+  "22": {
+    "title": "Continuum Mechanics",
+    "lesson": "Tensor state and constitutive laws need symmetry, positivity and deformation-regime contracts.",
+    "features": [
+      "tensor/matrix types",
+      "symmetry/PSD assumptions",
+      "balance-law assertions",
+      "small/finite deformation regimes"
+    ],
+    "regimes": {
+      "exact_linear": 56,
+      "linearized": 4
+    }
+  },
+  "23": {
+    "title": "Coupled Mechanics",
+    "lesson": "Coupling belongs in first-class block relations; reciprocity, off-diagonal strength and thermodynamic admissibility should be inspectable.",
+    "features": [
+      "coupling graph",
+      "block operator type",
+      "reciprocity assertions",
+      "coupling-strength metadata"
+    ],
+    "regimes": {
+      "exact_linear": 51,
+      "structural_analogue": 1,
+      "linearized": 8
+    }
+  },
+  "27": {
+    "title": "Statistical Mechanics",
+    "lesson": "Statistical state should expose ensembles, spectra, covariance, fluctuation and equilibrium/non-equilibrium regime.",
+    "features": [
+      "ensemble/distribution types",
+      "spectral state",
+      "covariance/fluctuation metadata",
+      "equilibrium tags"
+    ],
+    "regimes": {
+      "exact_linear": 49,
+      "linearized": 8,
+      "no_faithful_form": 1,
+      "structural_analogue": 2
+    }
+  },
+  "32": {
+    "title": "Quantum Mechanics",
+    "lesson": "Vector/operator/tensor-product semantics can be exact and should not be degraded into generic scalar plumbing.",
+    "features": [
+      "state-vector type",
+      "Hermitian/unitary properties",
+      "projection/measurement relations",
+      "tensor-product type"
+    ],
+    "regimes": {
+      "exact_linear": 59,
+      "linearized": 1
+    }
+  },
+  "57": {
+    "title": "Computational Neuroscience",
+    "lesson": "Learned systems are often linear operators wrapped by nonlinear gates; adaptation should be represented as explicit update rules.",
+    "features": [
+      "recurrent-state type",
+      "gating regime",
+      "outer-product updates",
+      "decoding/regression relations"
+    ],
+    "regimes": {
+      "exact_linear": 48,
+      "linearized": 12
+    }
+  },
+  "58": {
+    "title": "Computer Science",
+    "lesson": "A language must represent algorithmic and combinatorial limits honestly; undecidability and complexity are semantic properties, not compiler failures.",
+    "features": [
+      "complexity contracts",
+      "combinatorial regime",
+      "impossibility/rejection status",
+      "graph-semiring models"
+    ],
+    "regimes": {
+      "structural_analogue": 8,
+      "exact_linear": 46,
+      "no_faithful_form": 6
+    }
+  },
+  "59": {
+    "title": "Data Science",
+    "lesson": "Data semantics need metrics, embeddings, spectra, clustering objectives and explicit nonlinear boundaries.",
+    "features": [
+      "metric/distance types",
+      "embedding metadata",
+      "spectral reduction",
+      "evaluation/error contracts"
+    ],
+    "regimes": {
+      "exact_linear": 56,
+      "no_faithful_form": 3,
+      "structural_analogue": 1
+    }
+  },
+  "60": {
+    "title": "Machine Learning",
+    "lesson": "Learning should expose objectives, regularization, Jacobians, backpropagation and model-update provenance.",
+    "features": [
+      "loss/objective type",
+      "regularization metadata",
+      "Jacobian/gradient relations",
+      "learned-update rows"
+    ],
+    "regimes": {
+      "exact_linear": 57,
+      "structural_analogue": 1,
+      "linearized": 2
+    }
+  },
+  "61": {
+    "title": "Artificial Intelligence",
+    "lesson": "Reasoning mixes combinatorial search, probabilistic inference, contraction/value updates and matrix-based learned models; each regime should remain distinguishable.",
+    "features": [
+      "search/model regime",
+      "belief inference",
+      "Bellman/value relations",
+      "reasoning proof status"
+    ],
+    "regimes": {
+      "structural_analogue": 7,
+      "exact_linear": 50,
+      "no_faithful_form": 2,
+      "linearized": 1
+    }
+  },
+  "62": {
+    "title": "Robotics",
+    "lesson": "Transform, Jacobian, estimation, planning and control semantics should be typed with local capability and uncertainty.",
+    "features": [
+      "SE(3)/transform type",
+      "Jacobian capability metrics",
+      "belief/estimate types",
+      "control constraints"
+    ],
+    "regimes": {
+      "exact_linear": 53,
+      "structural_analogue": 3,
+      "linearized": 4
+    }
+  },
+  "77": {
+    "title": "Network Science",
+    "lesson": "Graphs are native algebraic objects: adjacency, Laplacian, spectra, paths and communities should not be encoded as untyped arrays.",
+    "features": [
+      "graph type",
+      "adjacency/laplacian operators",
+      "spectral graph metadata",
+      "locality relations"
+    ],
+    "regimes": {
+      "exact_linear": 56,
+      "structural_analogue": 1,
+      "linearized": 3
+    }
+  },
+  "79": {
+    "title": "Information Theory",
+    "lesson": "Information is measurable state: entropy, divergence, channel and code structure should be first-class with exactness and capacity bounds.",
+    "features": [
+      "information/entropy types",
+      "KL/divergence relations",
+      "channel/coding types",
+      "capacity/error bounds"
+    ],
+    "regimes": {
+      "exact_linear": 58,
+      "structural_analogue": 2
+    }
+  },
+  "80": {
+    "title": "Parallel and Distributed Computing",
+    "lesson": "Parallel execution needs work, communication, memory, scheduling and impossibility contracts; backendless execution may model distribution without opening a network.",
+    "features": [
+      "lane/schedule semantics",
+      "cost/communication models",
+      "barrier/scan models",
+      "consensus-impossibility status"
+    ],
+    "regimes": {
+      "exact_linear": 54,
+      "structural_analogue": 4,
+      "no_faithful_form": 2
+    }
+  }
+}

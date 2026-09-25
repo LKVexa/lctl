@@ -1,0 +1,25 @@
+{
+  "schema": "LCTL-ENTANGLEMENT-INVENTORY/1.4-RC1",
+  "status": "IMPLEMENTED_PARTIAL",
+  "operations_implemented_in_reference_protocol_state_machine": [
+    "EPR_RESERVE",
+    "ENTANGLE_LINK",
+    "TELEPORT",
+    "REMOTE_CNOT",
+    "ENTANGLEMENT_SWAP",
+    "PURIFY",
+    "HERALD"
+  ],
+  "resource_rules": [
+    "reservation count enforced",
+    "consume decrements inventory",
+    "expired resource rejected by negative conformance"
+  ],
+  "not_yet_complete": [
+    "time-indexed inventory service",
+    "min-cost-flow allocation",
+    "reservation transfer",
+    "purification-aware inventory optimization"
+  ],
+  "physical_network_claimed": false
+}

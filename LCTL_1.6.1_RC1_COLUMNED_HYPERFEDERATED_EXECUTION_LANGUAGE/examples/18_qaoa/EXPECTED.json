@@ -1,0 +1,5 @@
+{
+  "title": "QAOA pattern",
+  "expected": "Explicit parameterized cost/mixer circuit and visible classical outer loop.",
+  "notes": ""
+}

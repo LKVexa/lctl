@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "schema": "LCTL-OUT-OF-CORE/2.0",
+  "execution_class": "SSD_BACKED_CLASSICAL_SIMULATION",
+  "workers": 2,
+  "bytes": 256,
+  "block_bytes": 1048576,
+  "block_checksums": "832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e",
+  "state_sha256": "832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e",
+  "equivalence_error": 0.0,
+  "physical_quantum_memory": false
+}

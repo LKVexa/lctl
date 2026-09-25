@@ -1,0 +1,16 @@
+{
+  "language": "LCTL/1.2",
+  "profile": "lctl.quantum.parallel.distributed",
+  "source_hash": "0222e5f2e079788b0f337a4b4eb4d4d789900155deb263f0b260fe44a1c9d615",
+  "topology_hash": "19b1f7c0d0bb9fdffce4ebd8ea885c652bc439024d6e8d1cbef04501b2076844",
+  "schedule_hash": "adc1e20f056575b2f01e5dd4c7deecc67465c24d15538c89ad08fdf4c4eb98e3",
+  "qcir_p_hash": "88b7d05822454cc83d85c1b02b40bc5faa4e3c45118c9d3c2e68315d43b04afc",
+  "execution_class": "QUANTUM_COMPILATION",
+  "parallel_state": "SERIAL",
+  "distributed_state": "DISTRIBUTED_SCHEDULED",
+  "quantum_boundary": "NOT_CROSSED",
+  "physical_qpu": false,
+  "physical_parallel": false,
+  "physical_distributed": false,
+  "reference_emulation_available": true
+}

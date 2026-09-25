@@ -1,0 +1,13 @@
+{
+  "source": "program.lctl",
+  "source_sha256": "3b397589571572fa29ad603ae17bb50cbca4ec3a22afc3d0d012db6afe5a790a",
+  "runtime_inspect": {
+    "status": "PASS",
+    "bundle": "lctl.example.bell_state",
+    "qubits": 2,
+    "cbits": 2,
+    "exec_rows": 4,
+    "approx_error": 0.0
+  },
+  "canonical_format": "LCTL/1.0"
+}

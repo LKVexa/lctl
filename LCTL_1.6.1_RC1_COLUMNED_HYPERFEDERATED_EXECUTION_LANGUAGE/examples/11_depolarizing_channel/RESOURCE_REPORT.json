@@ -1,0 +1,18 @@
+{
+  "exit": 0,
+  "pass": true,
+  "result": {
+    "logical_qubits": 1,
+    "classical_bits": 1,
+    "gates": 2,
+    "two_qubit_or_more": 0,
+    "non_clifford": 0,
+    "measurements": 1,
+    "depth": 2,
+    "approx_error_bound": 0.0,
+    "counts": {
+      "DEPOLARIZE": 1,
+      "MEASURE_Z": 1
+    }
+  }
+}

@@ -1,0 +1,1 @@
+PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.teleportation_across_logical_nodes frames=1 rows=9 sha256=a27b9c5a441e69b7fa50b76a0d6828717cf0e5b1e043edfe31e6910a8621641d

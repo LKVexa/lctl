@@ -1,0 +1,7 @@
+{
+  "id": "P097",
+  "family": "collective",
+  "type": "broadcast",
+  "workers": 2,
+  "expect": "PASS"
+}

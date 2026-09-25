@@ -1,0 +1,17 @@
+{
+  "positive": {
+    "total": 109,
+    "pass": 109,
+    "fail": 0
+  },
+  "negative": {
+    "total": 80,
+    "pass": 80,
+    "fail": 0
+  },
+  "overall": {
+    "total": 189,
+    "pass": 189,
+    "fail": 0
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schema": "LCTL-SCALABILITY/1.0",
+  "workload": "24_parallel_bell_pair_generation",
+  "execution_class": "CLASSICAL_DISTRIBUTED_SIMULATION_BENCHMARK",
+  "results": [
+    {
+      "schema": "LCTL-BENCH/1.0",
+      "execution_class": "CLASSICAL_DISTRIBUTED_SIMULATION_BENCHMARK",
+      "workers": 1,
+      "serial_seconds": 0.222521466,
+      "parallel_seconds": 0.206755055,
+      "speedup": 1.0762564716978746,
+      "efficiency": 1.0762564716978746,
+      "serial_hash": "832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e",
+      "parallel_hash": "832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e",
+      "semantic_equivalence": true,
+      "warning": "simulator scaling is not QPU scaling"
+    },
+    {
+      "schema": "LCTL-BENCH/1.0",
+      "execution_class": "CLASSICAL_DISTRIBUTED_SIMULATION_BENCHMARK",
+      "workers": 2,
+      "serial_seconds": 0.219315515,
+      "parallel_seconds": 0.229744912,
+      "speedup": 0.9546044484327905,
+      "efficiency": 0.47730222421639523,
+      "serial_hash": "832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e",
+      "parallel_hash": "832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e",
+      "semantic_equivalence": true,
+      "warning": "simulator scaling is not QPU scaling"
+    },
+    {
+      "schema": "LCTL-BENCH/1.0",
+      "execution_class": "CLASSICAL_DISTRIBUTED_SIMULATION_BENCHMARK",
+      "workers": 4,
+      "serial_seconds": 0.211247248,
+      "parallel_seconds": 0.274136361,
+      "speedup": 0.770591858845022,
+      "efficiency": 0.1926479647112555,
+      "serial_hash": "832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e",
+      "parallel_hash": "832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e",
+      "semantic_equivalence": true,
+      "warning": "simulator scaling is not QPU scaling"
+    },
+    {
+      "schema": "LCTL-BENCH/1.0",
+      "execution_class": "CLASSICAL_DISTRIBUTED_SIMULATION_BENCHMARK",
+      "workers": 8,
+      "serial_seconds": 0.202604353,
+      "parallel_seconds": 0.536211783,
+      "speedup": 0.3778439031430236,
+      "efficiency": 0.04723048789287795,
+      "serial_hash": "832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e",
+      "parallel_hash": "832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e",
+      "semantic_equivalence": true,
+      "warning": "simulator scaling is not QPU scaling"
+    }
+  ],
+  "interpretation": "The tiny reference workload is process-launch dominated; scaling is characterized, not claimed as a performance win. All worker counts preserve semantic equivalence.",
+  "qpu_speedup_claim": false
+}

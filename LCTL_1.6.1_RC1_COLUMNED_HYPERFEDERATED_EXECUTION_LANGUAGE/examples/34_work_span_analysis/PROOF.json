@@ -1,0 +1,18 @@
+{
+  "proof_id": "proof:34_work_span_analysis",
+  "status": "REFERENCE_PASS",
+  "claims": [
+    "source parses and verifies under LCTL/1.2",
+    "causal DAG is deterministic for this source",
+    "QCIR-P serializes the distributed semantic records",
+    "distributed emulator is classical and does not claim physical QPU execution"
+  ],
+  "evidence_files": [
+    "VERIFIER_RESULT.txt",
+    "CAUSAL_DAG.json",
+    "DISTRIBUTED_PLAN.json",
+    "QCIR_P.json",
+    "DISTRIBUTED_EMULATION.json"
+  ],
+  "physical_claim": "BLOCKED_NOT_ATTEMPTED"
+}

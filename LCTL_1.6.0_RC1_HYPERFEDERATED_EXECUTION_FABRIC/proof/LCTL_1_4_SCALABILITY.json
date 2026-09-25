@@ -1,0 +1,294 @@
+{
+  "schema": "LCTL-1.4-SCALABILITY/1.0",
+  "task": [
+    {
+      "workers": 1,
+      "result": {
+        "status": "PASS",
+        "schema": "LCTL-TASK-RUNTIME/2.0",
+        "mode": "TASK",
+        "workers": 1,
+        "tasks": 5,
+        "max_observed_concurrency": 1,
+        "wall_seconds": 0.016743955,
+        "result_hash": "d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929",
+        "trace_written": false,
+        "quantum_payload_policy": "OWNERSHIP_TRANSFER_NOT_CLONE",
+        "physical_qpu": false
+      }
+    },
+    {
+      "workers": 2,
+      "result": {
+        "status": "PASS",
+        "schema": "LCTL-TASK-RUNTIME/2.0",
+        "mode": "TASK",
+        "workers": 2,
+        "tasks": 5,
+        "max_observed_concurrency": 2,
+        "wall_seconds": 0.016517169,
+        "result_hash": "d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929",
+        "trace_written": false,
+        "quantum_payload_policy": "OWNERSHIP_TRANSFER_NOT_CLONE",
+        "physical_qpu": false
+      }
+    },
+    {
+      "workers": 4,
+      "result": {
+        "status": "PASS",
+        "schema": "LCTL-TASK-RUNTIME/2.0",
+        "mode": "TASK",
+        "workers": 4,
+        "tasks": 5,
+        "max_observed_concurrency": 3,
+        "wall_seconds": 0.020141949,
+        "result_hash": "d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929",
+        "trace_written": false,
+        "quantum_payload_policy": "OWNERSHIP_TRANSFER_NOT_CLONE",
+        "physical_qpu": false
+      }
+    },
+    {
+      "workers": 8,
+      "result": {
+        "status": "PASS",
+        "schema": "LCTL-TASK-RUNTIME/2.0",
+        "mode": "TASK",
+        "workers": 8,
+        "tasks": 5,
+        "max_observed_concurrency": 3,
+        "wall_seconds": 0.017051538,
+        "result_hash": "d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929",
+        "trace_written": false,
+        "quantum_payload_policy": "OWNERSHIP_TRANSFER_NOT_CLONE",
+        "physical_qpu": false
+      }
+    }
+  ],
+  "statevector": [
+    {
+      "workers": 1,
+      "result": {
+        "schema": "LCTL-BENCH/1.0",
+        "execution_class": "CLASSICAL_DISTRIBUTED_SIMULATION_BENCHMARK",
+        "workers": 1,
+        "serial_seconds": 0.223147207,
+        "parallel_seconds": 0.220114348,
+        "speedup": 1.0137785611322347,
+        "efficiency": 1.0137785611322347,
+        "serial_hash": "832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e",
+        "parallel_hash": "832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e",
+        "semantic_equivalence": true,
+        "warning": "simulator scaling is not QPU scaling"
+      }
+    },
+    {
+      "workers": 2,
+      "result": {
+        "schema": "LCTL-BENCH/1.0",
+        "execution_class": "CLASSICAL_DISTRIBUTED_SIMULATION_BENCHMARK",
+        "workers": 2,
+        "serial_seconds": 0.215720129,
+        "parallel_seconds": 0.243597323,
+        "speedup": 0.8855603433704401,
+        "efficiency": 0.44278017168522005,
+        "serial_hash": "832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e",
+        "parallel_hash": "832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e",
+        "semantic_equivalence": true,
+        "warning": "simulator scaling is not QPU scaling"
+      }
+    },
+    {
+      "workers": 4,
+      "result": {
+        "schema": "LCTL-BENCH/1.0",
+        "execution_class": "CLASSICAL_DISTRIBUTED_SIMULATION_BENCHMARK",
+        "workers": 4,
+        "serial_seconds": 0.230540585,
+        "parallel_seconds": 0.354978226,
+        "speedup": 0.6494499327403817,
+        "efficiency": 0.1623624831850954,
+        "serial_hash": "832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e",
+        "parallel_hash": "832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e",
+        "semantic_equivalence": true,
+        "warning": "simulator scaling is not QPU scaling"
+      }
+    },
+    {
+      "workers": 8,
+      "result": {
+        "schema": "LCTL-BENCH/1.0",
+        "execution_class": "CLASSICAL_DISTRIBUTED_SIMULATION_BENCHMARK",
+        "workers": 8,
+        "serial_seconds": 0.234794385,
+        "parallel_seconds": 0.656164089,
+        "speedup": 0.35782876407916314,
+        "efficiency": 0.04472859550989539,
+        "serial_hash": "832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e",
+        "parallel_hash": "832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e",
+        "semantic_equivalence": true,
+        "warning": "simulator scaling is not QPU scaling"
+      }
+    }
+  ],
+  "density": [
+    {
+      "workers": 1,
+      "result": {
+        "status": "PASS",
+        "schema": "LCTL-DENSITY-DISTRIBUTED/2.0",
+        "execution_class": "CLASSICAL_DISTRIBUTED_DENSITY_SIMULATION",
+        "workers": 1,
+        "qubits": 1,
+        "dimension": 2,
+        "ops": 2,
+        "trace": 0.9999999999999996,
+        "trace_error": 4.440892098500626e-16,
+        "hermiticity_error": 0.0,
+        "minimum_diagonal": 0.4999999999999998,
+        "single_worker_hash_match": true,
+        "channels": [
+          "DEPHASE",
+          "DEPOLARIZE",
+          "AMPLITUDE_DAMP",
+          "BIT_FLIP",
+          "PHASE_DAMP"
+        ],
+        "positivity_certificate": "BOUNDED_INVARIANT_CHECK_NOT_FULL_EIGENSPECTRUM",
+        "physical_qpu": false
+      }
+    },
+    {
+      "workers": 2,
+      "result": {
+        "status": "PASS",
+        "schema": "LCTL-DENSITY-DISTRIBUTED/2.0",
+        "execution_class": "CLASSICAL_DISTRIBUTED_DENSITY_SIMULATION",
+        "workers": 2,
+        "qubits": 1,
+        "dimension": 2,
+        "ops": 2,
+        "trace": 0.9999999999999996,
+        "trace_error": 4.440892098500626e-16,
+        "hermiticity_error": 0.0,
+        "minimum_diagonal": 0.4999999999999998,
+        "single_worker_hash_match": true,
+        "channels": [
+          "DEPHASE",
+          "DEPOLARIZE",
+          "AMPLITUDE_DAMP",
+          "BIT_FLIP",
+          "PHASE_DAMP"
+        ],
+        "positivity_certificate": "BOUNDED_INVARIANT_CHECK_NOT_FULL_EIGENSPECTRUM",
+        "physical_qpu": false
+      }
+    },
+    {
+      "workers": 4,
+      "result": {
+        "status": "PASS",
+        "schema": "LCTL-DENSITY-DISTRIBUTED/2.0",
+        "execution_class": "CLASSICAL_DISTRIBUTED_DENSITY_SIMULATION",
+        "workers": 2,
+        "qubits": 1,
+        "dimension": 2,
+        "ops": 2,
+        "trace": 0.9999999999999996,
+        "trace_error": 4.440892098500626e-16,
+        "hermiticity_error": 0.0,
+        "minimum_diagonal": 0.4999999999999998,
+        "single_worker_hash_match": true,
+        "channels": [
+          "DEPHASE",
+          "DEPOLARIZE",
+          "AMPLITUDE_DAMP",
+          "BIT_FLIP",
+          "PHASE_DAMP"
+        ],
+        "positivity_certificate": "BOUNDED_INVARIANT_CHECK_NOT_FULL_EIGENSPECTRUM",
+        "physical_qpu": false
+      }
+    }
+  ],
+  "farm": [
+    {
+      "workers": 1,
+      "result": {
+        "status": "PASS",
+        "schema": "LCTL-ENSEMBLE-FARM/1.0",
+        "workers": 1,
+        "members": 1,
+        "unique_result_hashes": 1,
+        "semantic_equivalence": true,
+        "wall_seconds": 0.209805204,
+        "parallelism_layer": "CIRCUIT_FARM"
+      }
+    },
+    {
+      "workers": 2,
+      "result": {
+        "status": "PASS",
+        "schema": "LCTL-ENSEMBLE-FARM/1.0",
+        "workers": 2,
+        "members": 2,
+        "unique_result_hashes": 1,
+        "semantic_equivalence": true,
+        "wall_seconds": 0.262486729,
+        "parallelism_layer": "CIRCUIT_FARM"
+      }
+    },
+    {
+      "workers": 4,
+      "result": {
+        "status": "PASS",
+        "schema": "LCTL-ENSEMBLE-FARM/1.0",
+        "workers": 4,
+        "members": 4,
+        "unique_result_hashes": 1,
+        "semantic_equivalence": true,
+        "wall_seconds": 0.285204728,
+        "parallelism_layer": "CIRCUIT_FARM"
+      }
+    }
+  ],
+  "collectives": [
+    {
+      "workers": 1,
+      "result": {
+        "status": "PASS",
+        "schema": "LCTL-COLLECTIVE/1.0",
+        "type": "all-reduce",
+        "workers": 1,
+        "messages": 0,
+        "result": "sum=1",
+        "execution_class": "LOCAL_CLASSICAL_COLLECTIVE"
+      }
+    },
+    {
+      "workers": 2,
+      "result": {
+        "status": "PASS",
+        "schema": "LCTL-COLLECTIVE/1.0",
+        "type": "all-reduce",
+        "workers": 2,
+        "messages": 1,
+        "result": "sum=3",
+        "execution_class": "LOCAL_CLASSICAL_COLLECTIVE"
+      }
+    },
+    {
+      "workers": 4,
+      "result": {
+        "status": "PASS",
+        "schema": "LCTL-COLLECTIVE/1.0",
+        "type": "all-reduce",
+        "workers": 4,
+        "messages": 3,
+        "result": "sum=10",
+        "execution_class": "LOCAL_CLASSICAL_COLLECTIVE"
+      }
+    }
+  ]
+}

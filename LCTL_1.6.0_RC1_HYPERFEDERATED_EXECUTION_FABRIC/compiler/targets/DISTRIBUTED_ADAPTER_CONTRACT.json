@@ -1,0 +1,18 @@
+{
+  "schema": "LCTL-DISTRIBUTED-TARGET-ADAPTER/1.0",
+  "adapter_id": "unbound-reference-scaffold",
+  "physical": false,
+  "features": {
+    "single_qpu": "SUPPORTED_REFERENCE_ONLY",
+    "multi_qpu_partitions": "SUPPORTED_WITH_LIMITS",
+    "distributed_qpu_network": "UNSUPPORTED_PHYSICAL",
+    "dynamic_measurement": "SUPPORTED_REFERENCE_ONLY",
+    "classical_feedback": "SUPPORTED_REFERENCE_ONLY",
+    "quantum_link": "TARGET_SPECIFIC",
+    "crosstalk_model": "TARGET_SPECIFIC",
+    "timing_model": "TARGET_SPECIFIC",
+    "calibration": "UNSUPPORTED",
+    "physical_execution_receipts": "UNSUPPORTED"
+  },
+  "physical_distributed_status": "BLOCKED"
+}

@@ -1,0 +1,7 @@
+{
+  "id": "N127",
+  "family": "invalid_protocol",
+  "program": "conformance/invalid_distributed/10_teleport_without_entanglement.lctl",
+  "seed": 4006,
+  "expect_exit": 1
+}

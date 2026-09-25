@@ -1,0 +1,13 @@
+{
+  "source": "program.lctl",
+  "source_sha256": "4bc0d4439feb99681fe818cb194ffd1d407718583284e917186ab2656bd00ad1",
+  "runtime_inspect": {
+    "status": "PASS",
+    "bundle": "lctl.example.teleportation",
+    "qubits": 3,
+    "cbits": 2,
+    "exec_rows": 10,
+    "approx_error": 0.0
+  },
+  "canonical_format": "LCTL/1.0"
+}

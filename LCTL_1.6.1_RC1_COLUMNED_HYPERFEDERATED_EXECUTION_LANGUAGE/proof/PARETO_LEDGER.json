@@ -1,0 +1,46 @@
+{
+  "schema": "LCTL-PARETO-PARTITION/1.0",
+  "objectives": [
+    "edge_cut",
+    "hyperedge_cut",
+    "imbalance"
+  ],
+  "candidates": [
+    {
+      "candidate": 0,
+      "edge_cut": 0.0,
+      "hyperedge_cut": 0.0,
+      "imbalance": 0.5,
+      "selection_status": "DETERMINISTIC_DEFAULT"
+    },
+    {
+      "candidate": 1,
+      "edge_cut": 0.0,
+      "hyperedge_cut": 0.0,
+      "imbalance": 0.5,
+      "selection_status": "PARETO_ALTERNATIVE"
+    },
+    {
+      "candidate": 2,
+      "edge_cut": 0.0,
+      "hyperedge_cut": 0.0,
+      "imbalance": 0.5,
+      "selection_status": "PARETO_ALTERNATIVE"
+    },
+    {
+      "candidate": 3,
+      "edge_cut": 0.0,
+      "hyperedge_cut": 0.0,
+      "imbalance": 0.5,
+      "selection_status": "PARETO_ALTERNATIVE"
+    },
+    {
+      "candidate": 4,
+      "edge_cut": 0.0,
+      "hyperedge_cut": 0.0,
+      "imbalance": 0.5,
+      "selection_status": "PARETO_ALTERNATIVE"
+    }
+  ],
+  "scalarization_hidden": false
+}

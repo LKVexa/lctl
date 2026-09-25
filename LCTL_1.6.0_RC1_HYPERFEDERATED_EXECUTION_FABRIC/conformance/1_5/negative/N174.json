@@ -1,0 +1,7 @@
+{
+  "id": "N174",
+  "family": "INVALID_CRDT_TYPE",
+  "type": "INVALID_173",
+  "replicas": 3,
+  "expect": "REJECT"
+}

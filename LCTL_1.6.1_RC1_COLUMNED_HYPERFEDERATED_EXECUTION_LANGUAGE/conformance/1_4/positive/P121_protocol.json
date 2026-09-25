@@ -1,0 +1,7 @@
+{
+  "id": "P121",
+  "family": "protocol",
+  "seed": 3000,
+  "program": "conformance/valid_distributed/42_teleportation_across_logical_nodes.lctl",
+  "expect": "PASS"
+}

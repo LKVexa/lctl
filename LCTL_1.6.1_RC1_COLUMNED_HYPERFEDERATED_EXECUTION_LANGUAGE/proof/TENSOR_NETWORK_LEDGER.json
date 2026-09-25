@@ -1,0 +1,11 @@
+{
+  "status": "IMPLEMENTED_PARTIAL",
+  "schema": "LCTL-TENSOR-NETWORK/1.0",
+  "tensor_graph_nodes": 5,
+  "qubits": 4,
+  "workers": 4,
+  "contraction_tree": "GREEDY_REFERENCE_PLAN",
+  "estimated_workspace_bytes": 320,
+  "numerical_contraction_execution": false,
+  "reason": "planner implemented; production tensor contraction kernel not claimed"
+}

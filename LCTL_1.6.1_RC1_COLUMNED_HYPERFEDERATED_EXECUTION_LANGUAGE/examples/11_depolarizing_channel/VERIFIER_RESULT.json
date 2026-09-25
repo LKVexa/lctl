@@ -1,0 +1,5 @@
+{
+  "exit": 0,
+  "pass": true,
+  "output": "PASS LCTL verify bundle=lctl.example.depolarizing_channel frames=1 rows=4 sha256=5bf8e9aed6041b6bfb19a9ffba8fb48e885133ab5fee662a0b666aed5d3b2abd"
+}

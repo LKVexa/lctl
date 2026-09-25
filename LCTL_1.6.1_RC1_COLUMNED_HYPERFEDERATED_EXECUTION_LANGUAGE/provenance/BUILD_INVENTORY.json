@@ -1,0 +1,1800 @@
+{
+  "file_count": 359,
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "cde8ca24fd9a54e3bde29e53be08f8d24987667ac4bcd293010d22bea4e5f2b9",
+      "bytes": 376
+    },
+    {
+      "path": "MANIFEST.json",
+      "sha256": "55dfb7abe56a54084ab9e2d79b597378ecb541b95a5dc9e70f076abcdeb247f9",
+      "bytes": 2131
+    },
+    {
+      "path": "README_START_HERE.md",
+      "sha256": "b258e2baf1d3d9471ffaf2cc4af4bde246bec9ac9e42608ff15f16f09ac6cfec",
+      "bytes": 3759
+    },
+    {
+      "path": "authority/00_Foundations_Calculus_Transform.pdf",
+      "sha256": "df5e603ebcf5b202c76707ed374ceae464907bbe7665078dddba741dcbdfcbd3",
+      "bytes": 147764
+    },
+    {
+      "path": "authority/QUORUM_LCTL_QUANTUM_COMPUTING_TECHNICAL_LANGUAGE_CREATION_PROMPT_AND_WORKFLOW_1.0.0.md",
+      "sha256": "8cf3a556f95cba885e036cd787b83c056cf0bd46c5a21c8b1a72a63b111c23ee",
+      "bytes": 39679
+    },
+    {
+      "path": "authority/SOURCE_AUTHORITY.json",
+      "sha256": "bb627afd45da6d2924545d21b522c924a12b1adeda955b3a79c7b6460e1595dd",
+      "bytes": 1223
+    },
+    {
+      "path": "compiler/optimizer/ADMITTED_REWRITES.json",
+      "sha256": "338aa394574be936ec8775666445912e27543b457b0f1e16692d6900066b9de0",
+      "bytes": 779
+    },
+    {
+      "path": "compiler/parser/README.md",
+      "sha256": "a6325a5ea88f4a1fd04ac3b133db122d06d431f06b1d2a15aba458ca9904a7b3",
+      "bytes": 173
+    },
+    {
+      "path": "compiler/qcir/README.md",
+      "sha256": "a525c4019571de59bfc83a83a5cacd780b4c5a5fafa9a34c9eb1fbe6f00215bb",
+      "bytes": 87
+    },
+    {
+      "path": "compiler/scheduler/README.md",
+      "sha256": "bd29fe1c11cbaf1218a6c271ef75d7e772885085058ae1954f206bc5e0677a47",
+      "bytes": 213
+    },
+    {
+      "path": "compiler/targets/FEATURE_MATRIX.md",
+      "sha256": "9d6f275fb19c4add675bcd3b834f0ded1d96528528e5399452ae0e34fa79537f",
+      "bytes": 662
+    },
+    {
+      "path": "compiler/verifier/README.md",
+      "sha256": "4cbe58ba788a9d0a405db45b9827ed8877f8079e0c3f08aa90a23b2615d492b0",
+      "bytes": 208
+    },
+    {
+      "path": "conformance/invalid/01_duplicate_ownership.lctl",
+      "sha256": "94614a6f8c0a2435d0a869c5b920c04c5134f506df659a772f945ef0430d540b",
+      "bytes": 1538
+    },
+    {
+      "path": "conformance/invalid/02_invalid_unitary.lctl",
+      "sha256": "87362708a83a9121486da32b97b2f24fade4fe0ff7123ddae925acd6e6faf689",
+      "bytes": 1530
+    },
+    {
+      "path": "conformance/invalid/03_nonhermitian_observable.lctl",
+      "sha256": "167733541be3fcbefa6ed9e6abd4bddd093198d952e60d6a7ef804f225e81164",
+      "bytes": 1550
+    },
+    {
+      "path": "conformance/invalid/04_density_negative_eigenvalue.lctl",
+      "sha256": "6d08a7f29e721e78dc123e900311a82c6b2f3512819761094989382a8b8d8709",
+      "bytes": 1569
+    },
+    {
+      "path": "conformance/invalid/05_density_bad_trace.lctl",
+      "sha256": "9c4d4245bf0ff5ea12065cb1c67d4b46c45738be52d54269ffd72f369f182888",
+      "bytes": 1542
+    },
+    {
+      "path": "conformance/invalid/06_invalid_projector.lctl",
+      "sha256": "2a449ae4138b308c73f5e7885e557ea49d6a31816da6bee20d41aaeec987c403",
+      "bytes": 1540
+    },
+    {
+      "path": "conformance/invalid/07_invalid_povm.lctl",
+      "sha256": "3f109e76e88869d20f9eed89e335bcd5430f3592be26f4f3ae6fa7b8e5b7b665",
+      "bytes": 1531
+    },
+    {
+      "path": "conformance/invalid/08_invalid_kraus.lctl",
+      "sha256": "efec1352c072cb6da7daea8f1be6fd2e6c2939842b599ed9732f6facfcafa865",
+      "bytes": 1529
+    },
+    {
+      "path": "conformance/invalid/09_control_equals_target.lctl",
+      "sha256": "ad5e867923008c5b53fc6e821c8ad7a1767558d473962856fda60727615cb5af",
+      "bytes": 1562
+    },
+    {
+      "path": "conformance/invalid/10_tensor_dimension_mismatch.lctl",
+      "sha256": "ebf45d8cf76129ee17b3bb537a681e895f672a5c74d912cef6c27927b9d5cd46",
+      "bytes": 1563
+    },
+    {
+      "path": "conformance/invalid/11_measure_wrong_classical_type.lctl",
+      "sha256": "86b5e1ee1ea2147d4fe8e7fdab04950798a7fac181a1d11332ca1625f7b3000c",
+      "bytes": 1452
+    },
+    {
+      "path": "conformance/invalid/12_use_after_measure.lctl",
+      "sha256": "08f0a914f9140c1cbdb763a9d335a94b77d145d290327723ec17827a84147b67",
+      "bytes": 1756
+    },
+    {
+      "path": "conformance/invalid/13_approx_without_permission.lctl",
+      "sha256": "43eb3c386da0f7ba24665baabbf7191ca857e9fbf398f4aa7b31e9439557f9e5",
+      "bytes": 1580
+    },
+    {
+      "path": "conformance/invalid/14_exceeded_error_budget.lctl",
+      "sha256": "a08b1e53e2ddba4bf60178555d4f900d801e1e588f6d0683cbdb48bdf46e41f2",
+      "bytes": 1587
+    },
+    {
+      "path": "conformance/invalid/15_invalid_q1_q6.lctl",
+      "sha256": "9e2feeeaae5591745bd2dfe5f222e0d067407177c651fbffcd08f1090ce1a411",
+      "bytes": 2089
+    },
+    {
+      "path": "conformance/invalid/16_corrupted_source_seal.lctl",
+      "sha256": "843354e8f1b88c6a0747f6db10c10962f70523af1c5b6f00e8fd90ad3c00dbd7",
+      "bytes": 1542
+    },
+    {
+      "path": "conformance/invalid/17_unsupported_target_operation.lctl",
+      "sha256": "e7f73773e267604fe77db5bc48105cc65faaaa0233f0894c022835b9b4d47f3a",
+      "bytes": 1589
+    },
+    {
+      "path": "conformance/invalid/18_invalid_hardware_topology.lctl",
+      "sha256": "d886d5823a9c531d8de255f309391ae88cfdf16159c313d8fc06384e13e897c6",
+      "bytes": 1563
+    },
+    {
+      "path": "conformance/invalid/19_invalid_shot_count.lctl",
+      "sha256": "2b4697bdda9b93fa0b1311c9bc1effce65859a45242d765a82d26b4639f7a88e",
+      "bytes": 1551
+    },
+    {
+      "path": "conformance/invalid/20_negative_probability.lctl",
+      "sha256": "7b56a9cd048d50cea37cb41664aeb6ce7323a062f670db0b0e039c7ea1caf39a",
+      "bytes": 1545
+    },
+    {
+      "path": "conformance/invalid/21_probability_not_normalized.lctl",
+      "sha256": "98535b960cbd44a8e315b61a7b769c895babeebb1a14836c893ea18423213e95",
+      "bytes": 1558
+    },
+    {
+      "path": "conformance/valid/01_bell_state.lctl",
+      "sha256": "a977f173dcaa151190d56ef8c0cfbac75165aa495dd805a02eecb5e890d5b101",
+      "bytes": 2101
+    },
+    {
+      "path": "conformance/valid/02_ghz_state.lctl",
+      "sha256": "9960596f9a6eed9deed259abd4bacd733cae56041cca5f663179260c76227da8",
+      "bytes": 2466
+    },
+    {
+      "path": "conformance/valid/03_teleportation.lctl",
+      "sha256": "b20dd62b3d92d72434d115807bcf74521a4630c60a59306c8eae9f1c48755c43",
+      "bytes": 3151
+    },
+    {
+      "path": "conformance/valid/04_superdense_coding.lctl",
+      "sha256": "86f0db226ea010b587287777e26167341ab385ff30c1d98d10bbf05282a9e24e",
+      "bytes": 2740
+    },
+    {
+      "path": "conformance/valid/05_single_qubit_rotations.lctl",
+      "sha256": "c05016da472ceb89fd78d0a86c0e3ed09c0acabd686c4e9bb0c2363c531b9b04",
+      "bytes": 2081
+    },
+    {
+      "path": "conformance/valid/06_controlled_operations.lctl",
+      "sha256": "2ff2f73e1022fa837c21a9799772da53a27cb3c4d468c1cdfdbdfe34bf4b4e12",
+      "bytes": 1862
+    },
+    {
+      "path": "conformance/valid/07_basis_measurement.lctl",
+      "sha256": "cc8f15919cde5f433de9363f92a5f7e0ca19538074d8252d725f40a38fda82fb",
+      "bytes": 1748
+    },
+    {
+      "path": "conformance/valid/08_povm.lctl",
+      "sha256": "ddda687b1c179314e3c183e62b12b05a8d40f852cd98bfaf3de9a65bff4a7433",
+      "bytes": 1539
+    },
+    {
+      "path": "conformance/valid/09_density_matrix_noise.lctl",
+      "sha256": "b932f0ef3c6e440dc5bcb1c0aac2c879010814540852519ed625e6ff99a92a9b",
+      "bytes": 1929
+    },
+    {
+      "path": "conformance/valid/10_amplitude_damping.lctl",
+      "sha256": "5ce5a935b6f1ecd862426055fb3d2a86793c713b8bbd8d6d8094f12f201f809a",
+      "bytes": 1937
+    },
+    {
+      "path": "conformance/valid/11_depolarizing_channel.lctl",
+      "sha256": "2a12c6132dedbb3bc46a591a4454303be3f78023fd45c62c04bdd3fce702163b",
+      "bytes": 1780
+    },
+    {
+      "path": "conformance/valid/12_repetition_error_correction.lctl",
+      "sha256": "0894aefae79631132c8ff8c4de98a0ae95290ca92b2ed695bd723224f6c2eb11",
+      "bytes": 2914
+    },
+    {
+      "path": "conformance/valid/13_stabilizer.lctl",
+      "sha256": "085351d8d58d760165b46aef8e40273e606cfabbee138ca3c698e2ee5048ea99",
+      "bytes": 1863
+    },
+    {
+      "path": "conformance/valid/14_qft.lctl",
+      "sha256": "7e7a00a0867a22eb467476d21cfb0d81a262cb7037be264711f812abd8a2a093",
+      "bytes": 2371
+    },
+    {
+      "path": "conformance/valid/15_grover.lctl",
+      "sha256": "de8bd29e0a8e6217c31fc36a7d2166c1a95318c67ed731f3ecdfa80877469637",
+      "bytes": 3648
+    },
+    {
+      "path": "conformance/valid/16_phase_estimation.lctl",
+      "sha256": "160f28456f41ddef4b3aff6dab81c07cd356da7ebcbfd5ce8db31cf81d7b469c",
+      "bytes": 2240
+    },
+    {
+      "path": "conformance/valid/17_vqe.lctl",
+      "sha256": "23ad7e02cb88977f6146c18bbab40c14c577b2cd9716df9acbdc7fee69ece8a9",
+      "bytes": 1911
+    },
+    {
+      "path": "conformance/valid/18_qaoa.lctl",
+      "sha256": "e642372be2fc6955abb82fa50463537ef679336ec255f1085f9ce7afd1d38797",
+      "bytes": 2376
+    },
+    {
+      "path": "conformance/valid/19_hamiltonian_simulation.lctl",
+      "sha256": "1afacbca4d30e860270a53d50a628088a1168354923d3a2de424a9c54b6ad8b6",
+      "bytes": 1823
+    },
+    {
+      "path": "conformance/valid/20_measurement_feedback.lctl",
+      "sha256": "0883006de4cc5ccbd7930d783f0e60cde3fd29cf68e07dfbeb85ce5d02a986ae",
+      "bytes": 2163
+    },
+    {
+      "path": "conformance/valid/calculus_transform_admitted.lctl",
+      "sha256": "d576e2fd32aea0eeae4a4ecdf107671107b8a683b0b7b43b6b8a5f43958d2068",
+      "bytes": 3494
+    },
+    {
+      "path": "corpus/COURSE_MAP.md",
+      "sha256": "146be909b7f969ebd4dcd5b9e99582a9c7294ceb31affd876eb53cb8e55fed8f",
+      "bytes": 1911
+    },
+    {
+      "path": "corpus/lessons/01_LANGUAGE_ANATOMY.md",
+      "sha256": "a01455ed7ef20e2f68d7241ec7c10f067039fb0039f1911920b3b822dca294ae",
+      "bytes": 878
+    },
+    {
+      "path": "corpus/lessons/02_TUPLE_SCHEMA.md",
+      "sha256": "50b821b0e8b8f2f69bb25b4d70d0b25b2c90b35693ed11873dd2a0ad1103baa5",
+      "bytes": 837
+    },
+    {
+      "path": "corpus/lessons/03_QUANTUM_TYPES.md",
+      "sha256": "ec957d45e7376688533bc696e777119640496be5bf9fd82da5d70be4724d6259",
+      "bytes": 846
+    },
+    {
+      "path": "corpus/lessons/04_QUBIT_OWNERSHIP.md",
+      "sha256": "be45bf040829bbe009aa0e6718e49666caaf4e5908f13f35e9243a2fd71304d3",
+      "bytes": 839
+    },
+    {
+      "path": "corpus/lessons/05_HILBERT_SPACES.md",
+      "sha256": "dc95995cf2eece1221290435d81fdb5cd3af92d2bdd536167dadee211cbd3285",
+      "bytes": 860
+    },
+    {
+      "path": "corpus/lessons/06_STATE_VECTORS.md",
+      "sha256": "e8a249a25d8d84fc9a536236035720c3810cb0def413b4bc428a1add90d56518",
+      "bytes": 870
+    },
+    {
+      "path": "corpus/lessons/07_DENSITY_MATRICES.md",
+      "sha256": "cfe113bae2b58be80882f30ca0c576b79ef4da0c1904bf85f09682a856609500",
+      "bytes": 828
+    },
+    {
+      "path": "corpus/lessons/08_OPERATORS.md",
+      "sha256": "d46cce7b720b76716e68ab545f620366259425099baf21f8f584314498f18a4e",
+      "bytes": 839
+    },
+    {
+      "path": "corpus/lessons/09_UNITARIES.md",
+      "sha256": "a5682940e64cf5a61b69f1bda1e9d3e1b8f08b89a4571b3c612ddfcbe06aae26",
+      "bytes": 837
+    },
+    {
+      "path": "corpus/lessons/10_OBSERVABLES.md",
+      "sha256": "f999655ce7aafa51efd45169585091262b82967ff6e4bb0c3ac5183cd5fe080c",
+      "bytes": 836
+    },
+    {
+      "path": "corpus/lessons/11_PROJECTORS.md",
+      "sha256": "c2058ba92372fa56474fb3b93bc49ae372be0918456d9ada2841b1f8348038df",
+      "bytes": 820
+    },
+    {
+      "path": "corpus/lessons/12_TENSOR_PRODUCTS.md",
+      "sha256": "d4947c69093913abcc67197716c6827cce0ae4baf8cd1f0e8a3a1cf81ad331b3",
+      "bytes": 849
+    },
+    {
+      "path": "corpus/lessons/13_ENTANGLEMENT.md",
+      "sha256": "be790362769bf25aa449ad458b03fa84d5f7232e15c595814fb7b26a7efc11ad",
+      "bytes": 862
+    },
+    {
+      "path": "corpus/lessons/14_MEASUREMENT.md",
+      "sha256": "7ea084d2ecb8e27d225a5bd54bef8c56315c5ea81d875464278f6ffffecd6d6d",
+      "bytes": 874
+    },
+    {
+      "path": "corpus/lessons/15_CHANNELS.md",
+      "sha256": "a3dc7e0cb148231c06802f9a6d89f16ce3b21da73935a713b2185a5323d67fd4",
+      "bytes": 805
+    },
+    {
+      "path": "corpus/lessons/16_NOISE.md",
+      "sha256": "2485b96397ccf79225b77cf017ea6693998c9a1e56c2a607d959c43196f1e78f",
+      "bytes": 849
+    },
+    {
+      "path": "corpus/lessons/17_HAMILTONIANS.md",
+      "sha256": "0f3a4ebd20cac3cb64344cd5ddf35bfb0a878e4da0d1a78547145bb444d2c245",
+      "bytes": 862
+    },
+    {
+      "path": "corpus/lessons/18_QUANTUM_CIRCUITS.md",
+      "sha256": "df04cfbc5b0a0cf0eebc86d9d04a253d6e84f08cc786bed443e0d373359e7f3a",
+      "bytes": 847
+    },
+    {
+      "path": "corpus/lessons/19_HYBRID_CONTROL.md",
+      "sha256": "3ec71ee48abc89c43843613eb34e47141552f63fdacdf5e0aa934dcc11c99a5d",
+      "bytes": 866
+    },
+    {
+      "path": "corpus/lessons/20_CLASSICAL_RESULTS.md",
+      "sha256": "bd58e538c037eb5db3985ddcc44f1287dfb7d325348d9ea1224ef0ae2c50e048",
+      "bytes": 844
+    },
+    {
+      "path": "corpus/lessons/21_ERROR_BUDGETS.md",
+      "sha256": "691c7b446faef2b8259922bae1e1b71ab8e044c74c90fa76035dd4eb10cb31d4",
+      "bytes": 853
+    },
+    {
+      "path": "corpus/lessons/22_RESOURCE_ACCOUNTING.md",
+      "sha256": "f91347787210584da6d5dc20e5d3796d1452eb2f583e649e70bed996266acc0a",
+      "bytes": 856
+    },
+    {
+      "path": "corpus/lessons/23_OPTIMIZATION.md",
+      "sha256": "62fc436704150576198b08d6dba22bed276d552f1469cac02830ea3b86c91b96",
+      "bytes": 879
+    },
+    {
+      "path": "corpus/lessons/24_VARIATIONAL_ALGORITHMS.md",
+      "sha256": "f63c9cdd76fefa3588f61de3443333b4f741c19d97f2655add29145f14e5fc65",
+      "bytes": 874
+    },
+    {
+      "path": "corpus/lessons/25_DIFFERENTIATION.md",
+      "sha256": "7e440898d9dcccd82600848f53f5ac88318175284d19c7014fb4325d23e8573e",
+      "bytes": 863
+    },
+    {
+      "path": "corpus/lessons/26_ERROR_CORRECTION.md",
+      "sha256": "25e91bc5790848b8cc65906a9fdf01162b557c52bed70f9fd1b16a1012ba4995",
+      "bytes": 877
+    },
+    {
+      "path": "corpus/lessons/27_TARGET_ADAPTERS.md",
+      "sha256": "7a4a05a9065294e3821fd7451c9aecd250ef855789771342739c413478f3cd37",
+      "bytes": 867
+    },
+    {
+      "path": "corpus/lessons/28_COMPILER_REWRITES.md",
+      "sha256": "4134f92e813d38bc9f821b001f4b02055b9f96f20b1ac5f4107ca0a83f711089",
+      "bytes": 861
+    },
+    {
+      "path": "corpus/lessons/29_Q1_Q6_ADMISSION.md",
+      "sha256": "bacc488bfca7c0aee79ed26458d368f1f0792c76e820b2e8741faeff864e2dad",
+      "bytes": 854
+    },
+    {
+      "path": "corpus/lessons/30_CAPSTONE_CALCULUS_TRANSFORM_GUIDED_LCTL.md",
+      "sha256": "143fe1fa7cdb4ac850478bdeff936de6463ccac19ce6350c94f495662cd62a2a",
+      "bytes": 1051
+    },
+    {
+      "path": "corpus/lessons/31_CLASSICAL_HOST_QUANTUM_BOUNDARY.md",
+      "sha256": "7159a446211888392a0037436f527266dbf457558b85c2899424a0701c4e5722",
+      "bytes": 985
+    },
+    {
+      "path": "corpus/lessons/32_EXECUTION_PROVENANCE.md",
+      "sha256": "93d3d534380ece5da4a772a7f804bb51469140024037c6dba2220a3ad371423e",
+      "bytes": 752
+    },
+    {
+      "path": "design/CALCULUS_TRANSFORM_INTEGRATION.md",
+      "sha256": "b198473316f4ee6a7a0457ca686685d572decf00b7508d0f60821d3464268f1d",
+      "bytes": 1291
+    },
+    {
+      "path": "design/LEARNED_SYSTEM_TO_LCTL_MIGRATION.md",
+      "sha256": "0c5ddd071eb184cbf7809530c7fc3e220c4eebed3cc18e93e6e1aa60b7a379e6",
+      "bytes": 889
+    },
+    {
+      "path": "design/STANDARD_SSD_QUANTUM_LANGUAGE_ARCHITECTURE.md",
+      "sha256": "b1b77cacaa063e7592f0ad6df7cfc77c883fef195efa77d4410141b99d3ecd53",
+      "bytes": 1004
+    },
+    {
+      "path": "examples/01_bell_state/EXPECTED.json",
+      "sha256": "5b62fe8de927c3789c6c67ab0af5a16480eaf8bb17076c6f87edbe96e4ada057",
+      "bytes": 131
+    },
+    {
+      "path": "examples/01_bell_state/PARSED_STRUCTURE.json",
+      "sha256": "485e2666cafc415bc7b304b546fbc0ec069da7bf4b0c60b5caadc7075def5ee0",
+      "bytes": 320
+    },
+    {
+      "path": "examples/01_bell_state/PROOF.json",
+      "sha256": "41a308f7e57711d482e3c21e4d64f2c4e7d92d4b173523bf60c53cbced3ff267",
+      "bytes": 488
+    },
+    {
+      "path": "examples/01_bell_state/QCIR.json",
+      "sha256": "faf038ee7e4e95db61e66df0f2a8a1702fb57ae179d849e844027eca7eb341cc",
+      "bytes": 617
+    },
+    {
+      "path": "examples/01_bell_state/RESOURCE_REPORT.json",
+      "sha256": "9e182baaeaba8ce50d57ca95d0f0a3fe08dff0b2aa10b47981efb80127f45b6c",
+      "bytes": 310
+    },
+    {
+      "path": "examples/01_bell_state/SIMULATOR_RESULT.json",
+      "sha256": "e3250d74464cabb7f448a55ccb5b3836590861ff4e827c3620253f207d232bff",
+      "bytes": 163
+    },
+    {
+      "path": "examples/01_bell_state/VERIFIER_RESULT.json",
+      "sha256": "51f1814b0547c9cb8445937948848ea68410fdeb9c948c00b3c71e3220cdce00",
+      "bytes": 183
+    },
+    {
+      "path": "examples/01_bell_state/program.lctl",
+      "sha256": "a977f173dcaa151190d56ef8c0cfbac75165aa495dd805a02eecb5e890d5b101",
+      "bytes": 2101
+    },
+    {
+      "path": "examples/02_ghz_state/EXPECTED.json",
+      "sha256": "cd92454b42f4a4a9fdcb76b9deb5f277a8c78ffa4088952d4efcc9537e383503",
+      "bytes": 86
+    },
+    {
+      "path": "examples/02_ghz_state/PARSED_STRUCTURE.json",
+      "sha256": "579abae07de0d515bfb0a4ce3d88ee2968c40e6080040eb60be9975d27f07f19",
+      "bytes": 319
+    },
+    {
+      "path": "examples/02_ghz_state/PROOF.json",
+      "sha256": "0d0d70ed3442b90790c0d1eb4da1e24da7a44b8b286d8b3a8199a91f838633e0",
+      "bytes": 478
+    },
+    {
+      "path": "examples/02_ghz_state/QCIR.json",
+      "sha256": "8ebcfd1dcd82f13ad3c024e227375c090e1349d55efe1833c78980820a82854a",
+      "bytes": 862
+    },
+    {
+      "path": "examples/02_ghz_state/RESOURCE_REPORT.json",
+      "sha256": "1e87edbb36e6df32f60fcba61e15d3abdfddd1f60ac78a6ef2181b4a79cabf73",
+      "bytes": 310
+    },
+    {
+      "path": "examples/02_ghz_state/SIMULATOR_RESULT.json",
+      "sha256": "f2780293e9609892f8f6dc1d412fcdd6841bb94516231d563a4a01539a2a86ed",
+      "bytes": 165
+    },
+    {
+      "path": "examples/02_ghz_state/VERIFIER_RESULT.json",
+      "sha256": "98bfdeedc316616087e4726b5781b3e08cebef0dd740c5923af25e7452b2a28f",
+      "bytes": 182
+    },
+    {
+      "path": "examples/02_ghz_state/program.lctl",
+      "sha256": "9960596f9a6eed9deed259abd4bacd733cae56041cca5f663179260c76227da8",
+      "bytes": 2466
+    },
+    {
+      "path": "examples/03_teleportation/EXPECTED.json",
+      "sha256": "7a710d0024e8d33f916e7959fd2baf2aad3f4b5fe31771884931fa1b81fd7873",
+      "bytes": 118
+    },
+    {
+      "path": "examples/03_teleportation/PARSED_STRUCTURE.json",
+      "sha256": "f7b28c9b670dba5c058609e967f7a3f2c401047ad3db06ed7eda7b9bbb63a70e",
+      "bytes": 324
+    },
+    {
+      "path": "examples/03_teleportation/PROOF.json",
+      "sha256": "a6ce1b4d8839ac07024ba82a1f14e005dfbd595f09b36b85ded94e49eb8b85ad",
+      "bytes": 490
+    },
+    {
+      "path": "examples/03_teleportation/QCIR.json",
+      "sha256": "685b8bf5036364f0a1f27126c3c5cacec51186992d4a746ce95297f99437b6f8",
+      "bytes": 1355
+    },
+    {
+      "path": "examples/03_teleportation/RESOURCE_REPORT.json",
+      "sha256": "556c45ab76432bbd9dfc41a65e0f7d35507ff382da576e00aa15baff5b2e1dab",
+      "bytes": 355
+    },
+    {
+      "path": "examples/03_teleportation/SIMULATOR_RESULT.json",
+      "sha256": "452afa552878efef6eb39f1b5d63f5d9de2ac14021c75cc03b3634c13252e76e",
+      "bytes": 193
+    },
+    {
+      "path": "examples/03_teleportation/VERIFIER_RESULT.json",
+      "sha256": "26bdd733d23cab75247231d5464c8d07fa08ab801211995f986042c006aec366",
+      "bytes": 187
+    },
+    {
+      "path": "examples/03_teleportation/program.lctl",
+      "sha256": "b20dd62b3d92d72434d115807bcf74521a4630c60a59306c8eae9f1c48755c43",
+      "bytes": 3151
+    },
+    {
+      "path": "examples/04_superdense_coding/EXPECTED.json",
+      "sha256": "362b6dc5829b751247f0f4dcd794a533297de592dafddee8309b3c9a1963bfc7",
+      "bytes": 145
+    },
+    {
+      "path": "examples/04_superdense_coding/PARSED_STRUCTURE.json",
+      "sha256": "b5fcf97052d21e0a255cba2581de6c727f14f3dd6ef884e1bafcb93100eaa521",
+      "bytes": 327
+    },
+    {
+      "path": "examples/04_superdense_coding/PROOF.json",
+      "sha256": "d54e7a138854a56c9839cdd58453bd3bccd15e47c1fbe16ced8051736316f72b",
+      "bytes": 486
+    },
+    {
+      "path": "examples/04_superdense_coding/QCIR.json",
+      "sha256": "781023560fc256bd34f01a43c87dea2d3e0ac2b73ea07b9879431c3937c75ccd",
+      "bytes": 1066
+    },
+    {
+      "path": "examples/04_superdense_coding/RESOURCE_REPORT.json",
+      "sha256": "32348b6a752bb917e15345954395c8cc2249b719fc572e49424e9df0b4d28771",
+      "bytes": 338
+    },
+    {
+      "path": "examples/04_superdense_coding/SIMULATOR_RESULT.json",
+      "sha256": "bfd5adbbfd387728763aa329cfb94cf4abd21652467cb4ab4d8607d548190d5b",
+      "bytes": 146
+    },
+    {
+      "path": "examples/04_superdense_coding/VERIFIER_RESULT.json",
+      "sha256": "a5ff6f54ba65a1c806e22638d3e8327b868aa0b3063140b702bb3822e8af6425",
+      "bytes": 191
+    },
+    {
+      "path": "examples/04_superdense_coding/program.lctl",
+      "sha256": "86f0db226ea010b587287777e26167341ab385ff30c1d98d10bbf05282a9e24e",
+      "bytes": 2740
+    },
+    {
+      "path": "examples/05_single_qubit_rotations/EXPECTED.json",
+      "sha256": "6dfdecc34b2ef4afb9e2869b6fca922f949b4d27794b6471deafc10c4a91e07c",
+      "bytes": 126
+    },
+    {
+      "path": "examples/05_single_qubit_rotations/PARSED_STRUCTURE.json",
+      "sha256": "6147587d22a03533cbad26d59bcee316afbf26a11aed0408bf6945b3a3a52bbe",
+      "bytes": 332
+    },
+    {
+      "path": "examples/05_single_qubit_rotations/PROOF.json",
+      "sha256": "2e48ff66cdec9f3d50fd504a15b23fda40b45bbd7dde069b69750a926a19d563",
+      "bytes": 491
+    },
+    {
+      "path": "examples/05_single_qubit_rotations/QCIR.json",
+      "sha256": "2b001c6f75d240b671578414e3c944d098d6fd0753528cc1399ccca3881e3799",
+      "bytes": 607
+    },
+    {
+      "path": "examples/05_single_qubit_rotations/RESOURCE_REPORT.json",
+      "sha256": "1c136a2e432e58c99f13663233aed82df88d7c300586d7f93a7d6383ab52f1f0",
+      "bytes": 326
+    },
+    {
+      "path": "examples/05_single_qubit_rotations/SIMULATOR_RESULT.json",
+      "sha256": "6830d32e41d23a9c0083575bfe35f8c38169f42855a87fbcb6ceb5936213325c",
+      "bytes": 160
+    },
+    {
+      "path": "examples/05_single_qubit_rotations/VERIFIER_RESULT.json",
+      "sha256": "286e087da273fbd74ef6b9b4bbd08f2af9166cde2504333cf45fa38dee172737",
+      "bytes": 195
+    },
+    {
+      "path": "examples/05_single_qubit_rotations/program.lctl",
+      "sha256": "c05016da472ceb89fd78d0a86c0e3ed09c0acabd686c4e9bb0c2363c531b9b04",
+      "bytes": 2081
+    },
+    {
+      "path": "examples/06_controlled_operations/EXPECTED.json",
+      "sha256": "8a57a3c2796373c5a3386c876fff74dfc0a59e1bbc93c23a9e42fda5fcf5be0c",
+      "bytes": 136
+    },
+    {
+      "path": "examples/06_controlled_operations/PARSED_STRUCTURE.json",
+      "sha256": "2f499ca2c482fafbea57f4e93b1fbfa8d72f2130981ec81ce4e5dead0e7fb96e",
+      "bytes": 331
+    },
+    {
+      "path": "examples/06_controlled_operations/PROOF.json",
+      "sha256": "693bdd5ba56c46d68a51b625ea349dfc4f7dafab9081c38d9decaf40755d576f",
+      "bytes": 490
+    },
+    {
+      "path": "examples/06_controlled_operations/QCIR.json",
+      "sha256": "58052eaf16d03ef577a1c7c076f67e45c64d4939bdaebb04558e2130c1ffe288",
+      "bytes": 595
+    },
+    {
+      "path": "examples/06_controlled_operations/RESOURCE_REPORT.json",
+      "sha256": "423498c0f56e44d11206cd40c950d0bfe2e0e77522b13f514777c8663f8824a1",
+      "bytes": 320
+    },
+    {
+      "path": "examples/06_controlled_operations/SIMULATOR_RESULT.json",
+      "sha256": "f0c4875274ee0e65c8ae43a59c1ecfe758357110bc72fa69678664007cec5d18",
+      "bytes": 144
+    },
+    {
+      "path": "examples/06_controlled_operations/VERIFIER_RESULT.json",
+      "sha256": "89b1370a2db38a6c5639c629b666b52859b7a4774a7dbc02453692a755958f0f",
+      "bytes": 194
+    },
+    {
+      "path": "examples/06_controlled_operations/program.lctl",
+      "sha256": "2ff2f73e1022fa837c21a9799772da53a27cb3c4d468c1cdfdbdfe34bf4b4e12",
+      "bytes": 1862
+    },
+    {
+      "path": "examples/07_basis_measurement/EXPECTED.json",
+      "sha256": "94f253415ad8be43e785bc3f84c2f9fa710ef7a51b014bc377a50867f1ca0ac1",
+      "bytes": 114
+    },
+    {
+      "path": "examples/07_basis_measurement/PARSED_STRUCTURE.json",
+      "sha256": "ddb471c7a4cabaca02cc92eabd64e8dff3534fc35dc0655a7f41443684e888a8",
+      "bytes": 327
+    },
+    {
+      "path": "examples/07_basis_measurement/PROOF.json",
+      "sha256": "5c1bf53c2c00a78e563bc4ca14e0982988d3026a981655f627e14e99c33f5d3b",
+      "bytes": 486
+    },
+    {
+      "path": "examples/07_basis_measurement/QCIR.json",
+      "sha256": "212f7da51d30aabb2af5b9df7d3cb82066c6d99669b3708271e83eaf74aec610",
+      "bytes": 372
+    },
+    {
+      "path": "examples/07_basis_measurement/RESOURCE_REPORT.json",
+      "sha256": "24bab8ce1e5a405a77449ad4eb3ed34ab7bbc98843377c7f1d875ad09f402800",
+      "bytes": 295
+    },
+    {
+      "path": "examples/07_basis_measurement/SIMULATOR_RESULT.json",
+      "sha256": "a67237c02662631effba220bbe64553b68b1a7326867b151ba88f082b4603325",
+      "bytes": 146
+    },
+    {
+      "path": "examples/07_basis_measurement/VERIFIER_RESULT.json",
+      "sha256": "61226bb098ad94665096e3c50d10918319b5f20c1634700cef1b676664c1da21",
+      "bytes": 190
+    },
+    {
+      "path": "examples/07_basis_measurement/program.lctl",
+      "sha256": "cc8f15919cde5f433de9363f92a5f7e0ca19538074d8252d725f40a38fda82fb",
+      "bytes": 1748
+    },
+    {
+      "path": "examples/08_povm/EXPECTED.json",
+      "sha256": "f5563019834e1694a994d6c1d4bda3acaf4f1e5e77cef3410d9e9c7b2e50ec75",
+      "bytes": 153
+    },
+    {
+      "path": "examples/08_povm/PARSED_STRUCTURE.json",
+      "sha256": "4c823b646cefd61c219fdaa8b791d6858ebb0feef09a23b57946c980836fd01f",
+      "bytes": 314
+    },
+    {
+      "path": "examples/08_povm/PROOF.json",
+      "sha256": "88926fa1a2ae825b91546b990aa4638d0d0015f1924a2ea77e676bb29e3f06b5",
+      "bytes": 481
+    },
+    {
+      "path": "examples/08_povm/QCIR.json",
+      "sha256": "3d65a5615760a84b2d3673f05c8ab5c46f63a2cc74fa1cfcde4638e252dda131",
+      "bytes": 243
+    },
+    {
+      "path": "examples/08_povm/RESOURCE_REPORT.json",
+      "sha256": "25af09b23f96d7057c6eeba71502d1aa83effba881eda373f7e81afc80d7a0f5",
+      "bytes": 273
+    },
+    {
+      "path": "examples/08_povm/SIMULATOR_RESULT.json",
+      "sha256": "f0c4875274ee0e65c8ae43a59c1ecfe758357110bc72fa69678664007cec5d18",
+      "bytes": 144
+    },
+    {
+      "path": "examples/08_povm/VERIFIER_RESULT.json",
+      "sha256": "7e736fd16528029972ed65d17a5adc217eabbed9f68f171e04c21172e1e32563",
+      "bytes": 177
+    },
+    {
+      "path": "examples/08_povm/program.lctl",
+      "sha256": "ddda687b1c179314e3c183e62b12b05a8d40f852cd98bfaf3de9a65bff4a7433",
+      "bytes": 1539
+    },
+    {
+      "path": "examples/09_density_matrix_noise/EXPECTED.json",
+      "sha256": "c2983834275c135f249269eef4b31f558500e547412b5cd9c62f1256b94f8b07",
+      "bytes": 142
+    },
+    {
+      "path": "examples/09_density_matrix_noise/PARSED_STRUCTURE.json",
+      "sha256": "3b570f15836ffe7eff8f8d770aad12246db87748987daf2d0a041468b4a145db",
+      "bytes": 330
+    },
+    {
+      "path": "examples/09_density_matrix_noise/PROOF.json",
+      "sha256": "ed7a1f203c7e043388588068823dcd274f208754f380bbf4b6fbb141c3319505",
+      "bytes": 489
+    },
+    {
+      "path": "examples/09_density_matrix_noise/QCIR.json",
+      "sha256": "7ad842415028cce6da3c6f8768018a7285b86eb4a41ee6dd9abe4873fe083c4b",
+      "bytes": 501
+    },
+    {
+      "path": "examples/09_density_matrix_noise/RESOURCE_REPORT.json",
+      "sha256": "24a4d2ec3cec5870a9ed9cb67ce58d2eb6b48eb8800e7ae5e87b8329645d6082",
+      "bytes": 315
+    },
+    {
+      "path": "examples/09_density_matrix_noise/SIMULATOR_RESULT.json",
+      "sha256": "d2ad8bbb3ee419694fb29d92b8a1dff2837b96dc1575d917efa13f929f1bbc72",
+      "bytes": 161
+    },
+    {
+      "path": "examples/09_density_matrix_noise/VERIFIER_RESULT.json",
+      "sha256": "14bcb14eef942ba7b06e81dfb54eefa53c4ce4cfa1580e613470d0e5d112db6a",
+      "bytes": 193
+    },
+    {
+      "path": "examples/09_density_matrix_noise/program.lctl",
+      "sha256": "b932f0ef3c6e440dc5bcb1c0aac2c879010814540852519ed625e6ff99a92a9b",
+      "bytes": 1929
+    },
+    {
+      "path": "examples/10_amplitude_damping/EXPECTED.json",
+      "sha256": "fa38be5300823e116bfc2be07faf7548f098fb0962a9054cb632fd9a5282999b",
+      "bytes": 134
+    },
+    {
+      "path": "examples/10_amplitude_damping/PARSED_STRUCTURE.json",
+      "sha256": "0adc482dd3dd2c835749dd193956f1c52008b6a4b6c1c8ac6da2b8fbec515831",
+      "bytes": 327
+    },
+    {
+      "path": "examples/10_amplitude_damping/PROOF.json",
+      "sha256": "9b311baa5d30022a9277ff5e0ca40ba289c959aab41391a4d62c992ea9351d14",
+      "bytes": 486
+    },
+    {
+      "path": "examples/10_amplitude_damping/QCIR.json",
+      "sha256": "fd4e388db23d3db8ea58b31ec9a79eeb2af6a70c8dc4e992c168a40dac794389",
+      "bytes": 515
+    },
+    {
+      "path": "examples/10_amplitude_damping/RESOURCE_REPORT.json",
+      "sha256": "9b3e471919fb6dea8a07c5792926ac5bd91ee66ae609d11de21263d86cacd013",
+      "bytes": 322
+    },
+    {
+      "path": "examples/10_amplitude_damping/SIMULATOR_RESULT.json",
+      "sha256": "6dd582dae2b01c0b87f51391265af2869376f67e81a01ddced932ee9a673b0aa",
+      "bytes": 160
+    },
+    {
+      "path": "examples/10_amplitude_damping/VERIFIER_RESULT.json",
+      "sha256": "c6dc4fcd07610ed8e03aeba7ffb18ec8692398d9d779da3266bc4ffb974c1fdb",
+      "bytes": 190
+    },
+    {
+      "path": "examples/10_amplitude_damping/program.lctl",
+      "sha256": "5ce5a935b6f1ecd862426055fb3d2a86793c713b8bbd8d6d8094f12f201f809a",
+      "bytes": 1937
+    },
+    {
+      "path": "examples/11_depolarizing_channel/EXPECTED.json",
+      "sha256": "aab0632a58b1e4eb29f120e8eed90f59af61fc24ac41c5d05b727b7da599a920",
+      "bytes": 131
+    },
+    {
+      "path": "examples/11_depolarizing_channel/PARSED_STRUCTURE.json",
+      "sha256": "9b2b0fe8d4466f3596216e19ad2f0de47640107fe97d41d0feb8a1ada50fd62f",
+      "bytes": 330
+    },
+    {
+      "path": "examples/11_depolarizing_channel/PROOF.json",
+      "sha256": "e84653eff76aeeb956170f9e93218ab51620e0ba477f30df361c8fac389a4089",
+      "bytes": 489
+    },
+    {
+      "path": "examples/11_depolarizing_channel/QCIR.json",
+      "sha256": "ac7c8af061ebf7afbc6f8bceb5a560a55455d9eab5f1e6c87c2bec60c9f46224",
+      "bytes": 396
+    },
+    {
+      "path": "examples/11_depolarizing_channel/RESOURCE_REPORT.json",
+      "sha256": "e74b2aba163514479ca25c3c590acd8d5320b66f389696995a0906ec4ab2e922",
+      "bytes": 304
+    },
+    {
+      "path": "examples/11_depolarizing_channel/SIMULATOR_RESULT.json",
+      "sha256": "37e43e19ab25cb8188e88f5061bee98af23d5940a1f4527d947a858748cf6b68",
+      "bytes": 160
+    },
+    {
+      "path": "examples/11_depolarizing_channel/VERIFIER_RESULT.json",
+      "sha256": "d915b0b525829081aeb23d49bbcc73b898417270a99025ca8ae84357e9f5f99e",
+      "bytes": 193
+    },
+    {
+      "path": "examples/11_depolarizing_channel/program.lctl",
+      "sha256": "2a12c6132dedbb3bc46a591a4454303be3f78023fd45c62c04bdd3fce702163b",
+      "bytes": 1780
+    },
+    {
+      "path": "examples/12_repetition_error_correction/EXPECTED.json",
+      "sha256": "00c736ba7f917b7898e8d22ef44cd4969b116d46d498fad7610f8079fe1c484e",
+      "bytes": 146
+    },
+    {
+      "path": "examples/12_repetition_error_correction/PARSED_STRUCTURE.json",
+      "sha256": "49016ff94a86abdbd1380e2b827e6ed9a353c1d4a188ec3b4a180cd774502b26",
+      "bytes": 337
+    },
+    {
+      "path": "examples/12_repetition_error_correction/PROOF.json",
+      "sha256": "b12b4a7f840062c26924c01ad431efb8f9239d96b3aaf2d6d48afba0c5c4cce9",
+      "bytes": 508
+    },
+    {
+      "path": "examples/12_repetition_error_correction/QCIR.json",
+      "sha256": "b8735c2e44ae87967ae46ab2404218891ab87fca75c5a0bd264d97e25392b1a9",
+      "bytes": 1068
+    },
+    {
+      "path": "examples/12_repetition_error_correction/RESOURCE_REPORT.json",
+      "sha256": "9e690cc7a90ff806f8b20649be8057c6f4e9e6e2486e44465e515dde87a73cb8",
+      "bytes": 326
+    },
+    {
+      "path": "examples/12_repetition_error_correction/SIMULATOR_RESULT.json",
+      "sha256": "26069bf5f9c9ed7dd628f856295dc8f4ba2df655d253c7cb68da1026dfd2192e",
+      "bytes": 145
+    },
+    {
+      "path": "examples/12_repetition_error_correction/VERIFIER_RESULT.json",
+      "sha256": "91973e02c54a596a78ae576edb46079d6789fbd4d59e63ae535e05d5e5065dd6",
+      "bytes": 201
+    },
+    {
+      "path": "examples/12_repetition_error_correction/program.lctl",
+      "sha256": "0894aefae79631132c8ff8c4de98a0ae95290ca92b2ed695bd723224f6c2eb11",
+      "bytes": 2914
+    },
+    {
+      "path": "examples/13_stabilizer/EXPECTED.json",
+      "sha256": "233b283d125028db2ce4f3856b4bb03273233c82eb9549be1e30397b3d802638",
+      "bytes": 119
+    },
+    {
+      "path": "examples/13_stabilizer/PARSED_STRUCTURE.json",
+      "sha256": "b2ffcb79006df1c78c1d70cce0732ad6a04e282a1011cfdb39f8e3e33bb14d0f",
+      "bytes": 320
+    },
+    {
+      "path": "examples/13_stabilizer/PROOF.json",
+      "sha256": "ea5312ed048d40f46bb9e5a8e07b3529bc9dac5f75f13649ebf446bfd90a07df",
+      "bytes": 487
+    },
+    {
+      "path": "examples/13_stabilizer/QCIR.json",
+      "sha256": "59dde156f9fb6cc1cf2e15a47092753202e62faded1332fd2d188fd367beebd4",
+      "bytes": 475
+    },
+    {
+      "path": "examples/13_stabilizer/RESOURCE_REPORT.json",
+      "sha256": "e0f848690cf67b65099edd2c871d9f9bba4b044cde8e16adf1339b6e36a12c57",
+      "bytes": 288
+    },
+    {
+      "path": "examples/13_stabilizer/SIMULATOR_RESULT.json",
+      "sha256": "f0c4875274ee0e65c8ae43a59c1ecfe758357110bc72fa69678664007cec5d18",
+      "bytes": 144
+    },
+    {
+      "path": "examples/13_stabilizer/VERIFIER_RESULT.json",
+      "sha256": "2822bf573cb0aeb940097328e42c5e31311af447902e28607a114f734e6da42e",
+      "bytes": 183
+    },
+    {
+      "path": "examples/13_stabilizer/program.lctl",
+      "sha256": "085351d8d58d760165b46aef8e40273e606cfabbee138ca3c698e2ee5048ea99",
+      "bytes": 1863
+    },
+    {
+      "path": "examples/14_qft/EXPECTED.json",
+      "sha256": "dfd21f1b2eeaac2d97a59d3cb5bb99df805b5b28cc829244e44a22063dbb2bee",
+      "bytes": 155
+    },
+    {
+      "path": "examples/14_qft/PARSED_STRUCTURE.json",
+      "sha256": "fd3385979b1acf79d42de4c1908bca4c474f34140f9a9b2419ecbf8b8bfacf5b",
+      "bytes": 313
+    },
+    {
+      "path": "examples/14_qft/PROOF.json",
+      "sha256": "d197d22ddec3a6a161622342f7ed38443695b6ab5233bd5fa3a2de3cc8e57860",
+      "bytes": 502
+    },
+    {
+      "path": "examples/14_qft/QCIR.json",
+      "sha256": "db1c743c2ed8e9aa49f4b14a39968eff3ab1d9c866346f7e3cbdded2dc986c81",
+      "bytes": 1008
+    },
+    {
+      "path": "examples/14_qft/RESOURCE_REPORT.json",
+      "sha256": "c91489eab0dc7e9907b4029f306dac9ef0761c1554382da8329a9ce6d373c61a",
+      "bytes": 309
+    },
+    {
+      "path": "examples/14_qft/SIMULATOR_RESULT.json",
+      "sha256": "f0c4875274ee0e65c8ae43a59c1ecfe758357110bc72fa69678664007cec5d18",
+      "bytes": 144
+    },
+    {
+      "path": "examples/14_qft/VERIFIER_RESULT.json",
+      "sha256": "58db3c2a04e1c1e5f8b3910934d05691dc03a1e9acd02691715074c2af5120e9",
+      "bytes": 176
+    },
+    {
+      "path": "examples/14_qft/program.lctl",
+      "sha256": "7e7a00a0867a22eb467476d21cfb0d81a262cb7037be264711f812abd8a2a093",
+      "bytes": 2371
+    },
+    {
+      "path": "examples/15_grover/EXPECTED.json",
+      "sha256": "d0c0804deb2be9fec5fb91578ce96a377d62e0175ec8d00ff71e7df47db18187",
+      "bytes": 149
+    },
+    {
+      "path": "examples/15_grover/PARSED_STRUCTURE.json",
+      "sha256": "5f9a673842d441008433c9f34832322a858a9c404d2a747c173e4cb31107d113",
+      "bytes": 317
+    },
+    {
+      "path": "examples/15_grover/PROOF.json",
+      "sha256": "c02c4bb4f2a728aa502c0fb95e77128beb347378939c7531e2354baa2caa2887",
+      "bytes": 490
+    },
+    {
+      "path": "examples/15_grover/QCIR.json",
+      "sha256": "e4a8306d4b6ce69b7e808761914b350767330045e1aeceabb682619f950a6f35",
+      "bytes": 1732
+    },
+    {
+      "path": "examples/15_grover/RESOURCE_REPORT.json",
+      "sha256": "61cbef3fd66c2c5da8e25f8df0728cdfbe4febf9e41ad544779814b48f2a89cd",
+      "bytes": 325
+    },
+    {
+      "path": "examples/15_grover/SIMULATOR_RESULT.json",
+      "sha256": "bfd5adbbfd387728763aa329cfb94cf4abd21652467cb4ab4d8607d548190d5b",
+      "bytes": 146
+    },
+    {
+      "path": "examples/15_grover/VERIFIER_RESULT.json",
+      "sha256": "ee4e2c8872d936adc671533cf10ac3c9faf10adc76655204ffe26f00dd12292e",
+      "bytes": 180
+    },
+    {
+      "path": "examples/15_grover/program.lctl",
+      "sha256": "de8bd29e0a8e6217c31fc36a7d2166c1a95318c67ed731f3ecdfa80877469637",
+      "bytes": 3648
+    },
+    {
+      "path": "examples/16_phase_estimation/EXPECTED.json",
+      "sha256": "b462bed1cc6a5c1315697cbd6d63bcd990966ed58eccb4ff1a480ab741647140",
+      "bytes": 166
+    },
+    {
+      "path": "examples/16_phase_estimation/PARSED_STRUCTURE.json",
+      "sha256": "b8f00f56f26308c74f5654d3801c6103889c74f7d9655c0d99388a8dd722c57f",
+      "bytes": 326
+    },
+    {
+      "path": "examples/16_phase_estimation/PROOF.json",
+      "sha256": "16a2e6b504602c97506d54378e3c38ba0370a48902e0811b73c3a730946f29e0",
+      "bytes": 493
+    },
+    {
+      "path": "examples/16_phase_estimation/QCIR.json",
+      "sha256": "b63cd5b26f242bafa7e2464d7f569230e2888311f14d106c02e2e9d7befa4591",
+      "bytes": 734
+    },
+    {
+      "path": "examples/16_phase_estimation/RESOURCE_REPORT.json",
+      "sha256": "955e37280672580f7cb8361bdca8ab18b8379c866e74de413a6865de8dcca80f",
+      "bytes": 328
+    },
+    {
+      "path": "examples/16_phase_estimation/SIMULATOR_RESULT.json",
+      "sha256": "26069bf5f9c9ed7dd628f856295dc8f4ba2df655d253c7cb68da1026dfd2192e",
+      "bytes": 145
+    },
+    {
+      "path": "examples/16_phase_estimation/VERIFIER_RESULT.json",
+      "sha256": "2f3cca9fd7670a85f9023187dbda4ec83b92d8a4e793a4e69e10834a6c888013",
+      "bytes": 189
+    },
+    {
+      "path": "examples/16_phase_estimation/program.lctl",
+      "sha256": "160f28456f41ddef4b3aff6dab81c07cd356da7ebcbfd5ce8db31cf81d7b469c",
+      "bytes": 2240
+    },
+    {
+      "path": "examples/17_vqe/EXPECTED.json",
+      "sha256": "33a853456b087f23cb668de98df28e33d7a75d9df3fd62faf73176f2badcfd90",
+      "bytes": 175
+    },
+    {
+      "path": "examples/17_vqe/PARSED_STRUCTURE.json",
+      "sha256": "64049f491097b6810fc51a94b3b12c477bee87c807c3b57be2ad5db81f06ac31",
+      "bytes": 313
+    },
+    {
+      "path": "examples/17_vqe/PROOF.json",
+      "sha256": "79aa6582cdd5f68935ab5e683c20e6f9ecf5b3c2bccaf94ba40c49f7e15dedfe",
+      "bytes": 480
+    },
+    {
+      "path": "examples/17_vqe/QCIR.json",
+      "sha256": "1e3bd64abbd06f3c583a63020705a2240aac70c65fbf7a9eecacea5a4c57f22d",
+      "bytes": 495
+    },
+    {
+      "path": "examples/17_vqe/RESOURCE_REPORT.json",
+      "sha256": "f027d9302c943a80b80263a3079d36ab7ec80d539e35640659d01c77120b51e3",
+      "bytes": 308
+    },
+    {
+      "path": "examples/17_vqe/SIMULATOR_RESULT.json",
+      "sha256": "f0c4875274ee0e65c8ae43a59c1ecfe758357110bc72fa69678664007cec5d18",
+      "bytes": 144
+    },
+    {
+      "path": "examples/17_vqe/VERIFIER_RESULT.json",
+      "sha256": "f8f02d719a7364aca249220deebfa9c7fbf7bd7ffc0ba19516afad7fea2d8ae5",
+      "bytes": 176
+    },
+    {
+      "path": "examples/17_vqe/program.lctl",
+      "sha256": "23ad7e02cb88977f6146c18bbab40c14c577b2cd9716df9acbdc7fee69ece8a9",
+      "bytes": 1911
+    },
+    {
+      "path": "examples/18_qaoa/EXPECTED.json",
+      "sha256": "1ea5cdaad3168cf6eb78b708608e5d802b8f330532aad40000c35c4618033e08",
+      "bytes": 138
+    },
+    {
+      "path": "examples/18_qaoa/PARSED_STRUCTURE.json",
+      "sha256": "8424bb3663d2ebb04e32a9e1567c32f094e9dedcb18f9f64c4b07f926c16c12b",
+      "bytes": 314
+    },
+    {
+      "path": "examples/18_qaoa/PROOF.json",
+      "sha256": "8cab46c478e32af6c157e8ee52d0e532d4697d0ae5290a381781fef27db21679",
+      "bytes": 481
+    },
+    {
+      "path": "examples/18_qaoa/QCIR.json",
+      "sha256": "7461ce9a1937644e55524603df5379e14dfc6c35996d3e02598801ca1042b4bd",
+      "bytes": 837
+    },
+    {
+      "path": "examples/18_qaoa/RESOURCE_REPORT.json",
+      "sha256": "27ba0a630bd99a8860034e84e7653efafd8e3b49115ed1801c81c05424d040c2",
+      "bytes": 326
+    },
+    {
+      "path": "examples/18_qaoa/SIMULATOR_RESULT.json",
+      "sha256": "f0c4875274ee0e65c8ae43a59c1ecfe758357110bc72fa69678664007cec5d18",
+      "bytes": 144
+    },
+    {
+      "path": "examples/18_qaoa/VERIFIER_RESULT.json",
+      "sha256": "fd0929b10a9775c9bf747c31150cc0ea87ff49699263a95ad7c30500595ed77c",
+      "bytes": 177
+    },
+    {
+      "path": "examples/18_qaoa/program.lctl",
+      "sha256": "e642372be2fc6955abb82fa50463537ef679336ec255f1085f9ce7afd1d38797",
+      "bytes": 2376
+    },
+    {
+      "path": "examples/19_hamiltonian_simulation/EXPECTED.json",
+      "sha256": "b1f15437c4773a75310dbdb73ca09542fc5b2fc10c0f842893cc7dcb1674de4a",
+      "bytes": 291
+    },
+    {
+      "path": "examples/19_hamiltonian_simulation/PARSED_STRUCTURE.json",
+      "sha256": "d5b642f9892610c32a55fa992d8b0d7b34ace3ededbd68e46b9064dc6f8c3189",
+      "bytes": 332
+    },
+    {
+      "path": "examples/19_hamiltonian_simulation/PROOF.json",
+      "sha256": "22abeac903d197b01b1b9e8717b6a886aadd5171c3b3d4726a4c35b750c916f0",
+      "bytes": 611
+    },
+    {
+      "path": "examples/19_hamiltonian_simulation/QCIR.json",
+      "sha256": "305992bb2c75067e96290bd9bc0f512feb27a3c99236879f98632702d3e35c96",
+      "bytes": 247
+    },
+    {
+      "path": "examples/19_hamiltonian_simulation/RESOURCE_REPORT.json",
+      "sha256": "328e6e776fd041dd740ee3350c79b8ee45e5505661a00b609e910c7eca17e88a",
+      "bytes": 274
+    },
+    {
+      "path": "examples/19_hamiltonian_simulation/SIMULATOR_RESULT.json",
+      "sha256": "f0c4875274ee0e65c8ae43a59c1ecfe758357110bc72fa69678664007cec5d18",
+      "bytes": 144
+    },
+    {
+      "path": "examples/19_hamiltonian_simulation/VERIFIER_RESULT.json",
+      "sha256": "e3e59cf10b27c49d64d54e5e104236724b04c4ea114451fd1faba2f110742226",
+      "bytes": 195
+    },
+    {
+      "path": "examples/19_hamiltonian_simulation/program.lctl",
+      "sha256": "1afacbca4d30e860270a53d50a628088a1168354923d3a2de424a9c54b6ad8b6",
+      "bytes": 1823
+    },
+    {
+      "path": "examples/20_measurement_feedback/EXPECTED.json",
+      "sha256": "cce3782b1d40d49826010ec91cc937c943a39ad76e1c810f2a7481cf12a4f877",
+      "bytes": 154
+    },
+    {
+      "path": "examples/20_measurement_feedback/PARSED_STRUCTURE.json",
+      "sha256": "20544cc6d2a44eb18b8c407d6993686fde4bb79ca30f1b96aabd3f8b18473e95",
+      "bytes": 330
+    },
+    {
+      "path": "examples/20_measurement_feedback/PROOF.json",
+      "sha256": "2c2fde1d39add956719ab371d082be5d4fc204ff32009ad2ac25a4f869e610b5",
+      "bytes": 504
+    },
+    {
+      "path": "examples/20_measurement_feedback/QCIR.json",
+      "sha256": "8f59ffd9d2545f3c106fdfe8777e25c0f1be666d4d9c27ab7cb7d53c1edb0b88",
+      "bytes": 634
+    },
+    {
+      "path": "examples/20_measurement_feedback/RESOURCE_REPORT.json",
+      "sha256": "7e35d161967157090d542de42e12e57790a3dd02f13b01e054e0445fdfef2f7a",
+      "bytes": 320
+    },
+    {
+      "path": "examples/20_measurement_feedback/SIMULATOR_RESULT.json",
+      "sha256": "bfd5adbbfd387728763aa329cfb94cf4abd21652467cb4ab4d8607d548190d5b",
+      "bytes": 146
+    },
+    {
+      "path": "examples/20_measurement_feedback/VERIFIER_RESULT.json",
+      "sha256": "e6381e1c2ff33d082a67740780cc41e3ac8a36d429c7d756102cc63d68cbad57",
+      "bytes": 193
+    },
+    {
+      "path": "examples/20_measurement_feedback/program.lctl",
+      "sha256": "0883006de4cc5ccbd7930d783f0e60cde3fd29cf68e07dfbeb85ce5d02a986ae",
+      "bytes": 2163
+    },
+    {
+      "path": "knowledge/lctl/MIGRATION_STATISTICS.json",
+      "sha256": "267803c4d404346323fc8b8f2aa4d24593b456f5448f19df56ba68dc70441aec",
+      "bytes": 287
+    },
+    {
+      "path": "knowledge/lctl/README.md",
+      "sha256": "2a0848ee0ebb546431ff55141f3d548dde025090b2787a8bb891c8acc321d3cb",
+      "bytes": 712
+    },
+    {
+      "path": "knowledge/lctl/compendium_lctl_admission_catalog.jsonl",
+      "sha256": "cdb7dbfe3444a2ace202fbfd73a78dcd6a4cff6f8d4ed7e3c18e3cccb21aad76",
+      "bytes": 1284918
+    },
+    {
+      "path": "knowledge/lctl/compendium_lctl_admission_catalog.tsv",
+      "sha256": "6a13f29049ae9ffcb7a08dc6400f1c7ecd110b5546508e6dfa63d0512c2d6b6f",
+      "bytes": 138713
+    },
+    {
+      "path": "knowledge/legacy/compendium_semantic_memory.jsonl",
+      "sha256": "feee79d0b95b62b536d1ac796aa422dacaa9f71512bd8c49fa563d1eb5f5cc0e",
+      "bytes": 908240
+    },
+    {
+      "path": "knowledge/legacy/compendium_semantic_memory.tsv",
+      "sha256": "0bb63b52206f30e01c7f04bcc764453eb5abfec6fb75392ce17aa31f449847d1",
+      "bytes": 557991
+    },
+    {
+      "path": "knowledge/legacy/field_profiles.json",
+      "sha256": "ac887760f81ed7c0f58165b9ab13ace7155c2255a8bb8c98dee66cec7194ff3e",
+      "bytes": 9080
+    },
+    {
+      "path": "knowledge/quantum/README.md",
+      "sha256": "66e7ac8281827c8d5e8390370de5beb85a232ff08aa4eed4ab7ab9157dc3ea30",
+      "bytes": 503
+    },
+    {
+      "path": "knowledge/quantum/calculus_transform_full_catalog.json",
+      "sha256": "05c2e9229bfcf4afab7b32c110ab01411131e4e376e9786bf8779cb3f56b6544",
+      "bytes": 11043
+    },
+    {
+      "path": "knowledge/quantum/calculus_transform_full_catalog.tsv",
+      "sha256": "645ca36ab16cebeafa652109013f6c4b68d5a87756307d93b3404bdd913e8b34",
+      "bytes": 6963
+    },
+    {
+      "path": "knowledge/quantum/calculus_transform_semantic_memory.jsonl",
+      "sha256": "d59c63991a0b789d089e33910eb9f5be8e66fa2c50242beb1d244d009d67a600",
+      "bytes": 1960
+    },
+    {
+      "path": "knowledge/quantum/calculus_transform_semantic_memory.tsv",
+      "sha256": "3276882ca20d32667f319c1971b13e2ae40a3e9002a836f3855d8d467a7b08f0",
+      "bytes": 1205
+    },
+    {
+      "path": "legacy/MSSLB_LX_MCRT_K_MSSL_S_COMPENDIUM_LEARNED_LANGUAGE_SYSTEM_3.0.0.zip",
+      "sha256": "f017bc6006a0958e71c9f7a406e275c607c7c9e12c693d09995b210d825970c9",
+      "bytes": 927594
+    },
+    {
+      "path": "proof/CONFORMANCE_RESULTS.txt",
+      "sha256": "b2e006153c587d40ad3d3b27076e5ac6495ecef35a8a9cc7598ebedd2a54cb65",
+      "bytes": 478
+    },
+    {
+      "path": "proof/EXECUTION_BOUNDARY_TESTS.json",
+      "sha256": "f468a5c51e254cd395ddc6e2a1ba58bf2a0669be15b1ab12f520f3c97efac7ac",
+      "bytes": 3827
+    },
+    {
+      "path": "proof/GAP_LEDGER.md",
+      "sha256": "fd51c15786b12708284b81ec6212c6083bdeed3276d2d64abf84f56ae2df02a0",
+      "bytes": 2438
+    },
+    {
+      "path": "proof/LEGACY_SUBSTRATE_CONFORMANCE.json",
+      "sha256": "e90ba7a02144c6ab2398ca35edafcf815df59fdc422851fa39ca26f3c2695672",
+      "bytes": 931
+    },
+    {
+      "path": "proof/RELEASE_QUALIFICATION.json",
+      "sha256": "10b4f1f2ab9cc586144967c6fb0b6b2d4ee4ea5ed8853ece423f2c928c4a5ded",
+      "bytes": 4746
+    },
+    {
+      "path": "proof/TEST_MATRIX.json",
+      "sha256": "7d433fc5e2829c36fa98f9b02e65b7610980663a6198f847287b8653476052f8",
+      "bytes": 13391
+    },
+    {
+      "path": "proof/TRANSFORM_NUMERIC_CHECK.json",
+      "sha256": "3d79659b91ae78ac1fc81fdba1c621814ca05be5d61bd07e40f96743797ecf25",
+      "bytes": 808
+    },
+    {
+      "path": "proof/test_logs/01_bell_state.qasm",
+      "sha256": "52b456fd583d44c1ed379a0a72de5ce555d9d294bf66cc29ac7a43816ed34285",
+      "bytes": 125
+    },
+    {
+      "path": "proof/test_logs/05_single_qubit_rotations.qasm",
+      "sha256": "f256d6da47b972e0e8b5a0342d319d7894ae724a787fc3f79f665d1a1847dcfc",
+      "bytes": 124
+    },
+    {
+      "path": "proof/test_logs/14_qft.qasm",
+      "sha256": "77d7908400b400c3d8b66738e26747c0ddafd4fa0abeaa9ae7f8861de7afba3c",
+      "bytes": 383
+    },
+    {
+      "path": "proof/test_logs/15_grover.qasm",
+      "sha256": "801f4856ea7eb72ff36d590c6a5465eed42dd0bf7078f52871fe5749b0ee929e",
+      "bytes": 212
+    },
+    {
+      "path": "proof/test_logs/invalid_01_duplicate_ownership.lctl.log",
+      "sha256": "474df060eb8b4abc8297ce40ed5b7a39f9113737b13b9cdf4959391faeb4e811",
+      "bytes": 43
+    },
+    {
+      "path": "proof/test_logs/invalid_02_invalid_unitary.lctl.log",
+      "sha256": "9bd406f413cf9bec623b3c3b9df8e06a610f8c020270f715c585437b6ac9f602",
+      "bytes": 39
+    },
+    {
+      "path": "proof/test_logs/invalid_03_nonhermitian_observable.lctl.log",
+      "sha256": "cea13992a61cabf32e7c5bf4b520dea82649b3c86f8a4654211d88497efe3c6b",
+      "bytes": 41
+    },
+    {
+      "path": "proof/test_logs/invalid_04_density_negative_eigenvalue.lctl.log",
+      "sha256": "d978195936ab348ecfb3288390b63a08b061f9f99771afb20d049e8e41b7ec1b",
+      "bytes": 49
+    },
+    {
+      "path": "proof/test_logs/invalid_05_density_bad_trace.lctl.log",
+      "sha256": "78b5be4300e75f351944073aa5f74e9a955f9af4714503504904b08185fdf41a",
+      "bytes": 42
+    },
+    {
+      "path": "proof/test_logs/invalid_06_invalid_projector.lctl.log",
+      "sha256": "82005a6d96e68ef0a95afbfa6b6ea811f991ef98fcbd3f99cb0483f2a378560c",
+      "bytes": 41
+    },
+    {
+      "path": "proof/test_logs/invalid_07_invalid_povm.lctl.log",
+      "sha256": "1feae8dbf9918946e8e637b6abb28f07f9ec660cdb3462ab54301aa32c3c8834",
+      "bytes": 39
+    },
+    {
+      "path": "proof/test_logs/invalid_08_invalid_kraus.lctl.log",
+      "sha256": "5dee8cff150d39402df87eaf31ba6855d60486cefda70c5b67fad61801ce076e",
+      "bytes": 49
+    },
+    {
+      "path": "proof/test_logs/invalid_09_control_equals_target.lctl.log",
+      "sha256": "47d8374fcfd56111282abb3af3cb5921ac2e03995b851080ee23a5746bbab7b1",
+      "bytes": 48
+    },
+    {
+      "path": "proof/test_logs/invalid_10_tensor_dimension_mismatch.lctl.log",
+      "sha256": "469335d329db587de114a0ff94e3379d39590be95cd40a7c5f592717fd9e2ede",
+      "bytes": 54
+    },
+    {
+      "path": "proof/test_logs/invalid_11_measure_wrong_classical_type.lctl.log",
+      "sha256": "89c42b441ce80a86151d9637ba72339ce45749ae3fa70555376637345c6ead57",
+      "bytes": 59
+    },
+    {
+      "path": "proof/test_logs/invalid_12_use_after_measure.lctl.log",
+      "sha256": "431a0ca4458d04a1733c749866f001c459498524cd09cc8c8e54a16b1134f2b1",
+      "bytes": 67
+    },
+    {
+      "path": "proof/test_logs/invalid_13_approx_without_permission.lctl.log",
+      "sha256": "fbb75ed7522b78c2f66d1e1091442eae62ba7399e5bf4546fe1f81596d7a1203",
+      "bytes": 63
+    },
+    {
+      "path": "proof/test_logs/invalid_14_exceeded_error_budget.lctl.log",
+      "sha256": "5609e635b075e6c50b66d0f3ff2213a988cd132e2c35c5cf75f280992ca2dc1f",
+      "bytes": 33
+    },
+    {
+      "path": "proof/test_logs/invalid_15_invalid_q1_q6.lctl.log",
+      "sha256": "2da5b3dd544e18dd89077e06019421e71074d14f52c617a0249190c2c7b01cbc",
+      "bytes": 35
+    },
+    {
+      "path": "proof/test_logs/invalid_16_corrupted_source_seal.lctl.log",
+      "sha256": "45fd7aaa847921f5848b1975cfaf3881da307e55be2d75809c345838a0af7642",
+      "bytes": 28
+    },
+    {
+      "path": "proof/test_logs/invalid_17_unsupported_target_operation.lctl.log",
+      "sha256": "886ba7e688348f1c30cc5ff5469da4d719ad9179642a5256cc20564b5bb4e197",
+      "bytes": 63
+    },
+    {
+      "path": "proof/test_logs/invalid_18_invalid_hardware_topology.lctl.log",
+      "sha256": "a81cf8ece06f1dc9bceb3d469af0dd752f0454327d6a4633e8d3ffe89bbb3419",
+      "bytes": 49
+    },
+    {
+      "path": "proof/test_logs/invalid_19_invalid_shot_count.lctl.log",
+      "sha256": "5c19ae56af900e73ff32de56044446d7ab7d7f6e7c3e8ff970d3f46abe77b157",
+      "bytes": 51
+    },
+    {
+      "path": "proof/test_logs/invalid_20_negative_probability.lctl.log",
+      "sha256": "9bdf0ed0a17f99922a99212c12b2f9d1c7f96c9870cf7787e2cf50b3add8adf8",
+      "bytes": 49
+    },
+    {
+      "path": "proof/test_logs/invalid_21_probability_not_normalized.lctl.log",
+      "sha256": "8e468647e5fe5762be372458c6934d057253d69382bb4e2ff03bd0cb3986f8a3",
+      "bytes": 44
+    },
+    {
+      "path": "proof/test_logs/qcir_a_01_bell_state.json",
+      "sha256": "348df9d1186edc3451ce425044a5487e5211cf4922e3d4ddcb44e5a5fae34ad7",
+      "bytes": 740
+    },
+    {
+      "path": "proof/test_logs/qcir_a_02_ghz_state.json",
+      "sha256": "cc3637c633438bc77a484186676d7762df368ace2d73ffc7b35652b72fe9900d",
+      "bytes": 985
+    },
+    {
+      "path": "proof/test_logs/qcir_a_03_teleportation.json",
+      "sha256": "4978122510f4feb8277c12e93f237fdc467f5ddf79a638ba9d3463d562be4112",
+      "bytes": 1478
+    },
+    {
+      "path": "proof/test_logs/qcir_a_04_superdense_coding.json",
+      "sha256": "bcfb38f064e8efe75aec4f09faf35907be6d04e5d01d5eed82808dfaf116dd7e",
+      "bytes": 1189
+    },
+    {
+      "path": "proof/test_logs/qcir_a_05_single_qubit_rotations.json",
+      "sha256": "959b0984fa5efa1921e26bbb217593bc4eccdcf87ee33bed91939bf623c6b449",
+      "bytes": 730
+    },
+    {
+      "path": "proof/test_logs/qcir_a_06_controlled_operations.json",
+      "sha256": "926907b41951661492202a427d0e9229a92266f21102e9105305f19f9b063163",
+      "bytes": 718
+    },
+    {
+      "path": "proof/test_logs/qcir_b_01_bell_state.json",
+      "sha256": "348df9d1186edc3451ce425044a5487e5211cf4922e3d4ddcb44e5a5fae34ad7",
+      "bytes": 740
+    },
+    {
+      "path": "proof/test_logs/qcir_b_02_ghz_state.json",
+      "sha256": "cc3637c633438bc77a484186676d7762df368ace2d73ffc7b35652b72fe9900d",
+      "bytes": 985
+    },
+    {
+      "path": "proof/test_logs/qcir_b_03_teleportation.json",
+      "sha256": "4978122510f4feb8277c12e93f237fdc467f5ddf79a638ba9d3463d562be4112",
+      "bytes": 1478
+    },
+    {
+      "path": "proof/test_logs/qcir_b_04_superdense_coding.json",
+      "sha256": "bcfb38f064e8efe75aec4f09faf35907be6d04e5d01d5eed82808dfaf116dd7e",
+      "bytes": 1189
+    },
+    {
+      "path": "proof/test_logs/qcir_b_05_single_qubit_rotations.json",
+      "sha256": "959b0984fa5efa1921e26bbb217593bc4eccdcf87ee33bed91939bf623c6b449",
+      "bytes": 730
+    },
+    {
+      "path": "proof/test_logs/qcir_b_06_controlled_operations.json",
+      "sha256": "926907b41951661492202a427d0e9229a92266f21102e9105305f19f9b063163",
+      "bytes": 718
+    },
+    {
+      "path": "proof/test_logs/valid_01_bell_state.lctl.log",
+      "sha256": "4968402dd0a604020ee9d10be2b43917de60202a95eb3b0e76d08184c27ad2be",
+      "bytes": 209
+    },
+    {
+      "path": "proof/test_logs/valid_02_ghz_state.lctl.log",
+      "sha256": "454543c68f1c43710600772e358136a05fe3e56539a5a9787408b15ccbed8ed2",
+      "bytes": 208
+    },
+    {
+      "path": "proof/test_logs/valid_03_teleportation.lctl.log",
+      "sha256": "f2e04ae5b21437bdf5aa3809d9637f1e705e62d3129548f790a99fc65618bb28",
+      "bytes": 213
+    },
+    {
+      "path": "proof/test_logs/valid_04_superdense_coding.lctl.log",
+      "sha256": "d09b560d3037887797495075ab69850ac3f685113da214c59f4af2f9c19f2484",
+      "bytes": 217
+    },
+    {
+      "path": "proof/test_logs/valid_05_single_qubit_rotations.lctl.log",
+      "sha256": "f6ac899996fc5e0270f6ff26444e755a3d7b6a1562da02d4b5e430d448aa1ae5",
+      "bytes": 221
+    },
+    {
+      "path": "proof/test_logs/valid_06_controlled_operations.lctl.log",
+      "sha256": "1cc22565114e68df29232e7edbfc5c6bef3ce610a0d391eac7250bd6ec3fdba0",
+      "bytes": 220
+    },
+    {
+      "path": "proof/test_logs/valid_07_basis_measurement.lctl.log",
+      "sha256": "130cc131e28b15ac7a258e1f515875c8ad05bca3f38fde4128f8c89eb99717e4",
+      "bytes": 216
+    },
+    {
+      "path": "proof/test_logs/valid_08_povm.lctl.log",
+      "sha256": "253d835e441f4f1917e16e94c8350b3de1ffd6f47ab05bf22177e3468dfc7a87",
+      "bytes": 203
+    },
+    {
+      "path": "proof/test_logs/valid_09_density_matrix_noise.lctl.log",
+      "sha256": "d71be6932182104ea9834cf9981f1583e07b362d5d404470609ebf169e556fd0",
+      "bytes": 219
+    },
+    {
+      "path": "proof/test_logs/valid_10_amplitude_damping.lctl.log",
+      "sha256": "23e982bfda07bc8676091874e1d4a1d5f5719c36bf2a88fe89f08d2e9fa16ef7",
+      "bytes": 216
+    },
+    {
+      "path": "proof/test_logs/valid_11_depolarizing_channel.lctl.log",
+      "sha256": "cfb1f5ed5d6e7a3571e574c3984c8044b466a607c0756ba28e771e7a7d964c0a",
+      "bytes": 219
+    },
+    {
+      "path": "proof/test_logs/valid_12_repetition_error_correction.lctl.log",
+      "sha256": "10f021e9150c63da5b56a8eff657f69af1be7d72b0a1867fc98683f8baffdec9",
+      "bytes": 227
+    },
+    {
+      "path": "proof/test_logs/valid_13_stabilizer.lctl.log",
+      "sha256": "48e80b75dac09b735411ed8e79dab3e6b257e64e67ae432c705e5ca2eee64733",
+      "bytes": 209
+    },
+    {
+      "path": "proof/test_logs/valid_14_qft.lctl.log",
+      "sha256": "198f7ce4fefdf9999b8362fd1b0fc9226171be4bf35e56a7002998f38caed307",
+      "bytes": 202
+    },
+    {
+      "path": "proof/test_logs/valid_15_grover.lctl.log",
+      "sha256": "4b217266845b7d7f75a6da448d28a031ce1d531ab6aa75208669f0b019373fc5",
+      "bytes": 206
+    },
+    {
+      "path": "proof/test_logs/valid_16_phase_estimation.lctl.log",
+      "sha256": "a910f2477e6d3eb3bb2e49fdfaf442b7c9314a6ec9f29a51c861309dedbed62a",
+      "bytes": 215
+    },
+    {
+      "path": "proof/test_logs/valid_17_vqe.lctl.log",
+      "sha256": "58fe39ec62334b91df092fcf6674e32c847331d14a3d950fabeebface2fa6627",
+      "bytes": 202
+    },
+    {
+      "path": "proof/test_logs/valid_18_qaoa.lctl.log",
+      "sha256": "780b2905f8ada29986458acf45df7bf21d3466a73665295debb274de6e6d86a6",
+      "bytes": 203
+    },
+    {
+      "path": "proof/test_logs/valid_19_hamiltonian_simulation.lctl.log",
+      "sha256": "ef3709d8cb6cbf431b72caa26a0552c9fbb51234100588705a4a38282093d26d",
+      "bytes": 221
+    },
+    {
+      "path": "proof/test_logs/valid_20_measurement_feedback.lctl.log",
+      "sha256": "bc4a851253f4aee2fc76875fa5da7cc81229c5e0b1f8512b2aaed65eededa2e6",
+      "bytes": 219
+    },
+    {
+      "path": "proof/test_logs/valid_calculus_transform_admitted.lctl.log",
+      "sha256": "235c2143e6ea87ab8b591fdd50de5bcd5bc6c61f492631b515ef8bd1e17e916e",
+      "bytes": 222
+    },
+    {
+      "path": "provenance/QCTL_TO_LCTL_MIGRATION.md",
+      "sha256": "617b698073256f31c9e83593e9c2ca2ee4b06aa530f6e9d4bdcdd19aded583f7",
+      "bytes": 1445
+    },
+    {
+      "path": "reference/COLUMN_DICTIONARY.md",
+      "sha256": "06f4121afaf9dd9f89ad11acd518369056e8123849187444a60982c98d701247",
+      "bytes": 498
+    },
+    {
+      "path": "reference/ERROR_CATALOG.md",
+      "sha256": "ac0ba1245181d64f02ff9958df02e409e8051ba59585044fb938606cd1019b9d",
+      "bytes": 444
+    },
+    {
+      "path": "reference/EXECUTION_CLASS_CATALOG.md",
+      "sha256": "df566ebddf381b05a0be46de06ab7a1f993258dec123530996624746f2272a6a",
+      "bytes": 806
+    },
+    {
+      "path": "reference/OPERATOR_CATALOG.md",
+      "sha256": "cc4d10b60a7748064948d14a0613f834f0ee7a080066bc81273b4a39515599e8",
+      "bytes": 394
+    },
+    {
+      "path": "reference/RESOURCE_CATALOG.md",
+      "sha256": "fc2d2161c98edb5c8ee34c777bacdf87eb1d15087efe6c05bb3a3ee048e01271",
+      "bytes": 323
+    },
+    {
+      "path": "reference/TRANSFORM_DICTIONARY.md",
+      "sha256": "7e53076d3127304f01f85e65ff3741f302265f2c78f52afb53b5e6062e5bede9",
+      "bytes": 1102
+    },
+    {
+      "path": "reference/TYPE_CATALOG.md",
+      "sha256": "5e1cb84a1c9bb564e41207313490c00943e423dc63bdf48bee0ad2d8221a70ad",
+      "bytes": 873
+    },
+    {
+      "path": "runtime/README.md",
+      "sha256": "ee104bf62ed71e114aaf6264c71711748b693a100fe9e29521a37f54cc02ac11",
+      "bytes": 340
+    },
+    {
+      "path": "runtime/bin/lctl-runtime.jar",
+      "sha256": "316cb96b2e360da17834dbcabec010ebbd089f183aa4f9c02460be9745fad73e",
+      "bytes": 26137
+    },
+    {
+      "path": "runtime/bin/lctl.cmd",
+      "sha256": "6ecbd2fa3d6246a8dea03800239d865199d409524e2e8997bb497c74c264b74e",
+      "bytes": 49
+    },
+    {
+      "path": "runtime/bin/lctl.sh",
+      "sha256": "53d968df540ad5c078f217fa49373694e36428273616ea5c0875626c29c3bde3",
+      "bytes": 105
+    },
+    {
+      "path": "runtime/local/NETWORK_POLICY.md",
+      "sha256": "2dfc1e9d2d6e11fdaa5af08cd48592b3f805f8c2a584df53e99262d94127aa5f",
+      "bytes": 143
+    },
+    {
+      "path": "runtime/simulator/PROFILE.md",
+      "sha256": "522e384e827e3ea8891903a00f0e8dcb555e9af269c65aad18c0b2de4333bd9a",
+      "bytes": 165
+    },
+    {
+      "path": "runtime/src/LctlMain.java",
+      "sha256": "edc3176cd9863eac294309f333c8d2ad3cbe26fcaea9c93775eacafd9d950cd7",
+      "bytes": 38555
+    },
+    {
+      "path": "spec/LCTL_CALCULUS_TRANSFORM_PROFILE.md",
+      "sha256": "9f312be5ae14aefc02d682703299f04e3a1e221485b84aa655b5b68e7093de4d",
+      "bytes": 1564
+    },
+    {
+      "path": "spec/LCTL_CHANNEL_NOISE_MODEL.md",
+      "sha256": "e220b87f8adb8c9606a388fcd6a41ce38a2b8ad672b71b9e8013dfcb7f6f1806",
+      "bytes": 396
+    },
+    {
+      "path": "spec/LCTL_CLASSICAL_HOST_QUANTUM_BOUNDARY_SPEC.md",
+      "sha256": "11df0ec9a456ffc47210c35fe2910f83eb248b1dcfc31611a22b5946bf7e3981",
+      "bytes": 4945
+    },
+    {
+      "path": "spec/LCTL_ERROR_MODEL.md",
+      "sha256": "1915302ec4086de82b1b59f8b825657e09a50f419cbf09b724ddc3f2d4fd3b28",
+      "bytes": 464
+    },
+    {
+      "path": "spec/LCTL_EXECUTION_PROVENANCE_SPEC.md",
+      "sha256": "dccacf0e491ef39122934ce40f1d5c07114da9830430faddec67049ba4abe956",
+      "bytes": 860
+    },
+    {
+      "path": "spec/LCTL_GRAMMAR.ebnf",
+      "sha256": "b364722bb9d2b08790d8b3df50a79e7e8587987b1b8437b41d934468c64b5f6f",
+      "bytes": 429
+    },
+    {
+      "path": "spec/LCTL_MEASUREMENT_SEMANTICS.md",
+      "sha256": "a0fe01cf6ef953d8ff1c4fa9347e7486d6830752673306e8e9bb27df9064db81",
+      "bytes": 474
+    },
+    {
+      "path": "spec/LCTL_NORMATIVE_SPEC.md",
+      "sha256": "434d53b1e625486c0333790eb7b6e29b4022e03170ca5bbcde27356b0f45908c",
+      "bytes": 1639
+    },
+    {
+      "path": "spec/LCTL_OPERATOR_SEMANTICS.md",
+      "sha256": "0193367a33d7dc455586a7d65be242dd85f95ac3dd874cba75d84a3b347372df",
+      "bytes": 415
+    },
+    {
+      "path": "spec/LCTL_OWNERSHIP_MODEL.md",
+      "sha256": "be535ad152206e2eff781202df8851405a03c59b6407b526a67f43b429085aa8",
+      "bytes": 494
+    },
+    {
+      "path": "spec/LCTL_Q1_Q6_ADMISSION.md",
+      "sha256": "1401a10c2c94575b28448aaafd8eeaf4062b76427bddcafad06514e2b8d3677d",
+      "bytes": 336
+    },
+    {
+      "path": "spec/LCTL_QCIR_SPEC.md",
+      "sha256": "6485a3a847e330b5b4027f5b5c92a52647c051f239ec079f2f59580a6fa00bac",
+      "bytes": 369
+    },
+    {
+      "path": "spec/LCTL_RESOURCE_MODEL.md",
+      "sha256": "c12a37f35993047cd8c928c4810dc73ac9d9c6f410a8cf3d6fd74cf9d5761b6c",
+      "bytes": 364
+    },
+    {
+      "path": "spec/LCTL_TARGET_ADAPTER_SPEC.md",
+      "sha256": "59aea4f530ea2d7e064dd1fdab65e09d6b480e6b3ed1af66dc71275818eb37fe",
+      "bytes": 404
+    },
+    {
+      "path": "spec/LCTL_TYPE_SYSTEM.md",
+      "sha256": "5e1cb84a1c9bb564e41207313490c00943e423dc63bdf48bee0ad2d8221a70ad",
+      "bytes": 873
+    },
+    {
+      "path": "tools/transform_check.py",
+      "sha256": "0d0ec81f2766f4e2b7e57782747e80b22c810b9c81a2fb17bd4a320add33ea64",
+      "bytes": 965
+    }
+  ]
+}

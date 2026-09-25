@@ -1,0 +1,15 @@
+{
+  "status": "IMPLEMENTED",
+  "schema": "LCTL-MEMBERSHIP/2.0",
+  "states": [
+    "JOINING",
+    "ACTIVE",
+    "DRAINING",
+    "SUSPECT",
+    "FAILED",
+    "LEAVING",
+    "REMOVED"
+  ],
+  "timeout_is_failure_proof": false,
+  "live_remote_membership": "BLOCKED_EXTERNAL_AUTHORITY"
+}

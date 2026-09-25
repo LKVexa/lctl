@@ -1,0 +1,13 @@
+{
+  "source": "program.lctl",
+  "source_sha256": "31eee325f7b9803cb6b03945daec93087f1b495f2712b576a15cef1db9f7612c",
+  "runtime_inspect": {
+    "status": "PASS",
+    "bundle": "lctl.example.superdense_coding",
+    "qubits": 2,
+    "cbits": 2,
+    "exec_rows": 8,
+    "approx_error": 0.0
+  },
+  "canonical_format": "LCTL/1.0"
+}

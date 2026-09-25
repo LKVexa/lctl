@@ -1,0 +1,1 @@
+PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.impossible_consistency_partition_guarantee frames=1 rows=5 sha256=27353f1c57a9031ba2a0335dd0cde64cc72690d7ca8d78287071972a94c99719

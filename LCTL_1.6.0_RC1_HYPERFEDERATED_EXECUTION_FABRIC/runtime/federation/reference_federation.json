@@ -1,0 +1,11 @@
+{
+  "schema": "LCTL-FEDERATION-CONFIG/1.5",
+  "name": "local_reference_federation",
+  "domains": 2,
+  "workers": 4,
+  "network": "deny",
+  "deterministic": true,
+  "physical": false,
+  "failure_domains": ["worker_group", "domain"],
+  "consistency": "causal"
+}

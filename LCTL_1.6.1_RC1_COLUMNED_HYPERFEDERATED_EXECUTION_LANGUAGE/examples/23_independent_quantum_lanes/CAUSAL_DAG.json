@@ -1,0 +1,21 @@
+{
+  "dag": "LCTL-CAUSAL-DAG/1.0",
+  "edge_count": 0,
+  "edges": [],
+  "node_count": 2,
+  "nodes": [
+    {
+      "id": "C0010",
+      "lane": "lane0",
+      "op": "H",
+      "resources": "q:q[0]"
+    },
+    {
+      "id": "C0011",
+      "lane": "lane1",
+      "op": "H",
+      "resources": "q:q[1]"
+    }
+  ],
+  "source_hash": "7166695de6b1cbe7837cf34d0f509a10a7cbacb66272e3dcc63ae8476b4256fc"
+}

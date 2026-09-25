@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "schema": "LCTL-WORK-STEAL/3.0",
+  "workers": 4,
+  "tasks": 256,
+  "actual_cross_queue_steals": 3,
+  "victim_policy": "DETERMINISTIC_CYCLIC_SEARCH",
+  "result_checksum": 4408338968372684204,
+  "trace_hash": "29a814538f045c905526b7fe44a26672263b6a132970213609bb82905f347248",
+  "unknown_qstate_duplicated": false,
+  "execution_class": "NATIVE_THREAD_PARALLEL"
+}

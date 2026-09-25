@@ -1,0 +1,11 @@
+{
+  "records": 1205,
+  "policy": "fail-closed; source Q1-Q6 does not auto-admit a LCTL rule",
+  "admission_counts": {
+    "OBSERVE": 1167,
+    "REJECT_NO_FAITHFUL_FORM": 38
+  },
+  "quantum_mechanics_candidates": 60,
+  "transform_candidate_records": 584,
+  "preserved_obstructions": 38
+}

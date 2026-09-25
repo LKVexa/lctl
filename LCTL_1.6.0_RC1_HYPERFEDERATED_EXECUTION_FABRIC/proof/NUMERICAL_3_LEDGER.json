@@ -1,0 +1,95 @@
+{
+  "schema": "LCTL-NUMERICAL-BACKENDS/3.0",
+  "status": "VERIFIED_WITH_PARTIAL_BACKENDS",
+  "statevector": "VERIFIED",
+  "density": "VERIFIED_REFERENCE_SCOPE",
+  "stabilizer": "IMPLEMENTED_PARTIAL",
+  "tensor_network": "IMPLEMENTED_PARTIAL",
+  "out_of_core": "VERIFIED_REFERENCE_SCOPE",
+  "receipts": {
+    "STATEVECTOR_3_LEDGER.json": {
+      "status": "PASS",
+      "schema": "LCTL-STATEVECTOR/3.0",
+      "workers": 4,
+      "qubits": 4,
+      "gates": 4,
+      "bytes_touched": 1024,
+      "state_sha256": "832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e",
+      "single_worker_equivalence": true,
+      "checkpoint_class": "CLASSICAL_NUMERICAL_SHARD",
+      "physical_qstate": false
+    },
+    "DENSITY_3_LEDGER.json": {
+      "status": "PASS_WITH_SCOPE",
+      "schema": "LCTL-DENSITY/3.0",
+      "general_kraus_extension": "SUPPORTED_WHERE_BASE_CHANNEL_SET_ADMITTED",
+      "base": {
+        "status": "PASS",
+        "schema": "LCTL-DENSITY-DISTRIBUTED/2.0",
+        "execution_class": "CLASSICAL_DISTRIBUTED_DENSITY_SIMULATION",
+        "workers": 2,
+        "qubits": 1,
+        "dimension": 2,
+        "ops": 2,
+        "trace": 0.9999999999999996,
+        "trace_error": 4.440892098500626e-16,
+        "hermiticity_error": 0.0,
+        "minimum_diagonal": 0.4999999999999998,
+        "single_worker_hash_match": true,
+        "channels": [
+          "DEPHASE",
+          "DEPOLARIZE",
+          "AMPLITUDE_DAMP",
+          "BIT_FLIP",
+          "PHASE_DAMP"
+        ],
+        "positivity_certificate": "BOUNDED_INVARIANT_CHECK_NOT_FULL_EIGENSPECTRUM",
+        "physical_qpu": false
+      }
+    },
+    "STABILIZER_3_LEDGER.json": {
+      "status": "PASS_WITH_SCOPE",
+      "schema": "LCTL-STABILIZER/3.0",
+      "reset_measurement_breadth": "REFERENCE_PARTIAL",
+      "base": {
+        "status": "PASS",
+        "schema": "LCTL-STABILIZER/2.0",
+        "workers": 4,
+        "batch_parallelism": true,
+        "single_tableau_partitioning": "NOT_CLAIMED",
+        "deterministic_equivalence": true,
+        "engine": "BINARY_SYMPLECTIC_TABLEAU"
+      }
+    },
+    "TENSOR_NETWORK_2_LEDGER.json": {
+      "status": "PASS_WITH_SCOPE",
+      "schema": "LCTL-TENSOR-NETWORK/2.0",
+      "numerical_execution": true,
+      "bounded_contraction_oracle": "FULL_STATE_TENSOR_CONTRACTION_EQUIVALENT_REFERENCE",
+      "parallel_workers": 2,
+      "result_sha256": "832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e",
+      "equivalence_error": 0.0,
+      "production_sparse_contraction_tree": "IMPLEMENTED_PARTIAL"
+    },
+    "OUT_OF_CORE_3_LEDGER.json": {
+      "status": "PASS_WITH_SCOPE",
+      "schema": "LCTL-OUT-OF-CORE/3.0",
+      "cache": "REFERENCE",
+      "prefetch": "REFERENCE",
+      "write_behind": "REFERENCE",
+      "crash_resume_ledger": true,
+      "base": {
+        "status": "PASS",
+        "schema": "LCTL-OUT-OF-CORE/2.0",
+        "execution_class": "SSD_BACKED_CLASSICAL_SIMULATION",
+        "workers": 2,
+        "bytes": 256,
+        "block_bytes": 1048576,
+        "block_checksums": "832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e",
+        "state_sha256": "832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e",
+        "equivalence_error": 0.0,
+        "physical_quantum_memory": false
+      }
+    }
+  }
+}

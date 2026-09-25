@@ -1,0 +1,9 @@
+LCTLC/1.0
+@unit id=lctl.example.povm version=1.0.0 profile=lctl.quantum.core entry=F0000:C0011 target=local-reference error_budget=0.01 resource_ceiling=q<=12;density<=8 proof=release-proof
+@defaults qspace=H basis=computational regime=exact assume=finite_dimension error=exact conf=1.0
+@frame id=F0000 parent=ROOT module=lctl.example.povm proof=lctl-core
+ID│LANE│OP│OUT│CTRL│IN│ARG│META
+D0001 │ alloc │ Q │ q │ _ │ _ │ 1 │ qs=H2^1;res="logical_qubits=1"
+A0010 │ proof │ POVM │ povm_z │ _ │ _ │ 1,0;0,0||0,0;0,1 │ t=POVM;basis=Z;asm="positive_semidefinite;completeness";res="effects=2";p=povm:projective-z
+C0011 │ circuit │ H │ q[0] │ _ │ q[0] │ _ │ _
+@end

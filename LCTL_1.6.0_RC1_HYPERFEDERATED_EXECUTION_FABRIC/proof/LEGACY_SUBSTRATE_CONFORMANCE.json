@@ -1,0 +1,37 @@
+[
+  {
+    "kind": "valid",
+    "file": "basic_universe_compendium_learned.mssllx",
+    "pass": true,
+    "exit": 0,
+    "output": "PASS: bundle=basic.universe.compendium.learned frames=3 code_rows=13 knowledge=compendium20:1205 seal=74943a29ca0e72937fcc990a42698a93f9ba535e94a1f3e0094b80ecfdf4a855"
+  },
+  {
+    "kind": "invalid",
+    "file": "backend_not_none.mssllx",
+    "pass": true,
+    "exit": 1,
+    "output": "FAIL: BUNDLE_POLICY: backend must be none"
+  },
+  {
+    "kind": "invalid",
+    "file": "bad_bundle_seal.mssllx",
+    "pass": true,
+    "exit": 1,
+    "output": "FAIL: BUNDLE_SEAL: mismatch"
+  },
+  {
+    "kind": "invalid",
+    "file": "bad_frame_seal.mssllx",
+    "pass": true,
+    "exit": 1,
+    "output": "FAIL: FRAME_SEAL: mismatch F0000"
+  },
+  {
+    "kind": "invalid",
+    "file": "learn_missing_q6.mssllx",
+    "pass": true,
+    "exit": 1,
+    "output": "FAIL: LEARN_GATE: frame F0001 missing Q6 pass"
+  }
+]

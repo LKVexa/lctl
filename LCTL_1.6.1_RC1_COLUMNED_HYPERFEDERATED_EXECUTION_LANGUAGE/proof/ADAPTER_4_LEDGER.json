@@ -1,0 +1,19 @@
+{
+  "status": "PASS_WITH_SCOPE",
+  "schema": "LCTL-ADAPTER-ABI/4.0",
+  "live_resource_contract": true,
+  "physical_evidence_firewall": true,
+  "base": {
+    "status": "PASS_WITH_SCOPE",
+    "schema": "LCTL-ADAPTER-ABI/3.0",
+    "adapter_sha256": "eb93c70acb264b96894a0670749baad484abf57323848e2ed60ac3532d4ab910",
+    "dynamic_capabilities": true,
+    "topology_update": true,
+    "calibration_update": true,
+    "reservation": true,
+    "cancel": true,
+    "receipt_retrieval": true,
+    "physical_requested": false,
+    "authenticated_evidence_present": true
+  }
+}

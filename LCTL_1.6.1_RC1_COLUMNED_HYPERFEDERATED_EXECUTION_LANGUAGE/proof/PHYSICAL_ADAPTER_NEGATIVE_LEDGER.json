@@ -1,0 +1,1 @@
+{"status":"BLOCKED_EXTERNAL_AUTHORITY","schema":"LCTL-ADAPTER-ABI/3.0","adapter_sha256":"ce38123a5bf6bd77ce0ee74217947763a2f04a236ad2c736207811d807fbb4d4","dynamic_capabilities":true,"topology_update":true,"calibration_update":true,"reservation":true,"cancel":true,"receipt_retrieval":true,"physical_requested":true,"authenticated_evidence_present":false}

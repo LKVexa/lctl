@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "schema": "LCTL-1.5-CONFORMANCE/1.0",
+  "positive": {
+    "total": 256,
+    "pass": 256
+  },
+  "negative": {
+    "total": 256,
+    "pass": 256
+  },
+  "overall": {
+    "total": 512,
+    "pass": 512
+  },
+  "physical_qpu": false,
+  "descriptor_positive_count": 256,
+  "descriptor_negative_count": 256,
+  "descriptor_count_match": true,
+  "overall_pass": true
+}

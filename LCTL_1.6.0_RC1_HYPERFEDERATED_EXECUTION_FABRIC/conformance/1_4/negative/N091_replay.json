@@ -1,0 +1,6 @@
+{
+  "id": "N091",
+  "family": "corrupt_replay",
+  "variant": 10,
+  "expect_exit": 1
+}

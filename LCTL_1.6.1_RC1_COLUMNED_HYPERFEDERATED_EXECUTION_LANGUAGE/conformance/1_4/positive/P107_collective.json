@@ -1,0 +1,7 @@
+{
+  "id": "P107",
+  "family": "collective",
+  "type": "gather",
+  "workers": 4,
+  "expect": "PASS"
+}

@@ -1,0 +1,14 @@
+{
+  "claim": "Three-qubit repetition error correction",
+  "method": "reference simulation + invariant verification",
+  "source": "LCTL normative core",
+  "transform_role": "none",
+  "admission": "ADMIT_EXACT unless row regime says otherwise",
+  "execution_evidence": {
+    "verifier": "VERIFIER_RESULT.json",
+    "simulator": "SIMULATOR_RESULT.json",
+    "resource": "RESOURCE_REPORT.json",
+    "qcir": "QCIR.json"
+  },
+  "source_sha256": "bc2f77c64a5a5d58fc36462a8eab8d1cdfe79b824401c7b3d6093fe5975a1a79"
+}

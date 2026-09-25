@@ -1,0 +1,49 @@
+{
+  "rules": [
+    {
+      "pattern": [
+        "H",
+        "H"
+      ],
+      "replacement": [],
+      "proof": "H^2=I",
+      "admission": "ADMIT_EXACT"
+    },
+    {
+      "pattern": [
+        "X",
+        "X"
+      ],
+      "replacement": [],
+      "proof": "X^2=I",
+      "admission": "ADMIT_EXACT"
+    },
+    {
+      "pattern": [
+        "S",
+        "SDG"
+      ],
+      "replacement": [],
+      "proof": "S S\u2020=I",
+      "admission": "ADMIT_EXACT"
+    },
+    {
+      "pattern": [
+        "T",
+        "TDG"
+      ],
+      "replacement": [],
+      "proof": "T T\u2020=I",
+      "admission": "ADMIT_EXACT"
+    },
+    {
+      "pattern": [
+        "CX",
+        "CX"
+      ],
+      "replacement": [],
+      "proof": "CX^2=I",
+      "admission": "ADMIT_EXACT"
+    }
+  ]
+}

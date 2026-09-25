@@ -1,0 +1,185 @@
+{
+  "version": "1.1.0",
+  "valid_conformance_pass": 23,
+  "valid_conformance_total": 23,
+  "invalid_rejection_pass": 22,
+  "invalid_rejection_total": 22,
+  "parallel_example_plan": {
+    "language": "LCTL/1.1",
+    "profile": "lctl.quantum.parallel",
+    "execution_class": "QUANTUM_COMPILATION",
+    "logical_parallel": true,
+    "scheduled_parallel": true,
+    "physical_parallel": false,
+    "physical_qpu": false,
+    "quantum_boundary": "NOT_CROSSED",
+    "work": 4,
+    "span": 2,
+    "max_exploitable_parallelism": 2.0,
+    "lanes": 2,
+    "barriers": 1,
+    "synchronization_markers": 1,
+    "parallel_metadata_rows": 4,
+    "communication_metadata_rows": 1,
+    "coupling_rows": 0,
+    "field_rows": 0,
+    "layers": [
+      {
+        "layer": 1,
+        "frame": "F0000",
+        "ops": [
+          {
+            "id": "C0010",
+            "lane": "lane0",
+            "op": "H"
+          },
+          {
+            "id": "C0011",
+            "lane": "lane1",
+            "op": "H"
+          }
+        ]
+      },
+      {
+        "layer": 2,
+        "frame": "F0001",
+        "ops": [
+          {
+            "id": "C0020",
+            "lane": "lane0",
+            "op": "CX"
+          },
+          {
+            "id": "C0021",
+            "lane": "lane1",
+            "op": "CX"
+          }
+        ]
+      }
+    ]
+  },
+  "focused_tests": [
+    {
+      "name": "parallel_verify",
+      "args": [
+        "verify",
+        "/mnt/data/lctl_parallel_build/LCTL_PARALLEL_LANGUAGE_1.1.0/examples/21_parallel_bell_pairs/program.lctl"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.parallel_bell_pairs frames=3 rows=10 sha256=b1cf73f94d8f2248452bb55a9d3f68a8a2fcc5b8182169635228c192f91ec683",
+      "stderr": ""
+    },
+    {
+      "name": "parallel_plan",
+      "args": [
+        "parallel-plan",
+        "/mnt/data/lctl_parallel_build/LCTL_PARALLEL_LANGUAGE_1.1.0/examples/21_parallel_bell_pairs/program.lctl"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "pass": true,
+      "stdout": "{\"language\":\"LCTL/1.1\",\"profile\":\"lctl.quantum.parallel\",\"execution_class\":\"QUANTUM_COMPILATION\",\"logical_parallel\":true,\"scheduled_parallel\":true,\"physical_parallel\":false,\"physical_qpu\":false,\"quantum_boundary\":\"NOT_CROSSED\",\"work\":4,\"span\":2,\"max_exploitable_parallelism\":2.000000,\"lanes\":2,\"barriers\":1,\"synchronization_markers\":1,\"parallel_metadata_rows\":4,\"communication_metadata_rows\":1,\"coupling_rows\":0,\"field_rows\":0,\"layers\":[{\"layer\":1,\"frame\":\"F0000\",\"ops\":[{\"id\":\"C0010\",\"lane\":\"lane0\",\"op\":\"H\"},{\"id\":\"C0011\",\"lane\":\"lane1\",\"op\":\"H\"}]},{\"layer\":2,\"frame\":\"F0001\",\"ops\":[{\"id\":\"C0020\",\"lane\":\"lane0\",\"op\":\"CX\"},{\"id\":\"C0021\",\"lane\":\"lane1\",\"op\":\"CX\"}]}]}",
+      "stderr": ""
+    },
+    {
+      "name": "parallel_simulate",
+      "args": [
+        "simulate",
+        "/mnt/data/lctl_parallel_build/LCTL_PARALLEL_LANGUAGE_1.1.0/examples/21_parallel_bell_pairs/program.lctl"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "pass": true,
+      "stdout": "{\"language\":\"LCTL/1.1\",\"execution_class\":\"CLASSICAL_SIMULATION\",\"state_realization\":\"CLASSICAL_NUMERIC_STATEVECTOR\",\"host_authority\":\"CLASSICAL_REFERENCE_HOST\",\"storage_authority\":\"CLASSICAL_STORAGE_AGNOSTIC\",\"physical_qpu\":false,\"quantum_boundary\":\"NOT_CROSSED\",\"representation\":\"statevector\",\"steps\":5,\"cbits\":\"\",\"expectations\":{},\"probabilities\":[0.250000000000,0.00000000000,0.00000000000,0.250000000000,0.00000000000,0.00000000000,0.00000000000,0.00000000000,0.00000000000,0.00000000000,0.00000000000,0.00000000000,0.250000000000,0.00000000000,0.00000000000,0.250000000000]}",
+      "stderr": ""
+    },
+    {
+      "name": "coupled_verify",
+      "args": [
+        "verify",
+        "/mnt/data/lctl_parallel_build/LCTL_PARALLEL_LANGUAGE_1.1.0/examples/22_coupled_continuum_parallel/program.lctl"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.coupled_continuum_parallel frames=1 rows=8 sha256=6374e7e23dd83870a13b2b300e78c39e2bf10c8022d45170996d43ce16561b99",
+      "stderr": ""
+    },
+    {
+      "name": "coupled_plan",
+      "args": [
+        "parallel-plan",
+        "/mnt/data/lctl_parallel_build/LCTL_PARALLEL_LANGUAGE_1.1.0/examples/22_coupled_continuum_parallel/program.lctl"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "pass": true,
+      "stdout": "{\"language\":\"LCTL/1.1\",\"profile\":\"lctl.quantum.parallel\",\"execution_class\":\"QUANTUM_COMPILATION\",\"logical_parallel\":true,\"scheduled_parallel\":false,\"physical_parallel\":false,\"physical_qpu\":false,\"quantum_boundary\":\"NOT_CROSSED\",\"work\":0,\"span\":0,\"max_exploitable_parallelism\":0.000000,\"lanes\":0,\"barriers\":0,\"synchronization_markers\":0,\"parallel_metadata_rows\":1,\"communication_metadata_rows\":0,\"coupling_rows\":2,\"field_rows\":2,\"layers\":[]}",
+      "stderr": ""
+    },
+    {
+      "name": "nonreciprocal_rejected",
+      "args": [
+        "verify",
+        "/mnt/data/lctl_parallel_build/LCTL_PARALLEL_LANGUAGE_1.1.0/conformance/invalid/22_nonreciprocal_coupling.lctl"
+      ],
+      "exit": 1,
+      "expected_exit": 1,
+      "pass": true,
+      "stdout": "",
+      "stderr": "FAIL: ASSERT: coupling reciprocity B != C^T at A9001"
+    },
+    {
+      "name": "legacy_01_bell_state",
+      "args": [
+        "verify",
+        "/mnt/data/lctl_parallel_build/LCTL_PARALLEL_LANGUAGE_1.1.0/conformance/valid/01_bell_state.lctl"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.bell_state frames=1 rows=6 sha256=6bc841763dcc75ce93245f919ee8bec21845a8f3de0039bfd2e5982bab141b48",
+      "stderr": ""
+    },
+    {
+      "name": "legacy_03_teleportation",
+      "args": [
+        "verify",
+        "/mnt/data/lctl_parallel_build/LCTL_PARALLEL_LANGUAGE_1.1.0/conformance/valid/03_teleportation.lctl"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.teleportation frames=1 rows=12 sha256=6d62a00b46151b31a10f35f869c7435cf56d246e9c0d5125fbde75f150b3ad26",
+      "stderr": ""
+    },
+    {
+      "name": "legacy_14_qft",
+      "args": [
+        "verify",
+        "/mnt/data/lctl_parallel_build/LCTL_PARALLEL_LANGUAGE_1.1.0/conformance/valid/14_qft.lctl"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.qft frames=1 rows=8 sha256=8549a23d0cfcecc6507eb664cf8321802d6010d8c101c0d26fc3284763d2a9f2",
+      "stderr": ""
+    },
+    {
+      "name": "legacy_20_measurement_feedback",
+      "args": [
+        "verify",
+        "/mnt/data/lctl_parallel_build/LCTL_PARALLEL_LANGUAGE_1.1.0/conformance/valid/20_measurement_feedback.lctl"
+      ],
+      "exit": 0,
+      "expected_exit": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.measurement_feedback frames=1 rows=6 sha256=0bfc9abac41bbaf4a39ae6fe881440adaf27ff0ecad73a689337504a4e0f0e3c",
+      "stderr": ""
+    }
+  ],
+  "physical_parallel_qualified": false,
+  "physical_qpu_qualified": false
+}

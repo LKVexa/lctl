@@ -1,0 +1,1 @@
+{"qcir":"QCIR/1.0","source_sha256":"fd79d0f62ee08f7a29a0cdc3a36d1a99d44e1301888b26f8086f368a9d1ab057","qubits":1,"cbits":0,"ops":[{"id":"C0011","op":"H","out":"q[0]","ctrl":"_","a":"q[0]","b":"_","param":"_","regime":"exact","proof":"op:h"}]}

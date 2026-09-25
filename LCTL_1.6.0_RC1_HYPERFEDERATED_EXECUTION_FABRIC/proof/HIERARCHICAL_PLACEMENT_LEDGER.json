@@ -1,0 +1,28 @@
+{
+  "schema": "LCTL-HIERARCHICAL-PLACEMENT/2.0",
+  "reference": {
+    "schema": "LCTL-PLACEMENT/1.0",
+    "placements": [
+      {
+        "partition": 0,
+        "target": "N0",
+        "capacity_pass": true,
+        "memory_pass": true,
+        "topology_pass": true,
+        "calibration_pass": true,
+        "reason": "deterministic topology-affinity reference placement"
+      },
+      {
+        "partition": 1,
+        "target": "N1",
+        "capacity_pass": true,
+        "memory_pass": true,
+        "topology_pass": true,
+        "calibration_pass": true,
+        "reason": "deterministic topology-affinity reference placement"
+      }
+    ]
+  },
+  "numa_affinity": "HOST_PORTABLE_REFERENCE_PARTIAL",
+  "dynamic_migration": "UNSTARTED_TASKS_ONLY"
+}

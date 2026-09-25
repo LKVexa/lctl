@@ -1,0 +1,16 @@
+LCTL/1.1
+BUNDLE¦ID¦VERSION¦PROFILE¦ENTRY¦FRAMES¦TARGET¦BACKEND¦NETWORK¦REPLAY¦PRECISION¦ERROR_BUDGET¦RESOURCE_CEILING¦ADMISSION¦STATE¦PROOF
+(bundle ¦ lctl.invalid.nonreciprocal ¦ 1.1.0 ¦ lctl.quantum.parallel ¦ F9000:C9001 ¦ 1 ¦ local-reference ¦ none ¦ deny ¦ deterministic-seeded ¦ f64 ¦ 0.01 ¦ q<=12;density<=8;parallel=logical ¦ q1-q6 ¦ sealed ¦ parallel-proof)
+QFRAME/1.0 BEGIN F9000
+ID¦PARENT¦MODULE¦QSPACE¦TICK¦PREV¦REGISTERS¦BASIS¦STATE_REGIME¦NOISE_REGIME¦APPROX_REGIME¦HARDWARE¦CONF¦ERROR¦ADMIT¦PROOF
+(F9000 ¦ ROOT ¦ lctl.invalid.nonreciprocal ¦ H ¦ 0 ¦ _ ¦ declared ¦ computational ¦ pure_or_mixed ¦ explicit ¦ typed ¦ local-reference ¦ 1.0 ¦ tracked ¦ observe ¦ parallel:1.1)
+QTUPLE/1.0
+ROW¦FACE¦LANE¦QSPACE¦OP¦OUT¦CTRL¦A¦B¦PARAM¦TYPE¦BASIS¦REGIME¦ASSUME¦ERROR¦RESOURCE¦CONF¦PROOF
+(D9001 ¦ DECL ¦ alloc ¦ H2 ¦ QREG ¦ q ¦ _ ¦ _ ¦ _ ¦ 1 ¦ qreg[1] ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ logical_qubits=1 ¦ 1.0 ¦ parallel:1.1)
+(A9001 ¦ ASSERT ¦ proof ¦ H ¦ COUPLING_RECIPROCITY ¦ _ ¦ _ ¦ _ ¦ _ ¦ 0,1;2,0||1,0;0,1 ¦ assertion ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ _ ¦ 1.0 ¦ CP23:reciprocity)
+(C9001 ¦ CODE ¦ lane0 ¦ H ¦ NOP ¦ _ ¦ _ ¦ _ ¦ _ ¦ _ ¦ operator ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ _ ¦ 1.0 ¦ parallel:nop)
+END QTUPLE
+END QFRAME
+@frame sha256:8804cb313367213ae9011740698b2e1b88bf717c16168e5b4045c622b2dc4df3
+END LCTL
+@bundle sha256:bf067e70e87115cc79b9bba63a6ea549757bddf596b88929a4a032c04e0466c2

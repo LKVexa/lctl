@@ -1,0 +1,148 @@
+{
+  "schema": "LCTL-1.4-RECOVERY-CAMPAIGN/1.0",
+  "total": 120,
+  "pass": 120,
+  "fail": 0,
+  "sample": [
+    {
+      "i": 0,
+      "scenario": "worker_crash",
+      "ok": true,
+      "stdout": "{\"status\":\"PASS\",\"schema\":\"LCTL-LIVE-RECOVERY/2.0\",\"classification\":{\"schema\":\"LCTL-FAILURE/1.0\",\"scenario\":\"worker_crash\",\"seed\":1,\"detected\":true,\"recovery\":\"RESTART_FROM_CLASSICAL_BOUNDARY\",\"unknown_qstate_checkpoint_copy\":false,\"event_hash\":\"5a9622288e784b2b78da1c617ba0cefe449dea479ddb557ee3bed2a30661edcf\"},\"recovery_executed\":true,\"action\":\"RESTART_OR_REPLAY_CLASSICAL_TASKS:d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929\",\"unknown_physical_qstate_restored_from_disk\":false}",
+      "stderr": ""
+    },
+    {
+      "i": 1,
+      "scenario": "node_unavailable",
+      "ok": true,
+      "stdout": "{\"status\":\"PASS\",\"schema\":\"LCTL-LIVE-RECOVERY/2.0\",\"classification\":{\"schema\":\"LCTL-FAILURE/1.0\",\"scenario\":\"node_unavailable\",\"seed\":2,\"detected\":true,\"recovery\":\"RESTART_FROM_CLASSICAL_BOUNDARY\",\"unknown_qstate_checkpoint_copy\":false,\"event_hash\":\"c2145745437d0d46971ca0173477e1b19daa37c093bdcd7c6f1d479950196c26\"},\"recovery_executed\":true,\"action\":\"RESTART_OR_REPLAY_CLASSICAL_TASKS:d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929\",\"unknown_physical_qstate_restored_from_disk\":false}",
+      "stderr": ""
+    },
+    {
+      "i": 2,
+      "scenario": "memory_exhaustion",
+      "ok": true,
+      "stdout": "{\"status\":\"PASS\",\"schema\":\"LCTL-LIVE-RECOVERY/2.0\",\"classification\":{\"schema\":\"LCTL-FAILURE/1.0\",\"scenario\":\"memory_exhaustion\",\"seed\":3,\"detected\":true,\"recovery\":\"ROLLBACK_CLASSICAL_ONLY\",\"unknown_qstate_checkpoint_copy\":false,\"event_hash\":\"27bdc4ddf614bff10cac74d5ae19947a8a854b80dbc6a778f920d63c7886463a\"},\"recovery_executed\":true,\"action\":\"RESTART_OR_REPLAY_CLASSICAL_TASKS:d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929\",\"unknown_physical_qstate_restored_from_disk\":false}",
+      "stderr": ""
+    },
+    {
+      "i": 3,
+      "scenario": "classical_link_timeout",
+      "ok": true,
+      "stdout": "{\"status\":\"PASS\",\"schema\":\"LCTL-LIVE-RECOVERY/2.0\",\"classification\":{\"schema\":\"LCTL-FAILURE/1.0\",\"scenario\":\"classical_link_timeout\",\"seed\":4,\"detected\":true,\"recovery\":\"REROUTE_SAFE\",\"unknown_qstate_checkpoint_copy\":false,\"event_hash\":\"d51c01ef89a7fc2adac4f7c303409b7f1c6426496eb365629ac22d0daa4956a3\"},\"recovery_executed\":true,\"action\":\"REFERENCE_REROUTE_REPLAN\",\"unknown_physical_qstate_restored_from_disk\":false}",
+      "stderr": ""
+    },
+    {
+      "i": 4,
+      "scenario": "classical_packet_loss",
+      "ok": true,
+      "stdout": "{\"status\":\"PASS\",\"schema\":\"LCTL-LIVE-RECOVERY/2.0\",\"classification\":{\"schema\":\"LCTL-FAILURE/1.0\",\"scenario\":\"classical_packet_loss\",\"seed\":5,\"detected\":true,\"recovery\":\"REROUTE_SAFE\",\"unknown_qstate_checkpoint_copy\":false,\"event_hash\":\"99747bef6c425d5437dd950206957471802d6541918b6eabe80b15fba6fe9aac\"},\"recovery_executed\":true,\"action\":\"REFERENCE_REROUTE_REPLAN\",\"unknown_physical_qstate_restored_from_disk\":false}",
+      "stderr": ""
+    },
+    {
+      "i": 5,
+      "scenario": "quantum_link_failure",
+      "ok": true,
+      "stdout": "{\"status\":\"PASS\",\"schema\":\"LCTL-LIVE-RECOVERY/2.0\",\"classification\":{\"schema\":\"LCTL-FAILURE/1.0\",\"scenario\":\"quantum_link_failure\",\"seed\":6,\"detected\":true,\"recovery\":\"REGENERATE_ENTANGLEMENT\",\"unknown_qstate_checkpoint_copy\":false,\"event_hash\":\"f00d748983c9d314edbae8de9136873d1b28df446ec7abc4cb3d1b4eac2c5fd5\"},\"recovery_executed\":true,\"action\":\"REGENERATE_LOGICAL_EBIT_REQUEST\",\"unknown_physical_qstate_restored_from_disk\":false}",
+      "stderr": ""
+    },
+    {
+      "i": 6,
+      "scenario": "ebit_generation_failure",
+      "ok": true,
+      "stdout": "{\"status\":\"PASS\",\"schema\":\"LCTL-LIVE-RECOVERY/2.0\",\"classification\":{\"schema\":\"LCTL-FAILURE/1.0\",\"scenario\":\"ebit_generation_failure\",\"seed\":7,\"detected\":true,\"recovery\":\"REGENERATE_ENTANGLEMENT\",\"unknown_qstate_checkpoint_copy\":false,\"event_hash\":\"70cfe9a9e0aff00f111eed84163153d7e61f2cc8c9c63e0f0fa141387214c1f8\"},\"recovery_executed\":true,\"action\":\"REGENERATE_LOGICAL_EBIT_REQUEST\",\"unknown_physical_qstate_restored_from_disk\":false}",
+      "stderr": ""
+    },
+    {
+      "i": 7,
+      "scenario": "ebit_expiration",
+      "ok": true,
+      "stdout": "{\"status\":\"PASS\",\"schema\":\"LCTL-LIVE-RECOVERY/2.0\",\"classification\":{\"schema\":\"LCTL-FAILURE/1.0\",\"scenario\":\"ebit_expiration\",\"seed\":8,\"detected\":true,\"recovery\":\"REGENERATE_ENTANGLEMENT\",\"unknown_qstate_checkpoint_copy\":false,\"event_hash\":\"44d383ab76e2053c4f2760c915e2c2a691f9734113d88457da076154cd2f43f8\"},\"recovery_executed\":true,\"action\":\"REGENERATE_LOGICAL_EBIT_REQUEST\",\"unknown_physical_qstate_restored_from_disk\":false}",
+      "stderr": ""
+    },
+    {
+      "i": 8,
+      "scenario": "stale_calibration",
+      "ok": true,
+      "stdout": "{\"status\":\"PASS\",\"schema\":\"LCTL-LIVE-RECOVERY/2.0\",\"classification\":{\"schema\":\"LCTL-FAILURE/1.0\",\"scenario\":\"stale_calibration\",\"seed\":9,\"detected\":true,\"recovery\":\"RECOVERY_TARGET_SPECIFIC\",\"unknown_qstate_checkpoint_copy\":false,\"event_hash\":\"b14128c58fe8fcdb33654c4174a5d8b6365e0c639c6d1a3452f2cd1e2613a6c9\"},\"recovery_executed\":false,\"action\":\"NONE\",\"unknown_physical_qstate_restored_from_disk\":false}",
+      "stderr": ""
+    },
+    {
+      "i": 9,
+      "scenario": "qpu_unavailable",
+      "ok": true,
+      "stdout": "{\"status\":\"PASS\",\"schema\":\"LCTL-LIVE-RECOVERY/2.0\",\"classification\":{\"schema\":\"LCTL-FAILURE/1.0\",\"scenario\":\"qpu_unavailable\",\"seed\":10,\"detected\":true,\"recovery\":\"RECOVERY_TARGET_SPECIFIC\",\"unknown_qstate_checkpoint_copy\":false,\"event_hash\":\"be9f5ad4e028e3e81b85e9c17e67530ae7927a1ef182388d4c68dbabc4c4b2ba\"},\"recovery_executed\":false,\"action\":\"NONE\",\"unknown_physical_qstate_restored_from_disk\":false}",
+      "stderr": ""
+    },
+    {
+      "i": 10,
+      "scenario": "route_invalidation",
+      "ok": true,
+      "stdout": "{\"status\":\"PASS\",\"schema\":\"LCTL-LIVE-RECOVERY/2.0\",\"classification\":{\"schema\":\"LCTL-FAILURE/1.0\",\"scenario\":\"route_invalidation\",\"seed\":11,\"detected\":true,\"recovery\":\"REROUTE_SAFE\",\"unknown_qstate_checkpoint_copy\":false,\"event_hash\":\"f88247e9da61f58974c8ba023c7b540f512821bf0c07fa36cc9cb7a301828b90\"},\"recovery_executed\":true,\"action\":\"REFERENCE_REROUTE_REPLAN\",\"unknown_physical_qstate_restored_from_disk\":false}",
+      "stderr": ""
+    },
+    {
+      "i": 11,
+      "scenario": "coherence_deadline_exceeded",
+      "ok": true,
+      "stdout": "{\"status\":\"PASS\",\"schema\":\"LCTL-LIVE-RECOVERY/2.0\",\"classification\":{\"schema\":\"LCTL-FAILURE/1.0\",\"scenario\":\"coherence_deadline_exceeded\",\"seed\":12,\"detected\":true,\"recovery\":\"RECOVERY_IMPOSSIBLE\",\"unknown_qstate_checkpoint_copy\":false,\"event_hash\":\"3be3f419acd7493b411457a27d73b50c139889bc645cd9a491c31e1d71cf368a\"},\"recovery_executed\":false,\"action\":\"NONE\",\"unknown_physical_qstate_restored_from_disk\":false}",
+      "stderr": ""
+    },
+    {
+      "i": 12,
+      "scenario": "worker_crash",
+      "ok": true,
+      "stdout": "{\"status\":\"PASS\",\"schema\":\"LCTL-LIVE-RECOVERY/2.0\",\"classification\":{\"schema\":\"LCTL-FAILURE/1.0\",\"scenario\":\"worker_crash\",\"seed\":13,\"detected\":true,\"recovery\":\"RESTART_FROM_CLASSICAL_BOUNDARY\",\"unknown_qstate_checkpoint_copy\":false,\"event_hash\":\"db1b1a9975bd214754c29c47f8ebb89d47baa7dd51230b52feabcedad23dc765\"},\"recovery_executed\":true,\"action\":\"RESTART_OR_REPLAY_CLASSICAL_TASKS:d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929\",\"unknown_physical_qstate_restored_from_disk\":false}",
+      "stderr": ""
+    },
+    {
+      "i": 13,
+      "scenario": "node_unavailable",
+      "ok": true,
+      "stdout": "{\"status\":\"PASS\",\"schema\":\"LCTL-LIVE-RECOVERY/2.0\",\"classification\":{\"schema\":\"LCTL-FAILURE/1.0\",\"scenario\":\"node_unavailable\",\"seed\":14,\"detected\":true,\"recovery\":\"RESTART_FROM_CLASSICAL_BOUNDARY\",\"unknown_qstate_checkpoint_copy\":false,\"event_hash\":\"415826be1be7a5f4ab512d6bffbfa925c9a002f35da3e74299ecb3da3e1ba161\"},\"recovery_executed\":true,\"action\":\"RESTART_OR_REPLAY_CLASSICAL_TASKS:d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929\",\"unknown_physical_qstate_restored_from_disk\":false}",
+      "stderr": ""
+    },
+    {
+      "i": 14,
+      "scenario": "memory_exhaustion",
+      "ok": true,
+      "stdout": "{\"status\":\"PASS\",\"schema\":\"LCTL-LIVE-RECOVERY/2.0\",\"classification\":{\"schema\":\"LCTL-FAILURE/1.0\",\"scenario\":\"memory_exhaustion\",\"seed\":15,\"detected\":true,\"recovery\":\"ROLLBACK_CLASSICAL_ONLY\",\"unknown_qstate_checkpoint_copy\":false,\"event_hash\":\"699b5e2cf43324c345980c6f69f2dc4bfb382924540072590390e97f4a4c8dc3\"},\"recovery_executed\":true,\"action\":\"RESTART_OR_REPLAY_CLASSICAL_TASKS:d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929\",\"unknown_physical_qstate_restored_from_disk\":false}",
+      "stderr": ""
+    },
+    {
+      "i": 15,
+      "scenario": "classical_link_timeout",
+      "ok": true,
+      "stdout": "{\"status\":\"PASS\",\"schema\":\"LCTL-LIVE-RECOVERY/2.0\",\"classification\":{\"schema\":\"LCTL-FAILURE/1.0\",\"scenario\":\"classical_link_timeout\",\"seed\":16,\"detected\":true,\"recovery\":\"REROUTE_SAFE\",\"unknown_qstate_checkpoint_copy\":false,\"event_hash\":\"51f456fe74636743d813d2080ee5d0e118c2c91fb8e176d2535ac120e73b63a0\"},\"recovery_executed\":true,\"action\":\"REFERENCE_REROUTE_REPLAN\",\"unknown_physical_qstate_restored_from_disk\":false}",
+      "stderr": ""
+    },
+    {
+      "i": 16,
+      "scenario": "classical_packet_loss",
+      "ok": true,
+      "stdout": "{\"status\":\"PASS\",\"schema\":\"LCTL-LIVE-RECOVERY/2.0\",\"classification\":{\"schema\":\"LCTL-FAILURE/1.0\",\"scenario\":\"classical_packet_loss\",\"seed\":17,\"detected\":true,\"recovery\":\"REROUTE_SAFE\",\"unknown_qstate_checkpoint_copy\":false,\"event_hash\":\"cd923a7b24e3e57de547a8855e51773336be2bc8ff0f2c57f47adcfe24c2e849\"},\"recovery_executed\":true,\"action\":\"REFERENCE_REROUTE_REPLAN\",\"unknown_physical_qstate_restored_from_disk\":false}",
+      "stderr": ""
+    },
+    {
+      "i": 17,
+      "scenario": "quantum_link_failure",
+      "ok": true,
+      "stdout": "{\"status\":\"PASS\",\"schema\":\"LCTL-LIVE-RECOVERY/2.0\",\"classification\":{\"schema\":\"LCTL-FAILURE/1.0\",\"scenario\":\"quantum_link_failure\",\"seed\":18,\"detected\":true,\"recovery\":\"REGENERATE_ENTANGLEMENT\",\"unknown_qstate_checkpoint_copy\":false,\"event_hash\":\"6cfe53b2db601adbd74dd0fde1f9a41464a8401f64f5a4d3878e4c34d95a69cf\"},\"recovery_executed\":true,\"action\":\"REGENERATE_LOGICAL_EBIT_REQUEST\",\"unknown_physical_qstate_restored_from_disk\":false}",
+      "stderr": ""
+    },
+    {
+      "i": 18,
+      "scenario": "ebit_generation_failure",
+      "ok": true,
+      "stdout": "{\"status\":\"PASS\",\"schema\":\"LCTL-LIVE-RECOVERY/2.0\",\"classification\":{\"schema\":\"LCTL-FAILURE/1.0\",\"scenario\":\"ebit_generation_failure\",\"seed\":19,\"detected\":true,\"recovery\":\"REGENERATE_ENTANGLEMENT\",\"unknown_qstate_checkpoint_copy\":false,\"event_hash\":\"a43a61a201dfef5855f6d32095bf72114c39891826ada7e5463dd0848ec160d5\"},\"recovery_executed\":true,\"action\":\"REGENERATE_LOGICAL_EBIT_REQUEST\",\"unknown_physical_qstate_restored_from_disk\":false}",
+      "stderr": ""
+    },
+    {
+      "i": 19,
+      "scenario": "ebit_expiration",
+      "ok": true,
+      "stdout": "{\"status\":\"PASS\",\"schema\":\"LCTL-LIVE-RECOVERY/2.0\",\"classification\":{\"schema\":\"LCTL-FAILURE/1.0\",\"scenario\":\"ebit_expiration\",\"seed\":20,\"detected\":true,\"recovery\":\"REGENERATE_ENTANGLEMENT\",\"unknown_qstate_checkpoint_copy\":false,\"event_hash\":\"2a01c8043dd717d70d8909a07c5d1f8eea44461bdfc960b53cdf2385a9360694\"},\"recovery_executed\":true,\"action\":\"REGENERATE_LOGICAL_EBIT_REQUEST\",\"unknown_physical_qstate_restored_from_disk\":false}",
+      "stderr": ""
+    }
+  ]
+}

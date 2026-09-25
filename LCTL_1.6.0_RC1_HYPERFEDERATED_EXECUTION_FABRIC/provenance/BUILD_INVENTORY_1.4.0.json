@@ -1,0 +1,30 @@
+{
+  "schema": "LCTL-BUILD-INVENTORY/1.4",
+  "release": "1.4.0-rc1-adaptive-execution-mesh",
+  "file_count": 1463,
+  "total_uncompressed_bytes": 7624119,
+  "extension_counts": {
+    ".class": 45,
+    ".cmd": 8,
+    ".ebnf": 1,
+    ".jar": 3,
+    ".java": 3,
+    ".json": 926,
+    ".jsonl": 4,
+    ".lctl": 159,
+    ".log": 53,
+    ".md": 197,
+    ".pdf": 5,
+    ".py": 4,
+    ".qasm": 4,
+    ".sh": 8,
+    ".tsv": 4,
+    ".txt": 37,
+    ".zip": 1,
+    "<none>": 1
+  },
+  "runtime_jar_sha256": "03a5f9aa50678c248091a1d666c298512dacb4c78c258c2e3d2c6f4db9197c8d",
+  "manifest_sha256": "d4fcdb34c316faa02203f6cbd8e4264967eb3d639a818d31a5ca7913814ede70",
+  "physical_qpu": false,
+  "physical_distributed": false
+}

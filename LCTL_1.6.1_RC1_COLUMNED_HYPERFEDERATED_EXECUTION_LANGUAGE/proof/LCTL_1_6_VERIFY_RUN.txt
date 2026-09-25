@@ -1,0 +1,26 @@
+[1/16] build
+PASS: built runtime/bin/lctl-hyperfederated.jar
+[2/16] 1.6 1024-case selftest
+{"status":"PASS","schema":"LCTL-1.6-CONFORMANCE/1.0","positive":{"total":512,"pass":512},"negative":{"total":512,"pass":512},"overall":{"total":1024,"pass":1024},"physical_qpu":false}
+[3/16] preserved 1.5 512-case selftest
+{"status":"PASS","schema":"LCTL-1.5-CONFORMANCE/1.0","positive":{"total":256,"pass":256},"negative":{"total":256,"pass":256},"overall":{"total":512,"pass":512},"physical_qpu":false}
+[4/16] preserved 1.4 320-case baseline
+{"status":"PASS","schema":"LCTL-1.4-BASELINE-REVALIDATION/1.5","positive":{"total":160,"pass":160},"negative":{"total":160,"pass":160},"overall":{"total":320,"pass":320,"fail":0},"failures":""}
+[5/16] topology discovery
+{"status":"PASS","schema":"LCTL-TOPOLOGY-DISCOVERY/1.6","os":"Linux","arch":"amd64","available_processors":4,"numa_nodes_observed":1,"jvm_max_memory_bytes":1073741824,"jvm_total_memory_bytes":69206016,"jvm_free_memory_bytes":67058160,"devices_invented":false,"remote_domains_claimed":false}
+[6/16] measured cost calibration
+{"status":"PASS","schema":"LCTL-COST-MODEL/1.6","sample_count":20000,"cpu_sample_ns":3277785,"queue_roundtrip_ns":10067159,"sha256_1mib_ns":55983314,"available_processors":4,"calibration_hash":"48968e3d25fe712755039d47bb508641f7a813645ca3c258dc71680cad3f5711","physical_energy_measured":false}
+[7/16] parallel depth / grain
+{"status":"PASS","schema":"LCTL-GRAIN-PLAN/1.6","tasks":5,"processors":4,"target_chunks":5,"grain_size":1,"action":"KEEP","microtask_storm_guard":true,"deterministic_chunking":true}
+[8/16] recursive partition / placement
+[9/16] routing / scheduler
+[10/16] actual work stealing
+{"status":"PASS","schema":"LCTL-WORK-STEAL/3.0","workers":4,"tasks":128,"actual_cross_queue_steals":3,"victim_policy":"DETERMINISTIC_CYCLIC_SEARCH","result_checksum":-6371950873186101049,"trace_hash":"2286e11599ad5f9613ef07cbfadca909a6de4a5a910ceb2a379635a9a4663dbc","unknown_qstate_duplicated":false,"execution_class":"NATIVE_THREAD_PARALLEL"}
+[11/16] live elasticity / straggler mitigation
+[12/16] actor/channel/pipeline/collective
+[13/16] numerical / protocol
+[14/16] checkpoint / restore
+[15/16] chaos reference
+[16/16] physical firewall
+PASS: LCTL 1.6 RC1 smoke verification complete.
+Long 1h/8h/24h soak gates remain NOT_RUN unless separately executed.

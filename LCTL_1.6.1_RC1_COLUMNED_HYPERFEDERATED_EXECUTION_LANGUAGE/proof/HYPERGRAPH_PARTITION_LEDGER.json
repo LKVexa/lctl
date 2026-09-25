@@ -1,0 +1,33 @@
+{
+  "schema": "LCTL-HYPERPARTITION/2.0",
+  "algorithm": "DETERMINISTIC_HYPEREDGE_LOCAL_REFINEMENT",
+  "multilevel_coarsening": "IMPLEMENTED_PARTIAL",
+  "kl_fm_refinement": "REFERENCE_LOCAL_MOVE_ANALOGUE",
+  "partitions": 2,
+  "edge_cut": 0.0,
+  "hyperedge_cut": 0.0,
+  "imbalance": 0.5,
+  "hyperedges": 3,
+  "assignments": [
+    {
+      "task": "C0010",
+      "partition": 0
+    },
+    {
+      "task": "C0011",
+      "partition": 1
+    },
+    {
+      "task": "C0020",
+      "partition": 0
+    },
+    {
+      "task": "C0021",
+      "partition": 1
+    },
+    {
+      "task": "C9999",
+      "partition": 0
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "barriers": 0,
+  "communication_metadata_rows": 1,
+  "coupling_rows": 0,
+  "execution_class": "QUANTUM_COMPILATION",
+  "field_rows": 0,
+  "lanes": 0,
+  "language": "LCTL/1.2",
+  "layers": [],
+  "logical_parallel": false,
+  "max_exploitable_parallelism": 0.0,
+  "parallel_metadata_rows": 1,
+  "physical_parallel": false,
+  "physical_qpu": false,
+  "profile": "lctl.quantum.parallel.distributed",
+  "quantum_boundary": "NOT_CROSSED",
+  "scheduled_parallel": false,
+  "span": 0,
+  "synchronization_markers": 0,
+  "work": 0
+}

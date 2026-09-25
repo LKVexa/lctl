@@ -1,0 +1,5 @@
+{
+  "exit": 0,
+  "pass": true,
+  "output": "PASS LCTL verify bundle=lctl.example.amplitude_damping frames=1 rows=5 sha256=ffae0fcb423e2564ee933857ff2852dc9a01ceb29c7aa6f45fc907b7a164499c"
+}

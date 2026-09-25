@@ -1,0 +1,12 @@
+{
+  "classical_feedback": 0,
+  "entanglement_swaps": 0,
+  "epr_reservations": 0,
+  "execution_class": "SYMBOLIC",
+  "other_protocol_ops": 0,
+  "physical_qpu": false,
+  "quantum_boundary": "NOT_CROSSED",
+  "remote_gates": 1,
+  "status": "PASS",
+  "teleports": 0
+}

@@ -1,0 +1,16 @@
+{
+  "schema": "LCTL-SOURCE-AUTHORITY/1.4",
+  "release": "1.4.0-rc1-adaptive-execution-mesh",
+  "base_package": {
+    "name": "LCTL_PARALLEL_DISTRIBUTED_1.3.0_RC1_NATIVE_EXECUTION_FABRIC.zip",
+    "sha256": "3ddfad2361647c5224e8ee26539439fea16c41855b834e7402188f872c47eee0"
+  },
+  "governing_workflow": {
+    "name": "QUORUM_LCTL_1.4.x_ADAPTIVE_PARALLEL_DISTRIBUTED_MESH_PROMPT_AND_WORKFLOW.md",
+    "sha256": "23067bbac74494544e27494013fc253ec21992d9a3ee818732848cdd01eb21da"
+  },
+  "default_backend": "none",
+  "default_network": "deny",
+  "physical_qpu_authority_present": false,
+  "physical_distributed_authority_present": false
+}

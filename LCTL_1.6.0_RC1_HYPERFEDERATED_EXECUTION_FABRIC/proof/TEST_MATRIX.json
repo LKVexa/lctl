@@ -1,0 +1,409 @@
+{
+  "language": "LCTL/1.0",
+  "version": "1.0.0-rc.2",
+  "valid": [
+    {
+      "file": "01_bell_state.lctl",
+      "rc": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.bell_state frames=1 rows=6 sha256=6bc841763dcc75ce93245f919ee8bec21845a8f3de0039bfd2e5982bab141b48",
+      "stderr": ""
+    },
+    {
+      "file": "02_ghz_state.lctl",
+      "rc": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.ghz_state frames=1 rows=8 sha256=ae95e74d8ad0279a724bc46da119c24da5e9d836815021fcc68cf71420093e1c",
+      "stderr": ""
+    },
+    {
+      "file": "03_teleportation.lctl",
+      "rc": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.teleportation frames=1 rows=12 sha256=6d62a00b46151b31a10f35f869c7435cf56d246e9c0d5125fbde75f150b3ad26",
+      "stderr": ""
+    },
+    {
+      "file": "04_superdense_coding.lctl",
+      "rc": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.superdense_coding frames=1 rows=10 sha256=cd27c9bc90ae54aa24d5402448bd25cce06e65723a6396165fa14155c95a2c72",
+      "stderr": ""
+    },
+    {
+      "file": "05_single_qubit_rotations.lctl",
+      "rc": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.single_qubit_rotations frames=1 rows=6 sha256=50d346965cd1dd2bee8d0e018355146b549d82be3ec8bc50eff41dec4c740d05",
+      "stderr": ""
+    },
+    {
+      "file": "06_controlled_operations.lctl",
+      "rc": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.controlled_operations frames=1 rows=5 sha256=c9871228f3a28729396ca1bcdac03c4610c6e34145f0d941d9dcec9b88e0e5d0",
+      "stderr": ""
+    },
+    {
+      "file": "07_basis_measurement.lctl",
+      "rc": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.basis_measurement frames=1 rows=4 sha256=19d8261e5babdc985e22a7fc411d0218fef754b61b0a3ca05600d60e07eb0e3a",
+      "stderr": ""
+    },
+    {
+      "file": "08_povm.lctl",
+      "rc": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.povm frames=1 rows=3 sha256=6258306f857d79c0550330ae82e6ac76dbc6769731391ddc2fad90b643fff457",
+      "stderr": ""
+    },
+    {
+      "file": "09_density_matrix_noise.lctl",
+      "rc": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.density_matrix_noise frames=1 rows=5 sha256=d320674a7457c4b02e8ba8f83122254ba98b03189a66594252122b354a86fb02",
+      "stderr": ""
+    },
+    {
+      "file": "10_amplitude_damping.lctl",
+      "rc": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.amplitude_damping frames=1 rows=5 sha256=204576ec473c6f7c7fd72b271503dd124b8f60d14e2f244cfb785623c4a59384",
+      "stderr": ""
+    },
+    {
+      "file": "11_depolarizing_channel.lctl",
+      "rc": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.depolarizing_channel frames=1 rows=4 sha256=5fe92fbe8fa0f2ac00c132bd8a16134cd751cd0af42a9f22ccaf0702055323f2",
+      "stderr": ""
+    },
+    {
+      "file": "12_repetition_error_correction.lctl",
+      "rc": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.repetition_error_correction frames=1 rows=11 sha256=4ab815bb7f3d9a70f287ca9081a1d5bffc55ed63f26d5ea76d871b859274a1db",
+      "stderr": ""
+    },
+    {
+      "file": "13_stabilizer.lctl",
+      "rc": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.stabilizer frames=1 rows=5 sha256=3e337a8d4cd95e05828233db2d10ff895905b30c545b8d813a22b4f6b31dd497",
+      "stderr": ""
+    },
+    {
+      "file": "14_qft.lctl",
+      "rc": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.qft frames=1 rows=8 sha256=8549a23d0cfcecc6507eb664cf8321802d6010d8c101c0d26fc3284763d2a9f2",
+      "stderr": ""
+    },
+    {
+      "file": "15_grover.lctl",
+      "rc": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.grover frames=1 rows=16 sha256=d4feac743a83ac216f0e03c596c790e63ea34907a05f7e1baa349fc6cc708dcb",
+      "stderr": ""
+    },
+    {
+      "file": "16_phase_estimation.lctl",
+      "rc": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.phase_estimation frames=1 rows=7 sha256=9def806279c2c2c301d326f627a456378133cce07484b794ab6e34002688ce9f",
+      "stderr": ""
+    },
+    {
+      "file": "17_vqe.lctl",
+      "rc": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.vqe frames=1 rows=5 sha256=b30063883646270f82c3dd759a089bbc94f3fb636dffac4f7dd0850b4967093e",
+      "stderr": ""
+    },
+    {
+      "file": "18_qaoa.lctl",
+      "rc": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.qaoa frames=1 rows=8 sha256=0220ed65934e5302e456ae8a86a3604d9c840aa309fa0be82e8a949e5c964912",
+      "stderr": ""
+    },
+    {
+      "file": "19_hamiltonian_simulation.lctl",
+      "rc": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.hamiltonian_simulation frames=1 rows=4 sha256=080dd85c549c1fc8e0c10c1cf197d68bac6b5c7ac824fb87c8af5f82f6e17b03",
+      "stderr": ""
+    },
+    {
+      "file": "20_measurement_feedback.lctl",
+      "rc": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.measurement_feedback frames=1 rows=6 sha256=0bfc9abac41bbaf4a39ae6fe881440adaf27ff0ecad73a689337504a4e0f0e3c",
+      "stderr": ""
+    },
+    {
+      "file": "calculus_transform_admitted.lctl",
+      "rc": 0,
+      "pass": true,
+      "stdout": "PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.conformance.calculus_transform frames=2 rows=10 sha256=b271d3652ec5f321a8b8d857be14d2a428351188b8d4a93cbde3cfb30ef5b4f4",
+      "stderr": ""
+    }
+  ],
+  "invalid": [
+    {
+      "file": "01_duplicate_ownership.lctl",
+      "rc": 1,
+      "rejected": true,
+      "stdout": "",
+      "stderr": "FAIL: NO_CLONING: CLONE forbidden at C0010"
+    },
+    {
+      "file": "02_invalid_unitary.lctl",
+      "rc": 1,
+      "rejected": true,
+      "stdout": "",
+      "stderr": "FAIL: ASSERT: invalid unitary at A0010"
+    },
+    {
+      "file": "03_nonhermitian_observable.lctl",
+      "rc": 1,
+      "rejected": true,
+      "stdout": "",
+      "stderr": "FAIL: ASSERT: invalid Hermitian at A0010"
+    },
+    {
+      "file": "04_density_negative_eigenvalue.lctl",
+      "rc": 1,
+      "rejected": true,
+      "stdout": "",
+      "stderr": "FAIL: ASSERT: density not PSD/Hermitian at A0010"
+    },
+    {
+      "file": "05_density_bad_trace.lctl",
+      "rc": 1,
+      "rejected": true,
+      "stdout": "",
+      "stderr": "FAIL: ASSERT: density trace != 1 at A0010"
+    },
+    {
+      "file": "06_invalid_projector.lctl",
+      "rc": 1,
+      "rejected": true,
+      "stdout": "",
+      "stderr": "FAIL: ASSERT: invalid projector at A0010"
+    },
+    {
+      "file": "07_invalid_povm.lctl",
+      "rc": 1,
+      "rejected": true,
+      "stdout": "",
+      "stderr": "FAIL: ASSERT: POVM incomplete at A0010"
+    },
+    {
+      "file": "08_invalid_kraus.lctl",
+      "rc": 1,
+      "rejected": true,
+      "stdout": "",
+      "stderr": "FAIL: ASSERT: Kraus completeness failed at A0010"
+    },
+    {
+      "file": "09_control_equals_target.lctl",
+      "rc": 1,
+      "rejected": true,
+      "stdout": "",
+      "stderr": "FAIL: OWNERSHIP: control equals target at C0010"
+    },
+    {
+      "file": "10_tensor_dimension_mismatch.lctl",
+      "rc": 1,
+      "rejected": true,
+      "stdout": "",
+      "stderr": "FAIL: ASSERT: incompatible tensor dimensions at A0010"
+    },
+    {
+      "file": "11_measure_wrong_classical_type.lctl",
+      "rc": 1,
+      "rejected": true,
+      "stdout": "",
+      "stderr": "FAIL: TYPE: measurement OUT must be classical bit at C0010"
+    },
+    {
+      "file": "12_use_after_measure.lctl",
+      "rc": 1,
+      "rejected": true,
+      "stdout": "",
+      "stderr": "FAIL: OWNERSHIP: use-after-measure without reset for q[0] at C0011"
+    },
+    {
+      "file": "13_approx_without_permission.lctl",
+      "rc": 1,
+      "rejected": true,
+      "stdout": "",
+      "stderr": "FAIL: ERROR: approximate CODE requires approx_allowed at C0010"
+    },
+    {
+      "file": "14_exceeded_error_budget.lctl",
+      "rc": 1,
+      "rejected": true,
+      "stdout": "",
+      "stderr": "FAIL: ERROR_BUDGET: 0.02 > 0.001"
+    },
+    {
+      "file": "15_invalid_q1_q6.lctl",
+      "rc": 1,
+      "rejected": true,
+      "stdout": "",
+      "stderr": "FAIL: LEARN_GATE: F0000 missing Q6"
+    },
+    {
+      "file": "16_corrupted_source_seal.lctl",
+      "rc": 1,
+      "rejected": true,
+      "stdout": "",
+      "stderr": "FAIL: BUNDLE_SEAL: mismatch"
+    },
+    {
+      "file": "17_unsupported_target_operation.lctl",
+      "rc": 1,
+      "rejected": true,
+      "stdout": "",
+      "stderr": "FAIL: OP: unsupported executable operation MAGIC_GATE at C0010"
+    },
+    {
+      "file": "18_invalid_hardware_topology.lctl",
+      "rc": 1,
+      "rejected": true,
+      "stdout": "",
+      "stderr": "FAIL: ASSERT: invalid hardware topology at A0010"
+    },
+    {
+      "file": "19_invalid_shot_count.lctl",
+      "rc": 1,
+      "rejected": true,
+      "stdout": "",
+      "stderr": "FAIL: SAMPLE: shot count must be positive at C0010"
+    },
+    {
+      "file": "20_negative_probability.lctl",
+      "rc": 1,
+      "rejected": true,
+      "stdout": "",
+      "stderr": "FAIL: ASSERT: probability outside [0,1] at A0010"
+    },
+    {
+      "file": "21_probability_not_normalized.lctl",
+      "rc": 1,
+      "rejected": true,
+      "stdout": "",
+      "stderr": "FAIL: ASSERT: probability sum != 1 at A0010"
+    }
+  ],
+  "examples": [
+    {
+      "example": "01_bell_state",
+      "verify_pass": true,
+      "simulate_pass": true
+    },
+    {
+      "example": "02_ghz_state",
+      "verify_pass": true,
+      "simulate_pass": true
+    },
+    {
+      "example": "03_teleportation",
+      "verify_pass": true,
+      "simulate_pass": true
+    },
+    {
+      "example": "04_superdense_coding",
+      "verify_pass": true,
+      "simulate_pass": true
+    },
+    {
+      "example": "05_single_qubit_rotations",
+      "verify_pass": true,
+      "simulate_pass": true
+    },
+    {
+      "example": "06_controlled_operations",
+      "verify_pass": true,
+      "simulate_pass": true
+    },
+    {
+      "example": "07_basis_measurement",
+      "verify_pass": true,
+      "simulate_pass": true
+    },
+    {
+      "example": "08_povm",
+      "verify_pass": true,
+      "simulate_pass": true
+    },
+    {
+      "example": "09_density_matrix_noise",
+      "verify_pass": true,
+      "simulate_pass": true
+    },
+    {
+      "example": "10_amplitude_damping",
+      "verify_pass": true,
+      "simulate_pass": true
+    },
+    {
+      "example": "11_depolarizing_channel",
+      "verify_pass": true,
+      "simulate_pass": true
+    },
+    {
+      "example": "12_repetition_error_correction",
+      "verify_pass": true,
+      "simulate_pass": true
+    },
+    {
+      "example": "13_stabilizer",
+      "verify_pass": true,
+      "simulate_pass": true
+    },
+    {
+      "example": "14_qft",
+      "verify_pass": true,
+      "simulate_pass": true
+    },
+    {
+      "example": "15_grover",
+      "verify_pass": true,
+      "simulate_pass": true
+    },
+    {
+      "example": "16_phase_estimation",
+      "verify_pass": true,
+      "simulate_pass": true
+    },
+    {
+      "example": "17_vqe",
+      "verify_pass": true,
+      "simulate_pass": true
+    },
+    {
+      "example": "18_qaoa",
+      "verify_pass": true,
+      "simulate_pass": true
+    },
+    {
+      "example": "19_hamiltonian_simulation",
+      "verify_pass": true,
+      "simulate_pass": true
+    },
+    {
+      "example": "20_measurement_feedback",
+      "verify_pass": true,
+      "simulate_pass": true
+    }
+  ],
+  "qcir_determinism_pass": true,
+  "qasm_smoke_pass": true,
+  "optimizer_smoke_pass": true,
+  "execution_boundary_pass": true,
+  "transform_numeric_pass": true
+}

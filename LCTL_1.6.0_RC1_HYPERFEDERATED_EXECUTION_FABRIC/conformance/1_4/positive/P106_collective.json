@@ -1,0 +1,7 @@
+{
+  "id": "P106",
+  "family": "collective",
+  "type": "scatter",
+  "workers": 3,
+  "expect": "PASS"
+}

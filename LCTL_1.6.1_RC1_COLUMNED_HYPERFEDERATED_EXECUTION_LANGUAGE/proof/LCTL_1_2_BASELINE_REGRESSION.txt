@@ -1,0 +1,65 @@
+{
+  "schema": "LCTL-DISTRIBUTED-CONFORMANCE/1.0",
+  "tests": [
+    {
+      "name": "core_valid_regression",
+      "pass": true,
+      "detail": "23 programs"
+    },
+    {
+      "name": "core_invalid_regression",
+      "pass": true,
+      "detail": "22 programs"
+    },
+    {
+      "name": "distributed_valid",
+      "pass": true,
+      "detail": "30 programs"
+    },
+    {
+      "name": "distributed_invalid",
+      "pass": true,
+      "detail": "30 programs"
+    },
+    {
+      "name": "qcir_p_determinism",
+      "pass": true,
+      "detail": "44a99fd8c1511a3bf60b4b9b3ca95735f5dc6ba19fc47a04be6b1bcc668d439d"
+    },
+    {
+      "name": "distributed_plan_determinism",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "causal_dag_generation",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "topology_hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "teleport_protocol_validation",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "distributed_emulator_label",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "physical_distributed_fail_closed",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "summary": {
+    "total": 11,
+    "pass": 11,
+    "fail": 0
+  }
+}

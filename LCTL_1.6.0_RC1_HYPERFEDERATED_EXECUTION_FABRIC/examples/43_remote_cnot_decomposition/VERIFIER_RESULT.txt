@@ -1,0 +1,1 @@
+PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.remote_cnot_decomposition frames=1 rows=5 sha256=fb924865de7ec0d46f00b209929c76245bffcaa460c739fdca42f629a7be5ef0

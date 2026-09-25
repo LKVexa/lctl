@@ -1,0 +1,1 @@
+{"status":"PASS_WITH_SCOPE","schema":"LCTL-STABILIZER/3.0","reset_measurement_breadth":"REFERENCE_PARTIAL","base":{"status":"PASS","schema":"LCTL-STABILIZER/2.0","workers":4,"batch_parallelism":true,"single_tableau_partitioning":"NOT_CLAIMED","deterministic_equivalence":true,"engine":"BINARY_SYMPLECTIC_TABLEAU"}}

@@ -1,0 +1,13 @@
+{
+  "source": "program.lctl",
+  "source_sha256": "c5d0753a625ecbdcf2fd7bf01e800927ee2d98f0be6de20bc093520578c7d9e7",
+  "runtime_inspect": {
+    "status": "PASS",
+    "bundle": "lctl.example.single_qubit_rotations",
+    "qubits": 1,
+    "cbits": 1,
+    "exec_rows": 4,
+    "approx_error": 0.0
+  },
+  "canonical_format": "LCTL/1.0"
+}

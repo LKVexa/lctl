@@ -1,0 +1,18 @@
+{
+  "status": "PASS_WITH_SCOPE",
+  "schema": "LCTL-PROTOCOL-DAG/3.0",
+  "parallel_independent_subgraphs": true,
+  "resource_pipelining": "REFERENCE",
+  "base": {
+    "status": "PASS_WITH_SCOPE",
+    "schema": "LCTL-PROTOCOL-DAG/2.0",
+    "ebit_reservation": true,
+    "rollback": true,
+    "base": {
+      "schema": "LCTL-PROTOCOL-DAG/2.0",
+      "protocols": [],
+      "schedulable_by_core_scheduler": true,
+      "physical_qpu": false
+    }
+  }
+}

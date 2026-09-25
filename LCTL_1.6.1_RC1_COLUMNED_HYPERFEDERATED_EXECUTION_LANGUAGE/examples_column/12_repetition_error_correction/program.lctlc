@@ -1,0 +1,17 @@
+LCTLC/1.0
+@unit id=lctl.example.repetition_error_correction version=1.0.0 profile=lctl.quantum.core entry=F0000:C0010 target=local-reference error_budget=0.01 resource_ceiling=q<=12;density<=8 proof=release-proof
+@defaults qspace=H basis=computational regime=exact assume=finite_dimension error=exact conf=1.0
+@frame id=F0000 parent=ROOT module=lctl.example.repetition_error_correction proof=lctl-core
+ID│LANE│OP│OUT│CTRL│IN│ARG│META
+D0001 │ alloc │ Q │ q │ _ │ _ │ 3 │ qs=H2^3;res="logical_qubits=3"
+D0002 │ alloc │ C │ c │ _ │ _ │ 1 │ qs=H2^3;res="classical_bits=1"
+C0010 │ circuit │ X │ q[0] │ _ │ q[0] │ _ │ _
+C0011 │ circuit │ CX │ q[1] │ q[0] │ q[1] │ _ │ _
+C0012 │ circuit │ CX │ q[2] │ q[0] │ q[2] │ _ │ _
+C0013 │ circuit │ X │ q[1] │ _ │ q[1] │ _ │ _
+C0014 │ circuit │ CX │ q[1] │ q[0] │ q[1] │ _ │ _
+C0015 │ circuit │ CX │ q[2] │ q[0] │ q[2] │ _ │ _
+C0016 │ circuit │ CCX │ q[0] │ q[2] │ q[1]›q[0] │ _ │ _
+C0017 │ measure │ MZ │ c[0] │ _ │ q[0] │ _ │ res="shots=runtime"
+M0018 │ qec │ STABILIZER │ repetition3 │ _ │ _ │ ZZI;IZZ │ f=MODEL;t=stabilizer;basis=Z;asm=single_bit_flip_model;res="distance=3";p=qec:repetition3
+@end

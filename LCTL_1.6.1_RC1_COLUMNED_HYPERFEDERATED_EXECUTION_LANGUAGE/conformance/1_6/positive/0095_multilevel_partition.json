@@ -1,0 +1,8 @@
+{
+  "schema": "LCTL-1.6-CONFORMANCE-CASE/1.0",
+  "polarity": "positive",
+  "id": 95,
+  "group": "multilevel_partition",
+  "expected": "PASS",
+  "runtime_gate": "fabric-selftest"
+}

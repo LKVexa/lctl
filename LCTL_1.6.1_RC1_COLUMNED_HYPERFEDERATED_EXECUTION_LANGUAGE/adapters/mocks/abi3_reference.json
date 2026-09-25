@@ -1,0 +1,15 @@
+{
+  "schema": "LCTL-ADAPTER-ABI/3.0",
+  "adapter": "reference_loopback_mock",
+  "endpoint": "loopback://reference",
+  "auth": "deterministic-test-signature",
+  "physical": false,
+  "dynamic_capabilities": true,
+  "topology_stream": true,
+  "calibration_stream": true,
+  "reservation": true,
+  "submit": true,
+  "status": true,
+  "cancel": true,
+  "receipt_retrieval": true
+}

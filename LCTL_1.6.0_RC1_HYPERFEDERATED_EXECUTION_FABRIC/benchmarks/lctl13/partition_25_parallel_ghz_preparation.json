@@ -1,0 +1,1 @@
+{"schema":"LCTL-PARTITION/1.0","partitions":2,"heuristic_cost":2.0,"exact_small_instance_cost":2.0,"optimality_gap":0.0,"assignments":[{"task":"C0010","partition":0},{"task":"C0020","partition":0},{"task":"C0030","partition":0},{"task":"C9999","partition":1}]}

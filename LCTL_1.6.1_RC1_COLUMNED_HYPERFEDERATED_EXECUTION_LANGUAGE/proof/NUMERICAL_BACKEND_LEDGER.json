@@ -1,0 +1,10 @@
+{
+  "schema": "LCTL-NUMERICAL-PLANNER/2.0",
+  "selected_backend": "DISTRIBUTED_STATEVECTOR",
+  "qubits": 4,
+  "noise": false,
+  "clifford_subset": true,
+  "workers": 4,
+  "rule": "LOWEST_COMMUNICATION_VALID_BACKEND_REFERENCE_POLICY",
+  "tensor_network": "PLANNER_ONLY_PARTIAL"
+}

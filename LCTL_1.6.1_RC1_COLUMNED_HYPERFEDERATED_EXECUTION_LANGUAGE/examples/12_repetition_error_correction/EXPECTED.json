@@ -1,0 +1,5 @@
+{
+  "title": "Three-qubit repetition error correction",
+  "expected": "Logical q[0] is recovered from a single X error on q[1].",
+  "notes": ""
+}

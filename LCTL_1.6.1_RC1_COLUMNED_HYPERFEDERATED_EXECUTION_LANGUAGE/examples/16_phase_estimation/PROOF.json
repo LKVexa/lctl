@@ -1,0 +1,14 @@
+{
+  "claim": "Phase estimation pattern",
+  "method": "reference simulation + invariant verification",
+  "source": "LCTL normative core",
+  "transform_role": "none",
+  "admission": "ADMIT_EXACT unless row regime says otherwise",
+  "execution_evidence": {
+    "verifier": "VERIFIER_RESULT.json",
+    "simulator": "SIMULATOR_RESULT.json",
+    "resource": "RESOURCE_REPORT.json",
+    "qcir": "QCIR.json"
+  },
+  "source_sha256": "491ad5b899cbfa1a345fa714bf60a226e86bba8fc7f159cfc1a3d3a5daaa2c44"
+}

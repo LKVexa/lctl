@@ -1,0 +1,20 @@
+{
+  "schema": "LCTL-1.4-CONFORMANCE/1.0",
+  "positive": {
+    "total": 160,
+    "pass": 160,
+    "fail": 0
+  },
+  "negative": {
+    "total": 160,
+    "pass": 160,
+    "fail": 0
+  },
+  "overall": {
+    "total": 320,
+    "pass": 320,
+    "fail": 0
+  },
+  "elapsed_seconds": 20.743631839752197,
+  "failures": []
+}

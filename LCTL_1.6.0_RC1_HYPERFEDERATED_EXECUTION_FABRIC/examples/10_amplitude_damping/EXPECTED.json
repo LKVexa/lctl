@@ -1,0 +1,5 @@
+{
+  "title": "Amplitude damping",
+  "expected": "Starting from |1>, output has P(1) near 0.75 before shot sampling.",
+  "notes": ""
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "LCTL-EBIT-POOL/1.5",
+  "status": "IMPLEMENTED_PARTIAL",
+  "scope": "LOGICAL_REFERENCE_ONLY",
+  "lifecycle": [
+    "REQUESTED",
+    "GENERATING",
+    "HERALDED",
+    "RESERVED",
+    "CONSUMED",
+    "EXPIRED",
+    "ROLLED_BACK"
+  ],
+  "scheduler_readiness_requires": [
+    "generated",
+    "heralded",
+    "reserved",
+    "unexpired"
+  ],
+  "min_cost_flow": "IMPLEMENTED_PARTIAL",
+  "time_expanded_paths": "IMPLEMENTED_PARTIAL",
+  "physical_ebit_inventory": "BLOCKED_EXTERNAL_AUTHORITY"
+}

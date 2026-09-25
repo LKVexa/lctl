@@ -1,0 +1,14 @@
+{
+  "claim": "Hamiltonian simulation",
+  "method": "reference simulation + invariant verification",
+  "source": "LCTL normative core",
+  "transform_role": "Calculus Transform D13 is used only for the local control-model linearization, not to replace unitary Hamiltonian evolution.",
+  "admission": "ADMIT_EXACT unless row regime says otherwise",
+  "execution_evidence": {
+    "verifier": "VERIFIER_RESULT.json",
+    "simulator": "SIMULATOR_RESULT.json",
+    "resource": "RESOURCE_REPORT.json",
+    "qcir": "QCIR.json"
+  },
+  "source_sha256": "aa6ee0f72931943ffbea46bd6a6041eddf23270a138c4b14a2f14243862dca9a"
+}

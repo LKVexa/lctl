@@ -1,0 +1,1 @@
+PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.domain_decomposition_halo_exchange frames=1 rows=6 sha256=c208b2c61af25bbf1750a4e5e9105362b8d1933ea5dee9d20bb195634c85a240

@@ -1,0 +1,1 @@
+{"status":"PASS_WITH_SCOPE","schema":"LCTL-TENSOR-NETWORK/2.0","numerical_execution":true,"bounded_contraction_oracle":"FULL_STATE_TENSOR_CONTRACTION_EQUIVALENT_REFERENCE","parallel_workers":2,"result_sha256":"832850bd37d90567feb80295e84a709562935bf03c9c6ce55d5713ffa1165f0e","equivalence_error":0.0,"production_sparse_contraction_tree":"IMPLEMENTED_PARTIAL"}

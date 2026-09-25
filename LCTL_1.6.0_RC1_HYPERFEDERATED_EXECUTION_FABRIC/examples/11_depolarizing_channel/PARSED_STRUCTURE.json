@@ -1,0 +1,13 @@
+{
+  "source": "program.lctl",
+  "source_sha256": "fb8f4705216a4abff40736d882e7385140a700d1c5a10a92ffd09a33608522b3",
+  "runtime_inspect": {
+    "status": "PASS",
+    "bundle": "lctl.example.depolarizing_channel",
+    "qubits": 1,
+    "cbits": 1,
+    "exec_rows": 2,
+    "approx_error": 0.0
+  },
+  "canonical_format": "LCTL/1.0"
+}

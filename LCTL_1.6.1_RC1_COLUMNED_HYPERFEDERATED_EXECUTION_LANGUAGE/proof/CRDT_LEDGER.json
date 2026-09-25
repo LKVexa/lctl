@@ -1,0 +1,1 @@
+{"status":"PASS","schema":"LCTL-CRDT/1.5","type":"G-COUNTER","replicas":4,"state":"count=10","merge_commutative":true,"merge_associative":true,"merge_idempotent":true,"quantum_state_crdt":false}

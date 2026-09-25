@@ -1,0 +1,108 @@
+{
+  "schema": "LCTL-PARTITIONER-QUALITY/1.0",
+  "cases": [
+    {
+      "case": "24_parallel_bell_pair_generation",
+      "schema": "LCTL-PARTITION/1.0",
+      "partitions": 2,
+      "heuristic_cost": 1.0,
+      "exact_small_instance_cost": 1.0,
+      "optimality_gap": 0.0,
+      "assignments": [
+        {
+          "task": "C0010",
+          "partition": 0
+        },
+        {
+          "task": "C0011",
+          "partition": 1
+        },
+        {
+          "task": "C0020",
+          "partition": 0
+        },
+        {
+          "task": "C0021",
+          "partition": 1
+        },
+        {
+          "task": "C9999",
+          "partition": 0
+        }
+      ]
+    },
+    {
+      "case": "25_parallel_ghz_preparation",
+      "schema": "LCTL-PARTITION/1.0",
+      "partitions": 2,
+      "heuristic_cost": 2.0,
+      "exact_small_instance_cost": 2.0,
+      "optimality_gap": 0.0,
+      "assignments": [
+        {
+          "task": "C0010",
+          "partition": 0
+        },
+        {
+          "task": "C0020",
+          "partition": 0
+        },
+        {
+          "task": "C0030",
+          "partition": 0
+        },
+        {
+          "task": "C9999",
+          "partition": 1
+        }
+      ]
+    },
+    {
+      "case": "34_work_span_analysis",
+      "schema": "LCTL-PARTITION/1.0",
+      "partitions": 1,
+      "heuristic_cost": 0.0,
+      "exact_small_instance_cost": null,
+      "assignments": [
+        {
+          "task": "C9999",
+          "partition": 0
+        }
+      ]
+    },
+    {
+      "case": "53_native_distributed_bell_fabric",
+      "schema": "LCTL-PARTITION/1.0",
+      "partitions": 2,
+      "heuristic_cost": 1.0,
+      "exact_small_instance_cost": 1.0,
+      "optimality_gap": 0.0,
+      "assignments": [
+        {
+          "task": "C0010",
+          "partition": 0
+        },
+        {
+          "task": "C0011",
+          "partition": 1
+        },
+        {
+          "task": "C0020",
+          "partition": 0
+        },
+        {
+          "task": "C0021",
+          "partition": 1
+        },
+        {
+          "task": "C9999",
+          "partition": 0
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "exact_comparisons": 3,
+    "zero_gap_cases": 3
+  }
+}

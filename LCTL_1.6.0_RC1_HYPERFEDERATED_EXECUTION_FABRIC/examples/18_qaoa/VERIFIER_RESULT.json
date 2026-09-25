@@ -1,0 +1,5 @@
+{
+  "exit": 0,
+  "pass": true,
+  "output": "PASS LCTL verify bundle=lctl.example.qaoa frames=1 rows=8 sha256=2e460fd494f3b4a9e1bea115823cfa3f938c0f2b879959cdbf1dbb65a00a5bbf"
+}

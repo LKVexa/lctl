@@ -1,0 +1,8 @@
+{
+  "schema": "LCTL-1.6-CONFORMANCE-CASE/1.0",
+  "polarity": "negative",
+  "id": 260,
+  "group": "stale_calibration",
+  "expected": "REJECT",
+  "runtime_gate": "fabric-selftest"
+}

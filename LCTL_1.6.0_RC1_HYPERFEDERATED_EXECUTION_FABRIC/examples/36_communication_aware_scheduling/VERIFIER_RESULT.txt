@@ -1,0 +1,1 @@
+PASS LCTL verify execution_class=SYMBOLIC physical_qpu=false quantum_boundary=NOT_CROSSED bundle=lctl.example.communication_aware_scheduling frames=1 rows=6 sha256=e3a41b4c8d239ab73313ddd19d01c37a9147b31479cbb9b30bfe7f5716ef323e

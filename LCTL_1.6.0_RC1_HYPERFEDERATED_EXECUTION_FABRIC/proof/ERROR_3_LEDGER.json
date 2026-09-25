@@ -1,0 +1,18 @@
+{
+  "schema": "LCTL-ERROR-ALGEBRA/3.0",
+  "status": "IMPLEMENTED_PARTIAL",
+  "implemented": [
+    "probability composition",
+    "infidelity metadata",
+    "variance metadata",
+    "numerical tolerance"
+  ],
+  "partial": [
+    "covariance matrices",
+    "correlated bounds",
+    "calibration uncertainty",
+    "timing uncertainty"
+  ],
+  "assumption_declaration_required": true,
+  "physical_calibration_authority": "BLOCKED_EXTERNAL_AUTHORITY"
+}

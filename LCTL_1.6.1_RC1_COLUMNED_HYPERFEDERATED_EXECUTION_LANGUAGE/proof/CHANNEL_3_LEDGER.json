@@ -1,0 +1,15 @@
+{
+  "status": "PASS_WITH_SCOPE",
+  "schema": "LCTL-CHANNEL/3.0",
+  "credit_flow_control": true,
+  "dead_peer_detection": "REFERENCE",
+  "base": {
+    "status": "PASS",
+    "schema": "LCTL-CHANNEL/1.5",
+    "capacity": 8,
+    "messages": 512,
+    "backpressure": true,
+    "producer_wait_nanos": 7680481,
+    "checksum": 130816
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "source": "program.lctl",
+  "source_sha256": "491ad5b899cbfa1a345fa714bf60a226e86bba8fc7f159cfc1a3d3a5daaa2c44",
+  "runtime_inspect": {
+    "status": "PASS",
+    "bundle": "lctl.example.phase_estimation",
+    "qubits": 2,
+    "cbits": 1,
+    "exec_rows": 5,
+    "approx_error": 0.0
+  },
+  "canonical_format": "LCTL/1.0"
+}

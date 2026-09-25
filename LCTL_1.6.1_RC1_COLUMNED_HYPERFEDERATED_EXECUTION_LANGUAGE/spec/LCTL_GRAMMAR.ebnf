@@ -1,0 +1,9 @@
+lctl = magic, bundle_header, bundle_row, { frame }, "END LCTL", bundle_seal ;
+magic = "LCTL/1.0" | "LCTL/1.1" | "LCTL/1.2" | "LCTL/1.3" ;
+profile = "lctl.quantum.core" | "lctl.quantum.parallel" | "lctl.quantum.parallel.distributed" | "lctl.quantum.parallel.distributed.native" ;
+frame = "QFRAME/1.0 BEGIN ", id, frame_header, frame_row, "QTUPLE/1.0", tuple_header, { tuple_row }, "END QTUPLE", "END QFRAME", frame_seal ;
+tuple_row = "(", cell, { " ¦ ", cell }, ")" ;
+face = "DECL" | "CODE" | "MODEL" | "ASSERT" | "EVIDENCE" | "LEARN" | "RESOURCE" | "TRANSFORM" | "PARALLEL" | "COUPLING" | "FIELD" | "DISTRIBUTED" | "TOPOLOGY" | "PROTOCOL" | "FAILURE" | "MEMORY" ;
+cell = ? UTF-8 text excluding raw LF and tuple delimiter ? ;
+frame_seal = "@frame sha256:", hex64 ;
+bundle_seal = "@bundle sha256:", hex64 ;

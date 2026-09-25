@@ -1,0 +1,16 @@
+{
+  "status": "IMPLEMENTED",
+  "schema": "LCTL-SOAK-QUALIFICATION/1.6",
+  "short_development_soak": {
+    "status": "PASS",
+    "schema": "LCTL-SOAK/1.0",
+    "requested_hours": 0.0003,
+    "actual_hours": 0.00030004865916666664,
+    "iterations": 592,
+    "stable_result_hash": "d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929"
+  },
+  "one_hour": "NOT_RUN",
+  "eight_hour": "NOT_RUN",
+  "twenty_four_hour": "NOT_RUN",
+  "seventy_two_hour": "NOT_RUN"
+}

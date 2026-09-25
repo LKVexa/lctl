@@ -1,0 +1,16 @@
+{
+  "schema": "LCTL-LOAD-BALANCE/1.4-RC1",
+  "status": "IMPLEMENTED_PARTIAL",
+  "executor": "Java fixed thread pool / CompletableFuture dependency runtime",
+  "observed_max_concurrency": 3,
+  "workers": 4,
+  "semantic_result_hash": "d6e579bc3e66790cf14b1982a705beab43ccbaf085cd755873cff91412cfc929",
+  "safe_migration_policy": "UNSTARTED_CLASSICAL_OR_OWNERSHIP_TRANSFER_ADMITTED_TASKS_ONLY",
+  "speculative_quantum_duplication": false,
+  "not_yet_complete": [
+    "explicit work-stealing policy",
+    "dynamic queue-cost rebalance",
+    "straggler speculation engine",
+    "runtime route/calibration-triggered rescheduling"
+  ]
+}

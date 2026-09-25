@@ -1,0 +1,14 @@
+{
+  "claim": "Basis measurement",
+  "method": "reference simulation + invariant verification",
+  "source": "LCTL normative core",
+  "transform_role": "none",
+  "admission": "ADMIT_EXACT unless row regime says otherwise",
+  "execution_evidence": {
+    "verifier": "VERIFIER_RESULT.json",
+    "simulator": "SIMULATOR_RESULT.json",
+    "resource": "RESOURCE_REPORT.json",
+    "qcir": "QCIR.json"
+  },
+  "source_sha256": "cf32d0617270b07aa6174a1c874b497ea37f673eb12c9bc8c2c5a3bb5b7014a8"
+}
