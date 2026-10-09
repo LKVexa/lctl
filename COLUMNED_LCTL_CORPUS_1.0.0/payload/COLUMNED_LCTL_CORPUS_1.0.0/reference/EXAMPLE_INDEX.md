@@ -1,0 +1,57 @@
+# Verified Example Index
+
+| # | Example | Rows | Compact bytes | Canonical bytes |
+|---:|---|---:|---:|---:|
+| 1 | `01_bell_state` | 6 | 863 | 2101 |
+| 2 | `02_ghz_state` | 8 | 1004 | 2466 |
+| 3 | `03_teleportation` | 12 | 1492 | 3151 |
+| 4 | `04_superdense_coding` | 10 | 1121 | 2740 |
+| 5 | `05_single_qubit_rotations` | 6 | 874 | 2081 |
+| 6 | `06_controlled_operations` | 5 | 776 | 1862 |
+| 7 | `07_basis_measurement` | 4 | 734 | 1748 |
+| 8 | `08_povm` | 3 | 713 | 1539 |
+| 9 | `09_density_matrix_noise` | 5 | 877 | 1929 |
+| 10 | `10_amplitude_damping` | 5 | 885 | 1937 |
+| 11 | `11_depolarizing_channel` | 4 | 823 | 1780 |
+| 12 | `12_repetition_error_correction` | 11 | 1305 | 2914 |
+| 13 | `13_stabilizer` | 5 | 852 | 1863 |
+| 14 | `14_qft` | 8 | 987 | 2371 |
+| 15 | `15_grover` | 16 | 1459 | 3648 |
+| 16 | `16_phase_estimation` | 7 | 936 | 2240 |
+| 17 | `17_vqe` | 5 | 985 | 1911 |
+| 18 | `18_qaoa` | 8 | 1158 | 2376 |
+| 19 | `19_hamiltonian_simulation` | 4 | 994 | 1823 |
+| 20 | `20_measurement_feedback` | 6 | 983 | 2163 |
+| 21 | `21_parallel_bell_pairs` | 10 | 1652 | 4006 |
+| 22 | `22_coupled_continuum_parallel` | 8 | 1417 | 2643 |
+| 23 | `23_independent_quantum_lanes` | 9 | 1295 | 2651 |
+| 24 | `24_parallel_bell_pair_generation` | 8 | 1086 | 2415 |
+| 25 | `25_parallel_ghz_preparation` | 7 | 1018 | 2252 |
+| 26 | `26_parallel_independent_shots` | 6 | 1092 | 2189 |
+| 27 | `27_distributed_parameter_sweep` | 7 | 1178 | 2344 |
+| 28 | `28_parallel_parameter_shift_gradient` | 6 | 1076 | 2181 |
+| 29 | `29_measurement_conditioned_branch` | 6 | 1135 | 2160 |
+| 30 | `30_two_node_classical_pipeline` | 8 | 1341 | 2592 |
+| 31 | `31_domain_decomposition_halo_exchange` | 6 | 1089 | 2204 |
+| 32 | `32_bsp_supersteps` | 6 | 1024 | 2138 |
+| 33 | `33_asynchronous_future_event_execution` | 6 | 1112 | 2199 |
+| 34 | `34_work_span_analysis` | 5 | 912 | 1940 |
+| 35 | `35_topology_aware_placement` | 8 | 1332 | 2566 |
+| 36 | `36_communication_aware_scheduling` | 6 | 1085 | 2199 |
+| 37 | `37_numa_aware_classical_placement` | 8 | 1343 | 2560 |
+| 38 | `38_distributed_statevector_simulation` | 6 | 1144 | 2241 |
+| 39 | `39_distributed_density_matrix_simulation` | 6 | 1147 | 2244 |
+| 40 | `40_distributed_stabilizer_simulation` | 6 | 1137 | 2224 |
+| 41 | `41_epr_generation` | 8 | 1298 | 2565 |
+| 42 | `42_teleportation_across_logical_nodes` | 9 | 1493 | 2840 |
+| 43 | `43_remote_cnot_decomposition` | 5 | 993 | 2024 |
+| 44 | `44_entanglement_swapping` | 5 | 911 | 1969 |
+| 45 | `45_classical_feedback_across_nodes` | 8 | 1384 | 2628 |
+| 46 | `46_target_rerouting_after_node_failure` | 5 | 1006 | 2027 |
+| 47 | `47_shot_retry_after_target_failure` | 5 | 1006 | 2027 |
+| 48 | `48_weakly_coupled_partition` | 8 | 1246 | 2546 |
+| 49 | `49_strongly_coupled_monolithic_schedule` | 6 | 1062 | 2194 |
+| 50 | `50_reciprocal_coupling_validation` | 5 | 953 | 1978 |
+| 51 | `51_impossible_consistency_partition_guarantee` | 5 | 1114 | 2098 |
+| 52 | `52_physical_distributed_execution_blocked` | 6 | 1121 | 2196 |
+| 53 | `53_native_distributed_bell_fabric` | 14 | 1834 | 3647 |

@@ -1,0 +1,1 @@
+Learn to read, write, lower, and validate Columned LCTL through all 53 compiler-verified examples, compact-to-canonical row pairs, instruction records, and diagnostic fixtures. A 34-chapter handbook and 200-exercise workbook support human instruction and model training, while the included compiler preserves canonical LCTL as the semantic authority.

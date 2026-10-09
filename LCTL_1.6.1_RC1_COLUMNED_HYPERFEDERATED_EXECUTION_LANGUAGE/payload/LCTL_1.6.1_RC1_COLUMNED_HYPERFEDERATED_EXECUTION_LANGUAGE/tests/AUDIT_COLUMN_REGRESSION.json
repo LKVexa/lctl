@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "checks": 120,
+  "canonical_example_roundtrips": 53,
+  "negative_source_variants": 14,
+  "policy_fields_preserved": true
+}

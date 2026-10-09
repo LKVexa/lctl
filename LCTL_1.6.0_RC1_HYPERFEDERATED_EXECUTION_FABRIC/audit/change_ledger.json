@@ -1,0 +1,842 @@
+[
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlDescriptorConformanceMain.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "651642df58f34460553fb9c014ff18bb0a2a7fb35d99795913566a0dd2440c55"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlFabricMain$C.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "cef9433c4083b42dd52c2c5d67ebdfe058818462f78d6a6e7126340eb349f1bb"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlFabricMain$Edge.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "9bf0f783702ba30c1be2673b3415b8d49ee8f4815b446995a06f853e3a646788"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlFabricMain$Graph.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "d7451a2742b8c42a63cf2551dbe57be3b805268b827ba83fb3d6c98a28739b5c"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlFabricMain$PartitionResult.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "bd764a4ad570e86141607e24ca2f3c42fa7be37b09aa550cd7f212e919dd9b85"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlFabricMain$Placement.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "4004b8caa74a8262ab81057b23344afe5e624cb20cdf5a2d8a2cb543e2a5cfc6"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlFabricMain$Prog.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "28d86e5402b96f97dfd6ed2c5f9c3353175f9bb8ec6f72cc6fd49b2196ab241a"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlFabricMain$Route.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "1d1954470769c6048a885a07ef7958fad4e1a355cbdf46aaff76c09291b549d1"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlFabricMain$Row.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "32ea75088961335b67e688f9f2ef91b771dd8e0ef35ea9f1cc9af153590c7629"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlFabricMain$ScheduleItem.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "833484b219b0411a2c3b2c341ac95fc01a33a3b249d4741501d320321b1973e0"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlFabricMain$StateRun.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "b8ca9ffaca0713b00fca97175cea909509620cbac6be4eb157245dd171d19722"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlFabricMain$TEdge.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "3999713364eb165765528a4c8504f736390068ca82165fcd7dc2d65e75e44dec"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlFabricMain$TNode.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "b1963b29f91f0b6e08be3bc7b974b850669e3723dbe0c0350d7b9b9a252f94d4"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlFabricMain$Topology.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "7735a6167f9ca7735888bf44f467d57b10aa0e46f7e797ed13bb1622beb533f5"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlFabricMain$X.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "ccae21752d489f73389f889311be29fb34519af1e93ae63eeaed70a50c5b8243"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlFabricMain.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "d7cf95a3075291239a4b4635c1fd2f7c9b968ddce5ae820c606dac7b56bf4af6"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlFederatedMain$C.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "10813df27296b498ff498244cf840cb1c7c094a5bb031ae7d8373fcce6d809cc"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlFederatedMain$F.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "e6c29df9d08e56db12d128ae4d103e1759173f339facacfedcec619c3f105a3c"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlFederatedMain.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "08b5e264ad4b99e9b8c3a06540eeaa0399cb7ec7a3bffe255c59a43346fe2a3c"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlHyperFederatedMain$H.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "d8ff24b06641b071dfe2aede05561285adf09cf00b4fc87c94ed703b48a5c191"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlHyperFederatedMain$StealResult.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "7d08c3816971181cc50d6e5664df68a50a32887469724b9314ac996cde572c0a"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlHyperFederatedMain.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "3d2e3da5aa3038e5f14d98155d798350bc66bae1cd8b1a6eda260de11eb152c3"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlMain$C.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "a3bc4c47fdba422f9b3b5ca6a13ff533dd7302095f11d027c7168d07f8aa6267"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlMain$Frame.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "8f02604431fcd5cfff0803424297331ea7b379bc24c20862f5d4cc2013709654"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlMain$Program.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "fb4b6b57a46347efe2899b015728f49e9cdd4a716775e1330e2ef7fd2807955a"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlMain$Result.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "1a682130470336c6aee51e71f53cbcdf17a6df36dcbade382029592848f3ba8d"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlMain$Row.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "47e6c7f8c7c29a8ec87a53327af77b1990f7c99b1a798b015a9dfa1eb940cba5"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlMain$Unit.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "0792b78ebd73988d0ee59c814d68f71b62287d67f7088f923baa54d8fec5ebe6"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlMain$X.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "c44ee916c43b78a2a7de1aed2cd70d7d6ca571f56718df5fc4fb681646270000"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlMain.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "285e548217fae9c1017bac17cc502dfcb0cf4e6720f4c301dd82be090ff4e07d"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlMeshMain$DRun.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "1947e5346e6d9c8d9c35ab9b3211c40d55bd6f87e568740a9ac15511f303d0cc"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlMeshMain$HPart.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "9f627a303e949a417227ad5207be6ce1a8acdbd36a26a29981f7b700c1fbde80"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlMeshMain$M.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "9b6c15622439fd2a38cc959c87e8e8a24b87135281b0a8fada51cb12b9120c14"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlMeshMain$PO.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "856d0dd26b5bd0b474c2eae5e056455e4d3154c6b046f9af7c257e3e8b8aad95"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlMeshMain$RuntimeReceipt.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "2917890ec5b987eacc7bad2cec594887e354cfbc5184b3287ea146871e024a09"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlMeshMain$Z.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "77ac54a7fe4e9917473650d93b54d02dfcbe3f93cd4f1963585e8d3f75f3626f"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/LctlMeshMain.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "7e78e1e55305967561a89a83289fd54dcd9e2b01a64f0f45ebb49718ba9b2371"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/build/audit-classes/NumericAndAdmissionRegression.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "94c8365d96706987c1a74c519e77505a2f638469dd7261572acc12ab07811b61"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/MANIFEST.json",
+    "status": "changed",
+    "source_sha256": "f160a74abca398561aa862e81fa2d40c79e62345df51e006ab1418533d41a262",
+    "updated_sha256": "205d5951ef63a1c4babcc6a645b784418e6bc4610ca5ebc777b62d5ef0aef70f"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/PACKAGE_SHA256SUMS.txt",
+    "status": "changed",
+    "source_sha256": "5eded1d9b9acb2a842c829cff5ea7d2a9418b19beeaff91b5727f6c3aed3b4d4",
+    "updated_sha256": "175c9529fbf4d08196db808aae31c4d92b69d9ef3a34f02e5d9c9e9b1ddd7c4e"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/MANIFEST.source.json",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "f160a74abca398561aa862e81fa2d40c79e62345df51e006ab1418533d41a262"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/PACKAGE_SHA256SUMS.source.txt",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "5eded1d9b9acb2a842c829cff5ea7d2a9418b19beeaff91b5727f6c3aed3b4d4"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlFabricMain$C.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "cef9433c4083b42dd52c2c5d67ebdfe058818462f78d6a6e7126340eb349f1bb"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlFabricMain$Edge.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "9bf0f783702ba30c1be2673b3415b8d49ee8f4815b446995a06f853e3a646788"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlFabricMain$Graph.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "d7451a2742b8c42a63cf2551dbe57be3b805268b827ba83fb3d6c98a28739b5c"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlFabricMain$PartitionResult.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "bd764a4ad570e86141607e24ca2f3c42fa7be37b09aa550cd7f212e919dd9b85"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlFabricMain$Placement.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "4004b8caa74a8262ab81057b23344afe5e624cb20cdf5a2d8a2cb543e2a5cfc6"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlFabricMain$Prog.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "28d86e5402b96f97dfd6ed2c5f9c3353175f9bb8ec6f72cc6fd49b2196ab241a"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlFabricMain$Route.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "1d1954470769c6048a885a07ef7958fad4e1a355cbdf46aaff76c09291b549d1"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlFabricMain$Row.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "32ea75088961335b67e688f9f2ef91b771dd8e0ef35ea9f1cc9af153590c7629"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlFabricMain$ScheduleItem.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "833484b219b0411a2c3b2c341ac95fc01a33a3b249d4741501d320321b1973e0"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlFabricMain$StateRun.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "b8ca9ffaca0713b00fca97175cea909509620cbac6be4eb157245dd171d19722"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlFabricMain$TEdge.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "3999713364eb165765528a4c8504f736390068ca82165fcd7dc2d65e75e44dec"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlFabricMain$TNode.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "b1963b29f91f0b6e08be3bc7b974b850669e3723dbe0c0350d7b9b9a252f94d4"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlFabricMain$Topology.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "7735a6167f9ca7735888bf44f467d57b10aa0e46f7e797ed13bb1622beb533f5"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlFabricMain$X.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "ccae21752d489f73389f889311be29fb34519af1e93ae63eeaed70a50c5b8243"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlFabricMain.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "6f8933a206426801b092a014ad3c2fd965594977f98256af1d50e21a0af27586"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlFederatedMain$C.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "10813df27296b498ff498244cf840cb1c7c094a5bb031ae7d8373fcce6d809cc"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlFederatedMain$F.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "e6c29df9d08e56db12d128ae4d103e1759173f339facacfedcec619c3f105a3c"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlFederatedMain.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "6a7528e5bccb2910d3b49e15635e2be828800ffe34854cdee5ef7d795490e9e4"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlMain$C.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "a3bc4c47fdba422f9b3b5ca6a13ff533dd7302095f11d027c7168d07f8aa6267"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlMain$Frame.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "8f02604431fcd5cfff0803424297331ea7b379bc24c20862f5d4cc2013709654"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlMain$Program.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "fb4b6b57a46347efe2899b015728f49e9cdd4a716775e1330e2ef7fd2807955a"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlMain$Result.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "1a682130470336c6aee51e71f53cbcdf17a6df36dcbade382029592848f3ba8d"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlMain$Row.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "47e6c7f8c7c29a8ec87a53327af77b1990f7c99b1a798b015a9dfa1eb940cba5"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlMain$Unit.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "d7360a3e1d47e5663573fc339afab987d4da555599310b8595e0b2479e70d558"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlMain$X.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "c44ee916c43b78a2a7de1aed2cd70d7d6ca571f56718df5fc4fb681646270000"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlMain.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "41432fd408baf2e39b4a4d9266c186098123aa7df111bace9b3e6c09cadcf18e"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlMeshMain$DRun.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "1947e5346e6d9c8d9c35ab9b3211c40d55bd6f87e568740a9ac15511f303d0cc"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlMeshMain$HPart.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "9f627a303e949a417227ad5207be6ce1a8acdbd36a26a29981f7b700c1fbde80"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlMeshMain$M.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "9b6c15622439fd2a38cc959c87e8e8a24b87135281b0a8fada51cb12b9120c14"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlMeshMain$PO.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "856d0dd26b5bd0b474c2eae5e056455e4d3154c6b046f9af7c257e3e8b8aad95"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlMeshMain$RuntimeReceipt.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "2917890ec5b987eacc7bad2cec594887e354cfbc5184b3287ea146871e024a09"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlMeshMain$Z.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "77ac54a7fe4e9917473650d93b54d02dfcbe3f93cd4f1963585e8d3f75f3626f"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/classes/LctlMeshMain.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "7e78e1e55305967561a89a83289fd54dcd9e2b01a64f0f45ebb49718ba9b2371"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/fabric_classes/LctlFabricMain$C.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "cef9433c4083b42dd52c2c5d67ebdfe058818462f78d6a6e7126340eb349f1bb"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/fabric_classes/LctlFabricMain$Edge.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "9bf0f783702ba30c1be2673b3415b8d49ee8f4815b446995a06f853e3a646788"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/fabric_classes/LctlFabricMain$Graph.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "d7451a2742b8c42a63cf2551dbe57be3b805268b827ba83fb3d6c98a28739b5c"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/fabric_classes/LctlFabricMain$PartitionResult.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "bd764a4ad570e86141607e24ca2f3c42fa7be37b09aa550cd7f212e919dd9b85"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/fabric_classes/LctlFabricMain$Placement.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "4004b8caa74a8262ab81057b23344afe5e624cb20cdf5a2d8a2cb543e2a5cfc6"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/fabric_classes/LctlFabricMain$Prog.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "28d86e5402b96f97dfd6ed2c5f9c3353175f9bb8ec6f72cc6fd49b2196ab241a"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/fabric_classes/LctlFabricMain$Route.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "1d1954470769c6048a885a07ef7958fad4e1a355cbdf46aaff76c09291b549d1"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/fabric_classes/LctlFabricMain$Row.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "32ea75088961335b67e688f9f2ef91b771dd8e0ef35ea9f1cc9af153590c7629"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/fabric_classes/LctlFabricMain$ScheduleItem.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "833484b219b0411a2c3b2c341ac95fc01a33a3b249d4741501d320321b1973e0"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/fabric_classes/LctlFabricMain$StateRun.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "b8ca9ffaca0713b00fca97175cea909509620cbac6be4eb157245dd171d19722"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/fabric_classes/LctlFabricMain$TEdge.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "3999713364eb165765528a4c8504f736390068ca82165fcd7dc2d65e75e44dec"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/fabric_classes/LctlFabricMain$TNode.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "b1963b29f91f0b6e08be3bc7b974b850669e3723dbe0c0350d7b9b9a252f94d4"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/fabric_classes/LctlFabricMain$Topology.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "7735a6167f9ca7735888bf44f467d57b10aa0e46f7e797ed13bb1622beb533f5"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/fabric_classes/LctlFabricMain$X.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "ccae21752d489f73389f889311be29fb34519af1e93ae63eeaed70a50c5b8243"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/fabric_classes/LctlFabricMain.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "6f8933a206426801b092a014ad3c2fd965594977f98256af1d50e21a0af27586"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/mesh_classes/LctlFabricMain$C.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "cef9433c4083b42dd52c2c5d67ebdfe058818462f78d6a6e7126340eb349f1bb"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/mesh_classes/LctlFabricMain$Edge.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "9bf0f783702ba30c1be2673b3415b8d49ee8f4815b446995a06f853e3a646788"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/mesh_classes/LctlFabricMain$Graph.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "d7451a2742b8c42a63cf2551dbe57be3b805268b827ba83fb3d6c98a28739b5c"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/mesh_classes/LctlFabricMain$PartitionResult.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "bd764a4ad570e86141607e24ca2f3c42fa7be37b09aa550cd7f212e919dd9b85"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/mesh_classes/LctlFabricMain$Placement.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "4004b8caa74a8262ab81057b23344afe5e624cb20cdf5a2d8a2cb543e2a5cfc6"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/mesh_classes/LctlFabricMain$Prog.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "28d86e5402b96f97dfd6ed2c5f9c3353175f9bb8ec6f72cc6fd49b2196ab241a"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/mesh_classes/LctlFabricMain$Route.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "1d1954470769c6048a885a07ef7958fad4e1a355cbdf46aaff76c09291b549d1"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/mesh_classes/LctlFabricMain$Row.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "32ea75088961335b67e688f9f2ef91b771dd8e0ef35ea9f1cc9af153590c7629"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/mesh_classes/LctlFabricMain$ScheduleItem.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "833484b219b0411a2c3b2c341ac95fc01a33a3b249d4741501d320321b1973e0"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/mesh_classes/LctlFabricMain$StateRun.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "b8ca9ffaca0713b00fca97175cea909509620cbac6be4eb157245dd171d19722"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/mesh_classes/LctlFabricMain$TEdge.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "3999713364eb165765528a4c8504f736390068ca82165fcd7dc2d65e75e44dec"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/mesh_classes/LctlFabricMain$TNode.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "b1963b29f91f0b6e08be3bc7b974b850669e3723dbe0c0350d7b9b9a252f94d4"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/mesh_classes/LctlFabricMain$Topology.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "7735a6167f9ca7735888bf44f467d57b10aa0e46f7e797ed13bb1622beb533f5"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/mesh_classes/LctlFabricMain$X.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "ccae21752d489f73389f889311be29fb34519af1e93ae63eeaed70a50c5b8243"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/mesh_classes/LctlFabricMain.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "6f8933a206426801b092a014ad3c2fd965594977f98256af1d50e21a0af27586"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/mesh_classes/LctlMeshMain$DRun.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "1947e5346e6d9c8d9c35ab9b3211c40d55bd6f87e568740a9ac15511f303d0cc"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/mesh_classes/LctlMeshMain$HPart.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "9f627a303e949a417227ad5207be6ce1a8acdbd36a26a29981f7b700c1fbde80"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/mesh_classes/LctlMeshMain$M.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "9b6c15622439fd2a38cc959c87e8e8a24b87135281b0a8fada51cb12b9120c14"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/mesh_classes/LctlMeshMain$PO.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "856d0dd26b5bd0b474c2eae5e056455e4d3154c6b046f9af7c257e3e8b8aad95"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/mesh_classes/LctlMeshMain$RuntimeReceipt.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "2917890ec5b987eacc7bad2cec594887e354cfbc5184b3287ea146871e024a09"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/mesh_classes/LctlMeshMain$Z.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "77ac54a7fe4e9917473650d93b54d02dfcbe3f93cd4f1963585e8d3f75f3626f"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_classes/mesh_classes/LctlMeshMain.class",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "7e78e1e55305967561a89a83289fd54dcd9e2b01a64f0f45ebb49718ba9b2371"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_runtime/lctl-fabric.jar",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "e68f9679441ab7942986a9d41d7f8720ed9ea6f20e68669ee9c870a7aaa40814"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_runtime/lctl-federated.jar",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "0114bd1e631bb7d90e8110b790d69984cc9f1ff23b8acbf21ece8ebce7ae1ce5"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_runtime/lctl-hyperfederated.jar",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "7af21c4bdc2a568299ca59911ac72189313b74caaf437c4f1975dfcb9268012e"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_runtime/lctl-mesh.jar",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "03a5f9aa50678c248091a1d666c298512dacb4c78c258c2e3d2c6f4db9197c8d"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/source_runtime/lctl-runtime.jar",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "39798f906c3564fdc31ae4aa5935f62e1f672b005bef937aa96e4bdb6310a958"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/README_START_HERE.md",
+    "status": "changed",
+    "source_sha256": "04cfa16ded085f109d1209af83737203a9eaae699794e0c994349773da707815",
+    "updated_sha256": "5b40fc9d301a665364394f503c0ba1faf8b070b37ac901dfc72f18d30f58c2fd"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/runtime/bin/lctl-fabric.jar",
+    "status": "changed",
+    "source_sha256": "e68f9679441ab7942986a9d41d7f8720ed9ea6f20e68669ee9c870a7aaa40814",
+    "updated_sha256": "0638280e57c9519f4b3dbefe87137d889a04d229dc4cbc3ee8aba89f4e3a7945"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/runtime/bin/lctl-federated.jar",
+    "status": "changed",
+    "source_sha256": "0114bd1e631bb7d90e8110b790d69984cc9f1ff23b8acbf21ece8ebce7ae1ce5",
+    "updated_sha256": "81563248c6b58910b2627f76c346865ecc817f919a40b33c16e2a8d863af965a"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/runtime/bin/lctl-hyperfederated.jar",
+    "status": "changed",
+    "source_sha256": "7af21c4bdc2a568299ca59911ac72189313b74caaf437c4f1975dfcb9268012e",
+    "updated_sha256": "b1ea971d88bac3b95f60788ad654dafd1506d7afeed50be470d5bcd459a1845c"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/runtime/bin/lctl-mesh.jar",
+    "status": "changed",
+    "source_sha256": "03a5f9aa50678c248091a1d666c298512dacb4c78c258c2e3d2c6f4db9197c8d",
+    "updated_sha256": "e50300facd46357afa5ba51471ad73e09d25369e41bb7da51b9442a76296743f"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/runtime/bin/lctl-runtime.jar",
+    "status": "changed",
+    "source_sha256": "39798f906c3564fdc31ae4aa5935f62e1f672b005bef937aa96e4bdb6310a958",
+    "updated_sha256": "7959b60ac86bdbcda5543bfdfc0ded369463ae7fff8c97cf33411df2b42368a2"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/runtime/classes/LctlFabricMain.class",
+    "status": "changed",
+    "source_sha256": "6f8933a206426801b092a014ad3c2fd965594977f98256af1d50e21a0af27586",
+    "updated_sha256": "d7cf95a3075291239a4b4635c1fd2f7c9b968ddce5ae820c606dac7b56bf4af6"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/runtime/classes/LctlFederatedMain.class",
+    "status": "changed",
+    "source_sha256": "6a7528e5bccb2910d3b49e15635e2be828800ffe34854cdee5ef7d795490e9e4",
+    "updated_sha256": "08b5e264ad4b99e9b8c3a06540eeaa0399cb7ec7a3bffe255c59a43346fe2a3c"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/runtime/classes/LctlMain$Unit.class",
+    "status": "changed",
+    "source_sha256": "d7360a3e1d47e5663573fc339afab987d4da555599310b8595e0b2479e70d558",
+    "updated_sha256": "0792b78ebd73988d0ee59c814d68f71b62287d67f7088f923baa54d8fec5ebe6"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/runtime/classes/LctlMain.class",
+    "status": "changed",
+    "source_sha256": "41432fd408baf2e39b4a4d9266c186098123aa7df111bace9b3e6c09cadcf18e",
+    "updated_sha256": "285e548217fae9c1017bac17cc502dfcb0cf4e6720f4c301dd82be090ff4e07d"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/runtime/fabric_classes/LctlFabricMain.class",
+    "status": "changed",
+    "source_sha256": "6f8933a206426801b092a014ad3c2fd965594977f98256af1d50e21a0af27586",
+    "updated_sha256": "d7cf95a3075291239a4b4635c1fd2f7c9b968ddce5ae820c606dac7b56bf4af6"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/runtime/mesh_classes/LctlFabricMain.class",
+    "status": "changed",
+    "source_sha256": "6f8933a206426801b092a014ad3c2fd965594977f98256af1d50e21a0af27586",
+    "updated_sha256": "d7cf95a3075291239a4b4635c1fd2f7c9b968ddce5ae820c606dac7b56bf4af6"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/runtime/src/LctlDescriptorConformanceMain.java",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "46a1a4a732bb0446b1c497295de9a49ff0e26655d38cbdc40ed720ae01225791"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/runtime/src/LctlFabricMain.java",
+    "status": "changed",
+    "source_sha256": "93d6d98784b171e7f8d60d49367517f0e9383122c0a78c814c26c569f4b5b28b",
+    "updated_sha256": "0d0ae8b5b8e1821f9379429f68798cb1527d1d0ca1536d0780ef3d21e9508371"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/runtime/src/LctlFederatedMain.java",
+    "status": "changed",
+    "source_sha256": "84f44b79ff9e865fd3fc8a49ac0899c0c1f6e17fc7d210d183fd1f5baf1102ce",
+    "updated_sha256": "c7f03d855d4f8afe0516c478eb3512efaa4e5000c07d42f83218f29f8d9340c5"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/runtime/src/LctlHyperFederatedMain.java",
+    "status": "changed",
+    "source_sha256": "d5e9083a75106364aa7772a62e713ef6ec1d65d079f43acb6535d842e48acb05",
+    "updated_sha256": "a7281c4175d6b5b9c403beb88fdc2f752715d3b2c950feedf7325b780689f9e8"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/runtime/src/LctlMain.java",
+    "status": "changed",
+    "source_sha256": "55979d4934650128e4cf89ec7b22ddc4524586f0992b29081eb2680c696f4b8d",
+    "updated_sha256": "8714ea17d376658d326779392e883f906aab3d97699bcdc7f436411451ed92e8"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/tests/NumericAndAdmissionRegression.java",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "1971b5f4949384d950a6f06000f8edcbfb485182e3ac39f94850f3a9e45b25a4"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/tests/test_evidence_scope.py",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "a9093d5c321d329de6e20ade576b2aea3117626890d97d1853cfcec04cea3f08"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/tools/run_lctl14_conformance.py",
+    "status": "changed",
+    "source_sha256": "f3a17b63c7f0e7f2c07acdaeee94bf710d18ed14e8b57a2ef06931e18151cd8e",
+    "updated_sha256": "11bc8160b6896eed83008385bf13b79c3ca2e0530da26b679c1976359403d0ea"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/tools/run_lctl15_conformance.py",
+    "status": "changed",
+    "source_sha256": "2a352ed021fe7a289b4dec9f206141e4f619cb331420c3a52295f5d1a9410073",
+    "updated_sha256": "b301e27ac439e27971aad8b076d877faad48d7d588611ae759a636d363aa1a0a"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/tools/run_lctl16_conformance.py",
+    "status": "changed",
+    "source_sha256": "ac885c8ee1ef4f52581af5dab84c399920fd0655be21b738ab7ad859796a3603",
+    "updated_sha256": "e98aa98883ea378585bf1a801e939ab2406f9de6670de70fc38aa6624e9d81ef"
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/tools/verify_package_checksums.py",
+    "status": "changed",
+    "source_sha256": "ab186bf749c8e2671a97f7a3d90cda95c97a65758ad6075c6e4a7f66fece0adb",
+    "updated_sha256": "ed62fd18e3138e3ec52b4e9c1ef27c95a646bafadeb3ac5c166bb5f136c22f72"
+  }
+]

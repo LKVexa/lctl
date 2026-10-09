@@ -1,0 +1,417 @@
+[
+  {
+    "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/machine/row_pairs.jsonl",
+    "records": 365,
+    "invalid": 0,
+    "duplicate_ids": 0,
+    "unique_ids": 0,
+    "uncompressed_bytes": 328459,
+    "uncompressed_sha256": "264950ecc6edd4f1120bfd0cee0b4a235358b36b6f90476c09881fa069064f2c",
+    "key_counts": {
+      "example": 365,
+      "unit_id": 365,
+      "ordinal": 365,
+      "compact": 365,
+      "canonical": 365,
+      "alias_expansion": 365,
+      "source_columns": 365,
+      "canonical_columns": 365,
+      "inferred": 365
+    },
+    "field_types": {
+      "example": {
+        "str": 365
+      },
+      "unit_id": {
+        "str": 365
+      },
+      "ordinal": {
+        "int": 365
+      },
+      "compact": {
+        "dict": 365
+      },
+      "canonical": {
+        "dict": 365
+      },
+      "alias_expansion": {
+        "str": 365
+      },
+      "source_columns": {
+        "int": 365
+      },
+      "canonical_columns": {
+        "int": 365
+      },
+      "inferred": {
+        "dict": 365
+      }
+    },
+    "profiles": {},
+    "samples": [
+      {
+        "example": "01_bell_state",
+        "unit_id": "lctl.example.bell_state",
+        "ordinal": 1,
+        "compact": {
+          "id": "D0001",
+          "lane": "alloc",
+          "op": "Q",
+          "out": "q",
+          "ctrl": "_",
+          "in": "_",
+          "arg": "2",
+          "meta": "qs=H2^2;res=\"logical_qubits=2\""
+        },
+        "canonical": {
+          "id": "D0001",
+          "face": "DECL",
+          "lane": "alloc",
+          "qspace": "H2^2",
+          "op": "QREG",
+          "out": "q",
+          "ctrl": "_",
+          "a": "_",
+          "b": "_",
+          "param": "2",
+          "type": "qreg[2]",
+          "basis": "computational",
+          "regime": "exact",
+          "assume": "finite_dimension",
+          "error": "exact",
+          "resource": "logical_qubits=2",
+          "conf": "1.0",
+          "proof": "type:qreg"
+        },
+        "alias_expansion": "QREG",
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "inferred": {
+          "face": "DECL",
+          "qspace": "H2^2",
+          "type": "qreg[2]",
+          "basis": "computational",
+          "regime": "exact",
+          "assume": "finite_dimension",
+          "error": "exact",
+          "resource": "logical_qubits=2",
+          "conf": "1.0",
+          "proof": "type:qreg"
+        }
+      },
+      {
+        "example": "01_bell_state",
+        "unit_id": "lctl.example.bell_state",
+        "ordinal": 2,
+        "compact": {
+          "id": "D0002",
+          "lane": "alloc",
+          "op": "C",
+          "out": "c",
+          "ctrl": "_",
+          "in": "_",
+          "arg": "2",
+          "meta": "qs=H2^2;res=\"classical_bits=2\""
+        },
+        "canonical": {
+          "id": "D0002",
+          "face": "DECL",
+          "lane": "alloc",
+          "qspace": "H2^2",
+          "op": "CREG",
+          "out": "c",
+          "ctrl": "_",
+          "a": "_",
+          "b": "_",
+          "param": "2",
+          "type": "bit[2]",
+          "basis": "computational",
+          "regime": "exact",
+          "assume": "finite_dimension",
+          "error": "exact",
+          "resource": "classical_bits=2",
+          "conf": "1.0",
+          "proof": "type:creg"
+        },
+        "alias_expansion": "CREG",
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "inferred": {
+          "face": "DECL",
+          "qspace": "H2^2",
+          "type": "bit[2]",
+          "basis": "computational",
+          "regime": "exact",
+          "assume": "finite_dimension",
+          "error": "exact",
+          "resource": "classical_bits=2",
+          "conf": "1.0",
+          "proof": "type:creg"
+        }
+      },
+      {
+        "example": "01_bell_state",
+        "unit_id": "lctl.example.bell_state",
+        "ordinal": 3,
+        "compact": {
+          "id": "C0010",
+          "lane": "circuit",
+          "op": "H",
+          "out": "q[0]",
+          "ctrl": "_",
+          "in": "q[0]",
+          "arg": "_",
+          "meta": "_"
+        },
+        "canonical": {
+          "id": "C0010",
+          "face": "CODE",
+          "lane": "circuit",
+          "qspace": "H",
+          "op": "H",
+          "out": "q[0]",
+          "ctrl": "_",
+          "a": "q[0]",
+          "b": "_",
+          "param": "_",
+          "type": "operator",
+          "basis": "computational",
+          "regime": "exact",
+          "assume": "finite_dimension",
+          "error": "exact",
+          "resource": "_",
+          "conf": "1.0",
+          "proof": "op:h"
+        },
+        "alias_expansion": "H",
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "inferred": {
+          "face": "CODE",
+          "qspace": "H",
+          "type": "operator",
+          "basis": "computational",
+          "regime": "exact",
+          "assume": "finite_dimension",
+          "error": "exact",
+          "resource": "_",
+          "conf": "1.0",
+          "proof": "op:h"
+        }
+      }
+    ]
+  },
+  {
+    "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/machine/program_pairs.jsonl",
+    "records": 53,
+    "invalid": 0,
+    "duplicate_ids": 0,
+    "unique_ids": 0,
+    "uncompressed_bytes": 203438,
+    "uncompressed_sha256": "5e43c009e53ebf59185496fb6ea6c74a56200c112cbee5a213928fdfbac6a802",
+    "key_counts": {
+      "example": 53,
+      "unit_id": 53,
+      "compact_path": 53,
+      "canonical_path": 53,
+      "rows": 53,
+      "compact_bytes": 53,
+      "canonical_bytes": 53,
+      "column_verify": 53,
+      "compact_source": 53,
+      "canonical_source": 53
+    },
+    "field_types": {
+      "example": {
+        "str": 53
+      },
+      "unit_id": {
+        "str": 53
+      },
+      "compact_path": {
+        "str": 53
+      },
+      "canonical_path": {
+        "str": 53
+      },
+      "rows": {
+        "int": 53
+      },
+      "compact_bytes": {
+        "int": 53
+      },
+      "canonical_bytes": {
+        "int": 53
+      },
+      "column_verify": {
+        "str": 53
+      },
+      "compact_source": {
+        "str": 53
+      },
+      "canonical_source": {
+        "str": 53
+      }
+    },
+    "profiles": {},
+    "samples": [
+      {
+        "example": "01_bell_state",
+        "unit_id": "lctl.example.bell_state",
+        "compact_path": "examples/compact/01_bell_state.lctlc",
+        "canonical_path": "examples/lowered/01_bell_state.lctl",
+        "rows": 6,
+        "compact_bytes": 863,
+        "canonical_bytes": 2101,
+        "column_verify": "PASS",
+        "compact_source": "LCTLC/1.0\n@unit id=lctl.example.bell_state version=1.0.0 profile=lctl.quantum.core entry=F0000:C0010 target=local-reference error_budget=0.01 resource_ceiling=q<=12;density<=8 proof=release-proof\n@defaults qspace=H basis=computational regime=exact assume=finite_dimension error=exact conf=1.0\n@frame id=F0000 parent=ROOT module=lctl.example.bell_state proof=lctl-core\nID│LANE│OP│OUT│CTRL│IN│ARG│META\nD0001 │ alloc │ Q │ q │ _ │ _ │ 2 │ qs=H2^2;res=\"logical_qubits=2\"\nD0002 │ alloc │ C │ c │ _ │ _ │ 2 │ qs=H2^2;res=\"classical_bits=2\"\nC0010 │ circuit │ H │ q[0] │ _ │ q[0] │ _ │ _\nC0011 │ circuit │ CX │ q[1] │ q[0] │ q[1] │ _ │ _\nC0012 │ measure │ MZ │ c[0] │ _ │ q[0] │ _ │ res=\"shots=runtime\"\nC0013 │ measure │ MZ │ c[1] │ _ │ q[1] │ _ │ res=\"shots=runtime\"\n@end\n",
+        "canonical_source": "LCTL/1.3\nBUNDLE¦ID¦VERSION¦PROFILE¦ENTRY¦FRAMES¦TARGET¦BACKEND¦NETWORK¦REPLAY¦PRECISION¦ERROR_BUDGET¦RESOURCE_CEILING¦ADMISSION¦STATE¦PROOF\n(bundle ¦ lctl.example.bell_state ¦ 1.0.0 ¦ lctl.quantum.core ¦ F0000:C0010 ¦ 1 ¦ local-reference ¦ none ¦ deny ¦ deterministic-seeded ¦ f64 ¦ 0.01 ¦ q<=12;density<=8 ¦ q1-q6 ¦ sealed ¦ release-proof)\nQFRAME/1.0 BEGIN F0000\nID¦PARENT¦MODULE¦QSPACE¦TICK¦PREV¦REGISTERS¦BASIS¦STATE_REGIME¦NOISE_REGIME¦APPROX_REGIME¦HARDWARE¦CONF¦ERROR¦ADMIT¦PROOF\n(F0000 ¦ ROOT ¦ lctl.example.bell_state ¦ H ¦ 0 ¦ _ ¦ declared ¦ computational ¦ pure_or_mixed ¦ explicit ¦ typed ¦ local-reference ¦ 1.0 ¦ tracked ¦ observe ¦ lctl-core)\nQTUPLE/1.0\nROW¦FACE¦LANE¦QSPACE¦OP¦OUT¦CTRL¦A¦B¦PARAM¦TYPE¦BASIS¦REGIME¦ASSUME¦ERROR¦RESOURCE¦CONF¦PROOF\n(D0001 ¦ DECL ¦ alloc ¦ H2^2 ¦ QREG ¦ q ¦ _ ¦ _ ¦ _ ¦ 2 ¦ qreg[2] ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ logical_qubits=2 ¦ 1.0 ¦ type:qreg)\n(D0002 ¦ DECL ¦ alloc ¦ H2^2 ¦ CREG ¦ c ¦ _ ¦ _ ¦ _ ¦ 2 ¦ bit[2] ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ classical_bits=2 ¦ 1.0 ¦ type:creg)\n(C0010 ¦ CODE ¦ circuit ¦ H ¦ H ¦ q[0] ¦ _ ¦ q[0] ¦ _ ¦ _ ¦ operator ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ _ ¦ 1.0 ¦ op:h)\n(C0011 ¦ CODE ¦ circuit ¦ H ¦ CX ¦ q[1] ¦ q[0] ¦ q[1] ¦ _ ¦ _ ¦ operator ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ _ ¦ 1.0 ¦ op:cx)\n(C0012 ¦ CODE ¦ measure ¦ H ¦ MEASURE_Z ¦ c[0] ¦ _ ¦ q[0] ¦ _ ¦ _ ¦ measurement_result ¦ Z ¦ stochastic ¦ Born_rule;destructive_value_semantics ¦ sampling ¦ shots=runtime ¦ 1.0 ¦ measure:z)\n(C0013 ¦ CODE ¦ measure ¦ H ¦ MEASURE_Z ¦ c[1] ¦ _ ¦ q[1]  [preview truncated]"
+      },
+      {
+        "example": "02_ghz_state",
+        "unit_id": "lctl.example.ghz_state",
+        "compact_path": "examples/compact/02_ghz_state.lctlc",
+        "canonical_path": "examples/lowered/02_ghz_state.lctl",
+        "rows": 8,
+        "compact_bytes": 1004,
+        "canonical_bytes": 2466,
+        "column_verify": "PASS",
+        "compact_source": "LCTLC/1.0\n@unit id=lctl.example.ghz_state version=1.0.0 profile=lctl.quantum.core entry=F0000:C0010 target=local-reference error_budget=0.01 resource_ceiling=q<=12;density<=8 proof=release-proof\n@defaults qspace=H basis=computational regime=exact assume=finite_dimension error=exact conf=1.0\n@frame id=F0000 parent=ROOT module=lctl.example.ghz_state proof=lctl-core\nID│LANE│OP│OUT│CTRL│IN│ARG│META\nD0001 │ alloc │ Q │ q │ _ │ _ │ 3 │ qs=H2^3;res=\"logical_qubits=3\"\nD0002 │ alloc │ C │ c │ _ │ _ │ 3 │ qs=H2^3;res=\"classical_bits=3\"\nC0010 │ circuit │ H │ q[0] │ _ │ q[0] │ _ │ _\nC0011 │ circuit │ CX │ q[1] │ q[0] │ q[1] │ _ │ _\nC0012 │ circuit │ CX │ q[2] │ q[0] │ q[2] │ _ │ _\nC0013 │ measure │ MZ │ c[0] │ _ │ q[0] │ _ │ res=\"shots=runtime\"\nC0014 │ measure │ MZ │ c[1] │ _ │ q[1] │ _ │ res=\"shots=runtime\"\nC0015 │ measure │ MZ │ c[2] │ _ │ q[2] │ _ │ res=\"shots=runtime\"\n@end\n",
+        "canonical_source": "LCTL/1.3\nBUNDLE¦ID¦VERSION¦PROFILE¦ENTRY¦FRAMES¦TARGET¦BACKEND¦NETWORK¦REPLAY¦PRECISION¦ERROR_BUDGET¦RESOURCE_CEILING¦ADMISSION¦STATE¦PROOF\n(bundle ¦ lctl.example.ghz_state ¦ 1.0.0 ¦ lctl.quantum.core ¦ F0000:C0010 ¦ 1 ¦ local-reference ¦ none ¦ deny ¦ deterministic-seeded ¦ f64 ¦ 0.01 ¦ q<=12;density<=8 ¦ q1-q6 ¦ sealed ¦ release-proof)\nQFRAME/1.0 BEGIN F0000\nID¦PARENT¦MODULE¦QSPACE¦TICK¦PREV¦REGISTERS¦BASIS¦STATE_REGIME¦NOISE_REGIME¦APPROX_REGIME¦HARDWARE¦CONF¦ERROR¦ADMIT¦PROOF\n(F0000 ¦ ROOT ¦ lctl.example.ghz_state ¦ H ¦ 0 ¦ _ ¦ declared ¦ computational ¦ pure_or_mixed ¦ explicit ¦ typed ¦ local-reference ¦ 1.0 ¦ tracked ¦ observe ¦ lctl-core)\nQTUPLE/1.0\nROW¦FACE¦LANE¦QSPACE¦OP¦OUT¦CTRL¦A¦B¦PARAM¦TYPE¦BASIS¦REGIME¦ASSUME¦ERROR¦RESOURCE¦CONF¦PROOF\n(D0001 ¦ DECL ¦ alloc ¦ H2^3 ¦ QREG ¦ q ¦ _ ¦ _ ¦ _ ¦ 3 ¦ qreg[3] ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ logical_qubits=3 ¦ 1.0 ¦ type:qreg)\n(D0002 ¦ DECL ¦ alloc ¦ H2^3 ¦ CREG ¦ c ¦ _ ¦ _ ¦ _ ¦ 3 ¦ bit[3] ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ classical_bits=3 ¦ 1.0 ¦ type:creg)\n(C0010 ¦ CODE ¦ circuit ¦ H ¦ H ¦ q[0] ¦ _ ¦ q[0] ¦ _ ¦ _ ¦ operator ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ _ ¦ 1.0 ¦ op:h)\n(C0011 ¦ CODE ¦ circuit ¦ H ¦ CX ¦ q[1] ¦ q[0] ¦ q[1] ¦ _ ¦ _ ¦ operator ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ _ ¦ 1.0 ¦ op:cx)\n(C0012 ¦ CODE ¦ circuit ¦ H ¦ CX ¦ q[2] ¦ q[0] ¦ q[2] ¦ _ ¦ _ ¦ operator ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ _ ¦ 1.0 ¦ op:cx)\n(C0013 ¦ CODE ¦ measure ¦ H ¦ MEASURE_Z ¦ c[0] ¦ _ ¦ q[0] ¦ _ ¦ _ ¦ measurement_result ¦ Z ¦ stochastic ¦ B [preview truncated]"
+      },
+      {
+        "example": "03_teleportation",
+        "unit_id": "lctl.example.teleportation",
+        "compact_path": "examples/compact/03_teleportation.lctlc",
+        "canonical_path": "examples/lowered/03_teleportation.lctl",
+        "rows": 12,
+        "compact_bytes": 1492,
+        "canonical_bytes": 3151,
+        "column_verify": "PASS",
+        "compact_source": "LCTLC/1.0\n@unit id=lctl.example.teleportation version=1.0.0 profile=lctl.quantum.core entry=F0000:C0010 target=local-reference error_budget=0.01 resource_ceiling=q<=12;density<=8 proof=release-proof\n@defaults qspace=H basis=computational regime=exact assume=finite_dimension error=exact conf=1.0\n@frame id=F0000 parent=ROOT module=lctl.example.teleportation proof=lctl-core\nID│LANE│OP│OUT│CTRL│IN│ARG│META\nD0001 │ alloc │ Q │ q │ _ │ _ │ 3 │ qs=H2^3;res=\"logical_qubits=3\"\nD0002 │ alloc │ C │ c │ _ │ _ │ 2 │ qs=H2^3;res=\"classical_bits=2\"\nC0010 │ circuit │ H │ q[0] │ _ │ q[0] │ _ │ _\nC0011 │ circuit │ H │ q[1] │ _ │ q[1] │ _ │ _\nC0012 │ circuit │ CX │ q[2] │ q[1] │ q[2] │ _ │ _\nC0013 │ circuit │ CX │ q[1] │ q[0] │ q[1] │ _ │ _\nC0014 │ circuit │ H │ q[0] │ _ │ q[0] │ _ │ _\nC0015 │ measure │ MZ │ c[0] │ _ │ q[0] │ _ │ res=\"shots=runtime\"\nC0016 │ measure │ MZ │ c[1] │ _ │ q[1] │ _ │ res=\"shots=runtime\"\nC0017 │ feedback │ IF │ q[2] │ c[1] │ 1›X │ _ │ t=hybrid_control;r=stochastic;asm=measurement_conditioned;err=sampling;res=\"dynamic=1\";p=teleport:x\nC0018 │ feedback │ IF │ q[2] │ c[0] │ 1›Z │ _ │ t=hybrid_control;r=stochastic;asm=measurement_conditioned;err=sampling;res=\"dynamic=1\";p=teleport:z\nC0019 │ analysis │ EXPECT │ _ │ _ │ _ │ X@q[2] │ t=expectation;basis=X;p=teleport:fidelity-proxy\n@end\n",
+        "canonical_source": "LCTL/1.3\nBUNDLE¦ID¦VERSION¦PROFILE¦ENTRY¦FRAMES¦TARGET¦BACKEND¦NETWORK¦REPLAY¦PRECISION¦ERROR_BUDGET¦RESOURCE_CEILING¦ADMISSION¦STATE¦PROOF\n(bundle ¦ lctl.example.teleportation ¦ 1.0.0 ¦ lctl.quantum.core ¦ F0000:C0010 ¦ 1 ¦ local-reference ¦ none ¦ deny ¦ deterministic-seeded ¦ f64 ¦ 0.01 ¦ q<=12;density<=8 ¦ q1-q6 ¦ sealed ¦ release-proof)\nQFRAME/1.0 BEGIN F0000\nID¦PARENT¦MODULE¦QSPACE¦TICK¦PREV¦REGISTERS¦BASIS¦STATE_REGIME¦NOISE_REGIME¦APPROX_REGIME¦HARDWARE¦CONF¦ERROR¦ADMIT¦PROOF\n(F0000 ¦ ROOT ¦ lctl.example.teleportation ¦ H ¦ 0 ¦ _ ¦ declared ¦ computational ¦ pure_or_mixed ¦ explicit ¦ typed ¦ local-reference ¦ 1.0 ¦ tracked ¦ observe ¦ lctl-core)\nQTUPLE/1.0\nROW¦FACE¦LANE¦QSPACE¦OP¦OUT¦CTRL¦A¦B¦PARAM¦TYPE¦BASIS¦REGIME¦ASSUME¦ERROR¦RESOURCE¦CONF¦PROOF\n(D0001 ¦ DECL ¦ alloc ¦ H2^3 ¦ QREG ¦ q ¦ _ ¦ _ ¦ _ ¦ 3 ¦ qreg[3] ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ logical_qubits=3 ¦ 1.0 ¦ type:qreg)\n(D0002 ¦ DECL ¦ alloc ¦ H2^3 ¦ CREG ¦ c ¦ _ ¦ _ ¦ _ ¦ 2 ¦ bit[2] ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ classical_bits=2 ¦ 1.0 ¦ type:creg)\n(C0010 ¦ CODE ¦ circuit ¦ H ¦ H ¦ q[0] ¦ _ ¦ q[0] ¦ _ ¦ _ ¦ operator ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ _ ¦ 1.0 ¦ op:h)\n(C0011 ¦ CODE ¦ circuit ¦ H ¦ H ¦ q[1] ¦ _ ¦ q[1] ¦ _ ¦ _ ¦ operator ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ _ ¦ 1.0 ¦ op:h)\n(C0012 ¦ CODE ¦ circuit ¦ H ¦ CX ¦ q[2] ¦ q[1] ¦ q[2] ¦ _ ¦ _ ¦ operator ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ _ ¦ 1.0 ¦ op:cx)\n(C0013 ¦ CODE ¦ circuit ¦ H ¦ CX ¦ q[1] ¦ q[0] ¦ q[1] ¦ _ ¦ _ ¦ operator ¦ computational ¦ exact ¦ finit [preview truncated]"
+      }
+    ]
+  },
+  {
+    "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/machine/instruction_corpus.jsonl",
+    "records": 1838,
+    "invalid": 0,
+    "duplicate_ids": 0,
+    "unique_ids": 0,
+    "uncompressed_bytes": 917240,
+    "uncompressed_sha256": "724d0185dcff81416125b3bb0b614c9b670f77e72799210b1d696d0456f60065",
+    "key_counts": {
+      "task": 1838,
+      "instruction": 1838,
+      "input": 1838,
+      "output": 1838,
+      "source_example": 1838
+    },
+    "field_types": {
+      "task": {
+        "str": 1838
+      },
+      "instruction": {
+        "str": 1838
+      },
+      "input": {
+        "str": 1838
+      },
+      "output": {
+        "str": 1838
+      },
+      "source_example": {
+        "str": 1838
+      }
+    },
+    "profiles": {},
+    "samples": [
+      {
+        "task": "expand_alias",
+        "instruction": "Expand the Columned LCTL operation in this row: D0001 │ alloc │ Q │ q │ _ │ _ │ 2 │ qs=H2^2;res=\"logical_qubits=2\"",
+        "input": "D0001 │ alloc │ Q │ q │ _ │ _ │ 2 │ qs=H2^2;res=\"logical_qubits=2\"",
+        "output": "QREG",
+        "source_example": "01_bell_state"
+      },
+      {
+        "task": "infer_face",
+        "instruction": "What canonical FACE does this Columned LCTL row lower to? D0001 │ alloc │ Q │ q │ _ │ _ │ 2 │ qs=H2^2;res=\"logical_qubits=2\"",
+        "input": "D0001 │ alloc │ Q │ q │ _ │ _ │ 2 │ qs=H2^2;res=\"logical_qubits=2\"",
+        "output": "DECL",
+        "source_example": "01_bell_state"
+      },
+      {
+        "task": "lower_row",
+        "instruction": "Lower this verified Columned LCTL row to its canonical 18-cell semantic row.",
+        "input": "D0001 │ alloc │ Q │ q │ _ │ _ │ 2 │ qs=H2^2;res=\"logical_qubits=2\"",
+        "output": "D0001 ¦ DECL ¦ alloc ¦ H2^2 ¦ QREG ¦ q ¦ _ ¦ _ ¦ _ ¦ 2 ¦ qreg[2] ¦ computational ¦ exact ¦ finite_dimension ¦ exact ¦ logical_qubits=2 ¦ 1.0 ¦ type:qreg",
+        "source_example": "01_bell_state"
+      }
+    ]
+  },
+  {
+    "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/machine/negative_cases.jsonl",
+    "records": 512,
+    "invalid": 0,
+    "duplicate_ids": 0,
+    "unique_ids": 512,
+    "uncompressed_bytes": 168448,
+    "uncompressed_sha256": "7a840ea77e8b79d5829f3bf37e748db6dfc00574273043e401c38f8abd71c4d9",
+    "key_counts": {
+      "id": 512,
+      "class": 512,
+      "sample": 512,
+      "expected": 512,
+      "reason": 512,
+      "note": 512
+    },
+    "field_types": {
+      "id": {
+        "str": 512
+      },
+      "class": {
+        "str": 512
+      },
+      "sample": {
+        "str": 512
+      },
+      "expected": {
+        "str": 512
+      },
+      "reason": {
+        "str": 512
+      },
+      "note": {
+        "str": 512
+      }
+    },
+    "profiles": {},
+    "samples": [
+      {
+        "id": "NEG0001",
+        "class": "missing_id",
+        "sample": "_│lane0│H│q[0]│_│q[0]│_│_",
+        "expected": "REJECT_OR_FAIL_CLOSED",
+        "reason": "Row ID is required and cannot be `_`.",
+        "note": "Corpus negative case; exact rejection layer may be parser, lowering, ownership verifier, or semantic verifier."
+      },
+      {
+        "id": "NEG0002",
+        "class": "wrong_column_count",
+        "sample": "R1│lane0│H│q[0]│_│q[0]│_",
+        "expected": "REJECT_OR_FAIL_CLOSED",
+        "reason": "A row must contain exactly eight source columns.",
+        "note": "Corpus negative case; exact rejection layer may be parser, lowering, ownership verifier, or semantic verifier."
+      },
+      {
+        "id": "NEG0003",
+        "class": "unknown_face",
+        "sample": "R1│meta│UNKNOWN_OP│_│_│_│_│_",
+        "expected": "REJECT_OR_FAIL_CLOSED",
+        "reason": "An operation outside recognized families needs `f=FACE` in META.",
+        "note": "Corpus negative case; exact rejection layer may be parser, lowering, ownership verifier, or semantic verifier."
+      }
+    ]
+  }
+]

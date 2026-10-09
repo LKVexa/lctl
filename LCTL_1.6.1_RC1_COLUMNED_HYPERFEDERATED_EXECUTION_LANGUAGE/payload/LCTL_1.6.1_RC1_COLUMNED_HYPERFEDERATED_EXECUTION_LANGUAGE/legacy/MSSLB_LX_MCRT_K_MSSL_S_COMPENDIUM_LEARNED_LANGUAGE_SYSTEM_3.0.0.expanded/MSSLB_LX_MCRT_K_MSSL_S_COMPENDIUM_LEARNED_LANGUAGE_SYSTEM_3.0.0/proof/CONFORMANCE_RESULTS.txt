@@ -1,0 +1,75 @@
+MSSLB-LX / MCRT-K / MSSL-S 3.0.0
+COMPENDIUM-LEARNED CONFORMANCE RESULTS
+Generated: 2026-08-10
+
+SEMANTIC MEMORY
+records=1205
+fields=20
+regimes={'exact_linear': 1062, 'no_faithful_form': 38, 'structural_analogue': 55, 'linearized': 50}
+
+POSITIVE TESTS
+verify rc=0
+PASS: bundle=basic.universe.compendium.learned frames=3 code_rows=13 knowledge=compendium20:1205 seal=74943a29ca0e72937fcc990a42698a93f9ba535e94a1f3e0094b80ecfdf4a855
+
+run rc=0
+QCTL SVC: R0.low64=12
+MSSLB-LX RESULT: exit=0 trap=0 steps=12
+
+learned-summary rc=0
+records=1205
+regimes={exact_linear=1062, linearized=50, no_faithful_form=38, structural_analogue=55}
+fields={1=65, 13=60, 15=60, 17=60, 19=60, 20=60, 21=60, 22=60, 23=60, 27=60, 32=60, 57=60, 58=60, 59=60, 60=60, 61=60, 62=60, 77=60, 79=60, 80=60}
+
+knowledge query rc=0
+LOCAL COMPENDIUM MATCHES: 10
+1. field=15 entry=42 Automatic Differentiation (Reverse Mode) | regime=exact_linear | class=operator,variational,dynamical,learning,control
+   One pass gives the full gradient of a scalar output, costing 𝑂(1) passes regardless of 𝑛— which is why backpropagation makes deep learning feasible. The choice between modes is purely a matter of matrix shape: reverse wins when 𝑚≪𝑛.
+2. field=60 entry=35 Backpropagation | regime=exact_linear | class=operator,variational,dynamical,learning,control
+   The chain rule gives 𝜕𝐿/𝜕x = 𝐽⊤ 1 𝐽⊤ 2 ⋯𝐽⊤ 𝐿∇𝐿, and reverse-mode evaluation is cheap because a matrix– vector product costs far less than a matrix–matrix one. Each weight gradient is a rank-one outer product, which is why the update is eﬀicient. Backpropagation is an associativity choice in a matrix product.
+3. field=13 entry=35 Transformation of Densities | regime=exact_linear | class=operator,dynamical,learning,control
+   For a linear map Y = 𝐴X the factor is the constant | det 𝐴|−1, and Σ𝑌= 𝐴Σ𝑋𝐴⊤. Normalising flows in machine learning are built entirely on making det 𝐽cheap to compute.
+4. field=60 entry=7 Softmax Function | regime=exact_linear | class=control
+   Shift-invariant, so the logits have one redundant dimension — the map’s Jacobian diag(p) −pp⊤is singular with 1 in its null space. It is the same normalised weight vector as every partition function in this compendium.
+5. field=60 entry=37 Vanishing and Exploding Gradients | regime=exact_linear | class=spectral,operator,variational,control
+   The gradient norm is governed by the product of the Jacobians’ singular values, so anything other than a product near one is exponentially bad in depth. It is exactly the Lyapunov exponent of a matrix product — the same object as in random matrix products elsewhere in this compendium.
+6. field=60 entry=38 Xavier and He Initialisation | regime=exact_linear | class=spectral,control
+   The scaling preserves activation variance layer to layer, which keeps the Jacobian product’s spectral norm near unity. It is a direct engineering fix for entry 37, derived by a variance propagation calculation.
+7. field=60 entry=42 Residual Connection | regime=exact_linear | class=operator,variational,dynamical,graph,control
+   The Jacobian becomes 𝐼+ 𝜕𝐹/𝜕𝑥, so gradients flow through the identity path regardless of what 𝐹 does — the product of Jacobians is bounded away from zero. It is the cleanest fix to entry 37, and it works by adding an identity matrix.
+8. field=60 entry=55 GAN Minimax Objective | regime=linearized | class=spectral,variational,informational,dynamical,control
+   At the optimal discriminator the objective reduces to the Jensen–Shannon divergence, but the game dynamics are a nonconvex-nonconcave saddle point problem. Linearising the joint dynamics gives a Jacobian with imaginary eigenvalues — which is exactly why training oscillates rather than converges.
+9. field=62 entry=11 Damped Least Squares | regime=exact_linear | class=spectral,learning,control,exact_numeric
+   Adding 𝜆2𝐼shifts every singular value away from zero, so the solution stays bounded near singularities — exactly ridge regression applied to a kinematic solve. The damping trades tracking accuracy for conditioning.
+10. field=62 entry=13 Kinematic Singularity | regime=exact_linear | class=spectral,learning,control
+   At a singularity some direction becomes unreachable and the required joint velocities blow up — the smallest singular value hits zero, so the condition number diverges. Every singularity in robotics is this one linear-algebraic event.
+
+compile-bwx rc=0
+PASS: BWX1 compiled
+
+supplied BASIC-BWVM rc=0
+BASIC_MSSL SVC: R0.low64=12
+{
+  "status": "PASS",
+  "version": "2.0.0-HOST1-FULL-WIDTH",
+  "program": "/mnt/data/MSSLB_LX_MCRT_K_MSSL_S_COMPENDIUM_LEARNED_LANGUAGE_SYSTEM_3.0.0/proof/basic_universe_compendium_learned.bwx",
+  "instructions_executed": 12,
+  "limb_operations": 16384,
+  "trap": 0,
+  "exit_code": 0,
+  "state_sha256": "341e8ef5bf9e884ad811c441ab29ecc73e5b4110b09e814f95e966056f82caeb"
+}
+
+NEGATIVE TESTS
+backend_not_none.mssllx: rejected=True; rc=1; FAIL: BUNDLE_POLICY: backend must be none
+bad_bundle_seal.mssllx: rejected=True; rc=1; FAIL: BUNDLE_SEAL: mismatch
+bad_frame_seal.mssllx: rejected=True; rc=1; FAIL: FRAME_SEAL: mismatch F0000
+learn_missing_q6.mssllx: rejected=True; rc=1; FAIL: LEARN_GATE: frame F0001 missing Q6 pass
+
+INTERPRETATION
+
+These results prove the tested local reference path:
+MSSLB-LX integrity/policy -> MCRT-K integrity/learning gate -> MSSL-S semantic
+validation -> executable CODE lowering -> BWX1 -> supplied BASIC-BWVM execution.
+
+They do not claim that every semantic MODEL/LEARN operator has native machine
+lowering, nor do they prove full OS/security/hardware qualification.

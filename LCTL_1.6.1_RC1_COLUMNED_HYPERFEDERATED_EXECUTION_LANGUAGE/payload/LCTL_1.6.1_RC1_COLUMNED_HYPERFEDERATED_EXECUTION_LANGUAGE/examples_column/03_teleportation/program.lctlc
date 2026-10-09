@@ -1,0 +1,18 @@
+LCTLC/1.0
+@unit id=lctl.example.teleportation version=1.0.0 profile=lctl.quantum.core entry=F0000:C0010 target=local-reference error_budget=0.01 resource_ceiling=q<=12;density<=8 proof=release-proof
+@defaults qspace=H basis=computational regime=exact assume=finite_dimension error=exact conf=1.0
+@frame id=F0000 parent=ROOT module=lctl.example.teleportation proof=lctl-core
+ID│LANE│OP│OUT│CTRL│IN│ARG│META
+D0001 │ alloc │ Q │ q │ _ │ _ │ 3 │ qs=H2^3;res="logical_qubits=3"
+D0002 │ alloc │ C │ c │ _ │ _ │ 2 │ qs=H2^3;res="classical_bits=2"
+C0010 │ circuit │ H │ q[0] │ _ │ q[0] │ _ │ _
+C0011 │ circuit │ H │ q[1] │ _ │ q[1] │ _ │ _
+C0012 │ circuit │ CX │ q[2] │ q[1] │ q[2] │ _ │ _
+C0013 │ circuit │ CX │ q[1] │ q[0] │ q[1] │ _ │ _
+C0014 │ circuit │ H │ q[0] │ _ │ q[0] │ _ │ _
+C0015 │ measure │ MZ │ c[0] │ _ │ q[0] │ _ │ res="shots=runtime"
+C0016 │ measure │ MZ │ c[1] │ _ │ q[1] │ _ │ res="shots=runtime"
+C0017 │ feedback │ IF │ q[2] │ c[1] │ 1›X │ _ │ t=hybrid_control;r=stochastic;asm=measurement_conditioned;err=sampling;res="dynamic=1";p=teleport:x
+C0018 │ feedback │ IF │ q[2] │ c[0] │ 1›Z │ _ │ t=hybrid_control;r=stochastic;asm=measurement_conditioned;err=sampling;res="dynamic=1";p=teleport:z
+C0019 │ analysis │ EXPECT │ _ │ _ │ _ │ X@q[2] │ t=expectation;basis=X;p=teleport:fidelity-proxy
+@end

@@ -1,0 +1,10 @@
+LCTLC/1.0
+@unit id=lctl.example.depolarizing_channel version=1.0.0 profile=lctl.quantum.core entry=F0000:C0010 target=local-reference error_budget=0.01 resource_ceiling=q<=12;density<=8 proof=release-proof
+@defaults qspace=H basis=computational regime=exact assume=finite_dimension error=exact conf=1.0
+@frame id=F0000 parent=ROOT module=lctl.example.depolarizing_channel proof=lctl-core
+ID│LANE│OP│OUT│CTRL│IN│ARG│META
+D0001 │ alloc │ Q │ q │ _ │ _ │ 1 │ qs=H2^1;res="logical_qubits=1"
+D0002 │ alloc │ C │ c │ _ │ _ │ 1 │ qs=H2^1;res="classical_bits=1"
+C0010 │ noise │ DEPOLARIZE │ q[0] │ _ │ q[0] │ 0.30 │ t=channel;asm=CPTP;err="channel:p=0.30";res="density=1";p=kraus:depolarize
+C0011 │ measure │ MZ │ c[0] │ _ │ q[0] │ _ │ res="shots=runtime"
+@end

@@ -1,0 +1,914 @@
+{
+  "schema": "LCTL-COLUMN-EXAMPLE-CAMPAIGN/1.0",
+  "total_examples": 53,
+  "passed": 53,
+  "failed": 0,
+  "compact_bytes_total": 58857,
+  "lowered_canonical_bytes_total": 123330,
+  "aggregate_byte_reduction_percent": 52.27681829238628,
+  "mean_byte_reduction_percent": 52.1978679245283,
+  "median_byte_reduction_percent": 51.151,
+  "results": [
+    {
+      "example": "01_bell_state",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.bell_state\",\"frames\":1,\"rows\":6,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"d99d9e67d03ed54538ffe7aeb0ee4df660da35c90f6330868dd334705df326a2\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"0ee36a67cd9ef634b567b54ed63e43e4f1f5a85ba669b5df56ad296d18d2770e\",\"roundtrip_fingerprint\":\"0ee36a67cd9ef634b567b54ed63e43e4f1f5a85ba669b5df56ad296d18d2770e\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 6,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 863,
+        "lowered_canonical_bytes": 2101,
+        "byte_reduction_percent": 58.924,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "02_ghz_state",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.ghz_state\",\"frames\":1,\"rows\":8,\"qubits\":3,\"cbits\":3,\"lowered_sha256\":\"1ef717bca7ea1be65024d568b3439d50ae3a5ab28fa0f49f1aa1f475d95b7a9e\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"27278dca1adfb462d4a134c38212694bf69c981fcf45795f3bc63b6a858844ed\",\"roundtrip_fingerprint\":\"27278dca1adfb462d4a134c38212694bf69c981fcf45795f3bc63b6a858844ed\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 8,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1004,
+        "lowered_canonical_bytes": 2466,
+        "byte_reduction_percent": 59.286,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "03_teleportation",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.teleportation\",\"frames\":1,\"rows\":12,\"qubits\":3,\"cbits\":2,\"lowered_sha256\":\"e95444fc9aa7e4a02f531cacebe6c67499422708f6c8dc555e6739137b298bde\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"a2cdb17d69791cbdca9e2070e3c419d30746ae2f6cfd9e6c2398d529456a9957\",\"roundtrip_fingerprint\":\"a2cdb17d69791cbdca9e2070e3c419d30746ae2f6cfd9e6c2398d529456a9957\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 12,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1492,
+        "lowered_canonical_bytes": 3151,
+        "byte_reduction_percent": 52.65,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "04_superdense_coding",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.superdense_coding\",\"frames\":1,\"rows\":10,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"2e9e4125196ecc9f60191811ec10a4be40b2d408af60e306925ca0c9cba6e9b1\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"9e905e01c6bd84cb9db5849580a66d00895426e0d8114d54068a97ec6a51e299\",\"roundtrip_fingerprint\":\"9e905e01c6bd84cb9db5849580a66d00895426e0d8114d54068a97ec6a51e299\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 10,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1121,
+        "lowered_canonical_bytes": 2740,
+        "byte_reduction_percent": 59.088,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "05_single_qubit_rotations",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.single_qubit_rotations\",\"frames\":1,\"rows\":6,\"qubits\":1,\"cbits\":1,\"lowered_sha256\":\"3145aca5233dacef0c5ad0994c0473919a8c54d900436ca91c3c11cbfa21f2a8\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"c93d926cf76b31de2bbb9a854b107f4f8ee00acacf2143ad0c84d151833d0c6f\",\"roundtrip_fingerprint\":\"c93d926cf76b31de2bbb9a854b107f4f8ee00acacf2143ad0c84d151833d0c6f\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 6,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 874,
+        "lowered_canonical_bytes": 2081,
+        "byte_reduction_percent": 58.001,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "06_controlled_operations",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.controlled_operations\",\"frames\":1,\"rows\":5,\"qubits\":3,\"cbits\":0,\"lowered_sha256\":\"b2754b918fe89c3e865f2a75669663d731f40a830f43f83eb4f1d11d1d04e6cd\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"1d14c92ca1cedd8c663f344c3156c12f624cc820caac4aa4c04cf9ae5aec0a41\",\"roundtrip_fingerprint\":\"1d14c92ca1cedd8c663f344c3156c12f624cc820caac4aa4c04cf9ae5aec0a41\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 5,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 776,
+        "lowered_canonical_bytes": 1862,
+        "byte_reduction_percent": 58.324,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "07_basis_measurement",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.basis_measurement\",\"frames\":1,\"rows\":4,\"qubits\":1,\"cbits\":2,\"lowered_sha256\":\"3c40b31a2e5e72f462208def046cbf11d25cd97df819953a56f8e1e8e1c1942d\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"9b4e6ccd8747313c2ed4acd6f221c2200462cde6f3cf2a9422a30b07e37fa2cd\",\"roundtrip_fingerprint\":\"9b4e6ccd8747313c2ed4acd6f221c2200462cde6f3cf2a9422a30b07e37fa2cd\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 4,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 734,
+        "lowered_canonical_bytes": 1748,
+        "byte_reduction_percent": 58.009,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "08_povm",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.povm\",\"frames\":1,\"rows\":3,\"qubits\":1,\"cbits\":0,\"lowered_sha256\":\"413e78860a63f8275eb8b670db0d70ff8d68fe8a40bdfb7c7df51a393763646c\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"56961e71c403ff7b75e7b924fb46969a079210f2175c6c855b9f281d4c57c526\",\"roundtrip_fingerprint\":\"56961e71c403ff7b75e7b924fb46969a079210f2175c6c855b9f281d4c57c526\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 3,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 713,
+        "lowered_canonical_bytes": 1539,
+        "byte_reduction_percent": 53.671,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "09_density_matrix_noise",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.density_matrix_noise\",\"frames\":1,\"rows\":5,\"qubits\":1,\"cbits\":1,\"lowered_sha256\":\"1599dfa1415fa8538612673c418ba706295d802718bfd3ce4cc47158575f4dd8\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"20525b6482bedfd2aecd82f6b85ff82ed9adf35cebb94e0e1f23d5ab4be974d5\",\"roundtrip_fingerprint\":\"20525b6482bedfd2aecd82f6b85ff82ed9adf35cebb94e0e1f23d5ab4be974d5\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 5,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 877,
+        "lowered_canonical_bytes": 1929,
+        "byte_reduction_percent": 54.536,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "10_amplitude_damping",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.amplitude_damping\",\"frames\":1,\"rows\":5,\"qubits\":1,\"cbits\":1,\"lowered_sha256\":\"78de9f9e8bb4b2af26268bf6e39b90a427168a5d4c0e52b1e621b030eb9b0159\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"d5d01d01645c91bd193ecff3778c8683da673a945a283c92392232b6494bf07c\",\"roundtrip_fingerprint\":\"d5d01d01645c91bd193ecff3778c8683da673a945a283c92392232b6494bf07c\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 5,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 885,
+        "lowered_canonical_bytes": 1937,
+        "byte_reduction_percent": 54.311,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "11_depolarizing_channel",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.depolarizing_channel\",\"frames\":1,\"rows\":4,\"qubits\":1,\"cbits\":1,\"lowered_sha256\":\"2b8eef68177740b36a04a3f8df23375752785a9bf21f4919e1adf2161a2b0262\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"49247a52fb79aa5395bb4b0f0bc33df657939ab6d5b96023bff1315e877bc055\",\"roundtrip_fingerprint\":\"49247a52fb79aa5395bb4b0f0bc33df657939ab6d5b96023bff1315e877bc055\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 4,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 823,
+        "lowered_canonical_bytes": 1780,
+        "byte_reduction_percent": 53.764,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "12_repetition_error_correction",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.repetition_error_correction\",\"frames\":1,\"rows\":11,\"qubits\":3,\"cbits\":1,\"lowered_sha256\":\"387c05c477b3d7d80526ff1b3565a3a88b4d6231436707c86113943f7a94f7f2\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"0bc17f30bff804e12fb91ad0edd664fac64087741de1789e61378ba0366cc00c\",\"roundtrip_fingerprint\":\"0bc17f30bff804e12fb91ad0edd664fac64087741de1789e61378ba0366cc00c\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 11,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1305,
+        "lowered_canonical_bytes": 2914,
+        "byte_reduction_percent": 55.216,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "13_stabilizer",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.stabilizer\",\"frames\":1,\"rows\":5,\"qubits\":3,\"cbits\":0,\"lowered_sha256\":\"a08b159b166370693e2737543f8f163d1cb378cfc55496412faa30d2ff4943e5\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"68f7ff1ff607efd9f5190574d9bb8b82f6472f05adf220e5145341833aa17898\",\"roundtrip_fingerprint\":\"68f7ff1ff607efd9f5190574d9bb8b82f6472f05adf220e5145341833aa17898\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 5,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 852,
+        "lowered_canonical_bytes": 1863,
+        "byte_reduction_percent": 54.267,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "14_qft",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.qft\",\"frames\":1,\"rows\":8,\"qubits\":3,\"cbits\":0,\"lowered_sha256\":\"8cf762173469422d6bd4cdc51882661e83a2bde87e9ed4e15f3700f11c4ace9b\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"52544923963b59b72c91b266ced0476542dac85e481190c5526136bb84df04a5\",\"roundtrip_fingerprint\":\"52544923963b59b72c91b266ced0476542dac85e481190c5526136bb84df04a5\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 8,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 987,
+        "lowered_canonical_bytes": 2371,
+        "byte_reduction_percent": 58.372,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "15_grover",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.grover\",\"frames\":1,\"rows\":16,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"775b6e14a5c7ce5acec02131eafc4c6c1e433c7fa4c2fa1da687cdb4bdc0679f\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"a8819e45af1733b654e33e78e68e90fdfb405464615cf5d2d86cad8a517a95f3\",\"roundtrip_fingerprint\":\"a8819e45af1733b654e33e78e68e90fdfb405464615cf5d2d86cad8a517a95f3\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 16,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1459,
+        "lowered_canonical_bytes": 3648,
+        "byte_reduction_percent": 60.005,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "16_phase_estimation",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.phase_estimation\",\"frames\":1,\"rows\":7,\"qubits\":2,\"cbits\":1,\"lowered_sha256\":\"d7b70a4de76ed196ec0f27ca96225908429a8a8e3948f9512c4317fa23260c69\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"8207a9e018884ae7e4191bb2057c1dfdd3477d459adb78a32d74424f82eb8ff6\",\"roundtrip_fingerprint\":\"8207a9e018884ae7e4191bb2057c1dfdd3477d459adb78a32d74424f82eb8ff6\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 7,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 936,
+        "lowered_canonical_bytes": 2240,
+        "byte_reduction_percent": 58.214,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "17_vqe",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.vqe\",\"frames\":1,\"rows\":5,\"qubits\":2,\"cbits\":0,\"lowered_sha256\":\"3b39d1300cf8eae7d66017ab4beabbe3ef73af22a0097df8166812d182536a89\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"6c5851b6bab044cefb033948db0b5613f16409936ad1481e00b3e44006c73bf0\",\"roundtrip_fingerprint\":\"6c5851b6bab044cefb033948db0b5613f16409936ad1481e00b3e44006c73bf0\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 5,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 985,
+        "lowered_canonical_bytes": 1911,
+        "byte_reduction_percent": 48.456,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "18_qaoa",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.qaoa\",\"frames\":1,\"rows\":8,\"qubits\":2,\"cbits\":0,\"lowered_sha256\":\"c75b63855f6daca686b03029ceb42c91885559d54addafbb3ea01967abf278b1\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"b5de00496d188a5b4dc244073696d64e9ef383d603d3bbc46ece2c904006e85c\",\"roundtrip_fingerprint\":\"b5de00496d188a5b4dc244073696d64e9ef383d603d3bbc46ece2c904006e85c\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 8,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1158,
+        "lowered_canonical_bytes": 2376,
+        "byte_reduction_percent": 51.263,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "19_hamiltonian_simulation",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.hamiltonian_simulation\",\"frames\":1,\"rows\":4,\"qubits\":1,\"cbits\":0,\"lowered_sha256\":\"8d32486fb638b1bde4865f756fa831518ee38bd702c3e8a26249521a951504e6\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"5677d6f3fe445769021f798b8d0ca99b6144b1afdfae40b3866daf48b4055441\",\"roundtrip_fingerprint\":\"5677d6f3fe445769021f798b8d0ca99b6144b1afdfae40b3866daf48b4055441\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 4,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 994,
+        "lowered_canonical_bytes": 1823,
+        "byte_reduction_percent": 45.474,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "20_measurement_feedback",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.measurement_feedback\",\"frames\":1,\"rows\":6,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"d8e3d13c3e363307fa02e7f5e455729a4538aa01dcc28f79ba578fd715c1f173\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"b2dd5fefc68cd5c0eeaf62537b13a826f0289e57f20d3828e7f9f3d6ac5a601c\",\"roundtrip_fingerprint\":\"b2dd5fefc68cd5c0eeaf62537b13a826f0289e57f20d3828e7f9f3d6ac5a601c\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 6,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 983,
+        "lowered_canonical_bytes": 2163,
+        "byte_reduction_percent": 54.554,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "21_parallel_bell_pairs",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.parallel_bell_pairs\",\"frames\":3,\"rows\":10,\"qubits\":4,\"cbits\":0,\"lowered_sha256\":\"ddf388f41d95c46f3f61c17a1ed6d72aa1720f9048eb9e28a1b6d9e604c5469d\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"5571b7dbd6910122c180f8a52a1a76ef5bf3736339d9e67f2538b870d2e02e8d\",\"roundtrip_fingerprint\":\"5571b7dbd6910122c180f8a52a1a76ef5bf3736339d9e67f2538b870d2e02e8d\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 10,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1652,
+        "lowered_canonical_bytes": 4006,
+        "byte_reduction_percent": 58.762,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "22_coupled_continuum_parallel",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.coupled_continuum_parallel\",\"frames\":1,\"rows\":8,\"qubits\":1,\"cbits\":0,\"lowered_sha256\":\"36745501ca6b8702d45d0650d36438ee5882e41061c5ae8f05c6718ac50b9a87\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"ee358b22201678d0878be4d3dd591cc550a7596c900aa3e88ebd9339efcf18d3\",\"roundtrip_fingerprint\":\"ee358b22201678d0878be4d3dd591cc550a7596c900aa3e88ebd9339efcf18d3\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 8,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1417,
+        "lowered_canonical_bytes": 2643,
+        "byte_reduction_percent": 46.387,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "23_independent_quantum_lanes",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.independent_quantum_lanes\",\"frames\":1,\"rows\":9,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"f1ad8079d8a66a0266037312dcbdcb2511841de46de08a744902db825a055a73\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"3b32c361c67b020951aaeff312184d6fde1812e84a1d1d6459e4f38679d1c131\",\"roundtrip_fingerprint\":\"3b32c361c67b020951aaeff312184d6fde1812e84a1d1d6459e4f38679d1c131\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 9,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1295,
+        "lowered_canonical_bytes": 2651,
+        "byte_reduction_percent": 51.151,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "24_parallel_bell_pair_generation",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.parallel_bell_pair_generation\",\"frames\":1,\"rows\":8,\"qubits\":4,\"cbits\":2,\"lowered_sha256\":\"14621195546908c18d90717ff85251802d53c086e5c235abfce91966a9f428f2\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"937e643b610d2213f843d399d893f18c1530e3c3ff73ad957fa084e2fd4f79fb\",\"roundtrip_fingerprint\":\"937e643b610d2213f843d399d893f18c1530e3c3ff73ad957fa084e2fd4f79fb\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 8,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1086,
+        "lowered_canonical_bytes": 2415,
+        "byte_reduction_percent": 55.031,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "25_parallel_ghz_preparation",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.parallel_ghz_preparation\",\"frames\":1,\"rows\":7,\"qubits\":3,\"cbits\":2,\"lowered_sha256\":\"7031e2481afe33ca666a3293f84dc4bbd1c5c12c4b5b4b34b03cbf8804aaecaa\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"1989ce9f915048dd49b803bb2edc29dfc0869c10630b61522ee5395bb4f7425d\",\"roundtrip_fingerprint\":\"1989ce9f915048dd49b803bb2edc29dfc0869c10630b61522ee5395bb4f7425d\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 7,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1018,
+        "lowered_canonical_bytes": 2252,
+        "byte_reduction_percent": 54.796,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "26_parallel_independent_shots",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.parallel_independent_shots\",\"frames\":1,\"rows\":6,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"1988a30dd407a3a433f4cb1643291ba256afd555f1f9740110fee1979fa6cb40\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"da14bb52acfd109fa8b0b1f83c1970d7c97f71671987921aa52207b738c8cd90\",\"roundtrip_fingerprint\":\"da14bb52acfd109fa8b0b1f83c1970d7c97f71671987921aa52207b738c8cd90\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 6,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1092,
+        "lowered_canonical_bytes": 2189,
+        "byte_reduction_percent": 50.114,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "27_distributed_parameter_sweep",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.distributed_parameter_sweep\",\"frames\":1,\"rows\":7,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"f44c43f0eba946f42f441d2f335e21987129b79b9df29354011115231c8e6842\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"dd9ff4cfac20f9eee4327f2234ba67bc810d3dcc5aab6935aac105673c6ba5ca\",\"roundtrip_fingerprint\":\"dd9ff4cfac20f9eee4327f2234ba67bc810d3dcc5aab6935aac105673c6ba5ca\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 7,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1178,
+        "lowered_canonical_bytes": 2344,
+        "byte_reduction_percent": 49.744,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "28_parallel_parameter_shift_gradient",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.parallel_parameter_shift_gradient\",\"frames\":1,\"rows\":6,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"5ebfdf465fdb38192411528e0867da4bbe30ef412477dfd13ade2a3d090cf2df\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"9ea41d134c79d39a8789ee955459d65aa1d8f4c3bdee2edb342d85dc0790c17c\",\"roundtrip_fingerprint\":\"9ea41d134c79d39a8789ee955459d65aa1d8f4c3bdee2edb342d85dc0790c17c\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 6,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1076,
+        "lowered_canonical_bytes": 2181,
+        "byte_reduction_percent": 50.665,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "29_measurement_conditioned_branch",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.measurement_conditioned_branch\",\"frames\":1,\"rows\":6,\"qubits\":2,\"cbits\":3,\"lowered_sha256\":\"e47ee858e800720e8a0fa7174699ebe1dc534037ba538dd24086c71094f2da25\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"79655d958e8e436cd020317aca98b6e8eee5144fddb0a8d7751df126ee0cb9c4\",\"roundtrip_fingerprint\":\"79655d958e8e436cd020317aca98b6e8eee5144fddb0a8d7751df126ee0cb9c4\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 6,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1135,
+        "lowered_canonical_bytes": 2160,
+        "byte_reduction_percent": 47.454,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "30_two_node_classical_pipeline",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.two_node_classical_pipeline\",\"frames\":1,\"rows\":8,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"1c8b331231820f9405e39a2bc9fd957606001261f210ab3b21f9c3e931a8bd67\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"08a5c2d694a211f7a3eec4492b00ae10fa52b1d39dcfd79d61b699c0935f2579\",\"roundtrip_fingerprint\":\"08a5c2d694a211f7a3eec4492b00ae10fa52b1d39dcfd79d61b699c0935f2579\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 8,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1341,
+        "lowered_canonical_bytes": 2592,
+        "byte_reduction_percent": 48.264,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "31_domain_decomposition_halo_exchange",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.domain_decomposition_halo_exchange\",\"frames\":1,\"rows\":6,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"d70848e412ae94aaab406161086833863544ff106b00a66aaefaa8f90e53cfa3\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"8759dbb5cde886651498c775d1956ebea2cca46a54e5c0f52d3005d4b1bcd1e7\",\"roundtrip_fingerprint\":\"8759dbb5cde886651498c775d1956ebea2cca46a54e5c0f52d3005d4b1bcd1e7\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 6,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1089,
+        "lowered_canonical_bytes": 2204,
+        "byte_reduction_percent": 50.59,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "32_bsp_supersteps",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.bsp_supersteps\",\"frames\":1,\"rows\":6,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"e1361741537f5d46fed95a11d8b5b143374e646fbd63efba8d2dcee45ba2ae44\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"01349dff508a69299b8de87e2eab49fee6cad35712a33f69acf1ee55d2d00d91\",\"roundtrip_fingerprint\":\"01349dff508a69299b8de87e2eab49fee6cad35712a33f69acf1ee55d2d00d91\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 6,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1024,
+        "lowered_canonical_bytes": 2138,
+        "byte_reduction_percent": 52.105,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "33_asynchronous_future_event_execution",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.asynchronous_future_event_execution\",\"frames\":1,\"rows\":6,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"73fe2d828fc54faa466e3e0184b7cea74724241151eed878b64eb1491eefed4e\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"7de9ba5b71d6f45b45ae76f651333694318934f89e32649fcf29b62abd85e70d\",\"roundtrip_fingerprint\":\"7de9ba5b71d6f45b45ae76f651333694318934f89e32649fcf29b62abd85e70d\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 6,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1112,
+        "lowered_canonical_bytes": 2199,
+        "byte_reduction_percent": 49.432,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "34_work_span_analysis",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.work_span_analysis\",\"frames\":1,\"rows\":5,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"a66431ad05ea96405b47c38b0c7333998f4e3d362613f6460d4efd2ecc34aa51\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"a4462e8d481abb42df2390d3ef0864324e8929d4a26e905fd2c296f34c60f4e1\",\"roundtrip_fingerprint\":\"a4462e8d481abb42df2390d3ef0864324e8929d4a26e905fd2c296f34c60f4e1\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 5,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 912,
+        "lowered_canonical_bytes": 1940,
+        "byte_reduction_percent": 52.99,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "35_topology_aware_placement",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.topology_aware_placement\",\"frames\":1,\"rows\":8,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"97d898036a39d19096e1fb38e559563719a5eae978a99a1cffc51508f77f179b\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"28e7d3d238b0a3824a0d190fdb5307828bebea65aeb2539749b3c138cff05e95\",\"roundtrip_fingerprint\":\"28e7d3d238b0a3824a0d190fdb5307828bebea65aeb2539749b3c138cff05e95\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 8,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1332,
+        "lowered_canonical_bytes": 2566,
+        "byte_reduction_percent": 48.09,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "36_communication_aware_scheduling",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.communication_aware_scheduling\",\"frames\":1,\"rows\":6,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"2e8c952c293b4ab65fc2dea1b4fcd87bfb2897ea97586ee1fe2a570cf70b58b3\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"e5cd8f9b42b31e396e573c5bd556ab1f6edc8ebb4b74399c72e037c934550391\",\"roundtrip_fingerprint\":\"e5cd8f9b42b31e396e573c5bd556ab1f6edc8ebb4b74399c72e037c934550391\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 6,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1085,
+        "lowered_canonical_bytes": 2199,
+        "byte_reduction_percent": 50.659,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "37_numa_aware_classical_placement",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.numa_aware_classical_placement\",\"frames\":1,\"rows\":8,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"57856775d9a17a74c3c5d665d5acb0302c7d799f1198e09fee17d05ffa201638\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"072a91b45e2e30f91ecfa6245e7032119568b525c4f35a5eb01b4c84cff4a38a\",\"roundtrip_fingerprint\":\"072a91b45e2e30f91ecfa6245e7032119568b525c4f35a5eb01b4c84cff4a38a\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 8,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1343,
+        "lowered_canonical_bytes": 2560,
+        "byte_reduction_percent": 47.539,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "38_distributed_statevector_simulation",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.distributed_statevector_simulation\",\"frames\":1,\"rows\":6,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"a50272ed1ac74c2fed9c4d1a888754934f2c46b8ffc1439ebeda310da9d3d787\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"9de1f6403ae2b90a27bad737511f3af760baacf2d9a3d735d68bfc17140845c2\",\"roundtrip_fingerprint\":\"9de1f6403ae2b90a27bad737511f3af760baacf2d9a3d735d68bfc17140845c2\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 6,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1144,
+        "lowered_canonical_bytes": 2241,
+        "byte_reduction_percent": 48.951,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "39_distributed_density_matrix_simulation",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.distributed_density_matrix_simulation\",\"frames\":1,\"rows\":6,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"cf7c16479108ad3ab9e4ed8f930015bd12001a531cc67c89647ace303aa43961\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"4c6cd5bd4d1321048bb01bbd2f7b4653859888155e8f7eeee9180f9ce70c16fb\",\"roundtrip_fingerprint\":\"4c6cd5bd4d1321048bb01bbd2f7b4653859888155e8f7eeee9180f9ce70c16fb\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 6,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1147,
+        "lowered_canonical_bytes": 2244,
+        "byte_reduction_percent": 48.886,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "40_distributed_stabilizer_simulation",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.distributed_stabilizer_simulation\",\"frames\":1,\"rows\":6,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"27904afc6c5caaf4392dc44e5f48c270523c23fdcabb84754196d147b4a835dc\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"88c2eb7cedee2f36222d5c7cbc462f63b447dcbd0cfaa781a636a84d3f8cb7dd\",\"roundtrip_fingerprint\":\"88c2eb7cedee2f36222d5c7cbc462f63b447dcbd0cfaa781a636a84d3f8cb7dd\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 6,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1137,
+        "lowered_canonical_bytes": 2224,
+        "byte_reduction_percent": 48.876,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "41_epr_generation",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.epr_generation\",\"frames\":1,\"rows\":8,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"5a9e7a3607b3c0fd048b9f21f482bb1784b520648a8fc1cd6503429803cab9d1\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"5d165e92d50cedc6aa4070df60761cdd1f2f63b6232cb879ae3e0c68ebfcfd49\",\"roundtrip_fingerprint\":\"5d165e92d50cedc6aa4070df60761cdd1f2f63b6232cb879ae3e0c68ebfcfd49\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 8,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1298,
+        "lowered_canonical_bytes": 2565,
+        "byte_reduction_percent": 49.396,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "42_teleportation_across_logical_nodes",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.teleportation_across_logical_nodes\",\"frames\":1,\"rows\":9,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"4a696e3f91d55d0bb08857229de3fab4e6e45dc8da370b3762b7ed04f5cff6b0\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"dad92a69b24960b64650262c3fc17e4c6f51e1575eb378ea2370b823eff983ff\",\"roundtrip_fingerprint\":\"dad92a69b24960b64650262c3fc17e4c6f51e1575eb378ea2370b823eff983ff\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 9,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1493,
+        "lowered_canonical_bytes": 2840,
+        "byte_reduction_percent": 47.43,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "43_remote_cnot_decomposition",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.remote_cnot_decomposition\",\"frames\":1,\"rows\":5,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"e9162d009c8e0a892bf3e5801801184fb5ac1380601aec432f5d6913e0ebeed5\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"8afd970b2892dfe6090065fd62f82773dd45cc34e2d0d8b79218e810dbc066e9\",\"roundtrip_fingerprint\":\"8afd970b2892dfe6090065fd62f82773dd45cc34e2d0d8b79218e810dbc066e9\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 5,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 993,
+        "lowered_canonical_bytes": 2024,
+        "byte_reduction_percent": 50.939,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "44_entanglement_swapping",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.entanglement_swapping\",\"frames\":1,\"rows\":5,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"0c2993592f2a518df247e5bdbe08519640cfa1fb3d7ff32abc41f6d9d7a24c00\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"e03e18039ce60bdfc43372ed9ae6f64b8d5ffb738ccf3020b7e878696adf1223\",\"roundtrip_fingerprint\":\"e03e18039ce60bdfc43372ed9ae6f64b8d5ffb738ccf3020b7e878696adf1223\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 5,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 911,
+        "lowered_canonical_bytes": 1969,
+        "byte_reduction_percent": 53.733,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "45_classical_feedback_across_nodes",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.classical_feedback_across_nodes\",\"frames\":1,\"rows\":8,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"194b85a848af90fed94e191eec25a9956a3389fe250d248bc2d8252e9c0f4f72\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"1bf2e53a2a1961e4a682936caa1ce7f990c88fbe05c4a94e7c255ad4079e93b1\",\"roundtrip_fingerprint\":\"1bf2e53a2a1961e4a682936caa1ce7f990c88fbe05c4a94e7c255ad4079e93b1\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 8,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1384,
+        "lowered_canonical_bytes": 2628,
+        "byte_reduction_percent": 47.336,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "46_target_rerouting_after_node_failure",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.target_rerouting_after_node_failure\",\"frames\":1,\"rows\":5,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"3a4cb80dab164d5076faa1bc0162fc57c848ae1a96531c0aad831950bf312daf\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"ad840f0a2f425ee81061475730288a5560629dc42638da3313bbe9d23460fcff\",\"roundtrip_fingerprint\":\"ad840f0a2f425ee81061475730288a5560629dc42638da3313bbe9d23460fcff\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 5,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1006,
+        "lowered_canonical_bytes": 2027,
+        "byte_reduction_percent": 50.37,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "47_shot_retry_after_target_failure",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.shot_retry_after_target_failure\",\"frames\":1,\"rows\":5,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"94e019fe3a5c75adbef86ebfc31d5d7089522ff0e9133f19abd1a44e298e74c2\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"6ea93681832101937ae50de1720d86dcef58188b68b4f1ad47db1dafe82f59bd\",\"roundtrip_fingerprint\":\"6ea93681832101937ae50de1720d86dcef58188b68b4f1ad47db1dafe82f59bd\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 5,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1006,
+        "lowered_canonical_bytes": 2027,
+        "byte_reduction_percent": 50.37,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "48_weakly_coupled_partition",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.weakly_coupled_partition\",\"frames\":1,\"rows\":8,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"887cadda47ab97284028557a6561e94b3a4aa12fdafd2e60f8d54c17fcb893ab\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"734d21264d7dfa194c6b81aeb7e3201df814c9a435670ff9172eaa98a7c3d8fb\",\"roundtrip_fingerprint\":\"734d21264d7dfa194c6b81aeb7e3201df814c9a435670ff9172eaa98a7c3d8fb\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 8,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1246,
+        "lowered_canonical_bytes": 2546,
+        "byte_reduction_percent": 51.06,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "49_strongly_coupled_monolithic_schedule",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.strongly_coupled_monolithic_schedule\",\"frames\":1,\"rows\":6,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"2bcc592b7baf84e12d8cd492df6876703fe280ccf5889c4497bc893d31048d34\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"76c645eb96385ae2a708ddd501cafd5be9ac3bc0b111290404def4b4e04e31c1\",\"roundtrip_fingerprint\":\"76c645eb96385ae2a708ddd501cafd5be9ac3bc0b111290404def4b4e04e31c1\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 6,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1062,
+        "lowered_canonical_bytes": 2194,
+        "byte_reduction_percent": 51.595,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "50_reciprocal_coupling_validation",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.reciprocal_coupling_validation\",\"frames\":1,\"rows\":5,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"8d19e8800be39110e67a07ef127a87082cd4ce03a2d94643528895a70c55b06c\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"530701a56dc3e63174248010c0d1e7ea97c682a3a7d5e6f50d00d8dfeec70ffb\",\"roundtrip_fingerprint\":\"530701a56dc3e63174248010c0d1e7ea97c682a3a7d5e6f50d00d8dfeec70ffb\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 5,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 953,
+        "lowered_canonical_bytes": 1978,
+        "byte_reduction_percent": 51.82,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "51_impossible_consistency_partition_guarantee",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.impossible_consistency_partition_guarantee\",\"frames\":1,\"rows\":5,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"55d40375a50801973000f26a6759b76cb62f3f0b9f92a51ad436e2a2e90d7ceb\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"4cbdda254a0c3fc25524b770e723f01e0ef119113dd729379b39a1397219daf5\",\"roundtrip_fingerprint\":\"4cbdda254a0c3fc25524b770e723f01e0ef119113dd729379b39a1397219daf5\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 5,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1114,
+        "lowered_canonical_bytes": 2098,
+        "byte_reduction_percent": 46.902,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "52_physical_distributed_execution_blocked",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.physical_distributed_execution_blocked\",\"frames\":1,\"rows\":6,\"qubits\":2,\"cbits\":2,\"lowered_sha256\":\"d88e821c3c86161031ff68eb51e08406479732d60ab3db22c6737dccfec0642d\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"e72107fd73b8dbf5766e9d0f8a50430c32b422b442b77501364f31855ea3b31f\",\"roundtrip_fingerprint\":\"e72107fd73b8dbf5766e9d0f8a50430c32b422b442b77501364f31855ea3b31f\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 6,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1121,
+        "lowered_canonical_bytes": 2196,
+        "byte_reduction_percent": 48.953,
+        "semantic_cells_removed_per_row": 10
+      }
+    },
+    {
+      "example": "53_native_distributed_bell_fabric",
+      "status": "PASS",
+      "verify": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-VERIFY/1.0\",\"bundle\":\"lctl.example.native_distributed_bell_fabric\",\"frames\":1,\"rows\":14,\"qubits\":4,\"cbits\":2,\"lowered_sha256\":\"018f4e7fb79643785872d1057a6ec874961a98ec6b9ddf10ce1a66c09ecff81d\",\"canonical_verifier\":\"PASS\"}",
+      "roundtrip": "{\"status\":\"PASS\",\"schema\":\"LCTL-COLUMN-ROUNDTRIP/1.0\",\"source_fingerprint\":\"0e94813be5fbb5df85fab11e3c803d3efb04bde1f4ca0edddb7235a5d7e2f657\",\"roundtrip_fingerprint\":\"0e94813be5fbb5df85fab11e3c803d3efb04bde1f4ca0edddb7235a5d7e2f657\",\"semantic_equivalence\":true}",
+      "stats": {
+        "status": "PASS",
+        "schema": "LCTL-COLUMN-STATS/1.0",
+        "rows": 14,
+        "source_columns": 8,
+        "canonical_columns": 18,
+        "compact_bytes": 1834,
+        "lowered_canonical_bytes": 3647,
+        "byte_reduction_percent": 49.712,
+        "semantic_cells_removed_per_row": 10
+      }
+    }
+  ]
+}

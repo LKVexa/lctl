@@ -1,0 +1,52 @@
+[
+  {
+    "dataset": "payload/LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/legacy/MSSLB_LX_MCRT_K_MSSL_S_COMPENDIUM_LEARNED_LANGUAGE_SYSTEM_3.0.0.expanded/MSSLB_LX_MCRT_K_MSSL_S_COMPENDIUM_LEARNED_LANGUAGE_SYSTEM_3.0.0/knowledge/compendium_semantic_memory.jsonl",
+    "current_sha256": "feee79d0b95b62b536d1ac796aa422dacaa9f71512bd8c49fa563d1eb5f5cc0e",
+    "source_sha256": "feee79d0b95b62b536d1ac796aa422dacaa9f71512bd8c49fa563d1eb5f5cc0e",
+    "stored_jsonl_rows": 1205,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/knowledge/quantum/calculus_transform_semantic_memory.jsonl",
+    "current_sha256": "d59c63991a0b789d089e33910eb9f5be8e66fa2c50242beb1d244d009d67a600",
+    "source_sha256": "d59c63991a0b789d089e33910eb9f5be8e66fa2c50242beb1d244d009d67a600",
+    "stored_jsonl_rows": 9,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/knowledge/legacy/compendium_semantic_memory.jsonl",
+    "current_sha256": "feee79d0b95b62b536d1ac796aa422dacaa9f71512bd8c49fa563d1eb5f5cc0e",
+    "source_sha256": "feee79d0b95b62b536d1ac796aa422dacaa9f71512bd8c49fa563d1eb5f5cc0e",
+    "stored_jsonl_rows": 1205,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/knowledge/lctl/compendium_lctl_admission_catalog.jsonl",
+    "current_sha256": "cdb7dbfe3444a2ace202fbfd73a78dcd6a4cff6f8d4ed7e3c18e3cccb21aad76",
+    "source_sha256": "cdb7dbfe3444a2ace202fbfd73a78dcd6a4cff6f8d4ed7e3c18e3cccb21aad76",
+    "stored_jsonl_rows": 1205,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/provenance/lctl13/REFERENCE_EVENT_TRACE.jsonl",
+    "current_sha256": "c95e1a85e5e3ac698636b38ef1ca0fdfbe383c19eb40f4a741855f615754e758",
+    "source_sha256": "c95e1a85e5e3ac698636b38ef1ca0fdfbe383c19eb40f4a741855f615754e758",
+    "stored_jsonl_rows": 6,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  }
+]

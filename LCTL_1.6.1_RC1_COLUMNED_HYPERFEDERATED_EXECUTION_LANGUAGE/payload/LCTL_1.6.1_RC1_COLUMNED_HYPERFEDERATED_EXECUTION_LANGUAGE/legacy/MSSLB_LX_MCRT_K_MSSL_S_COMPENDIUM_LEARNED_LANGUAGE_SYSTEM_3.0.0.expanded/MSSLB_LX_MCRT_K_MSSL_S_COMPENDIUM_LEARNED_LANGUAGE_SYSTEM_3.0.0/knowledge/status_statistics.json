@@ -1,0 +1,112 @@
+{
+  "records": 1205,
+  "fields": 20,
+  "regimes": {
+    "exact_linear": 1062,
+    "no_faithful_form": 38,
+    "structural_analogue": 55,
+    "linearized": 50
+  },
+  "per_field": {
+    "1": {
+      "exact_linear": 52,
+      "no_faithful_form": 4,
+      "structural_analogue": 9
+    },
+    "13": {
+      "exact_linear": 55,
+      "structural_analogue": 3,
+      "no_faithful_form": 1,
+      "linearized": 1
+    },
+    "15": {
+      "exact_linear": 53,
+      "no_faithful_form": 5,
+      "structural_analogue": 2
+    },
+    "17": {
+      "exact_linear": 56,
+      "structural_analogue": 3,
+      "no_faithful_form": 1
+    },
+    "19": {
+      "exact_linear": 46,
+      "no_faithful_form": 10,
+      "structural_analogue": 4
+    },
+    "20": {
+      "exact_linear": 53,
+      "no_faithful_form": 3,
+      "structural_analogue": 3,
+      "linearized": 1
+    },
+    "21": {
+      "exact_linear": 54,
+      "linearized": 5,
+      "structural_analogue": 1
+    },
+    "22": {
+      "exact_linear": 56,
+      "linearized": 4
+    },
+    "23": {
+      "exact_linear": 51,
+      "structural_analogue": 1,
+      "linearized": 8
+    },
+    "27": {
+      "exact_linear": 49,
+      "linearized": 8,
+      "no_faithful_form": 1,
+      "structural_analogue": 2
+    },
+    "32": {
+      "exact_linear": 59,
+      "linearized": 1
+    },
+    "57": {
+      "exact_linear": 48,
+      "linearized": 12
+    },
+    "58": {
+      "structural_analogue": 8,
+      "exact_linear": 46,
+      "no_faithful_form": 6
+    },
+    "59": {
+      "exact_linear": 56,
+      "no_faithful_form": 3,
+      "structural_analogue": 1
+    },
+    "60": {
+      "exact_linear": 57,
+      "structural_analogue": 1,
+      "linearized": 2
+    },
+    "61": {
+      "structural_analogue": 7,
+      "exact_linear": 50,
+      "no_faithful_form": 2,
+      "linearized": 1
+    },
+    "62": {
+      "exact_linear": 53,
+      "structural_analogue": 3,
+      "linearized": 4
+    },
+    "77": {
+      "exact_linear": 56,
+      "structural_analogue": 1,
+      "linearized": 3
+    },
+    "79": {
+      "exact_linear": 58,
+      "structural_analogue": 2
+    },
+    "80": {
+      "exact_linear": 54,
+      "structural_analogue": 4,
+      "no_faithful_form": 2
+    }
+  }
+}

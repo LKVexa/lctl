@@ -1,0 +1,14 @@
+LCTLC/1.0
+@unit id=lctl.example.qft version=1.0.0 profile=lctl.quantum.core entry=F0000:C0010 target=local-reference error_budget=0.01 resource_ceiling=q<=12;density<=8 proof=release-proof
+@defaults qspace=H basis=computational regime=exact assume=finite_dimension error=exact conf=1.0
+@frame id=F0000 parent=ROOT module=lctl.example.qft proof=lctl-core
+ID│LANE│OP│OUT│CTRL│IN│ARG│META
+D0001 │ alloc │ Q │ q │ _ │ _ │ 3 │ qs=H2^3;res="logical_qubits=3"
+C0010 │ circuit │ H │ q[0] │ _ │ q[0] │ _ │ _
+C0011 │ circuit │ CPHASE │ q[0] │ q[1] │ q[0] │ 1.5707963267948966 │ _
+C0012 │ circuit │ CPHASE │ q[0] │ q[2] │ q[0] │ 0.7853981633974483 │ _
+C0013 │ circuit │ H │ q[1] │ _ │ q[1] │ _ │ _
+C0014 │ circuit │ CPHASE │ q[1] │ q[2] │ q[1] │ 1.5707963267948966 │ _
+C0015 │ circuit │ H │ q[2] │ _ │ q[2] │ _ │ _
+C0016 │ circuit │ SWAP │ q[2] │ q[0] │ q[2] │ _ │ _
+@end

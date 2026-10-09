@@ -1,0 +1,42 @@
+[
+  {
+    "dataset": "payload/COLUMNED_LCTL_CORPUS_1.0.0/machine/row_pairs.jsonl",
+    "current_sha256": "264950ecc6edd4f1120bfd0cee0b4a235358b36b6f90476c09881fa069064f2c",
+    "source_sha256": "264950ecc6edd4f1120bfd0cee0b4a235358b36b6f90476c09881fa069064f2c",
+    "stored_jsonl_rows": 365,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/COLUMNED_LCTL_CORPUS_1.0.0/machine/program_pairs.jsonl",
+    "current_sha256": "5e43c009e53ebf59185496fb6ea6c74a56200c112cbee5a213928fdfbac6a802",
+    "source_sha256": "5e43c009e53ebf59185496fb6ea6c74a56200c112cbee5a213928fdfbac6a802",
+    "stored_jsonl_rows": 53,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/COLUMNED_LCTL_CORPUS_1.0.0/machine/instruction_corpus.jsonl",
+    "current_sha256": "724d0185dcff81416125b3bb0b614c9b670f77e72799210b1d696d0456f60065",
+    "source_sha256": "724d0185dcff81416125b3bb0b614c9b670f77e72799210b1d696d0456f60065",
+    "stored_jsonl_rows": 1838,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  },
+  {
+    "dataset": "payload/COLUMNED_LCTL_CORPUS_1.0.0/machine/negative_cases.jsonl",
+    "current_sha256": "7a840ea77e8b79d5829f3bf37e748db6dfc00574273043e401c38f8abd71c4d9",
+    "source_sha256": "7a840ea77e8b79d5829f3bf37e748db6dfc00574273043e401c38f8abd71c4d9",
+    "stored_jsonl_rows": 512,
+    "role": "corpus_or_modeled_expectation",
+    "observed_native_result": null,
+    "native_execution_eligible": false,
+    "import_policy": "Reference syntax/contracts/data with provenance only; require a real profile compiler and independent runtime evidence for executable import."
+  }
+]

@@ -1,0 +1,14 @@
+LCTLC/1.0
+@unit id=lctl.example.weakly_coupled_partition version=1.2.0-rc1 profile=lctl.quantum.parallel.distributed entry=F0000:C9999 target=local-reference error_budget=0.05 resource_ceiling=q<=12;distributed=logical;physical=false proof=lctl-dist:1.2
+@defaults qspace=H basis=computational regime=exact assume=finite_dimension error=exact conf=1.0
+@frame id=F0000 parent=ROOT module=lctl.example.weakly_coupled_partition proof=lctl-dist:1.2
+ID│LANE│OP│OUT│CTRL│IN│ARG│META
+D0001 │ alloc │ Q │ q │ _ │ _ │ 2 │ qs=H2^2;res="logical_qubits=2";p=lctl:1.2
+D0002 │ alloc │ C │ c │ _ │ _ │ 2 │ qs=C;t=creg[2];res="classical_bits=2";p=lctl:1.2
+K0001 │ meta │ BLOCK_COUPLING │ _ │ _ │ _ │ A,B;C,D │ p=lctl-dist:1.2
+K0002 │ meta │ COUPLING_STRENGTH │ _ │ _ │ _ │ value=0.05;classification=WEAKLY_COUPLED │ p=lctl-dist:1.2
+K0003 │ meta │ STAGGERED │ _ │ _ │ _ │ admitted=true │ p=lctl-dist:1.2
+X0004 │ meta │ PART │ _ │ _ │ _ │ id=P0;subsystem=A │ asm=finite_dimension;p=lctl-dist:1.2
+X0005 │ meta │ PART │ _ │ _ │ _ │ id=P1;subsystem=D │ asm=finite_dimension;p=lctl-dist:1.2
+C9999 │ lane0 │ . │ _ │ _ │ _ │ _ │ p=lctl:nop
+@end

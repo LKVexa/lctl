@@ -1,0 +1,1 @@
+Write compact quantum and parallel programs with LCTL-C 1.0 in LCTL 1.6.1-RC1. Eight-column source lowers into sealed 18-cell canonical LCTL, preserving verification authority. Explore 53 examples, compiler source, grammar, migration guides, and audit records to study concise authoring, policy-preserving roundtrips, and the local reference runtime.

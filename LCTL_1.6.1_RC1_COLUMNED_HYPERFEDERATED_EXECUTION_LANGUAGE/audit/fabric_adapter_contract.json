@@ -1,0 +1,18 @@
+{
+  "profile": "lctl.columned.fabric.1.6.1",
+  "proposed_contribution": "Column authoring integrated with fabric descriptions and canonical rows",
+  "reuse_boundary": "Use full-policy fingerprints; no native federation execution claim.",
+  "source_archive_sha256": "f4bb3c50e16f40cb243fc25c134d997b93efb09ee24dfff2b2e6c0a912fe25c5",
+  "source_evidence_paths": [
+    "payload/LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/authority/SOURCE_AUTHORITY_1_6.json",
+    "payload/LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/authority/SOURCE_AUTHORITY_1_3.json",
+    "payload/LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/authority/SOURCE_AUTHORITY.json",
+    "payload/LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/authority/SOURCE_AUTHORITY_1_4.json",
+    "payload/LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/authority/SOURCE_AUTHORITY_1_2.json",
+    "payload/LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/legacy/MSSLB_LX_MCRT_K_MSSL_S_COMPENDIUM_LEARNED_LANGUAGE_SYSTEM_3.0.0.expanded/MSSLB_LX_MCRT_K_MSSL_S_COMPENDIUM_LEARNED_LANGUAGE_SYSTEM_3.0.0/README_START_HERE.md",
+    "payload/LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/language/LCTL_C_GRAMMAR.ebnf",
+    "payload/LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/spec/LCTL_GRAMMAR.ebnf"
+  ],
+  "executable_adapter_implemented": false,
+  "mathematical_foundation": "8S Penteract-S3 Master Coupled Mechanics Law for intended JA model; typed operator semantics require their owning profile."
+}

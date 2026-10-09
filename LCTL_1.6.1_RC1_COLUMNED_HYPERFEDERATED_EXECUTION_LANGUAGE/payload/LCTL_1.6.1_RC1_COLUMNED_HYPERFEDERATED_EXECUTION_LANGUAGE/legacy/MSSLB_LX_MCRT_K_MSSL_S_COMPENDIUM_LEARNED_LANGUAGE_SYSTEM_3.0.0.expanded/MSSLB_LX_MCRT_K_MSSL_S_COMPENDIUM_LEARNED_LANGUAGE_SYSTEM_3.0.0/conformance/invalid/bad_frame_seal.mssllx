@@ -1,0 +1,54 @@
+MSSLB-LX/1.0
+BUNDLE¦ID¦VERSION¦PROFILE¦TARGET¦ENTRY¦FRAMES¦KNOWLEDGE¦BACKEND¦NETWORK¦POLICY¦REPLAY¦ADMISSION¦ERROR¦STATE¦PROOF
+(bundle ¦ basic.universe.compendium.learned ¦ 3.0.0 ¦ msslb.lx.bwec1 ¦ BWX1 ¦ F0000:C0000 ¦ 3 ¦ compendium20:1205 ¦ none ¦ deny ¦ local-only ¦ deterministic ¦ q1-q6 ¦ fail-closed ¦ sealed ¦ compendium-learned)
+MCRT-K/1.0 BEGIN F0000
+ID¦PARENT¦SOURCE¦FIELD¦MODULE¦SEQ¦DEPTH¦TICK¦SYMBOL¦EXEC¦ROUTE¦LEARN¦CLASS¦REGIME¦ASSUME¦ERROR¦CONF¦ADMIT¦STATUS¦PROOF
+(F0000 ¦ ROOT ¦ mssl-s@1.0 ¦ 15 ¦ execution ¦ 0 ¦ 0 ¦ 0 ¦ ready ¦ active ¦ local ¦ compendium ¦ exact_numeric+operator ¦ exact ¦ none ¦ exact ¦ 1.0 ¦ observe ¦ stable ¦ field15)
+MSSL-S/1.0
+ROW¦FACE¦LANE¦OP¦OUT¦A¦B¦CAP¦WIDTH¦MODE¦AUX¦TYPE¦CLASS¦REGIME¦ASSUME¦ERROR¦CONF¦PROOF
+(C0000 ¦ CODE ¦ boot ¦ MOVI ¦ R0 ¦ 5 ¦ _ ¦ C0 ¦ W ¦ wrap ¦ 0 ¦ bitvec ¦ arithmetic ¦ exact ¦ none ¦ exact ¦ 1.0 ¦ demo:a)
+(C0001 ¦ CODE ¦ boot ¦ MOVI ¦ R1 ¦ 7 ¦ _ ¦ C0 ¦ W ¦ wrap ¦ 0 ¦ bitvec ¦ arithmetic ¦ exact ¦ none ¦ exact ¦ 1.0 ¦ demo:b)
+(C0002 ¦ CODE ¦ math ¦ ADD ¦ R2 ¦ R0 ¦ R1 ¦ C0 ¦ W ¦ checked ¦ 0 ¦ bitvec ¦ arithmetic ¦ exact ¦ none ¦ exact ¦ 1.0 ¦ demo:sum)
+(C0003 ¦ CODE ¦ io ¦ MOV ¦ R0 ¦ R2 ¦ _ ¦ C0 ¦ W ¦ wrap ¦ 0 ¦ bitvec ¦ operator ¦ exact ¦ none ¦ exact ¦ 1.0 ¦ demo:print)
+(C0004 ¦ CODE ¦ io ¦ SVC ¦ _ ¦ R0 ¦ _ ¦ C0 ¦ W ¦ wrap ¦ 1 ¦ bitvec ¦ operator ¦ exact ¦ none ¦ exact ¦ 1.0 ¦ demo:console)
+(C0005 ¦ CODE ¦ flow ¦ JMP ¦ _ ¦ _ ¦ _ ¦ C0 ¦ W ¦ wrap ¦ C0010 ¦ bitvec ¦ dynamical ¦ exact ¦ none ¦ exact ¦ 1.0 ¦ demo:handoff)
+(K0001 ¦ KNOW ¦ numeric ¦ REL ¦ conditioning ¦ amplifies ¦ perturbation ¦ _ ¦ _ ¦ _ ¦ _ ¦ concept ¦ exact_numeric ¦ exact ¦ finite_condition_number ¦ exact ¦ 1.0 ¦ field15)
+(K0002 ¦ MODEL ¦ numeric ¦ ERROR_BOUND ¦ roundoff ¦ bounded_by ¦ conditioning*machine_epsilon ¦ _ ¦ _ ¦ _ ¦ _ ¦ interval ¦ exact_numeric ¦ approximate ¦ stable_algorithm ¦ rel<=kappa*u ¦ 0.99 ¦ field15)
+END MSSL-S
+END MCRT-K
+@frame sha256:0000000000000000000000000000000000000000000000000000000000000000
+MCRT-K/1.0 BEGIN F0001
+ID¦PARENT¦SOURCE¦FIELD¦MODULE¦SEQ¦DEPTH¦TICK¦SYMBOL¦EXEC¦ROUTE¦LEARN¦CLASS¦REGIME¦ASSUME¦ERROR¦CONF¦ADMIT¦STATUS¦PROOF
+(F0001 ¦ F0000 ¦ mssl-s@1.0 ¦ 60 ¦ learning ¦ 1 ¦ 1 ¦ 1 ¦ ready ¦ active ¦ local ¦ compendium ¦ learning+operator ¦ exact_linear ¦ differentiable_graph ¦ exact ¦ 1.0 ¦ admit ¦ learned ¦ field15+60)
+MSSL-S/1.0
+ROW¦FACE¦LANE¦OP¦OUT¦A¦B¦CAP¦WIDTH¦MODE¦AUX¦TYPE¦CLASS¦REGIME¦ASSUME¦ERROR¦CONF¦PROOF
+(L0010 ¦ LEARN ¦ learning ¦ REL ¦ reverse_mode_ad ¦ propagates ¦ transpose_jacobian ¦ _ ¦ _ ¦ _ ¦ _ ¦ concept ¦ learning+operator ¦ exact_linear ¦ differentiable_graph ¦ exact ¦ 1.0 ¦ field15+60)
+(L0011 ¦ MODEL ¦ learning ¦ BACKPROP ¦ gradient ¦ flows ¦ right_to_left ¦ _ ¦ _ ¦ _ ¦ _ ¦ operator ¦ learning ¦ exact_linear ¦ differentiable_graph ¦ exact ¦ 1.0 ¦ field60)
+(E0012 ¦ EVIDENCE ¦ proof ¦ Q1 ¦ F0001 ¦ pass ¦ operator_classified ¦ _ ¦ _ ¦ _ ¦ _ ¦ proof ¦ operator ¦ exact ¦ none ¦ exact ¦ 1.0 ¦ q1)
+(E0013 ¦ EVIDENCE ¦ proof ¦ Q2 ¦ F0001 ¦ pass ¦ jacobian_image ¦ _ ¦ _ ¦ _ ¦ _ ¦ proof ¦ operator ¦ exact ¦ none ¦ exact ¦ 1.0 ¦ q2)
+(E0014 ¦ EVIDENCE ¦ proof ¦ Q3 ¦ F0001 ¦ pass ¦ differentiable_graph ¦ _ ¦ _ ¦ _ ¦ _ ¦ proof ¦ learning ¦ exact ¦ differentiable_graph ¦ exact ¦ 1.0 ¦ q3)
+(E0015 ¦ EVIDENCE ¦ proof ¦ Q4 ¦ F0001 ¦ pass ¦ chain_rule_derivation ¦ _ ¦ _ ¦ _ ¦ _ ¦ proof ¦ learning ¦ exact ¦ none ¦ exact ¦ 1.0 ¦ q4)
+(E0016 ¦ EVIDENCE ¦ proof ¦ Q5 ¦ F0001 ¦ pass ¦ primitive_replay ¦ _ ¦ _ ¦ _ ¦ _ ¦ proof ¦ operator ¦ exact ¦ none ¦ exact ¦ 1.0 ¦ q5)
+(E0017 ¦ EVIDENCE ¦ proof ¦ Q6 ¦ F0001 ¦ pass ¦ admitted ¦ _ ¦ _ ¦ _ ¦ _ ¦ proof ¦ learning ¦ exact ¦ none ¦ exact ¦ 1.0 ¦ q6)
+END MSSL-S
+END MCRT-K
+@frame sha256:670e355981d3da935ae9728c7708025cb19306e0d4b77ceba705c7337f6e3767
+MCRT-K/1.0 BEGIN F0002
+ID¦PARENT¦SOURCE¦FIELD¦MODULE¦SEQ¦DEPTH¦TICK¦SYMBOL¦EXEC¦ROUTE¦LEARN¦CLASS¦REGIME¦ASSUME¦ERROR¦CONF¦ADMIT¦STATUS¦PROOF
+(F0002 ¦ F0001 ¦ mssl-s@1.0 ¦ 23 ¦ coupled_information ¦ 2 ¦ 2 ¦ 2 ¦ ready ¦ active ¦ local ¦ compendium ¦ coupled+informational ¦ exact_linear ¦ local_only ¦ exact ¦ 1.0 ¦ observe ¦ stable ¦ field23+79)
+MSSL-S/1.0
+ROW¦FACE¦LANE¦OP¦OUT¦A¦B¦CAP¦WIDTH¦MODE¦AUX¦TYPE¦CLASS¦REGIME¦ASSUME¦ERROR¦CONF¦PROOF
+(C0010 ¦ CODE ¦ memory ¦ MOVI ¦ R3 ¦ 42 ¦ _ ¦ C0 ¦ 64 ¦ wrap ¦ 0 ¦ bitvec ¦ arithmetic ¦ exact ¦ none ¦ exact ¦ 1.0 ¦ demo:value)
+(C0011 ¦ CODE ¦ memory ¦ STORE ¦ _ ¦ R3 ¦ _ ¦ C0 ¦ 64 ¦ wrap ¦ 128 ¦ bitvec ¦ operator ¦ exact ¦ bounds ¦ exact ¦ 1.0 ¦ demo:store)
+(C0012 ¦ CODE ¦ memory ¦ LOAD ¦ R4 ¦ _ ¦ _ ¦ C0 ¦ 64 ¦ wrap ¦ 128 ¦ bitvec ¦ operator ¦ exact ¦ bounds ¦ exact ¦ 1.0 ¦ demo:load)
+(C0013 ¦ CODE ¦ check ¦ CMP ¦ _ ¦ R3 ¦ R4 ¦ C0 ¦ 64 ¦ wrap ¦ 0 ¦ bitvec ¦ operator ¦ exact ¦ none ¦ exact ¦ 1.0 ¦ demo:compare)
+(C0014 ¦ CODE ¦ check ¦ JZ ¦ _ ¦ _ ¦ _ ¦ C0 ¦ 64 ¦ wrap ¦ C0016 ¦ bitvec ¦ dynamical ¦ exact ¦ none ¦ exact ¦ 1.0 ¦ demo:pass)
+(C0015 ¦ CODE ¦ exit ¦ HALT ¦ _ ¦ _ ¦ _ ¦ C0 ¦ 64 ¦ wrap ¦ 1 ¦ bitvec ¦ dynamical ¦ exact ¦ none ¦ exact ¦ 1.0 ¦ demo:fail)
+(C0016 ¦ CODE ¦ exit ¦ HALT ¦ _ ¦ _ ¦ _ ¦ C0 ¦ 64 ¦ wrap ¦ 0 ¦ bitvec ¦ dynamical ¦ exact ¦ none ¦ exact ¦ 1.0 ¦ demo:pass)
+(K0017 ¦ KNOW ¦ coupling ¦ REL ¦ off_diagonal_blocks ¦ encode ¦ cross_system_coupling ¦ _ ¦ _ ¦ _ ¦ _ ¦ concept ¦ coupled ¦ exact_linear ¦ block_operator ¦ exact ¦ 1.0 ¦ field23)
+(K0018 ¦ KNOW ¦ information ¦ REL ¦ entropy ¦ measures ¦ uncertainty ¦ _ ¦ _ ¦ _ ¦ _ ¦ concept ¦ informational ¦ exact ¦ distribution ¦ exact ¦ 1.0 ¦ field79)
+END MSSL-S
+END MCRT-K
+@frame sha256:f84ef688d3c644d32806f6b755bd92c0c0a866fa5a25e4c6318a188fc6b6f448
+END MSSLB-LX
+@bundle sha256:74943a29ca0e72937fcc990a42698a93f9ba535e94a1f3e0094b80ecfdf4a855

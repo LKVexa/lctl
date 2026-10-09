@@ -1,0 +1,13 @@
+{
+  "profile": "lctl.columned",
+  "proposed_contribution": "Human column authoring, explicit metadata, canonical lowering and roundtrip equivalence",
+  "reuse_boundary": "Require a checked profile adapter before mapping existing LCTL rows into LCUF.",
+  "source_archive_sha256": "b60b268a05b817bd7a9865f77f36b26b3952ef9bc28023eb3a8216b908bb634e",
+  "source_evidence_paths": [
+    "payload/COLUMNED_LCTL_CORPUS_1.0.0/SOURCE_AUTHORITY.md",
+    "payload/COLUMNED_LCTL_CORPUS_1.0.0/README_START_HERE.md",
+    "payload/COLUMNED_LCTL_CORPUS_1.0.0/authority/LCTL_C_GRAMMAR.ebnf"
+  ],
+  "executable_adapter_implemented": false,
+  "mathematical_foundation": "8S Penteract-S3 Master Coupled Mechanics Law for intended JA model; typed operator semantics require their owning profile."
+}

@@ -1,0 +1,10 @@
+LCTLC/1.0
+@unit id=lctl.example.hamiltonian_simulation version=1.0.0 profile=lctl.quantum.core entry=F0000:C0010 target=local-reference error_budget=0.01 resource_ceiling=q<=12;density<=8 proof=release-proof
+@defaults qspace=H basis=computational regime=exact assume=finite_dimension error=exact conf=1.0
+@frame id=F0000 parent=ROOT module=lctl.example.hamiltonian_simulation proof=lctl-core
+ID│LANE│OP│OUT│CTRL│IN│ARG│META
+D0001 │ alloc │ Q │ q │ _ │ _ │ 1 │ qs=H2^1;res="logical_qubits=1"
+C0010 │ circuit │ RZ │ q[0] │ _ │ q[0] │ 0.6 │ _
+M0011 │ hamiltonian │ HAMILTONIAN │ H_z │ _ │ _ │ 0.3*Z │ f=MODEL;t=Hamiltonian;basis=Pauli;asm=time_independent;res="terms=1";p=ham:single-z
+T0012 │ continuum │ D13_FRECHET_LINEARIZE │ control_model │ _ │ discrete_control │ DN+R │ t=operator;basis=custom;r=linearized;asm="twice_Frechet_differentiable;local_validity";err="abs<=0.001";res=local_neighborhood;c=0.99;p=dlemma:D13
+@end

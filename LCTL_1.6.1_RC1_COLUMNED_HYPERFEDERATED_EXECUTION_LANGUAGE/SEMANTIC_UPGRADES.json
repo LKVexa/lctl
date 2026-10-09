@@ -1,0 +1,230 @@
+{
+  "corpus": "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE",
+  "findings": [
+    {
+      "id": "LCTL-001",
+      "corpora": [
+        "COLUMNED_LCTL_CORPUS_1.0.0",
+        "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE"
+      ],
+      "severity": "high",
+      "paths": [
+        "authority/LctlColumnMain.java",
+        "runtime/src/LctlColumnMain.java"
+      ],
+      "title": "Roundtrip could certify loss of bundle or frame policy",
+      "evidence": "columnize omitted bundle indices 7-10 and 13-14; semanticFingerprint examined only bundle id/profile/entry, frame id/parent and row arrays. Replay, precision, state and frame metadata could change while equivalence remained PASS.",
+      "upgrade": "Serialize every bundle and frame field, preserve exact row confidence spelling, quote/unescape exactly, and fingerprint length-delimited complete arrays.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "LCTL-002",
+      "corpora": [
+        "COLUMNED_LCTL_CORPUS_1.0.0",
+        "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE"
+      ],
+      "severity": "high",
+      "paths": [
+        "authority/LctlColumnMain.java",
+        "runtime/src/LctlColumnMain.java"
+      ],
+      "title": "Malformed compact source silently accepted",
+      "evidence": "Directive/META maps overwrite duplicate keys, ignore unknown directives keys and bare tokens; parser accepts unfinished/nested frames, repeated directives and mutable global defaults within a frame.",
+      "upgrade": "Reject unknown/duplicate keys and semantic alias collisions, malformed quotes, wrong directive order, unfinished frames, duplicate headers/IDs, and empty frames. Invalid commands and failed roundtrips now return a failure exit.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "LCTL-003",
+      "corpora": [
+        "COLUMNED_LCTL_CORPUS_1.0.0",
+        "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE"
+      ],
+      "severity": "medium",
+      "paths": [
+        "authority/LctlColumnMain.java",
+        "runtime/src/LctlColumnMain.java",
+        "MANIFEST.json"
+      ],
+      "title": "Column selftest counts exceeded executed cases",
+      "evidence": "One positive Bell program was counted as 256 positive cases; the same three-cell row was rejected 256 times.",
+      "upgrade": "Report 1 positive and 1 distinct negative case, add 120-check semantic-policy regression including all 53 roundtrips and 14 malformed variants, retain historical artifacts as source evidence.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "LCTL-004",
+      "corpora": [
+        "COLUMNED_LCTL_CORPUS_1.0.0",
+        "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE"
+      ],
+      "severity": "medium",
+      "paths": [
+        "authority/LCTL_C_GRAMMAR.ebnf",
+        "language/LCTL_C_GRAMMAR.ebnf"
+      ],
+      "title": "Grammar referenced undefined terminals",
+      "evidence": "The shipped EBNF used newline/ws/kv-token/cell without lexical definitions and described only one of several accepted separator/end variants.",
+      "upgrade": "Complete lexical definitions and explain accepted forms, restricted key sets, required structure and uniqueness constraints.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "LCTL-005",
+      "corpora": [
+        "LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC",
+        "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE"
+      ],
+      "severity": "high",
+      "paths": [
+        "tools/run_lctl16_conformance.py",
+        "runtime/src/LctlHyperFederatedMain.java",
+        "conformance/1_6/positive/*.json",
+        "conformance/1_6/negative/*.json"
+      ],
+      "title": "1.6 descriptor counts were presented as semantic conformance",
+      "evidence": "Runner only counts 512 positive/512 negative descriptors and calls fabric-selftest. Selftest checks sha(x)==sha(x) 512 times, calls remoteCnot only every32nd iteration, and repeats two invalid argument shapes. Descriptor group names such as commutation_rewrite and invalid_ownership are not exercised.",
+      "upgrade": "Add descriptor schema/identity validation; report PASS_WITH_SCOPE, descriptor_execution=false, actual repeated selftest coverage, and full_conformance_verified=false. Building executable inputs for every named group remains open.",
+      "status": "APPLIED_SCOPE_CORRECTION_WITH_OPEN_IMPLEMENTATION"
+    },
+    {
+      "id": "LCTL-006",
+      "corpora": [
+        "LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC",
+        "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE"
+      ],
+      "severity": "high",
+      "paths": [
+        "tools/run_lctl15_conformance.py"
+      ],
+      "title": "1.5 runner ignored individual descriptor data",
+      "evidence": "The runner counts files and executes federation-selftest without reading seed/family/replicas/type from descriptors.",
+      "upgrade": "Read and validate all 512 descriptors, pass exact inputs to a batched Java runner, execute 768 underlying reference calls/package, enforce invalid-type error specificity. Results remain scoped because CRDT algebra is not implemented.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "LCTL-007",
+      "corpora": [
+        "LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC",
+        "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE"
+      ],
+      "severity": "high",
+      "paths": [
+        "runtime/src/LctlFederatedMain.java",
+        "runtime/src/LctlHyperFederatedMain.java"
+      ],
+      "title": "Unsigned adapter text could become authenticated evidence",
+      "evidence": "adapterCheck considers presence of endpoint/auth/credential/signature substrings sufficient evidence and allows physical status when both marker groups appear. adapter4 hardcodes outer PASS_WITH_SCOPE even for a blocked base result.",
+      "upgrade": "Declared fields no longer become authentication; verified flags remain false, all physical requests remain BLOCKED_EXTERNAL_AUTHORITY, blocking propagates through wrapper and CLI exits3. Signed structured receipt validation remains open.",
+      "status": "APPLIED_FAIL_CLOSED_WITH_OPEN_AUTHENTICATION"
+    },
+    {
+      "id": "LCTL-008",
+      "corpora": [
+        "LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC",
+        "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE"
+      ],
+      "severity": "high",
+      "paths": [
+        "runtime/src/LctlFederatedMain.java"
+      ],
+      "title": "Reference aggregates and checkpoint text overstated implementation",
+      "evidence": "crdt hardcodes commutative/associative/idempotent booleans without merge functions; restore uses string marker checks and hashes a file but restores no runtime state.",
+      "upgrade": "Report merge laws as unknown and merge_laws_verified=false; report runtime_state_restored=false and operation=CHECKPOINT_METADATA_INSPECTION. Real merge algebra and validated complete-state restoration remain open.",
+      "status": "APPLIED_SCOPE_CORRECTION_WITH_OPEN_IMPLEMENTATION"
+    },
+    {
+      "id": "LCTL-010",
+      "corpora": [
+        "LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC",
+        "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE"
+      ],
+      "severity": "medium",
+      "paths": [
+        "tools/run_lctl14_conformance.py",
+        "tools/verify_package_checksums.py"
+      ],
+      "title": "Missing status/checksum records could be accepted",
+      "evidence": "good_json defaults missing status to PASS. Checksums trust arbitrary relative paths and do not reject duplicate/empty/malformed records.",
+      "upgrade": "Require explicit PASS/status evidence, bound runtime calls, reject malformed/duplicate/escaping/missing checksum records, preserve source hashes in provenance and rebuild current checksum manifests.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "LCTL-011",
+      "corpora": [
+        "LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC",
+        "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE"
+      ],
+      "severity": "high",
+      "paths": [
+        "runtime/src/LctlMain.java",
+        "tests/NumericAndAdmissionRegression.java"
+      ],
+      "title": "Nonfinite numeric cells bypassed comparison-based bounds",
+      "evidence": "Double.parseDouble accepted NaN and Infinity; comparisons such as confidence < 0 or > 1 do not reject NaN. Bundle error budgets, frame/row confidence and rotation angles therefore lacked a finite-value contract.",
+      "upgrade": "Require Double.isFinite in the canonical numeric decoder, rebuild every exposed runtime jar and mirror the updated column tooling jar. Reject 16 resealed variants spanning four numeric contexts and four nonfinite spellings in both core and fabric admission.",
+      "status": "APPLIED"
+    },
+    {
+      "id": "LCTL-012",
+      "corpora": [
+        "LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC",
+        "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE"
+      ],
+      "severity": "high",
+      "paths": [
+        "runtime/src/LctlFabricMain.java",
+        "runtime/src/LctlMain.java",
+        "MANIFEST.json",
+        "tests/NumericAndAdmissionRegression.java"
+      ],
+      "title": "Fabric entry points bypassed canonical seals and admission",
+      "evidence": "Fabric.parse directly scanned bundle/row text rather than invoking LctlMain.parse with verification. Consequently fabric operations could admit tampered seals or policies rejected by the core verifier. Source compatibility also advertised unimplemented LCTL/1.4 and LCTL/1.5 source magics.",
+      "upgrade": "Make canonical verification mandatory at the fabric boundary and derive the program from the verified in-memory snapshot, binding its original source digest without rereading mutable source. Remove unsupported source magic claims and exercise five admission variants with explicit core/fabric rejection checks. Rebuild all five exposed runtime jars per package.",
+      "status": "APPLIED"
+    }
+  ],
+  "fabric_requirements": [
+    {
+      "id": "FABRIC-R01",
+      "requirement": "A normative typed IR must retain every policy and evidence field, with collision-free canonical serialization and explicit semantic equivalence tests. Compact columns may omit defaults only when those defaults are fixed and visible in lowering."
+    },
+    {
+      "id": "FABRIC-R02",
+      "requirement": "Choose one bootstrap target/ABI and define boot entry, memory regions, allocation ownership, scheduler, interrupt/device contracts and image format. Current LCTL is a Java host reference and MSSL corpus is module/learn observations, not a bootable unikernel."
+    },
+    {
+      "id": "FABRIC-R03",
+      "requirement": "Use linear/affine resource ownership for quantum state, capabilities and device reservations; define move/reborrow/expire transitions, no unknown-state copy/serialization, fail-closed admission and exact physical authority boundaries."
+    },
+    {
+      "id": "FABRIC-R04",
+      "requirement": "Define site/domain/worker/task scopes, topology epochs, authenticated peers, bounded queues, per-domain trust policies, logical clocks, replay policy and partition/failure behavior. Do not infer actual federation from local parallel simulations."
+    },
+    {
+      "id": "FABRIC-R05",
+      "requirement": "Every named operation needs executable positive/negative cases, error codes, source spans, resource bounds and explicit evidence status. Selftest repetition and descriptor counts are inventories, not independent conformance."
+    },
+    {
+      "id": "FABRIC-R06",
+      "requirement": "Checkpoint format must bind source/toolchain hashes, state schema, capability ownership, committed events and restore validation. Unknown quantum states remain excluded; metadata inspection must not be called restoration."
+    },
+    {
+      "id": "FABRIC-R07",
+      "requirement": "Adapter authority must use structured capability and authenticated receipt schemas, verifier identity, expiry/epoch and backend attestation. Presence of textual credential fields never constitutes authentication."
+    },
+    {
+      "id": "FABRIC-R08",
+      "requirement": "Keep CRDT merge algebra separate from aggregate examples; specify state/join/lattice laws and concurrent counterexample tests before enabling authoritative merge operations."
+    },
+    {
+      "id": "FABRIC-R09",
+      "requirement": "Import JA21/DeepML/MSSL/LCTL through explicit versioned namespaces and adapter contracts. Preserved sealed source authorities remain immutable observations; new derived fabric programs carry independent provenance and maturity."
+    },
+    {
+      "id": "FABRIC-R10",
+      "requirement": "Reuse MSSL corpus provenance and dataset splits without treating learned PASS or maturity strings as certificates. Define typed fact projections and distinguish source claim, schema consistency, simulated execution, host execution and device-qualified execution."
+    },
+    {
+      "id": "FABRIC-R11",
+      "requirement": "Every execution path must consume one canonically verified immutable program snapshot with finite numeric cells, source identity and complete policy/resource admission. Avoid independent permissive parsers and source rereads after admission; advertise only source magics actually implemented by the authority."
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+Explore parallel and distributed execution with LCTL 1.6.0-RC1. The Java 21 host reference package includes canonical verification, local work stealing, elastic workers, placement descriptors, and recovery plans. Examples, runtime source, and audit records support language research, with clear limits on remote federation and physical QPU execution.

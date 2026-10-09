@@ -1,0 +1,24 @@
+(* LCTL-C 1.0: lexical grammar plus fail-closed structure. UTF-8. *)
+column-unit = "LCTLC/1.0", newline, unit-directive, [ defaults-directive ], frame, { frame } ;
+unit-directive = "@unit", ws, kv-token, { ws, kv-token }, newline ;
+defaults-directive = "@defaults", ws, kv-token, { ws, kv-token }, newline ;
+frame = frame-directive, columns, row, { row }, end-directive, newline ;
+frame-directive = "@frame", ws, kv-token, { ws, kv-token }, newline ;
+end-directive = "@end" | "@endframe" ;
+columns = ( "ID│LANE│OP│OUT│CTRL│IN│ARG│META" | "ID|LANE|OP|OUT|CTRL|IN|ARG|META" | "ID¦LANE¦OP¦OUT¦CTRL¦IN¦ARG¦META" ;
+row = cell, separator, cell, separator, cell, separator, cell, separator, cell, separator, cell, separator, cell, separator, cell, newline ;
+separator = "│" | "¦" | "|" | "\t" ;
+kv-token = key, "=", ( bare-value | quoted-value ) ;
+key = letter, { letter | digit | "_" } ;
+quoted-value = '"', { quoted-char | '\\' | '\"' }, '"' | "'", { single-quoted-char | '\\' | "\'" }, "'" ;
+bare-value = bare-char, { bare-char } ;
+cell = { cell-char } ;
+ws = ( " " | "\t" ), { " " | "\t" } ;
+newline = "\n" | "\r\n" ;
+letter = ? ASCII A-Z or a-z ? ;
+digit = ? ASCII 0-9 ? ;
+bare-char = ? any non-whitespace character ? ;
+quoted-char = ? any character except double quote, backslash, CR, LF ? ;
+single-quoted-char = ? any character except single quote, backslash, CR, LF ? ;
+cell-char = ? any character except row separator, CR, LF ? ;
+(* A row uses one separator consistently. IN is A or A›B. META is semicolon-delimited key=value, with quoted values. Blank lines and #-prefixed comment lines may occur between records. IDs must be unique. Directive/META keys are restricted to the Java compiler's declared key sets, and duplicate keys/aliases are rejected. *)

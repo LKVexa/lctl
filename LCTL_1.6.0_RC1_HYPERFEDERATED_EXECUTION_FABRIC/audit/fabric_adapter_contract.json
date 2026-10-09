@@ -1,0 +1,18 @@
+{
+  "profile": "lctl.fabric.1.6",
+  "proposed_contribution": "Placement, distributed descriptors, adapters and recovery plans",
+  "reuse_boundary": "1.6 descriptors are structurally checked; physical transport/authentication/proofs remain open.",
+  "source_archive_sha256": "6544d9dbe9137b8cc31cb53fe19fa3ac656af51568babe2a8188b60f6a5a953b",
+  "source_evidence_paths": [
+    "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/authority/SOURCE_AUTHORITY_1_6.json",
+    "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/authority/SOURCE_AUTHORITY_1_3.json",
+    "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/authority/SOURCE_AUTHORITY.json",
+    "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/authority/SOURCE_AUTHORITY_1_4.json",
+    "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/authority/SOURCE_AUTHORITY_1_2.json",
+    "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/legacy/MSSLB_LX_MCRT_K_MSSL_S_COMPENDIUM_LEARNED_LANGUAGE_SYSTEM_3.0.0.expanded/MSSLB_LX_MCRT_K_MSSL_S_COMPENDIUM_LEARNED_LANGUAGE_SYSTEM_3.0.0/README_START_HERE.md",
+    "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/spec/LCTL_GRAMMAR.ebnf",
+    "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/README_START_HERE.md"
+  ],
+  "executable_adapter_implemented": false,
+  "mathematical_foundation": "8S Penteract-S3 Master Coupled Mechanics Law for intended JA model; typed operator semantics require their owning profile."
+}

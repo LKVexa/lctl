@@ -1,0 +1,1 @@
+Explore LCTL from compact source to parallel execution in one repository. Three corpora bring together LCTL 1.6.0-RC1, LCTL 1.6.1-RC1, and Columned LCTL, including Java 21 reference runtimes, compiler tooling, 53 examples, training records, and a 34-chapter handbook. Study canonical verification and fabric design with explicit execution boundaries.

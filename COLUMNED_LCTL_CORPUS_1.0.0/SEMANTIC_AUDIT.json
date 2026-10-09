@@ -1,0 +1,46 @@
+{
+  "schema": "LKVEXA-CORPUS-SEMANTIC-AUDIT/1.0",
+  "corpus": "COLUMNED_LCTL_CORPUS_1.0.0",
+  "revision_date": "2026-10-09",
+  "validation": {
+    "corpus": {
+      "status": "PASS",
+      "schema": "COLUMNED-LCTL-CORPUS-VALIDATION/2.0",
+      "checks": 4030,
+      "counts": {
+        "programs": 53,
+        "rows": 365,
+        "instruction_records": 1838,
+        "negative_records": 512,
+        "negative_unique_samples": 8
+      },
+      "runtime": {
+        "executed": true,
+        "positive_programs": 53,
+        "negative_unique_cases": 8
+      },
+      "scope": "All linked dataset targets, integrity, canonical lowering and semantic roundtrip. Family descriptions and column definitions remain prose; physical execution is not certified.",
+      "failures": []
+    }
+  },
+  "build": null,
+  "changes": {
+    "modified_original_files": [
+      "MANIFEST.json",
+      "README_START_HERE.md",
+      "authority/LctlColumnMain.java",
+      "authority/LCTL_C_GRAMMAR.ebnf",
+      "tooling/lctl-hyperfederated.jar",
+      "validation/VERIFY_CORPUS.py"
+    ],
+    "new_files": [
+      "authority/MANIFEST.source.json",
+      "authority/source_runtime/lctl-hyperfederated.jar"
+    ],
+    "unchanged_original_files": 220,
+    "unchanged_mssl_authorities": 0,
+    "materialized_nested_archives": []
+  },
+  "source_archives_preserved": true,
+  "qualification_scope": "Static corpus consistency and Java host-reference behavior only; no physical fabric or bootable unikernel qualification."
+}

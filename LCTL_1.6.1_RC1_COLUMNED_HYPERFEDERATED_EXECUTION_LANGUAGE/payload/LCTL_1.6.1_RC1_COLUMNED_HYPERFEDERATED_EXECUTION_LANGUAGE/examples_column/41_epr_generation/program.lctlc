@@ -1,0 +1,14 @@
+LCTLC/1.0
+@unit id=lctl.example.epr_generation version=1.2.0-rc1 profile=lctl.quantum.parallel.distributed entry=F0000:C9999 target=local-reference error_budget=0.05 resource_ceiling=q<=12;distributed=logical;physical=false proof=lctl-dist:1.2
+@defaults qspace=H basis=computational regime=exact assume=finite_dimension error=exact conf=1.0
+@frame id=F0000 parent=ROOT module=lctl.example.epr_generation proof=lctl-dist:1.2
+ID│LANE│OP│OUT│CTRL│IN│ARG│META
+D0001 │ alloc │ Q │ q │ _ │ _ │ 2 │ qs=H2^2;res="logical_qubits=2";p=lctl:1.2
+D0002 │ alloc │ C │ c │ _ │ _ │ 2 │ qs=C;t=creg[2];res="classical_bits=2";p=lctl:1.2
+T0001 │ meta │ NODE │ _ │ _ │ _ │ id=Q0;class=qpu_partition │ asm=finite_dimension;p=lctl-dist:1.2
+T0002 │ meta │ NODE │ _ │ _ │ _ │ id=Q1;class=qpu_partition │ asm=finite_dimension;p=lctl-dist:1.2
+T0003 │ meta │ LK │ _ │ _ │ _ │ src=Q0;dst=Q1;type=quantum;latency=5;fidelity=0.98;setup=4;herald=1;success=0.8 │ asm=finite_dimension;p=lctl-dist:1.2
+Q0004 │ meta │ EPR │ _ │ _ │ _ │ count=1;link=QL0 │ p=lctl-dist:1.2
+Q0005 │ meta │ ENTANGLE_LINK │ _ │ _ │ _ │ src=Q0;dst=Q1;link=QL0 │ p=lctl-dist:1.2
+C9999 │ lane0 │ . │ _ │ _ │ _ │ _ │ p=lctl:nop
+@end

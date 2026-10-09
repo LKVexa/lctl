@@ -1,105 +1,43 @@
-# LCTL
+# lctl
 
-Public distribution of two LCTL release-candidate corpora by **RUSSELL PHILIP SMITHSON**.
+Explore LCTL from compact source to parallel execution in one repository. Three corpora bring together LCTL 1.6.0-RC1, LCTL 1.6.1-RC1, and Columned LCTL, including Java 21 reference runtimes, compiler tooling, 53 examples, training records, and a 34-chapter handbook. Study canonical verification and fabric design with explicit execution boundaries.
 
-Licensed under the [Apache License, Version 2.0](LICENSE). Attribution is in [NOTICE](NOTICE).
+LCTL brings three related corpora into one repository: LCTL 1.6.0-RC1 Hyperfederated Execution Fabric, LCTL 1.6.1-RC1 Columned Hyperfederated Execution Language, and Columned LCTL Corpus 1.0.0. Together they connect compact program authoring, canonical verification, and host reference execution with educational and machine-facing material. The collection is useful for language researchers, runtime implementers, instructors, and code-model developers.
 
-| Corpus | Version | Directory |
-| --- | --- | --- |
-| Hyperfederated Execution Fabric | 1.6.0-RC1 | [`LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC`](LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC) |
-| Columned Hyperfederated Execution Language | 1.6.1-RC1 | [`LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE`](LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE) |
+The 1.6.0 package explores placement, local parallel execution, distributed descriptors, adapters, and recovery plans. Version 1.6.1 adds the eight-column LCTL-C source form, which lowers into sealed 18-cell canonical LCTL. The teaching corpus supplies 53 compiler-verified examples, 365 row pairs, 1,838 instruction records, annotated programs, a 34-chapter handbook, and a 200-exercise workbook.
 
-1.6.1-RC1 refines 1.6.0-RC1. It keeps the Java 21 hyperfederated runtime and adds **LCTL-C 1.0**, an 8-column source form that lowers into the sealed 18-cell canonical LCTL before verification or execution authority is claimed.
+Shared audit repairs preserve full-policy roundtrips, strengthen malformed-input rejection, enforce canonical admission, and qualify test evidence. Archived negative records and descriptor inventories are distinguished from independently executed cases. These are reference and release-candidate assets: authenticated remote federation, physical QPU execution, complete restoration and merge semantics, and long soak qualification remain open. Each corpus retains its provenance and evidence boundaries.
 
-Both packages are **development candidates**, not fully qualified releases. The 1-hour, 8-hour, and 24-hour soak gates are `NOT_RUN`. Physical parallel, distributed, and multi-QPU execution is `BLOCKED_EXTERNAL_AUTHORITY`.
+## Corpora and audit records
+
+### [LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC](LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/README.md)
+
+LCTL 1.6.0-RC1 is a Java 21 host reference package for exploring parallel and distributed execution language design. It builds on earlier LCTL layers and adds a hyperfederated execution interface, placement descriptors, adapter boundaries, and recovery descriptions. The package is intended for language researchers, runtime implementers, and engineers studying the relationship between canonical verification and execution planning.
+
+Examples and launch scripts provide entry points into local work stealing, elastic worker growth, topology inspection, and calibration. The collection also contains runtime source and binaries, compiler components, conformance descriptors, benchmark artifacts, proof records, and audit material. These assets support close examination of admission checks, numeric constraints, canonical seals, and the separation of source authority from execution claims.
+
+The updated audit corrects earlier conformance and authentication claims. Its 1.6 descriptor inventory is structurally checked rather than executed as 1,024 independent semantic tests. Checkpoint inspection does not restore runtime state, and aggregate output does not prove CRDT merge laws. This remains a release candidate: authenticated remote transport, physical QPU authority, extended soak testing, and several implementation gates remain open.
+
+### [LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE](LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/README.md)
+
+LCTL 1.6.1-RC1 introduces LCTL-C 1.0, a compact authoring language layered over the existing Java 21 hyperfederated reference stack. Its eight source columns capture identifiers, lanes, operations, outputs, controls, inputs, arguments, and metadata, while defaults and frame policy carry stable semantics. The aim is to make programs easier to write and inspect without creating a second verification authority.
+
+The package includes compact-language compiler source and tooling, grammar and specification assets, an alias catalog, migration guidance, design rationale, and 53 bundled examples. Commands support columnization, canonical lowering, verification, statistics, and roundtrip comparison. Every compact program lowers into sealed 18-cell canonical LCTL before the canonical verifier supplies admission authority.
+
+The October 2026 repairs preserve complete bundle, frame, and row fields during roundtrips and reject malformed quoting, duplicate keys, and unfinished frames. Updated tests report their actual execution scope. The package is useful for compiler research, concise source design, and parallel-language education. It remains a release candidate with scoped local reference behavior; native federation, authenticated physical adapters, and long soak qualification are still open.
+
+### [COLUMNED_LCTL_CORPUS_1.0.0](COLUMNED_LCTL_CORPUS_1.0.0/README.md)
+
+The Columned LCTL Corpus is a teaching and machine-learning collection for LCTL-C 1.0 and LCTL 1.6.1-RC1. It focuses on reading, writing, explaining, lowering, and validating compact programs while retaining canonical LCTL as the source of semantic authority. It is intended for students, instructors, code-model researchers, parser authors, and verification-tool developers.
+
+The package includes 53 compiler-verified programs, 365 compact-to-canonical row pairs, and 1,838 instruction records. Human study is supported by a 34-chapter handbook, 53 annotated examples, an operator catalog, and a 200-exercise workbook. Machine-facing data supports supervised transformation and diagnostic tasks, while compiler source, grammar, specifications, and a self-contained verification utility make the mappings inspectable.
+
+The updated compiler preserves full bundle, frame, and row policy in roundtrips and rejects malformed or ambiguous compact input. The archived 512 negative records represent eight distinct fixtures, which the verifier exercises separately. Compiler execution requires Java 21; static mode reports its narrower scope. Compact syntax lowers to canonical 18-cell rows, and integration into a different execution profile requires a checked adapter.
+
+Historical source archives and source manifests remain provenance records. Current publication file hashes are listed in `PUBLICATION_SHA256.json`; licensing changes are recorded in `PUBLICATION_LICENSE_LEDGER.json`.
 
 ## License
 
-Copyright 2026 RUSSELL PHILIP SMITHSON
+lctl (C) 2026 RUSSELL PHILIP SMITHSON
 
-Licensed under the Apache License, Version 2.0. You may obtain a copy of the License at <http://www.apache.org/licenses/LICENSE-2.0>.
-
-The corpora originally included a placeholder that withheld a distribution grant. That placeholder is superseded by the `LICENSE` and `NOTICE` files at the repository root and inside each corpus.
-
-## 1.6.0-RC1 — Hyperfederated Execution Fabric
-
-Successor to LCTL 1.5.0-RC1. It preserves the core, 1.3 fabric, 1.4 adaptive mesh, and 1.5 federated runtime, and adds `runtime/bin/lctl-hyperfederated.jar`.
-
-Start inside that directory. On Unix or macOS:
-
-```sh
-./START_LCTL_1_6.sh fabric-topology
-./START_LCTL_1_6.sh fabric-calibrate
-./START_LCTL_1_6.sh run-stealing examples/24_parallel_bell_pair_generation/program.lctl 4 128
-./START_LCTL_1_6.sh run-elastic examples/24_parallel_bell_pair_generation/program.lctl 1 4 64
-./VERIFY_LCTL_1_6.sh
-```
-
-On Windows:
-
-```bat
-START_LCTL_1_6.cmd fabric-topology
-START_LCTL_1_6.cmd run-stealing examples\24_parallel_bell_pair_generation\program.lctl 4 128
-VERIFY_LCTL_1_6.cmd
-```
-
-Evidence recorded in this candidate:
-
-- LCTL 1.3 baseline: 189/189 PASS
-- LCTL 1.4 baseline: 320/320 PASS
-- LCTL 1.5 conformance: 512/512 PASS
-- LCTL 1.6 conformance: 1024/1024 PASS
-- Property campaign: 5000/5000 PASS
-- Metamorphic campaign: 5000/5000 PASS
-
-Read first: [`README_START_HERE.md`](LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/README_START_HERE.md), then `proof/RELEASE_QUALIFICATION.json`, `proof/LCTL_1_6_MANDATORY_FINAL_STATUS.txt`, `proof/LCTL_1_6_GAP_MATRIX.json`, `proof/LCTL_1_6_CONFORMANCE_REPORT.md`, and `proof/LCTL_1_6_SOAK_REPORT.md`.
-
-## 1.6.1-RC1 — Columned Hyperfederated Execution Language
-
-LCTL-C source uses eight columns. Stable or inferable cells are no longer repeated on every ordinary row:
-
-```text
-ID │ LANE │ OP │ OUT │ CTRL │ IN │ ARG │ META
-```
-
-Start inside that directory. On Unix or macOS:
-
-```sh
-./START_LCTL_1_6_1.sh column-selftest
-./START_LCTL_1_6_1.sh column-verify examples_column/01_bell_state/program.lctlc
-./START_LCTL_1_6_1.sh simulate examples_column/01_bell_state/program.lctlc 256 20260810
-./START_LCTL_1_6_1.sh parallel-depth examples_column/24_parallel_bell_pair_generation/program.lctlc
-./VERIFY_LCTL_1_6_1.sh
-```
-
-On Windows:
-
-```bat
-START_LCTL_1_6_1.cmd column-selftest
-START_LCTL_1_6_1.cmd column-verify examples_column\01_bell_state\program.lctlc
-VERIFY_LCTL_1_6_1.cmd
-```
-
-Column commands: `columnize`, `column-compile`, `column-verify`, `column-stats`, `column-roundtrip`, `column-selftest`.
-
-Evidence recorded for this refinement:
-
-- LCTL-C compiler/parser selftest: 512/512 PASS
-- Bundled canonical examples converted and round-tripped: 53/53 PASS
-- Aggregate example source: 58,857 bytes compact versus 123,330 bytes lowered canonical (52.28% reduction)
-- Existing 1.6 conformance preserved: 1024/1024 PASS
-
-Read first: [`README_START_HERE.md`](LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/README_START_HERE.md), then `language/LCTL_C_1_0_SPEC.md`, `language/LCTL_C_ALIAS_CATALOG.md`, `language/LCTL_C_MIGRATION_GUIDE.md`, and `proof/LCTL_1_6_1_COLUMN_LANGUAGE_REPORT.md`.
-
-## Requirements
-
-The packaged runtimes are Java 21 jars (`lctl-hyperfederated.jar`, with the preserved federated, mesh, fabric, and core jars). Network default in each manifest is `deny`. Backend is `none`.
-
-## Layout
-
-Each corpus keeps its own manifest, checksums, spec, compiler, runtime, examples, conformance suite, and proof record:
-
-- `MANIFEST.json` — version, runtime hashes, evidence, qualification boundary
-- `PACKAGE_SHA256SUMS.txt` — package checksums
-- `README_START_HERE.md` — candidate-specific start notes
-- `spec/`, `language/` (1.6.1), `compiler/`, `runtime/`, `examples/`, `examples_column/` (1.6.1), `conformance/`, `proof/`
+Licensed under the GNU General Public License version 3 only (`GPL-3.0-only`). See [LICENSE](LICENSE) and [NOTICE](NOTICE).

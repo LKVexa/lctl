@@ -1,0 +1,50 @@
+[
+  {
+    "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/authority/LCTL_C_GRAMMAR.ebnf",
+    "status": "changed",
+    "source_sha256": "2fa8e5ac88a338f186d9ab1ddb6ef732b83545727a76b948a7244269ed4042bd",
+    "updated_sha256": "7a20454736f4e3a2ca4dc94892e43ecc9fb5b9a7b2e29565be199532802e36e3"
+  },
+  {
+    "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/authority/LctlColumnMain.java",
+    "status": "changed",
+    "source_sha256": "f5ddf0a6ec51f7ae047c13926b005b54cafa5174469ed1164c75dbcaadfa53dc",
+    "updated_sha256": "718c2a018607479cf77f8e4fd3de108eae0969ce7a1b9d739a0860ae6a7bab80"
+  },
+  {
+    "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/authority/MANIFEST.source.json",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "69487e50dc56c6d5a645b2165570fd8d2274b2a4951291947e234acf90ca4440"
+  },
+  {
+    "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/authority/source_runtime/lctl-hyperfederated.jar",
+    "status": "added",
+    "source_sha256": null,
+    "updated_sha256": "20ce9e1c68d062b6c3cc14b39bb311e135abb6f5358ea07a24c9579ba995bb6a"
+  },
+  {
+    "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/MANIFEST.json",
+    "status": "changed",
+    "source_sha256": "69487e50dc56c6d5a645b2165570fd8d2274b2a4951291947e234acf90ca4440",
+    "updated_sha256": "b7677abf545219968676daa8ac595989f2a4311a873dbda2cf4c342e1f6f8dc1"
+  },
+  {
+    "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/README_START_HERE.md",
+    "status": "changed",
+    "source_sha256": "7214a8ba5326525ef4192d3fdb5621c9a2997f80e8d7b07919279df8b2f5ba54",
+    "updated_sha256": "fcd7e137560df451f2a8b0e7a924f60642c6ffbf49bcadeeff1d23bb374579d2"
+  },
+  {
+    "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/tooling/lctl-hyperfederated.jar",
+    "status": "changed",
+    "source_sha256": "20ce9e1c68d062b6c3cc14b39bb311e135abb6f5358ea07a24c9579ba995bb6a",
+    "updated_sha256": "098132f997db48dec880fb4b5e3130eba25471492b29e6163132591d71338e18"
+  },
+  {
+    "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/validation/VERIFY_CORPUS.py",
+    "status": "changed",
+    "source_sha256": "1e61de77b398692634d844c8c6bb1df34da600367974fcac802d132dbf16b77a",
+    "updated_sha256": "c563026b6d911ff5a9465d41202387ca4344eaed5967932db080c11760b015a5"
+  }
+]

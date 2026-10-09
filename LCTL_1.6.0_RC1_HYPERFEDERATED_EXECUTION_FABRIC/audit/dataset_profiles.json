@@ -1,0 +1,620 @@
+[
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/legacy/MSSLB_LX_MCRT_K_MSSL_S_COMPENDIUM_LEARNED_LANGUAGE_SYSTEM_3.0.0.expanded/MSSLB_LX_MCRT_K_MSSL_S_COMPENDIUM_LEARNED_LANGUAGE_SYSTEM_3.0.0/knowledge/compendium_semantic_memory.jsonl",
+    "records": 1205,
+    "invalid": 0,
+    "duplicate_ids": 0,
+    "unique_ids": 0,
+    "uncompressed_bytes": 908240,
+    "uncompressed_sha256": "feee79d0b95b62b536d1ac796aa422dacaa9f71512bd8c49fa563d1eb5f5cc0e",
+    "key_counts": {
+      "field": 1205,
+      "chapter": 1205,
+      "entry": 1205,
+      "title": 1205,
+      "objects": 1205,
+      "structure": 1205,
+      "reduction": 1205,
+      "status": 1205,
+      "regime": 1205,
+      "also_in": 1205,
+      "proof_cycle": 1205,
+      "classes": 1205,
+      "source_file": 1205
+    },
+    "field_types": {
+      "field": {
+        "int": 1205
+      },
+      "chapter": {
+        "str": 1205
+      },
+      "entry": {
+        "int": 1205
+      },
+      "title": {
+        "str": 1205
+      },
+      "objects": {
+        "str": 1202,
+        "NoneType": 3
+      },
+      "structure": {
+        "str": 1204,
+        "NoneType": 1
+      },
+      "reduction": {
+        "str": 1205
+      },
+      "status": {
+        "str": 1205
+      },
+      "regime": {
+        "str": 1205
+      },
+      "also_in": {
+        "NoneType": 1080,
+        "str": 125
+      },
+      "proof_cycle": {
+        "dict": 1205
+      },
+      "classes": {
+        "list": 1205
+      },
+      "source_file": {
+        "str": 1205
+      }
+    },
+    "profiles": {},
+    "samples": [
+      {
+        "field": 1,
+        "chapter": "Pure Mathematics — Calculus Edition",
+        "entry": 1,
+        "title": "Cantor’s Theorem",
+        "objects": "𝑉a vector space over a field 𝑘; 𝑉∗= Hom𝑘(𝑉, 𝑘) its algebraic dual.",
+        "structure": "For infinite-dimensional 𝑉with basis 𝐵, dim 𝑉∗= |𝑘||𝐵| > |𝐵| = dim 𝑉. The dual is strictly larger, mirroring |𝐴| < |𝒫(𝐴)|.",
+        "reduction": "Replace the power set by the dual space; the characteristic-function bijection 𝒫(𝐵) ≅{0, 1}𝐵becomes the coordinate description of 𝑉∗over 𝔽2.",
+        "status": "Exact linear analogue. Over 𝔽2 the two statements coincide exactly.",
+        "regime": "exact_linear",
+        "also_in": null,
+        "proof_cycle": {
+          "Q1": true,
+          "Q2": true,
+          "Q3": true,
+          "Q4": true,
+          "Q5": true,
+          "Q6": true
+        },
+        "classes": [
+          "variational"
+        ],
+        "source_file": "01_Pure_Mathematics.pdf"
+      },
+      {
+        "field": 1,
+        "chapter": "Pure Mathematics — Calculus Edition",
+        "entry": 2,
+        "title": "Cantor–Schröder–Bernstein Theorem",
+        "objects": "Injective linear maps between vector spaces.",
+        "structure": "True for vector spaces, since dimension is a complete invariant and injectivity forces dim 𝑉≤dim 𝑊. Notably false for general modules, and false for Banach spaces under isomorphic embedding.",
+        "reduction": "Injections of sets become injective linear maps; cardinality becomes dimension.",
+        "status": "Exact linear analogue, in Vect only.",
+        "regime": "exact_linear",
+        "also_in": null,
+        "proof_cycle": {
+          "Q1": true,
+          "Q2": true,
+          "Q3": true,
+          "Q4": true,
+          "Q5": true,
+          "Q6": true
+        },
+        "classes": [
+          "structural"
+        ],
+        "source_file": "01_Pure_Mathematics.pdf"
+      },
+      {
+        "field": 1,
+        "chapter": "Pure Mathematics — Calculus Edition",
+        "entry": 3,
+        "title": "Cardinality of the Continuum",
+        "objects": "ℝregarded as a vector space over ℚ.",
+        "structure": "A Hamel basis has cardinality 𝔠, not ℵ0; its existence requires the axiom of choice and no explicit basis can be written down.",
+        "reduction": "2ℵ0 = |ℝ| becomes a statement about the dimension of a concrete infinite-dimensional space.",
+        "status": "Exact linear analogue.",
+        "regime": "exact_linear",
+        "also_in": null,
+        "proof_cycle": {
+          "Q1": true,
+          "Q2": true,
+          "Q3": true,
+          "Q4": true,
+          "Q5": true,
+          "Q6": true
+        },
+        "classes": [
+          "structural"
+        ],
+        "source_file": "01_Pure_Mathematics.pdf"
+      }
+    ]
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/knowledge/quantum/calculus_transform_semantic_memory.jsonl",
+    "records": 9,
+    "invalid": 0,
+    "duplicate_ids": 0,
+    "unique_ids": 9,
+    "uncompressed_bytes": 1960,
+    "uncompressed_sha256": "d59c63991a0b789d089e33910eb9f5be8e66fa2c50242beb1d244d009d67a600",
+    "key_counts": {
+      "id": 9,
+      "claim": 9,
+      "class": 9,
+      "regime": 9,
+      "assumptions": 9,
+      "error": 9,
+      "proof": 9
+    },
+    "field_types": {
+      "id": {
+        "str": 9
+      },
+      "claim": {
+        "str": 9
+      },
+      "class": {
+        "str": 9
+      },
+      "regime": {
+        "str": 9
+      },
+      "assumptions": {
+        "str": 9
+      },
+      "error": {
+        "str": 9
+      },
+      "proof": {
+        "str": 9
+      }
+    },
+    "profiles": {},
+    "samples": [
+      {
+        "id": "CT-D1",
+        "claim": "Fredholm continuum coupling",
+        "class": "operator",
+        "regime": "asymptotic",
+        "assumptions": "R1;R2",
+        "error": "abs<=O(sigma^2)+O(l^2)",
+        "proof": "D1;Theta-G;Theta-J"
+      },
+      {
+        "id": "CT-D2",
+        "claim": "Spectral continuum image and Rayleigh quotient",
+        "class": "spectral",
+        "regime": "asymptotic",
+        "assumptions": "compact_domain;R1;R2",
+        "error": "abs<=O(sigma^2)+O(l^2)",
+        "proof": "D2;Theta-G;Theta-J"
+      },
+      {
+        "id": "CT-D3",
+        "claim": "Quadratic form to Dirichlet energy",
+        "class": "variational",
+        "regime": "exact_linear",
+        "assumptions": "boundary_condition;positive_metric",
+        "error": "exact-form;retraction O(l^2)",
+        "proof": "D3;Theta-C;Theta-J"
+      }
+    ]
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/knowledge/legacy/compendium_semantic_memory.jsonl",
+    "records": 1205,
+    "invalid": 0,
+    "duplicate_ids": 0,
+    "unique_ids": 0,
+    "uncompressed_bytes": 908240,
+    "uncompressed_sha256": "feee79d0b95b62b536d1ac796aa422dacaa9f71512bd8c49fa563d1eb5f5cc0e",
+    "key_counts": {
+      "field": 1205,
+      "chapter": 1205,
+      "entry": 1205,
+      "title": 1205,
+      "objects": 1205,
+      "structure": 1205,
+      "reduction": 1205,
+      "status": 1205,
+      "regime": 1205,
+      "also_in": 1205,
+      "proof_cycle": 1205,
+      "classes": 1205,
+      "source_file": 1205
+    },
+    "field_types": {
+      "field": {
+        "int": 1205
+      },
+      "chapter": {
+        "str": 1205
+      },
+      "entry": {
+        "int": 1205
+      },
+      "title": {
+        "str": 1205
+      },
+      "objects": {
+        "str": 1202,
+        "NoneType": 3
+      },
+      "structure": {
+        "str": 1204,
+        "NoneType": 1
+      },
+      "reduction": {
+        "str": 1205
+      },
+      "status": {
+        "str": 1205
+      },
+      "regime": {
+        "str": 1205
+      },
+      "also_in": {
+        "NoneType": 1080,
+        "str": 125
+      },
+      "proof_cycle": {
+        "dict": 1205
+      },
+      "classes": {
+        "list": 1205
+      },
+      "source_file": {
+        "str": 1205
+      }
+    },
+    "profiles": {},
+    "samples": [
+      {
+        "field": 1,
+        "chapter": "Pure Mathematics — Calculus Edition",
+        "entry": 1,
+        "title": "Cantor’s Theorem",
+        "objects": "𝑉a vector space over a field 𝑘; 𝑉∗= Hom𝑘(𝑉, 𝑘) its algebraic dual.",
+        "structure": "For infinite-dimensional 𝑉with basis 𝐵, dim 𝑉∗= |𝑘||𝐵| > |𝐵| = dim 𝑉. The dual is strictly larger, mirroring |𝐴| < |𝒫(𝐴)|.",
+        "reduction": "Replace the power set by the dual space; the characteristic-function bijection 𝒫(𝐵) ≅{0, 1}𝐵becomes the coordinate description of 𝑉∗over 𝔽2.",
+        "status": "Exact linear analogue. Over 𝔽2 the two statements coincide exactly.",
+        "regime": "exact_linear",
+        "also_in": null,
+        "proof_cycle": {
+          "Q1": true,
+          "Q2": true,
+          "Q3": true,
+          "Q4": true,
+          "Q5": true,
+          "Q6": true
+        },
+        "classes": [
+          "variational"
+        ],
+        "source_file": "01_Pure_Mathematics.pdf"
+      },
+      {
+        "field": 1,
+        "chapter": "Pure Mathematics — Calculus Edition",
+        "entry": 2,
+        "title": "Cantor–Schröder–Bernstein Theorem",
+        "objects": "Injective linear maps between vector spaces.",
+        "structure": "True for vector spaces, since dimension is a complete invariant and injectivity forces dim 𝑉≤dim 𝑊. Notably false for general modules, and false for Banach spaces under isomorphic embedding.",
+        "reduction": "Injections of sets become injective linear maps; cardinality becomes dimension.",
+        "status": "Exact linear analogue, in Vect only.",
+        "regime": "exact_linear",
+        "also_in": null,
+        "proof_cycle": {
+          "Q1": true,
+          "Q2": true,
+          "Q3": true,
+          "Q4": true,
+          "Q5": true,
+          "Q6": true
+        },
+        "classes": [
+          "structural"
+        ],
+        "source_file": "01_Pure_Mathematics.pdf"
+      },
+      {
+        "field": 1,
+        "chapter": "Pure Mathematics — Calculus Edition",
+        "entry": 3,
+        "title": "Cardinality of the Continuum",
+        "objects": "ℝregarded as a vector space over ℚ.",
+        "structure": "A Hamel basis has cardinality 𝔠, not ℵ0; its existence requires the axiom of choice and no explicit basis can be written down.",
+        "reduction": "2ℵ0 = |ℝ| becomes a statement about the dimension of a concrete infinite-dimensional space.",
+        "status": "Exact linear analogue.",
+        "regime": "exact_linear",
+        "also_in": null,
+        "proof_cycle": {
+          "Q1": true,
+          "Q2": true,
+          "Q3": true,
+          "Q4": true,
+          "Q5": true,
+          "Q6": true
+        },
+        "classes": [
+          "structural"
+        ],
+        "source_file": "01_Pure_Mathematics.pdf"
+      }
+    ]
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/knowledge/lctl/compendium_lctl_admission_catalog.jsonl",
+    "records": 1205,
+    "invalid": 0,
+    "duplicate_ids": 0,
+    "unique_ids": 0,
+    "uncompressed_bytes": 1284918,
+    "uncompressed_sha256": "cdb7dbfe3444a2ace202fbfd73a78dcd6a4cff6f8d4ed7e3c18e3cccb21aad76",
+    "key_counts": {
+      "lctl_record_id": 1205,
+      "origin": 1205,
+      "origin_regime": 1205,
+      "origin_classes": 1205,
+      "origin_proof_cycle": 1205,
+      "lctl_role": 1205,
+      "lctl_admission": 1205,
+      "lctl_executable": 1205,
+      "lctl_transform_candidates": 1205,
+      "lctl_policy": 1205,
+      "objects": 1205,
+      "structure": 1205,
+      "reduction": 1205,
+      "status": 1205
+    },
+    "field_types": {
+      "lctl_record_id": {
+        "str": 1205
+      },
+      "origin": {
+        "dict": 1205
+      },
+      "origin_regime": {
+        "str": 1205
+      },
+      "origin_classes": {
+        "list": 1205
+      },
+      "origin_proof_cycle": {
+        "dict": 1205
+      },
+      "lctl_role": {
+        "str": 1205
+      },
+      "lctl_admission": {
+        "str": 1205
+      },
+      "lctl_executable": {
+        "bool": 1205
+      },
+      "lctl_transform_candidates": {
+        "list": 1205
+      },
+      "lctl_policy": {
+        "str": 1205
+      },
+      "objects": {
+        "str": 1202,
+        "NoneType": 3
+      },
+      "structure": {
+        "str": 1204,
+        "NoneType": 1
+      },
+      "reduction": {
+        "str": 1205
+      },
+      "status": {
+        "str": 1205
+      }
+    },
+    "profiles": {},
+    "samples": [
+      {
+        "lctl_record_id": "LC-0001",
+        "origin": {
+          "field": 1,
+          "chapter": "Pure Mathematics — Calculus Edition",
+          "entry": 1,
+          "title": "Cantor’s Theorem",
+          "source_file": "01_Pure_Mathematics.pdf"
+        },
+        "origin_regime": "exact_linear",
+        "origin_classes": [
+          "variational"
+        ],
+        "origin_proof_cycle": {
+          "Q1": true,
+          "Q2": true,
+          "Q3": true,
+          "Q4": true,
+          "Q5": true,
+          "Q6": true
+        },
+        "lctl_role": "exact_structure_reference",
+        "lctl_admission": "OBSERVE",
+        "lctl_executable": false,
+        "lctl_transform_candidates": [
+          "D11"
+        ],
+        "lctl_policy": "Non-executable semantic reference until a LCTL-specific Q1-Q6 record proves type compatibility, quantum/classical regime, assumptions, error, and lowering/retraction.",
+        "objects": "𝑉a vector space over a field 𝑘; 𝑉∗= Hom𝑘(𝑉, 𝑘) its algebraic dual.",
+        "structure": "For infinite-dimensional 𝑉with basis 𝐵, dim 𝑉∗= |𝑘||𝐵| > |𝐵| = dim 𝑉. The dual is strictly larger, mirroring |𝐴| < |𝒫(𝐴)|.",
+        "reduction": "Replace the power set by the dual space; the characteristic-function bijection 𝒫(𝐵) ≅{0, 1}𝐵becomes the coordinate description of 𝑉∗over 𝔽2.",
+        "status": "Exact linear analogue. Over 𝔽2 the two statements coincide exactly."
+      },
+      {
+        "lctl_record_id": "LC-0002",
+        "origin": {
+          "field": 1,
+          "chapter": "Pure Mathematics — Calculus Edition",
+          "entry": 2,
+          "title": "Cantor–Schröder–Bernstein Theorem",
+          "source_file": "01_Pure_Mathematics.pdf"
+        },
+        "origin_regime": "exact_linear",
+        "origin_classes": [
+          "structural"
+        ],
+        "origin_proof_cycle": {
+          "Q1": true,
+          "Q2": true,
+          "Q3": true,
+          "Q4": true,
+          "Q5": true,
+          "Q6": true
+        },
+        "lctl_role": "exact_structure_reference",
+        "lctl_admission": "OBSERVE",
+        "lctl_executable": false,
+        "lctl_transform_candidates": [],
+        "lctl_policy": "Non-executable semantic reference until a LCTL-specific Q1-Q6 record proves type compatibility, quantum/classical regime, assumptions, error, and lowering/retraction.",
+        "objects": "Injective linear maps between vector spaces.",
+        "structure": "True for vector spaces, since dimension is a complete invariant and injectivity forces dim 𝑉≤dim 𝑊. Notably false for general modules, and false for Banach spaces under isomorphic embedding.",
+        "reduction": "Injections of sets become injective linear maps; cardinality becomes dimension.",
+        "status": "Exact linear analogue, in Vect only."
+      },
+      {
+        "lctl_record_id": "LC-0003",
+        "origin": {
+          "field": 1,
+          "chapter": "Pure Mathematics — Calculus Edition",
+          "entry": 3,
+          "title": "Cardinality of the Continuum",
+          "source_file": "01_Pure_Mathematics.pdf"
+        },
+        "origin_regime": "exact_linear",
+        "origin_classes": [
+          "structural"
+        ],
+        "origin_proof_cycle": {
+          "Q1": true,
+          "Q2": true,
+          "Q3": true,
+          "Q4": true,
+          "Q5": true,
+          "Q6": true
+        },
+        "lctl_role": "exact_structure_reference",
+        "lctl_admission": "OBSERVE",
+        "lctl_executable": false,
+        "lctl_transform_candidates": [],
+        "lctl_policy": "Non-executable semantic reference until a LCTL-specific Q1-Q6 record proves type compatibility, quantum/classical regime, assumptions, error, and lowering/retraction.",
+        "objects": "ℝregarded as a vector space over ℚ.",
+        "structure": "A Hamel basis has cardinality 𝔠, not ℵ0; its existence requires the axiom of choice and no explicit basis can be written down.",
+        "reduction": "2ℵ0 = |ℝ| becomes a statement about the dimension of a concrete infinite-dimensional space.",
+        "status": "Exact linear analogue."
+      }
+    ]
+  },
+  {
+    "path": "payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/provenance/lctl13/REFERENCE_EVENT_TRACE.jsonl",
+    "records": 6,
+    "invalid": 0,
+    "duplicate_ids": 0,
+    "unique_ids": 0,
+    "uncompressed_bytes": 1429,
+    "uncompressed_sha256": "c95e1a85e5e3ac698636b38ef1ca0fdfbe383c19eb40f4a741855f615754e758",
+    "key_counts": {
+      "event_id": 6,
+      "logical_time": 6,
+      "worker": 6,
+      "operation": 6,
+      "input_hash": 6,
+      "output_hash": 6,
+      "ownership_delta": 6,
+      "resource_delta": 6,
+      "failure_delta": 6,
+      "proof_ref": 6
+    },
+    "field_types": {
+      "event_id": {
+        "int": 6
+      },
+      "logical_time": {
+        "int": 6
+      },
+      "worker": {
+        "str": 6
+      },
+      "operation": {
+        "str": 6
+      },
+      "input_hash": {
+        "str": 6
+      },
+      "output_hash": {
+        "str": 6
+      },
+      "ownership_delta": {
+        "str": 6
+      },
+      "resource_delta": {
+        "str": 6
+      },
+      "failure_delta": {
+        "str": 6
+      },
+      "proof_ref": {
+        "str": 6
+      }
+    },
+    "profiles": {},
+    "samples": [
+      {
+        "event_id": 0,
+        "logical_time": 0,
+        "worker": "W0",
+        "operation": "parse",
+        "input_hash": "in0",
+        "output_hash": "out0",
+        "ownership_delta": "none",
+        "resource_delta": "task",
+        "failure_delta": "none",
+        "proof_ref": "lctl13:reference-trace"
+      },
+      {
+        "event_id": 1,
+        "logical_time": 1,
+        "worker": "W1",
+        "operation": "ses",
+        "input_hash": "in1",
+        "output_hash": "out1",
+        "ownership_delta": "none",
+        "resource_delta": "task",
+        "failure_delta": "none",
+        "proof_ref": "lctl13:reference-trace"
+      },
+      {
+        "event_id": 2,
+        "logical_time": 2,
+        "worker": "W0",
+        "operation": "partition",
+        "input_hash": "in2",
+        "output_hash": "out2",
+        "ownership_delta": "transfer",
+        "resource_delta": "task",
+        "failure_delta": "none",
+        "proof_ref": "lctl13:reference-trace"
+      }
+    ]
+  }
+]

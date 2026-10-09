@@ -1,21 +1,8 @@
-LCTL
-Copyright 2026 RUSSELL PHILIP SMITHSON
+lctl (C) 2026 RUSSELL PHILIP SMITHSON
+SPDX-License-Identifier: GPL-3.0-only
 
-This repository contains:
+This repository is licensed under the GNU General Public License, version 3 only.
+See LICENSE for the full license text.
 
-- LCTL 1.6.0-RC1 Hyperfederated Execution Fabric
-- LCTL 1.6.1-RC1 Columned Hyperfederated Execution Language
-
-This distribution includes work authored by RUSSELL PHILIP SMITHSON.
-Licensed under the Apache License, Version 2.0. See LICENSE.
-
-Each corpus originally shipped with a placeholder notice stating that no
-distribution license had been supplied. That placeholder is superseded.
-RUSSELL PHILIP SMITHSON distributes this repository, including both corpora
-and their contents, under the Apache License, Version 2.0.
-
-Historical provenance notes remain in their respective folders. Version labels
-inside a corpus identify the candidate they belong to. These archives are
-development candidates, not fully qualified releases. No hardware, native VM,
-or physical QPU certification is implied.
-
+Historical archives, source manifests, and prior audit evidence are retained as
+provenance. Current publication integrity is recorded separately.

@@ -1,0 +1,1160 @@
+{
+  "release": "audit-2026-10-09",
+  "source": {
+    "corpus": "COLUMNED_LCTL_CORPUS_1.0.0",
+    "source_file": "COLUMNED_LCTL_CORPUS_1.0.0.zip",
+    "source_sha256": "b60b268a05b817bd7a9865f77f36b26b3952ef9bc28023eb3a8216b908bb634e",
+    "audit_date": "2026-10-09",
+    "leaf_files": 226,
+    "leaf_bytes": 2941868,
+    "nested_containers": 0,
+    "datasets": 4,
+    "records": 2768,
+    "findings": 0,
+    "invalid_records": 0,
+    "status": "static_audited",
+    "scope": "Every leaf byte read and hashed; every JSONL record parsed; Python syntax checked. Semantic review is evidence-based across specifications, examples and tools; runtime/physical claims require independent execution."
+  },
+  "files": [
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/authority/COLUMN_DICTIONARY.md",
+      "bytes": 498,
+      "sha256": "06f4121afaf9dd9f89ad11acd518369056e8123849187444a60982c98d701247"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/authority/COLUMN_LANGUAGE_EXAMPLE_CAMPAIGN.json",
+      "bytes": 54412,
+      "sha256": "1c8f5fbb1f39a9b66f6dc02ce7f582ffed5e38beb0789b19684ca6102735a980"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/authority/COLUMN_LANGUAGE_LEDGER.json",
+      "bytes": 916,
+      "sha256": "2f758652d845d9202c735c27203c5b3412136a7cf03c66a4fc035fff97a4ae9d"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/authority/LCTL_1_6_1_COLUMN_LANGUAGE_REPORT.md",
+      "bytes": 1900,
+      "sha256": "02f3f84371e0c4e63592bb4aea861aa1f05892b4eefd47a3c579693301eb50fe"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/authority/LCTL_C_1_0_SPEC.md",
+      "bytes": 3962,
+      "sha256": "1f587a6fa8cd397c048a4570140c28fefac1f2f7dc2068109133852d597139d7"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/authority/LCTL_C_ALIAS_CATALOG.md",
+      "bytes": 823,
+      "sha256": "1d2ed4a65f356639c08125ea9fd8dcdb590ad21e56c5212a988bfc437ebffbe7"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/authority/LCTL_C_DESIGN_RATIONALE.md",
+      "bytes": 1171,
+      "sha256": "bb164ab593a5f61e3c6075424dff3430f21dcbdcccb7b3c4bf0d833e08eaba47"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/authority/LCTL_C_GRAMMAR.ebnf",
+      "bytes": 1784,
+      "sha256": "7a20454736f4e3a2ca4dc94892e43ecc9fb5b9a7b2e29565be199532802e36e3"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/authority/LCTL_C_MIGRATION_GUIDE.md",
+      "bytes": 1301,
+      "sha256": "4d6b1be357659408348cf857a1753c64710b07d43c603a9a25fd621cf6502373"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/authority/LctlColumnMain.java",
+      "bytes": 28620,
+      "sha256": "718c2a018607479cf77f8e4fd3de108eae0969ce7a1b9d739a0860ae6a7bab80"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/authority/MANIFEST.source.json",
+      "bytes": 43758,
+      "sha256": "69487e50dc56c6d5a645b2165570fd8d2274b2a4951291947e234acf90ca4440"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/authority/source_runtime/lctl-hyperfederated.jar",
+      "bytes": 151094,
+      "sha256": "20ce9e1c68d062b6c3cc14b39bb311e135abb6f5358ea07a24c9579ba995bb6a"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/COLUMNED_LCTL_FULL_CORPUS.md",
+      "bytes": 366335,
+      "sha256": "36c2ce417bb7a81ba5dbced57f57401c62b7d46c290d38136fb584a731f062fd"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/CORPUS_INDEX.md",
+      "bytes": 745,
+      "sha256": "de66192c50c6a2fadf4614f2641cc2b763ea508c560dddc0b8477fdcfa9848a0"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/01_bell_state.md",
+      "bytes": 5201,
+      "sha256": "9a37f01ae2820ba1aff12dfd318f4e695e39f4e93863ae441774d7167364cfcd"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/02_ghz_state.md",
+      "bytes": 6354,
+      "sha256": "b0fac1cdd0b25b37bffc339c16b9201c628fb6ebf99858c333bd46ee2f880f36"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/03_teleportation.md",
+      "bytes": 8811,
+      "sha256": "9deb7ad48c601921a24dc2bdcb5382102b74ccea471716230b758eaafa26bfdb"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/04_superdense_coding.md",
+      "bytes": 7299,
+      "sha256": "b14e7deee24a6cf81a320df1ff40d15decaf0ce9f152117b250275228714930f"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/05_single_qubit_rotations.md",
+      "bytes": 5173,
+      "sha256": "b69f8125c70a3612b3527c5aab308e40bc6991f7c77254ac2b3b90e8a3821d01"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/06_controlled_operations.md",
+      "bytes": 4474,
+      "sha256": "47e6940dceadb60c84d23f6ce7b4ad5cbe30ff3d0f7782bfccd442757746525e"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/07_basis_measurement.md",
+      "bytes": 4084,
+      "sha256": "fbb37b521547bb77a350491ad3dfa3d0e24249bff3f66323864c528e35100ebc"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/08_povm.md",
+      "bytes": 3507,
+      "sha256": "7a82853ed1ec328cf851ec99239af709c0b0f29e9db33cdf0ba81a12acd55564"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/09_density_matrix_noise.md",
+      "bytes": 4735,
+      "sha256": "1e0fe6f6a4a88a78f0b729282120fcc4e5a4cc083e3708c999b1bbf5d5d79fa9"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/10_amplitude_damping.md",
+      "bytes": 4766,
+      "sha256": "ba06f53787e9fb523207e353120e91397cf0796a3aedd80eb37a65a6a31a5333"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/11_depolarizing_channel.md",
+      "bytes": 4246,
+      "sha256": "39ef131d61d67199a6d5895064d6482fecd52e1e4f942f2706983fd2af16b35f"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/12_repetition_error_correction.md",
+      "bytes": 8011,
+      "sha256": "4a423b7ea767afa0ce5d2208ad25d452e552db3cc74dc1bb8914a7edc52c5c03"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/13_stabilizer.md",
+      "bytes": 4582,
+      "sha256": "ca14b8fc30f3d50f3f152975bf7ae979535b52532e9aa74b5f3c6292c2f51a12"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/14_qft.md",
+      "bytes": 6136,
+      "sha256": "3502471918924a01e84206fba3f1d4c14b9068480696fd73e6e1c2d0303df464"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/15_grover.md",
+      "bytes": 10293,
+      "sha256": "1678c00110d0eed823256b865113419e093d6752863cbe1963c92dc100079496"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/16_phase_estimation.md",
+      "bytes": 5695,
+      "sha256": "f672c0755b233acc14c5caca4de4d500d265827c5707314a28c29604669af6e3"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/17_vqe.md",
+      "bytes": 4815,
+      "sha256": "d0ec096bcf6efa128b51f153de19a8c5854c9c72995b93cd78d710d0976d6e5e"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/18_qaoa.md",
+      "bytes": 6343,
+      "sha256": "5c04873b2f96f4ebf2b1eaf1b70bdaa1f93ac545e865f6153c5c6999d068f66d"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/19_hamiltonian_simulation.md",
+      "bytes": 4524,
+      "sha256": "4d38742b5eed86173109a73967bb3695248eea07450075995dae7612fc98b496"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/20_measurement_feedback.md",
+      "bytes": 5449,
+      "sha256": "91cf2742e5b00bc7bf23b54199ed881a24065f7811928e6eacac79e1d6311b73"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/21_parallel_bell_pairs.md",
+      "bytes": 9276,
+      "sha256": "1f794cc727f5f31f767e81e289ed46669fdfe103c34917f4c032ac9b10bf14ec"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/22_coupled_continuum_parallel.md",
+      "bytes": 7310,
+      "sha256": "d4d0e03cc02ba4aed120923618225d0b2719150657fbe63ad89be7dcb03bbb87"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/23_independent_quantum_lanes.md",
+      "bytes": 7236,
+      "sha256": "5ee8635d4a1b06a2dd4872a1a334a186770828050876a7c2afc9c7d35c063421"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/24_parallel_bell_pair_generation.md",
+      "bytes": 6333,
+      "sha256": "2e20d19893a44e7866785ad6d4c082a026f3a1084fee5adf6af587cb15dafbf6"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/25_parallel_ghz_preparation.md",
+      "bytes": 5799,
+      "sha256": "a3e5da22fbbfa652e09459df32dd7a3a303f14d780d69677e28b38218ecd9f93"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/26_parallel_independent_shots.md",
+      "bytes": 5666,
+      "sha256": "432ab06971aaa7a4d00d82617e03b41faca7d10fe30418f5d2ceaafa6c90f0fa"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/27_distributed_parameter_sweep.md",
+      "bytes": 6231,
+      "sha256": "246ec049a7e0673da2d8b534a2cd73810d4228fcef93265378fbdca2f106afd5"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/28_parallel_parameter_shift_gradient.md",
+      "bytes": 5629,
+      "sha256": "50d3f02adbf1b6c07d7077344cd3db7c525aefc8066deacd0abf1571b4f0a85c"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/29_measurement_conditioned_branch.md",
+      "bytes": 5634,
+      "sha256": "10db8d6265ae8e01f279fbf01a84c3ba4cf732264aa4ed3f961784816445296f"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/30_two_node_classical_pipeline.md",
+      "bytes": 7045,
+      "sha256": "7aa532a0ea1e52b8ec45fb7ce35b0e7ffe41cb3db72d075d36beef3fb82abdc7"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/31_domain_decomposition_halo_exchange.md",
+      "bytes": 5697,
+      "sha256": "96aa8ad0d042691a69461fa900c0f08280da856e142d834626d82f44d4133842"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/32_bsp_supersteps.md",
+      "bytes": 5488,
+      "sha256": "ac0379c579a58221282ac6f54f046fa86d8f4857395ca7966515621ccd4dabae"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/33_asynchronous_future_event_execution.md",
+      "bytes": 5709,
+      "sha256": "caab26efff07ede63720394d01b13da08d13c6c305a3fef863409ba5119bc06a"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/34_work_span_analysis.md",
+      "bytes": 4819,
+      "sha256": "0040f56aa11eef56de8f7a2e917d89c99d7081ec3d6669e9635d9555441b2af7"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/35_topology_aware_placement.md",
+      "bytes": 6991,
+      "sha256": "666660c9c791df68c066d7877f978b850e9300eaccaa03b384d884a09b195c3b"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/36_communication_aware_scheduling.md",
+      "bytes": 5671,
+      "sha256": "77245473afa39f289f1e61042ee40112cbac5becb85954cb0254a2389f2d64c7"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/37_numa_aware_classical_placement.md",
+      "bytes": 7010,
+      "sha256": "50d73245305781f9b03ca15489b46d3ca1c9f20fc1b42922ac85feaa6240d308"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/38_distributed_statevector_simulation.md",
+      "bytes": 5822,
+      "sha256": "e3ca143e16298b6d99be87f0a1d78e9a80ed2bcc5001d6d6cdee3ec3be6b9360"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/39_distributed_density_matrix_simulation.md",
+      "bytes": 5831,
+      "sha256": "b7bbf0b479105fdd73ff5201cb4ebf37a9f60c229a2a3f175743936396dc0a0c"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/40_distributed_stabilizer_simulation.md",
+      "bytes": 5783,
+      "sha256": "cdb137f23becc0606279aa6375337d33095c59afda5055c6ba27087e34d817dc"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/41_epr_generation.md",
+      "bytes": 6958,
+      "sha256": "438142a960b73db92a44bb093ab051d376f98e2dd9446f71c26777f5ce2d482a"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/42_teleportation_across_logical_nodes.md",
+      "bytes": 7858,
+      "sha256": "65bc1821cc2eda5475261534a038d00672facbb39f46b4a9bd8f00ee40a07303"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/43_remote_cnot_decomposition.md",
+      "bytes": 5064,
+      "sha256": "810cf584a1e3c43c4586ed5a5f38afe867a55870518b504d94043c447e1aadef"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/44_entanglement_swapping.md",
+      "bytes": 4872,
+      "sha256": "de288e2c99b46f2e6b25156b4c5dd09222417a1830f71880008cbfc79258d4bc"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/45_classical_feedback_across_nodes.md",
+      "bytes": 7194,
+      "sha256": "87ca97a5637de62da1c0fbba4f5440abedb6fedca7fc6bc26249a5b8fe39129a"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/46_target_rerouting_after_node_failure.md",
+      "bytes": 5096,
+      "sha256": "063e0096761988cea47ebedaac254d627ba8c44c78e05bbd7ef1f9f745f5b703"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/47_shot_retry_after_target_failure.md",
+      "bytes": 5100,
+      "sha256": "16e0ed7d2cebd5f55cb1b12e91209690c052cdacf313533db58a6ac364a169ec"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/48_weakly_coupled_partition.md",
+      "bytes": 6890,
+      "sha256": "a545d1d7acd38e5e7e94ac1956e11bbfc74527541a4618a36e48c804e1da578a"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/49_strongly_coupled_monolithic_schedule.md",
+      "bytes": 5669,
+      "sha256": "7a529cbe54448cd381a677df3a6c21ff6bea64d51b8c737eb4254b7d79964094"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/50_reciprocal_coupling_validation.md",
+      "bytes": 4955,
+      "sha256": "e23713e0f73201384e2cd49cbacfee21ea305e487e827707d3ec103c8e67c8e4"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/51_impossible_consistency_partition_guarantee.md",
+      "bytes": 5360,
+      "sha256": "20f458ff253169f468be11e7c969fef31268003c72a33a33e77a951857596bb3"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/52_physical_distributed_execution_blocked.md",
+      "bytes": 5709,
+      "sha256": "1c91b590a1e642485d34d388b6da7570bb0b9e009c47a226000a6e85e815b0a8"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/annotated/53_native_distributed_bell_fabric.md",
+      "bytes": 10541,
+      "sha256": "57cf80efb1becf2389d27f83e225c3c3b389c79550f8d6066d7696f5191fdb41"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/01_bell_state.lctlc",
+      "bytes": 863,
+      "sha256": "2c09d302d7a5d35b999d6f28baea6ed44eaded50ea11705711c39919b22aaacb"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/02_ghz_state.lctlc",
+      "bytes": 1004,
+      "sha256": "c9e5184928bc38618cf8f07f9d509c056e00a4f0a09f105e848c3bd6ef4f997c"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/03_teleportation.lctlc",
+      "bytes": 1492,
+      "sha256": "4ea85203a2b4624c970ff3302d951cf81a4ed23a6f971fff9cf5aee27a7fdfb9"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/04_superdense_coding.lctlc",
+      "bytes": 1121,
+      "sha256": "95d168e270ec2ee06b7c6b84ff5f5334063e46861e7c24c1a7d5c212a5be8b3f"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/05_single_qubit_rotations.lctlc",
+      "bytes": 874,
+      "sha256": "f3e3fe5b766e728634fd10177f8256bcadc660cbc985fb8f8620b0e79cd4bf3f"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/06_controlled_operations.lctlc",
+      "bytes": 776,
+      "sha256": "5a214ba681236042b11d9958fd4f1c32c4cf74557479386c3806080f4a4d2056"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/07_basis_measurement.lctlc",
+      "bytes": 734,
+      "sha256": "8a4800fe695872dcfcb3d5adda3dee087b854eaa5db9e2a82016d5e6f97f1562"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/08_povm.lctlc",
+      "bytes": 713,
+      "sha256": "7abf2be49dcbaf490e1988250cda2d7c91d38d5555505c55804db5936b2b3c83"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/09_density_matrix_noise.lctlc",
+      "bytes": 877,
+      "sha256": "5e850bcad965d03114f41656c8a8200bb18b252d9c10ce05873d50b6d06b4576"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/10_amplitude_damping.lctlc",
+      "bytes": 885,
+      "sha256": "0d4504de5411b93afdad0ebaf52c455d0dbcd616810f1a32b8e00d5957168686"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/11_depolarizing_channel.lctlc",
+      "bytes": 823,
+      "sha256": "a9e08519d9be5ef4908a8062dee1986fda6d56cd7010e6f205cedd145361a970"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/12_repetition_error_correction.lctlc",
+      "bytes": 1305,
+      "sha256": "96b0a7dd75ca38b1e37bfec4c4f77d6120d77dd2325ba0e9704ccc9a360f4d12"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/13_stabilizer.lctlc",
+      "bytes": 852,
+      "sha256": "3b9c59f6110b18392d0128847b2948547ecce54dead20d39779ec4c4fa86e6f7"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/14_qft.lctlc",
+      "bytes": 987,
+      "sha256": "70f7f7dc8140cad7abb7f2808e0c4c8366a9aac92af2d6b4096f9201118218b9"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/15_grover.lctlc",
+      "bytes": 1459,
+      "sha256": "82f77f986a0d1d2bb45ab59ef05007d1e978f318201d6af3dc743bc82347b24a"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/16_phase_estimation.lctlc",
+      "bytes": 936,
+      "sha256": "75bdf41e274c3905ff11596a4c169c86589c80459c54c7db3db636b457543c4b"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/17_vqe.lctlc",
+      "bytes": 985,
+      "sha256": "e335ead2302583b0e3e4affb94e567289b5de4b638ad6e91cc6c5346b22d1be9"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/18_qaoa.lctlc",
+      "bytes": 1158,
+      "sha256": "3cad44e87acf5f5eed0a248be8add34e824d90d2566e707e484d7a7b2eaa6846"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/19_hamiltonian_simulation.lctlc",
+      "bytes": 994,
+      "sha256": "7a5de78ee1445d6fc355dc6b4a74b559cfb2cf8e8979057ac0fae86718ded5c5"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/20_measurement_feedback.lctlc",
+      "bytes": 983,
+      "sha256": "0c5171e5dd0f2f02c061b9dcf0321049158d343379bbe48a67b839783dbb8426"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/21_parallel_bell_pairs.lctlc",
+      "bytes": 1652,
+      "sha256": "9b3ce1e4948bba9cba2b021f70114622f7cbb4a16df54eed3eeb821a97c2f77c"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/22_coupled_continuum_parallel.lctlc",
+      "bytes": 1417,
+      "sha256": "07e676358cb81cbcff644ec99d7f56e6596d2e7771904779245ca41cf3c88190"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/23_independent_quantum_lanes.lctlc",
+      "bytes": 1295,
+      "sha256": "b5f4bd7df87967e5941684a00bc1b917cb9b8c11c7d73085aa251c6d0222b509"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/24_parallel_bell_pair_generation.lctlc",
+      "bytes": 1086,
+      "sha256": "2e420a5b4041891db9ffefa38f0126a87415ce37913c4ca31811847326be4eff"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/25_parallel_ghz_preparation.lctlc",
+      "bytes": 1018,
+      "sha256": "0711e7f943a2664a6f0c261af3848907d8865d50cb01aba17a4cdf644738bdd8"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/26_parallel_independent_shots.lctlc",
+      "bytes": 1092,
+      "sha256": "c84cf4198d2766acb0d60e93c193d258c80bfbcebf65fd4dd4a130366457f3e3"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/27_distributed_parameter_sweep.lctlc",
+      "bytes": 1178,
+      "sha256": "7f745f90f3ac9e1adee9e614d28f8929550bf1dc7f52f42ed754ac1a83be5662"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/28_parallel_parameter_shift_gradient.lctlc",
+      "bytes": 1076,
+      "sha256": "5c535837ec4f1e08d897917dc559b2c6951e9107b16bef3980dc573de0cf2e67"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/29_measurement_conditioned_branch.lctlc",
+      "bytes": 1135,
+      "sha256": "5c9991e4768025349fc3c5fcd2b08e5ce5db231a1a5063eed8de1e30f928b1fd"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/30_two_node_classical_pipeline.lctlc",
+      "bytes": 1341,
+      "sha256": "73e122134aaa1ccca05bc39597342ae4a57b332be0328ac24b002ca29c1de884"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/31_domain_decomposition_halo_exchange.lctlc",
+      "bytes": 1089,
+      "sha256": "a9c61449d10be29df2e8571151e5861021efb37e2075c85396573de8588f331a"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/32_bsp_supersteps.lctlc",
+      "bytes": 1024,
+      "sha256": "bcafccc7c641fe268597a1d24fb7cc3bf9f748ad7a6318f669365e2a715bfead"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/33_asynchronous_future_event_execution.lctlc",
+      "bytes": 1112,
+      "sha256": "196d2052e56f56d5c3a66c0f0f2c377bcd3243e8b1f3e4032eb317396608a09d"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/34_work_span_analysis.lctlc",
+      "bytes": 912,
+      "sha256": "5c86bbd6aa0beba7536d733907e763dd6198e06d64e94cbacadd211cf378a686"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/35_topology_aware_placement.lctlc",
+      "bytes": 1332,
+      "sha256": "ecfbb52c83380bc30d6af89b45512c530972fe812aec6bff98244127185cf6af"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/36_communication_aware_scheduling.lctlc",
+      "bytes": 1085,
+      "sha256": "09a2eb101a0ab4038b643c4e6515e16f867e213f5f10d238685da74d9fd53609"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/37_numa_aware_classical_placement.lctlc",
+      "bytes": 1343,
+      "sha256": "e2afd21c44cc2ea2be6d86cb675aea30036354852943a82163426e3d9f4b6245"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/38_distributed_statevector_simulation.lctlc",
+      "bytes": 1144,
+      "sha256": "af64caab27995287cbef92f879e808c452cfab4b26daaab5cfdcb4c26487b378"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/39_distributed_density_matrix_simulation.lctlc",
+      "bytes": 1147,
+      "sha256": "f3e264223095a09cdcf8a4e3a32d1fab11bab3fd359ffa4c0b8249500049cf73"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/40_distributed_stabilizer_simulation.lctlc",
+      "bytes": 1137,
+      "sha256": "3cba820bf9beac6b5e28c494f94f99682a0a53bc75d7d53ef902096eae58e0da"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/41_epr_generation.lctlc",
+      "bytes": 1298,
+      "sha256": "17f32430d60cd49eb7dcf784ce22fbe97ea1de45bca9f4efa77e02f6fd9707a3"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/42_teleportation_across_logical_nodes.lctlc",
+      "bytes": 1493,
+      "sha256": "5c40cdee87640ee7f230fced2540176ab7d4df5de61fe4921bdad352e38ae77a"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/43_remote_cnot_decomposition.lctlc",
+      "bytes": 993,
+      "sha256": "32a19455f4b83679dd5005a668b8e6f528f9ac8afec7fb745b5d65f65c8e5d1f"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/44_entanglement_swapping.lctlc",
+      "bytes": 911,
+      "sha256": "fc5bbe6ecd9e2b7fa45dc74a5556316e73529e59965274acc518d0c75001963e"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/45_classical_feedback_across_nodes.lctlc",
+      "bytes": 1384,
+      "sha256": "21a03485637b88c137a5f6cea939895346dab7b1b01f9fda278617c7f49fc1de"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/46_target_rerouting_after_node_failure.lctlc",
+      "bytes": 1006,
+      "sha256": "989b681f194cb11d243f124517edab11e2c7f5b56e09a406340a1f30e05e402b"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/47_shot_retry_after_target_failure.lctlc",
+      "bytes": 1006,
+      "sha256": "8c62fd209c491efb5fddae71f3c69f5b64e6710d9cfccfdc4595c926d2b38555"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/48_weakly_coupled_partition.lctlc",
+      "bytes": 1246,
+      "sha256": "cedc0144372aa1df579929eae0a7123666fa439f9e590c32cd32aab01e572682"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/49_strongly_coupled_monolithic_schedule.lctlc",
+      "bytes": 1062,
+      "sha256": "1ff0406d6a8c30b3e1c0440029a33ac82cfb673f8712092db3a4b37dfc1aef61"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/50_reciprocal_coupling_validation.lctlc",
+      "bytes": 953,
+      "sha256": "66b7f4db2f055689ef69dfa93e405312f7f3f772a8554011b5b29b84da6651a0"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/51_impossible_consistency_partition_guarantee.lctlc",
+      "bytes": 1114,
+      "sha256": "1afa663266cf0436df935b243a9e922bb58a697de39b9949cd374b2dfd9717ab"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/52_physical_distributed_execution_blocked.lctlc",
+      "bytes": 1121,
+      "sha256": "5534316b689bf48f1bbdf8cfc09fff4ea868b085d97ce09707ccc67191e4ab22"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/compact/53_native_distributed_bell_fabric.lctlc",
+      "bytes": 1834,
+      "sha256": "418e0d1eb31dd0205720fdb0f55eeaa7155ec2e9f78f68e12844ad52ee3ad770"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/01_bell_state.lctl",
+      "bytes": 2101,
+      "sha256": "909dd9c4576a1ab4a6176fbfbb86842cc703b769934167e6f99a6f79bfe32147"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/02_ghz_state.lctl",
+      "bytes": 2466,
+      "sha256": "08624c91fb0e6113637b1ace1e271f88c3a1c223021a48838d83e508e275b6f8"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/03_teleportation.lctl",
+      "bytes": 3151,
+      "sha256": "dce61ba0ac27e727de76415bbe797081cf950ba0e21f4153e9f77a93d72225f8"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/04_superdense_coding.lctl",
+      "bytes": 2740,
+      "sha256": "b2a45d5a0a351ad4d894abdcdb025a6c8d41a47991243ff9bc572fd1a39c3b71"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/05_single_qubit_rotations.lctl",
+      "bytes": 2081,
+      "sha256": "0c6d8edb0f64b665f60e248563f0fbbc9f91a5992062e1488eabcbf779c19479"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/06_controlled_operations.lctl",
+      "bytes": 1862,
+      "sha256": "8ecf8febdbe9b3f1491911ee760a18ba2bdfb470a22a25090ed01ddaf0d88ae1"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/07_basis_measurement.lctl",
+      "bytes": 1748,
+      "sha256": "baab0409e861463bbcd09bbd1442789b525be27a7cb1311f59f6401b13244da6"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/08_povm.lctl",
+      "bytes": 1539,
+      "sha256": "a877f11a5d40be08181bdddeb2746e1f91699859e49a0e151ab24585c78acb9d"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/09_density_matrix_noise.lctl",
+      "bytes": 1929,
+      "sha256": "8c68d34a1e264a15e630cd0086a781d5594804bf60b248baeda3e7645e4763a4"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/10_amplitude_damping.lctl",
+      "bytes": 1937,
+      "sha256": "7854b39cb1e81154eac440a1b52fb622b34b2de034c7975c17831d6e14ab1f2b"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/11_depolarizing_channel.lctl",
+      "bytes": 1780,
+      "sha256": "c689a6d283afdb21b2f30666a37213a716b1181f53683784b57d87b4d3d514d7"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/12_repetition_error_correction.lctl",
+      "bytes": 2914,
+      "sha256": "f38be0d4f96cac57fbf433b8340356ebab3f1f4f34d21faefa3d9e66f35ecd47"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/13_stabilizer.lctl",
+      "bytes": 1863,
+      "sha256": "a40014ce5b9cc4971fcfd2d4091662232f285efaf0e3285e1c8318366c6ac410"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/14_qft.lctl",
+      "bytes": 2371,
+      "sha256": "61449188a6339053ec8d923f9be21991ba0c242198757d4f80289a5c624bc98d"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/15_grover.lctl",
+      "bytes": 3648,
+      "sha256": "c68d3b9d12c72eaa2d3676ead08f8e432619b3184c82f67adab6de21791309f8"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/16_phase_estimation.lctl",
+      "bytes": 2240,
+      "sha256": "638d8fd13ad52b4d545bc2fa12c2e45577d87f8192ff186c271c66cc9d0c9e86"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/17_vqe.lctl",
+      "bytes": 1911,
+      "sha256": "2155bd96d23fee4201af0d6866fcc4a5c53794d25c08612f619db6a11a322275"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/18_qaoa.lctl",
+      "bytes": 2376,
+      "sha256": "f0c6a457d5061af7e11c610c6a3853da0909f64eed7da227e032d844324560c1"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/19_hamiltonian_simulation.lctl",
+      "bytes": 1823,
+      "sha256": "1114a67b5910f346867e44652b2d77e801c15cc6440f04b57d20511d2151f4b5"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/20_measurement_feedback.lctl",
+      "bytes": 2163,
+      "sha256": "4e2fec161a676506e327c4b2eb4f7787b75d4afbdef9afdfbc691ae5c5626a94"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/21_parallel_bell_pairs.lctl",
+      "bytes": 4006,
+      "sha256": "65ed561a1fb9b6b2c0b333f53ab0f342e8cd46d9e70c146b1eda31f2a2454af1"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/22_coupled_continuum_parallel.lctl",
+      "bytes": 2643,
+      "sha256": "6d9838b71f01b9f1fb17d53b4fa545bd1d2e5bcd86a82c1d36f0fd81751c68d7"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/23_independent_quantum_lanes.lctl",
+      "bytes": 2651,
+      "sha256": "d2035b86d2ece888a29e6d32bb3e5b2ac739dc314240c56ac517ced9d134d389"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/24_parallel_bell_pair_generation.lctl",
+      "bytes": 2415,
+      "sha256": "6c232284304acbae952c4b19bcdca4a21fb47cd298fdae3112eef1518ca7d505"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/25_parallel_ghz_preparation.lctl",
+      "bytes": 2252,
+      "sha256": "ba3974cf05a9f16f9ea7ec4a21bffc0249de0d804ff5e6897b0be51c22e6c4d6"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/26_parallel_independent_shots.lctl",
+      "bytes": 2189,
+      "sha256": "27eb0f4f2ecd57dab3fcae955c1385936464a49a71d22d6605d238582dd2fbb2"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/27_distributed_parameter_sweep.lctl",
+      "bytes": 2344,
+      "sha256": "798e14a72237a393e5fd000d37d9f5ec64166e64863077b9761377181b937ab0"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/28_parallel_parameter_shift_gradient.lctl",
+      "bytes": 2181,
+      "sha256": "9d92a7fd107856789ee65bbbc3242dc61e6c8eee54a10ecfc0c42f1093a816fb"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/29_measurement_conditioned_branch.lctl",
+      "bytes": 2160,
+      "sha256": "a4a4aac21683409ca580e0ee15702089013379e134f5cafd27a79f94ee66245d"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/30_two_node_classical_pipeline.lctl",
+      "bytes": 2592,
+      "sha256": "175146732927d28339bf1b4264e7ab9e9612bfdf72d93a6cb17c252c6da56dba"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/31_domain_decomposition_halo_exchange.lctl",
+      "bytes": 2204,
+      "sha256": "5ec25192b91fd0c25ab177c6093cb48464447118882acb09c98f5550c670c743"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/32_bsp_supersteps.lctl",
+      "bytes": 2138,
+      "sha256": "745bb25932ecf20068c0a145d65bc095b5f0e55818012a5ed387025d22b6a6ed"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/33_asynchronous_future_event_execution.lctl",
+      "bytes": 2199,
+      "sha256": "9f950bb8060a1929370e9a58e48e8a307a12455dbad47f36f1e43a7f4249a69b"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/34_work_span_analysis.lctl",
+      "bytes": 1940,
+      "sha256": "7defea67da98cdc57c0fdc099230365e64594545159a73364b5d57ecba50c6be"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/35_topology_aware_placement.lctl",
+      "bytes": 2566,
+      "sha256": "81149a65b6ecfc4120262dc7c5c2eb8cf70655232df7dbde4b71d91fce12cada"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/36_communication_aware_scheduling.lctl",
+      "bytes": 2199,
+      "sha256": "c90ccd0f12735d434a301e067fdcf6955ded77e609a66f97871b1c4ce4760a01"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/37_numa_aware_classical_placement.lctl",
+      "bytes": 2560,
+      "sha256": "8153647cff55416c40cd250f54998fb358cbdb4c9dd0518cbe0a45fc95145a71"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/38_distributed_statevector_simulation.lctl",
+      "bytes": 2241,
+      "sha256": "9255f5353bc30ee0e93c0be0a09628a3fa5694c99951f28d75d42724a3e06857"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/39_distributed_density_matrix_simulation.lctl",
+      "bytes": 2244,
+      "sha256": "aa2daf06a0586a0a15cb61eb758837992a13d2146f240cbcc3feda68636bd0fe"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/40_distributed_stabilizer_simulation.lctl",
+      "bytes": 2224,
+      "sha256": "60aac1613b260aa91ed61a053b4bba3e38ea9b72d533bfb3f09a9a0c4aff5bed"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/41_epr_generation.lctl",
+      "bytes": 2565,
+      "sha256": "01c8ea90ae654f8426b03fd84b10dca2eb6df2f92b1a32887c4e8def0d30220e"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/42_teleportation_across_logical_nodes.lctl",
+      "bytes": 2840,
+      "sha256": "1278874de63f548fe4491e2eef9b50894a249f2e6ef744b906f1cfc9599c0e97"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/43_remote_cnot_decomposition.lctl",
+      "bytes": 2024,
+      "sha256": "ac4f54bcd272acce78afec9c336bdf128cccd26615ba09b3a3d5b8087f67b939"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/44_entanglement_swapping.lctl",
+      "bytes": 1969,
+      "sha256": "8ff9c8aa883393d62223055f5b7cb1639d14ed3396854cffe336f407f0e837b2"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/45_classical_feedback_across_nodes.lctl",
+      "bytes": 2628,
+      "sha256": "296a0683e88637e1f4a2d17c7414aca098a460ebb1f02c553e8cbb11dd48c6b7"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/46_target_rerouting_after_node_failure.lctl",
+      "bytes": 2027,
+      "sha256": "47108988d403a7e1a52c114786aa393ca991e0239c83182d8cd838283ac890e8"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/47_shot_retry_after_target_failure.lctl",
+      "bytes": 2027,
+      "sha256": "04c29b20ae872b76f1c13c758e93086aff4022146d1e5a9f48168cc0ef535fb7"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/48_weakly_coupled_partition.lctl",
+      "bytes": 2546,
+      "sha256": "256128fa29f1edd6d0c0d0b4d450e65a9fc7528d16b4bef7cf5c644b57acec7f"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/49_strongly_coupled_monolithic_schedule.lctl",
+      "bytes": 2194,
+      "sha256": "ae1365bd5a2ca04d827456905ec2b83534d21b81f017ea10494bab2c727acf38"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/50_reciprocal_coupling_validation.lctl",
+      "bytes": 1978,
+      "sha256": "ec77910301438f1e4e09a959027587d433b3951179ae6e3effe422f07b32fd56"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/51_impossible_consistency_partition_guarantee.lctl",
+      "bytes": 2098,
+      "sha256": "5e0b2a8a9a04d7d037769d204ed9c5604971231a473c6a37d4bfe0ce94e3e81e"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/52_physical_distributed_execution_blocked.lctl",
+      "bytes": 2196,
+      "sha256": "0470f99dad38a923b70f8c80126166a0c5d22c0a1506101ff475b47b884fcd36"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/examples/lowered/53_native_distributed_bell_fabric.lctl",
+      "bytes": 3647,
+      "sha256": "688e292de171bc259eb2d5747ce8096847cc548e8bdbe879b3d6c42312a014f3"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/00_orientation.md",
+      "bytes": 667,
+      "sha256": "cc10793e3ce15229ffbd3f5149b9a53594347ab2b273c47e72d326208e97e9f1"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/01_mental_model.md",
+      "bytes": 607,
+      "sha256": "e893c5fe4b169e4e67af237e49be5ed82a7f88ecdc28df3debcda400a1ff2441"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/02_unit_skeleton.md",
+      "bytes": 656,
+      "sha256": "2f617c5a2a847025b0355c1d3c0df0a50863ae58fab2dfd2791404b67bc44dce"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/03_columns.md",
+      "bytes": 523,
+      "sha256": "b12888c4b47e06f0479936314c8f86646dca05656e2574b9b34252ec5b6c8622"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/04_in_packing.md",
+      "bytes": 417,
+      "sha256": "1b19d75230dbdcbf9b9b18c35a01efe71d0d8bc130234b60a4356d2e9d6a0086"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/05_aliases.md",
+      "bytes": 763,
+      "sha256": "c85998c081ffde2fc132fa19db1d99f0c3627100e2ee6963a558607801a0f0e7"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/06_defaults.md",
+      "bytes": 863,
+      "sha256": "3eab8c6a53485db4c88e18628a6e3c331b995260580e3203fe92c2f6af9a56d5"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/07_meta.md",
+      "bytes": 548,
+      "sha256": "de0a672eab0eb4af585b0daeab501dee4e99884e72dd8b26755658bb755f3600"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/08_face_inference.md",
+      "bytes": 592,
+      "sha256": "7a5a375f0e2fd626890a61a1028801b661ed089312d9c5bdf6ed1f757364404f"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/09_canonical_lowering.md",
+      "bytes": 537,
+      "sha256": "1afa44d9600f4380d7b686fd0c3e76a71e973f95b02e3faa3834f99fb54d513b"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/10_declarations.md",
+      "bytes": 542,
+      "sha256": "f5563ee2ecfdcf48149e6f343f54b76bbba42cea823bdb9357e1fe611c28d614"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/11_single_qubit.md",
+      "bytes": 456,
+      "sha256": "fdfec4a044ea1e77e7d0b0edca6717336ee9de2cad3ea4c805ae3e7af2312435"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/12_controlled_multi.md",
+      "bytes": 406,
+      "sha256": "03a5edfcbd7d625ccf39dbabcef7675bc3709f91e0f96319e3a65fc2ccbbfe04"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/13_measurement.md",
+      "bytes": 502,
+      "sha256": "ff3d0b00e7a4b089916f999bcdaf2de6d782bc1bdea91ea13e8ae9a45d6b5d4e"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/14_noise.md",
+      "bytes": 360,
+      "sha256": "b37f238376c5d4b42b52e4fb3fc379e3181090d0f6d17e69c71c2bffea90528e"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/15_parallel.md",
+      "bytes": 487,
+      "sha256": "6e6176f6f01af1d4bb2e1c42a7ea9194d5230cf92764fab255acc547c550a233"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/16_distributed.md",
+      "bytes": 517,
+      "sha256": "b833262c7a8e51fcd49bf30d86080fa69ae707b526930579117dca22add46a7d"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/17_topology.md",
+      "bytes": 445,
+      "sha256": "923d19a78247915b2315fad65d1cec1442df0863b5f4cf3d609507f915bdf420"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/18_protocols.md",
+      "bytes": 483,
+      "sha256": "8cd2c70066ed6a274b243584eb750c71dab9f144144e913d613653c9a8fbacb5"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/19_ownership.md",
+      "bytes": 558,
+      "sha256": "f44c39ea9cb560ce558a575a0adb7dc2f8c9c39b5bfe975bb69075e23f6fb550"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/20_memory.md",
+      "bytes": 445,
+      "sha256": "694c7cacd1057062bbe3487cc31202358a898389094e50fece6479a597432405"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/21_failure.md",
+      "bytes": 462,
+      "sha256": "488286ddabd81e6291e79962e56640a1ebf864f3d6ba006dde7f969e29f5813c"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/22_fields_coupling.md",
+      "bytes": 635,
+      "sha256": "0b87426ccd58385242fc53f62a6f74b7e5949de328ba58864dc73d365728ab8f"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/23_assertions.md",
+      "bytes": 415,
+      "sha256": "a8e062b4c35ca3e78a1bbbca7541a8c89c62804a606ff616fed32189dc7f3402"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/24_profiles.md",
+      "bytes": 442,
+      "sha256": "621836f0f264ab7ed543ef0336c961ef55ab673717b6fdf89f3da96da13374c8"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/25_determinism.md",
+      "bytes": 418,
+      "sha256": "69cadaac558eba230f49e6e0bbbc1715f549c1e337c94da9fa0cb53bb0b3394f"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/26_style.md",
+      "bytes": 689,
+      "sha256": "d302f5cd73bc5a296c803cb0087d48bdac86baa4f09acb03d815d78452bb646c"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/27_anti_patterns.md",
+      "bytes": 639,
+      "sha256": "564c25b243ae20a24a4fe4a8ff333ada350b062f01fd1ecf8ad133062fcc06a8"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/28_migration.md",
+      "bytes": 411,
+      "sha256": "5753048b720ec7880da5619f72ae5cf1dd8857292922958886ab0c470e01de87"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/29_reading_examples.md",
+      "bytes": 518,
+      "sha256": "a9138af06103e5e9c3047e6c2b3d3ec302af110da43736e94f754b2cde3aa279"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/30_writing_method.md",
+      "bytes": 639,
+      "sha256": "e7a3b51a1d13cf01da9402c49ad6a53d563c3faf8bb0cebcd0cd7b768942d286"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/31_model_training.md",
+      "bytes": 543,
+      "sha256": "79ef44ef7a106894bc0f2864af7868a946d77c25f1b5076d8e85e3aa9101b98b"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/32_extension_rules.md",
+      "bytes": 416,
+      "sha256": "11eaa946d5b41120640e102067ce2aea875934972a1823506d69c201cb868d5d"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/handbook/33_quick_reference.md",
+      "bytes": 377,
+      "sha256": "78183d68f26b8d5b9dc361ca029d2b7b30339b8b18a485f950b8967efcaa76fa"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/machine/instruction_corpus.jsonl",
+      "bytes": 917240,
+      "sha256": "724d0185dcff81416125b3bb0b614c9b670f77e72799210b1d696d0456f60065"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/machine/negative_cases.jsonl",
+      "bytes": 168448,
+      "sha256": "7a840ea77e8b79d5829f3bf37e748db6dfc00574273043e401c38f8abd71c4d9"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/machine/program_pairs.jsonl",
+      "bytes": 203438,
+      "sha256": "5e43c009e53ebf59185496fb6ea6c74a56200c112cbee5a213928fdfbac6a802"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/machine/row_pairs.jsonl",
+      "bytes": 328459,
+      "sha256": "264950ecc6edd4f1120bfd0cee0b4a235358b36b6f90476c09881fa069064f2c"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/MANIFEST.json",
+      "bytes": 45496,
+      "sha256": "b7677abf545219968676daa8ac595989f2a4311a873dbda2cf4c342e1f6f8dc1"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/README_START_HERE.md",
+      "bytes": 2080,
+      "sha256": "fcd7e137560df451f2a8b0e7a924f60642c6ffbf49bcadeeff1d23bb374579d2"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/reference/DEFAULT_INFERENCE.md",
+      "bytes": 836,
+      "sha256": "27eec3fdd8cb1d558bdb29ea24abe3c2c16c5f0f118576fdb6b7f122cdfebe90"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/reference/DIRECTIVES.md",
+      "bytes": 668,
+      "sha256": "44e1fadb349dd014351dadc62b1f85805134cc78848a92a7e3758c690eed0b66"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/reference/EXAMPLE_INDEX.md",
+      "bytes": 3064,
+      "sha256": "cedaf5250bf81920cbecaaa0c4e9b594aa9066387d6f811782d715d6f0f7d119"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/reference/FACE_MAP.md",
+      "bytes": 2538,
+      "sha256": "b64f36bbe676b79ed8cbd06322d2bc34d8365076d1ee3bc4e0d441d05010051d"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/reference/META_KEYS.md",
+      "bytes": 531,
+      "sha256": "52e86c1fa7439cfb232c915fca5fd00d9d7446d85000fbc47635418c15d4edf6"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/reference/OPERATOR_CATALOG.csv",
+      "bytes": 15745,
+      "sha256": "659674ed43c864ecb2e36cc174f665dca4d770102d640e807beba470e8fcf412"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/reference/OPERATOR_CATALOG.json",
+      "bytes": 54777,
+      "sha256": "f4bd1245d28f9341ab0bfb41f63a444766295ed520dc5886ff3cc84fdcda4576"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/reference/OPERATOR_CATALOG.md",
+      "bytes": 19164,
+      "sha256": "438004ef6f0cee668803a6de43da17067366d5ead69f5e336a51c418d8979340"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/SOURCE_AUTHORITY.md",
+      "bytes": 657,
+      "sha256": "c0f219e5869b9e3ce13bc9ead10369e5df14a47433911f5a62672f23a41ec197"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/tooling/lctl-hyperfederated.jar",
+      "bytes": 158708,
+      "sha256": "098132f997db48dec880fb4b5e3130eba25471492b29e6163132591d71338e18"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/validation/COVERAGE.json",
+      "bytes": 3104,
+      "sha256": "ee3160af9733935d1700962e02d9b5a9e65b7c9345618a1612a013da2af67deb"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/validation/VALIDATION_REPORT.md",
+      "bytes": 777,
+      "sha256": "e779808303a3fabbf632a6e380d2eb9ab36a2e7008661fe11a839ee928b7c89b"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/validation/VERIFY_CORPUS.py",
+      "bytes": 8234,
+      "sha256": "c563026b6d911ff5a9465d41202387ca4344eaed5967932db080c11760b015a5"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/workbook/ANSWER_KEY_200.md",
+      "bytes": 17091,
+      "sha256": "ab619c96371df2c2075b202f039605e271c55e26cc7767e5aa91d0f6d5572a45"
+    },
+    {
+      "path": "payload/COLUMNED_LCTL_CORPUS_1.0.0/workbook/EXERCISES_200.md",
+      "bytes": 28420,
+      "sha256": "79f21a6cc11bd14a6df9318f409bf54a7dd2d1a95f36627c44a0cbef6fde672a"
+    }
+  ]
+}

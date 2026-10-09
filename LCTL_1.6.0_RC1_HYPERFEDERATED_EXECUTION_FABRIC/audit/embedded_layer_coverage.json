@@ -1,0 +1,5 @@
+{
+  "coverage": [],
+  "findings": [],
+  "note": "Embedded record totals overlap reconstructed datasets. They are additional coverage, not unique training examples."
+}

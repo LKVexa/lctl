@@ -1,0 +1,34 @@
+{
+  "record": "MSSLB-LX.CompendiumLearnedLanguageSystem",
+  "version": "3.0.0",
+  "layers": [
+    "MSSLB-LX/1.0",
+    "MCRT-K/1.0",
+    "MSSL-S/1.0"
+  ],
+  "profile": "msslb.lx.bwec1",
+  "target": "BWX1",
+  "backend": "none",
+  "network": "deny",
+  "knowledge": {
+    "fields": 20,
+    "records": 1205,
+    "memory": "embedded-local-read-only"
+  },
+  "learning_gate": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4",
+    "Q5",
+    "Q6"
+  ],
+  "conformance": {
+    "verify": "PASS",
+    "run": "PASS",
+    "knowledge_query": "PASS",
+    "bwx1_compile": "PASS",
+    "supplied_basic_bwvm": "PASS",
+    "negative_tests": "PASS"
+  }
+}

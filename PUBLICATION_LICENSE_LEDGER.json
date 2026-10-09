@@ -1,0 +1,201 @@
+{
+  "repository": "lctl",
+  "copyright": "lctl (C) 2026 RUSSELL PHILIP SMITHSON",
+  "license": "GPL-3.0-only",
+  "publication_date": "2026-10-09",
+  "source_preservation": "Original source directories, compressed archives, source manifests, and prior audit source statistics remain unchanged.",
+  "manifest_policy": "Only existing current manifest/checksum records covering files changed by the licensing pass were refreshed. No source audit statistics were rewritten.",
+  "changes": [
+    {
+      "path": "COLUMNED_LCTL_CORPUS_1.0.0/COPYRIGHT",
+      "action": "added",
+      "reason": "Combined LCTL repository copyright attribution",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "522cbddeb6327cc075126c0a93c98d069e47f669e080d4e6b9851b113a496d65",
+      "current_bytes": 76
+    },
+    {
+      "path": "COLUMNED_LCTL_CORPUS_1.0.0/LICENSE",
+      "action": "added",
+      "reason": "Combined LCTL corpus GPL-3.0-only license",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "824ab3ae8375064f2f2cb4aa7f7b80b23965129019f13e8ae70d4a2690838b71",
+      "current_bytes": 35226
+    },
+    {
+      "path": "COLUMNED_LCTL_CORPUS_1.0.0/NOTICE",
+      "action": "added",
+      "reason": "Combined LCTL corpus license and provenance notice",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "2a6ab51f7890174045a69eae117fcdd306f5ea64f0d08c565bc5268adc3db1ba",
+      "current_bytes": 345
+    },
+    {
+      "path": "COPYRIGHT",
+      "action": "added",
+      "reason": "Requested repository copyright attribution",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "522cbddeb6327cc075126c0a93c98d069e47f669e080d4e6b9851b113a496d65",
+      "current_bytes": 76
+    },
+    {
+      "path": "LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/COPYRIGHT",
+      "action": "added",
+      "reason": "Combined LCTL repository copyright attribution",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "522cbddeb6327cc075126c0a93c98d069e47f669e080d4e6b9851b113a496d65",
+      "current_bytes": 76
+    },
+    {
+      "path": "LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/LICENSE",
+      "action": "added",
+      "reason": "Combined LCTL corpus GPL-3.0-only license",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "824ab3ae8375064f2f2cb4aa7f7b80b23965129019f13e8ae70d4a2690838b71",
+      "current_bytes": 35226
+    },
+    {
+      "path": "LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/NOTICE",
+      "action": "added",
+      "reason": "Combined LCTL corpus license and provenance notice",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "2a6ab51f7890174045a69eae117fcdd306f5ea64f0d08c565bc5268adc3db1ba",
+      "current_bytes": 345
+    },
+    {
+      "path": "LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/audit/updated_manifest.json",
+      "action": "modified",
+      "reason": "Refresh current manifest records for licensing edits",
+      "original_sha256": "5e64cb25bf89bd41c02040cec8842bed420d0f6bd7fa2126f0a81eeeabd8057c",
+      "original_bytes": 824470,
+      "current_sha256": "cfd46da5b4e0a56d1c5625262173a2f2a257424919d38d84956595b5a9cddd10",
+      "current_bytes": 807507
+    },
+    {
+      "path": "LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/LICENSE",
+      "action": "modified",
+      "reason": "Replace prior authored package license notice with requested GPL-3.0-only",
+      "original_sha256": "cde8ca24fd9a54e3bde29e53be08f8d24987667ac4bcd293010d22bea4e5f2b9",
+      "original_bytes": 376,
+      "current_sha256": "824ab3ae8375064f2f2cb4aa7f7b80b23965129019f13e8ae70d4a2690838b71",
+      "current_bytes": 35226
+    },
+    {
+      "path": "LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/PACKAGE_SHA256SUMS.txt",
+      "action": "modified",
+      "reason": "Refresh current checksum records for licensing edits",
+      "original_sha256": "175c9529fbf4d08196db808aae31c4d92b69d9ef3a34f02e5d9c9e9b1ddd7c4e",
+      "original_bytes": 396238,
+      "current_sha256": "78a0137d9c3af0f9404e971e4230bd70b33298f71c7d57bbb280972958af8b26",
+      "current_bytes": 392850
+    },
+    {
+      "path": "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/COPYRIGHT",
+      "action": "added",
+      "reason": "Combined LCTL repository copyright attribution",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "522cbddeb6327cc075126c0a93c98d069e47f669e080d4e6b9851b113a496d65",
+      "current_bytes": 76
+    },
+    {
+      "path": "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/LICENSE",
+      "action": "added",
+      "reason": "Combined LCTL corpus GPL-3.0-only license",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "824ab3ae8375064f2f2cb4aa7f7b80b23965129019f13e8ae70d4a2690838b71",
+      "current_bytes": 35226
+    },
+    {
+      "path": "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/NOTICE",
+      "action": "added",
+      "reason": "Combined LCTL corpus license and provenance notice",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "2a6ab51f7890174045a69eae117fcdd306f5ea64f0d08c565bc5268adc3db1ba",
+      "current_bytes": 345
+    },
+    {
+      "path": "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/audit/updated_manifest.json",
+      "action": "modified",
+      "reason": "Refresh current manifest records for licensing edits",
+      "original_sha256": "427c553ff0620a4f61918f87705bc2639a135de3f89c73e3e8d2e0ac2fef4ea1",
+      "original_bytes": 882770,
+      "current_sha256": "689b000251518ecc21aebb680d2135b021617d5529113b59af638043259459fd",
+      "current_bytes": 865392
+    },
+    {
+      "path": "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/payload/LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/LICENSE",
+      "action": "modified",
+      "reason": "Replace prior authored package license notice with requested GPL-3.0-only",
+      "original_sha256": "cde8ca24fd9a54e3bde29e53be08f8d24987667ac4bcd293010d22bea4e5f2b9",
+      "original_bytes": 376,
+      "current_sha256": "824ab3ae8375064f2f2cb4aa7f7b80b23965129019f13e8ae70d4a2690838b71",
+      "current_bytes": 35226
+    },
+    {
+      "path": "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/payload/LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/PACKAGE_SHA256SUMS.txt",
+      "action": "modified",
+      "reason": "Refresh current checksum records for licensing edits",
+      "original_sha256": "a3dcad587ada9ac864748a6c13cc467d18cca9fa43d4129c28071cc3634e6b90",
+      "original_bytes": 405817,
+      "current_sha256": "41df5a1fde71262810d917139e684241abcf8ceddb525b16f9623d60b40bc099",
+      "current_bytes": 402346
+    },
+    {
+      "path": "LICENSE",
+      "action": "added",
+      "reason": "Requested GPL-3.0-only repository license",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "824ab3ae8375064f2f2cb4aa7f7b80b23965129019f13e8ae70d4a2690838b71",
+      "current_bytes": 35226
+    },
+    {
+      "path": "NOTICE",
+      "action": "added",
+      "reason": "Repository license and publication provenance notice",
+      "original_sha256": null,
+      "original_bytes": null,
+      "current_sha256": "2a6ab51f7890174045a69eae117fcdd306f5ea64f0d08c565bc5268adc3db1ba",
+      "current_bytes": 345
+    }
+  ],
+  "current_manifest_updates": [
+    {
+      "path": "LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/PACKAGE_SHA256SUMS.txt",
+      "covered_changes": [
+        "LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/LICENSE"
+      ]
+    },
+    {
+      "path": "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/payload/LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/PACKAGE_SHA256SUMS.txt",
+      "covered_changes": [
+        "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/payload/LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/LICENSE"
+      ]
+    },
+    {
+      "path": "LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/audit/updated_manifest.json",
+      "covered_changes": [
+        "LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/LICENSE",
+        "LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/payload/LCTL_1.6.0_RC1_HYPERFEDERATED_EXECUTION_FABRIC/PACKAGE_SHA256SUMS.txt"
+      ]
+    },
+    {
+      "path": "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/audit/updated_manifest.json",
+      "covered_changes": [
+        "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/payload/LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/LICENSE",
+        "LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/payload/LCTL_1.6.1_RC1_COLUMNED_HYPERFEDERATED_EXECUTION_LANGUAGE/PACKAGE_SHA256SUMS.txt"
+      ]
+    }
+  ],
+  "ledger_integrity": "The publication-wide checksum manifest should cover this ledger; this ledger does not include a self-hash."
+}
