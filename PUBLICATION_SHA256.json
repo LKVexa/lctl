@@ -5,7 +5,7 @@
   "license": "GPL-3.0-only",
   "scope": "Current repository working-tree files, excluding Git metadata and this manifest. Historical archives and audit source statistics are preserved as provenance.",
   "file_count": 7143,
-  "total_bytes": 37326039,
+  "total_bytes": 37325962,
   "files": [
     {
       "path": "COLUMNED_LCTL_CORPUS_1.0.0/audit/change_ledger.json",
@@ -35704,8 +35704,8 @@
     },
     {
       "path": "LICENSE",
-      "bytes": 35226,
-      "sha256": "824ab3ae8375064f2f2cb4aa7f7b80b23965129019f13e8ae70d4a2690838b71"
+      "bytes": 35149,
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
     },
     {
       "path": "NOTICE",
@@ -35715,7 +35715,7 @@
     {
       "path": "PUBLICATION_LICENSE_LEDGER.json",
       "bytes": 9448,
-      "sha256": "2ed2297e9092200f5b06eb1995edbbe097c4a9297d7d122ee6803c277960e3d4"
+      "sha256": "3903498a2fc4c008f50d4db7c6e1932077d82dd4e503438ce763fcf40c3b15cf"
     },
     {
       "path": "README.md",
